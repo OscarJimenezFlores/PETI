@@ -2,7 +2,9 @@
 
 # Teoría · Inducción y Lineamientos Generales del Curso
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Sesión 1 en aula · 2 h, con la dinámica incluida
+**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+
+> ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
 ---
 
@@ -12,6 +14,17 @@
 - Qué es un PETI y qué no es.
 - De dónde viene y hacia dónde va el planeamiento.
 - La organización objeto de estudio.
+
+## Distribución del tiempo
+
+| Bloque | Minutos |
+|---|---|
+| El encargo del semestre | 10 |
+| Qué es un PETI y qué no es | 15 |
+| De dónde viene y hacia dónde va el planeamiento | 15 |
+| La organización objeto de estudio | 10 |
+| Prueba de entrada y encuadre | 15 |
+| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -41,7 +54,7 @@ flowchart TD
 
 ---
 
-## El encargo del semestre (20 min)
+## El encargo del semestre
 
 **El curso no es una asignatura sobre planeamiento: es un encargo de consultoría.** Al terminar el semestre cada equipo entrega a una organización real un **Plan Estratégico de Tecnologías de Información completo**, con su portafolio de proyectos priorizado y su hoja de ruta.
 
@@ -53,7 +66,7 @@ flowchart TD
 
 **Regla estructural del curso:** cada laboratorio produce **una sección del documento final**. No hay trabajo que se descarte. En la Semana 17 el PETI está terminado porque se construyó semana a semana, no porque se escribió al final.
 
-## Qué es un PETI y qué no es (30 min)
+## Qué es un PETI y qué no es
 
 **Definición operativa.** El Plan Estratégico de Tecnologías de Información es el instrumento que traduce la estrategia de una organización en **decisiones sobre tecnología, información, personas y procesos**, con un horizonte de tres a cinco años, un portafolio de inversiones priorizado y una forma de medir si funcionó.
 
@@ -79,7 +92,28 @@ flowchart TD
 | **Ausencia de línea base** | Se declaran metas sin saber el valor actual | Es imposible demostrar avance |
 | **Sin dueño ni gobernanza** | Nadie es responsable del plan después de su aprobación | El plan muere el día siguiente a su presentación |
 
-## De dónde viene y hacia dónde va el planeamiento (30 min)
+
+**Ejemplo trabajado — lo mismo, escrito como lista de compras y como plan.**
+
+| | Lista de compras de TI | PETI |
+|---|---|---|
+| Enunciado | «Comprar 20 computadoras y renovar el servidor» | «La recaudación depende de un sistema sin soporte desde hace 24 meses. Se propone renovar la plataforma para sostener la campaña de amnistía, que concentra el 40 % del ingreso anual» |
+| De dónde sale | De lo que el área pidió | Del objetivo institucional que sostiene y del riesgo de no hacerlo |
+| Cómo se prioriza | Por urgencia percibida | Por criterios ponderados fijados antes de calcular |
+| Qué mide el éxito | Que se compró | Que la recaudación de la campaña no se interrumpió |
+| Quién lo aprueba | Administración, si alcanza el presupuesto | El directorio o concejo, porque compromete varios años |
+| Qué pasa si el presupuesto se recorta 30 % | Se compra menos de todo | Se sabe **qué proyecto no se hará** y qué objetivo queda sin cubrir |
+
+> **La última fila es la prueba definitiva.** Un plan que ante un recorte solo puede «comprar menos de todo» no es un plan: es una lista. Un PETI dice qué se deja de hacer y qué consecuencia tiene.
+
+**Preguntas para la sesión**
+
+| Pregunta | Qué debe contener una buena respuesta |
+|---|---|
+| ¿Puede una organización sin plan estratégico institucional tener PETI? | Puede, pero cojo. Sin objetivos institucionales, el PETI no tiene con qué alinearse y termina justificándose a sí mismo. Se declara esa limitación |
+| ¿Cuánto debe durar un PETI? | Típicamente tres años, con revisión anual. Más allá, la tecnología cambia lo suficiente para invalidar los supuestos |
+| ¿Es el PETI un documento de TI? | No. Lo elabora TI y lo aprueba la alta dirección, porque compromete presupuesto plurianual y decide qué capacidades tendrá la organización |
+## De dónde viene y hacia dónde va el planeamiento
 
 Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
@@ -118,7 +152,7 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
 **El horizonte y la revisión.** En el sector público peruano, el **Plan de Gobierno Digital** se aprueba por un periodo **mínimo de tres años** y debe **actualizarse y evaluarse anualmente**, conforme a los Lineamientos aprobados por la Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI. En el sector privado la práctica es equivalente: horizonte de tres a cinco años con revisión anual. **Un plan que no se revisa no es estratégico: es histórico.**
 
-## La organización objeto de estudio (25 min)
+## La organización objeto de estudio
 
 **Requisitos de la organización.** Cada equipo (4 a 5 integrantes) propone esta misma semana una organización real que cumpla:
 
@@ -135,7 +169,7 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
 **Caso simulado de respaldo.** Si el acceso no se concreta, el equipo trabaja con la organización ficticia documentada en `ANEXO-CASO-SIMULADO.md`, con todos sus documentos, cifras y personajes. La metodología y la exigencia son idénticas.
 
-## Prueba de entrada y encuadre (15 min)
+## Prueba de entrada y encuadre
 
 **Prueba de entrada diagnóstica** (15 preguntas, sin nota) sobre: diferencia entre eficacia y eficiencia, lectura de un organigrama, noción de FODA, qué es un indicador, qué es una arquitectura de aplicaciones, lectura de un presupuesto simple y noción de valor presente. El resultado agregado define los refuerzos de las semanas 2 a 5.
 

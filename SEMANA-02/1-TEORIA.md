@@ -2,7 +2,9 @@
 
 # Teoría · Introducción a la Dirección Estratégica · Desafíos y Cambios Mundiales
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 1 en aula · 2 h, con la dinámica incluida
+**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+
+> ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
 ---
 
@@ -11,6 +13,16 @@
 - Qué es estrategia y qué es dirección estratégica.
 - Los niveles de la estrategia y dónde entra TI.
 - Desafíos y cambios mundiales que condicionan la estrategia de TI.
+
+## Distribución del tiempo
+
+| Bloque | Minutos |
+|---|---|
+| Qué es estrategia y qué es dirección estratégica | 20 |
+| Los niveles de la estrategia y dónde entra TI | 15 |
+| Desafíos y cambios mundiales que condicionan la estrategia de TI | 25 |
+| Cierre | 5 |
+| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -39,13 +51,7 @@ flowchart TD
 
 ---
 
-## Exposición de la dinámica de la Semana 01 (20 min)
-
-Exposiciones de 10 minutos sobre «El PETI que no sirve». Cierre del docente. **el defecto más frecuente en los planes reales no es la falta de tecnología: es la ausencia de línea base. Sin saber dónde se está, cualquier meta es una cifra decorativa.**
-
-Se confirman las organizaciones aprobadas y se asigna el caso simulado a los equipos sin acceso.
-
-## Qué es estrategia y qué es dirección estratégica (30 min)
+## Qué es estrategia y qué es dirección estratégica
 
 **Estrategia.** Es el conjunto de decisiones sobre **dónde competir** y **cómo ganar**, que determina la asignación de recursos escasos. Su esencia es la **elección**: una estrategia que no renuncia a nada no es una estrategia, es una lista de aspiraciones.
 
@@ -73,7 +79,7 @@ Se confirman las organizaciones aprobadas y se asigna el caso simulado a los equ
 
 **El error de confundir formulación con dirección estratégica.** La mayoría de las organizaciones invierte en formular —talleres, documentos, consultores— y no en implantar ni evaluar. El resultado es reconocible: **planes excelentes que nadie ejecuta**. Las tres causas dominantes son: la estrategia no se tradujo a objetivos operativos, no se asignaron recursos, y nadie midió el avance.
 
-## Los niveles de la estrategia y dónde entra TI (25 min)
+## Los niveles de la estrategia y dónde entra TI
 
 | Nivel | Pregunta | Quién decide | Rol de TI |
 |---|---|---|---|
@@ -93,7 +99,7 @@ Se confirman las organizaciones aprobadas y se asigna el caso simulado a los equ
 
 > **Consecuencia práctica.** Recomendar una arquitectura de microservicios y un centro de datos redundante a una organización en postura de **soporte** es un error de diagnóstico, no una ambición legítima. El PETI debe ser proporcional a la postura real de TI en esa organización.
 
-## Desafíos y cambios mundiales que condicionan la estrategia de TI (35 min)
+## Desafíos y cambios mundiales que condicionan la estrategia de TI
 
 El análisis de tendencias no es un ejercicio de futurología. Es la identificación de **fuerzas verificables** que modifican las reglas del sector. Cada tendencia se documenta con **fuente oficial y cifra**, nunca con impresiones.
 
@@ -117,7 +123,27 @@ El análisis de tendencias no es un ejercicio de futurología. Es la identificac
 
 Una tendencia que no responde la tercera pregunta **no pertenece al PETI**. Pertenece a una presentación de divulgación.
 
-## Cierre (10 min)
+
+**Ejemplo trabajado — de una tendencia global a una decisión local.** Cómo se baja una tendencia hasta que obliga a decidir algo.
+
+| Nivel | Contenido | Error frecuente |
+|---|---|---|
+| **Tendencia global** | Adopción acelerada de servicios en nube en Latinoamérica | Quedarse aquí y llamarlo análisis |
+| **Efecto en el sector** | Los proveedores de software del rubro migran a suscripción y dejan de vender licencia perpetua | Mencionar el sector sin dato |
+| **Efecto en la organización** | El proveedor del ERP anunció fin de soporte de la versión local para dentro de 18 meses | Sin fecha, no obliga a nada |
+| **Decisión que obliga** | Migrar a la versión en nube o cambiar de proveedor, con presupuesto plurianual, antes de que expire el soporte | La tendencia sin decisión es información, no análisis |
+| **Riesgo de no decidir** | Operar sin actualizaciones de seguridad sobre el sistema que sostiene la facturación | — |
+
+> **La regla del análisis de entorno: una tendencia que no termina en una decisión con fecha no pertenece al plan.** Se retira o se reformula hasta que obligue a algo.
+
+**Preguntas para la sesión**
+
+| Pregunta | Qué debe contener una buena respuesta |
+|---|---|
+| «La inteligencia artificial va a transformar los negocios». ¿Sirve en un PETI? | No como está. Sirve si se concreta: qué proceso de **esta** organización cambia, con qué dato, en qué plazo y qué decisión exige |
+| ¿De dónde se sacan datos confiables del entorno peruano? | INEI, BCRP, ministerios sectoriales, el regulador del rubro y los reportes del propio proveedor. Cada dato con su fuente, año y URL |
+| ¿Cuántas tendencias debe recoger un análisis de entorno? | Pocas y decisivas. Diez tendencias sin decisión valen menos que tres con fecha y consecuencia |
+## Cierre
 
 **Pregunta de cierre.** *¿cuál de estas nueve fuerzas puede sacar del mercado a nuestra organización en los próximos tres años?* Esa es la que encabeza el análisis de contexto del PETI, y probablemente la que origine el proyecto más importante del portafolio.
 

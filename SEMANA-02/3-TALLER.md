@@ -2,7 +2,9 @@
 
 # Taller de laboratorio 02 · Vigilancia estratégica con fuentes oficiales
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 2 en laboratorio · 2 h · calificación **procedimental**
+**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 2 en laboratorio · 60 min de taller + 40 de avance · calificación **procedimental**
+
+> ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
 ---
 
@@ -10,11 +12,11 @@
 
 ```mermaid
 flowchart TD
-    PA["<b>Paso A</b><br/>Mapear las fuentes pertinentes<br/>al sector<br/><i>20 min</i>"]
-    PB["<b>Paso B</b><br/>Extraer series del BCRP<br/>mediante su API<br/><i>30 min</i>"]
-    PC["<b>Paso C</b><br/>Extraer indicadores del Banco<br/>Mundial<br/><i>20 min</i>"]
-    PD["<b>Paso D</b><br/>Visualizar y construir la<br/>matriz de vigilancia<br/><i>30 min</i>"]
-    PE["<b>Paso E</b><br/>Redactar la Sección 1.1 del<br/>PETI<br/><i>20 min</i>"]
+    PA["<b>Paso A</b><br/>Mapear las fuentes pertinentes<br/>al sector<br/><i>10 min</i>"]
+    PB["<b>Paso B</b><br/>Extraer series del BCRP<br/>mediante su API<br/><i>15 min</i>"]
+    PC["<b>Paso C</b><br/>Extraer indicadores del Banco<br/>Mundial<br/><i>10 min</i>"]
+    PD["<b>Paso D</b><br/>Visualizar y construir la<br/>matriz de vigilancia<br/><i>15 min</i>"]
+    PE["<b>Paso E</b><br/>Redactar la Sección 1.1 del<br/>PETI<br/><i>10 min</i>"]
     PA --> PB --> PC --> PD --> PE
     classDef paso fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
     class PA,PB,PC,PD,PE paso;
@@ -52,7 +54,7 @@ Construcción del análisis de contexto y tendencias del PETI mediante extracci�
 
 ### 1.3. Tiempo de duración
 
-**02 horas.**
+**100 minutos:** 60 de taller guiado y 40 de avance asistido.
 
 ### 1.4. Resultados de Aprendizaje (RA)
 
@@ -84,7 +86,11 @@ Construcción del análisis de contexto y tendencias del PETI mediante extracci�
 
 ## 2. Procedimiento o Metodología
 
-### Paso A — Mapear las fuentes pertinentes al sector (20 min)
+> **Documento del caso para esta semana.** La organización entrega **Relato del incidente del periodo**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/incidente-detallado.md`. Es consistente con los datos de `datos/`: las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+
+
+
+### Paso A — Mapear las fuentes pertinentes al sector
 
 `01_marco/VS01_fuentes.csv`:
 
@@ -100,7 +106,7 @@ Construcción del análisis de contexto y tendencias del PETI mediante extracci�
 
 > **Criterio de selección.** Solo se incluyen fuerzas cuya evidencia pueda **descargarse y actualizarse** en la revisión anual del plan. Una tendencia sin serie disponible no puede monitorearse y por tanto no puede sostener un indicador.
 
-### Paso B — Extraer series del BCRP mediante su API (30 min)
+### Paso B — Extraer series del BCRP mediante su API
 
 ```python
 # 01_marco/VS02_extraccion_bcrp.py
@@ -159,7 +165,7 @@ print(datos.groupby("indicador").valor.agg(["count","min","max","last"]).to_stri
 
 > **Si la API no responde**, se descarga manualmente la serie desde el portal del BCRP y se documenta el procedimiento en el papel de trabajo. **La reproducibilidad exige registrar cómo se obtuvo cada dato**, no solo el dato.
 
-### Paso C — Extraer indicadores del Banco Mundial (20 min)
+### Paso C — Extraer indicadores del Banco Mundial
 
 ```python
 # 01_marco/VS03_extraccion_bm.py
@@ -199,7 +205,7 @@ ult = bm.sort_values("año").groupby(["indicador","pais"]).last().reset_index()
 print(ult.pivot(index="indicador", columns="pais", values="valor").round(1).to_string())
 ```
 
-### Paso D — Visualizar y construir la matriz de vigilancia (30 min)
+### Paso D — Visualizar y construir la matriz de vigilancia
 
 ```python
 # 01_marco/VS04_graficos.py
@@ -244,7 +250,7 @@ print("Gráfico generado: graficos/VS_contexto.png")
 
 > **La columna decisiva es «Decisión que obliga».** Es la que convierte la vigilancia en insumo del plan. Una fila sin decisión asociada se retira de la matriz.
 
-### Paso E — Redactar la Sección 1.1 del PETI (20 min)
+### Paso E — Redactar la Sección 1.1 del PETI
 
 `01_marco/1.1_contexto_tendencias.md`:
 
@@ -281,7 +287,46 @@ git tag -a v0.2 -m "PETI v0.2 — contexto y tendencias"
 
 ---
 
+
+### Avance asistido · Avance del PETI asistido
+
+Los últimos 40 minutos del laboratorio son del equipo. El docente no dirige: queda disponible para consultas y observa el reparto real del trabajo.
+
+| | |
+|---|---|
+| **Qué se trabaja** | las secciones del PETI que la semana requiere, según el plan de trabajo de la Semana 01 |
+| **Quién decide qué hacer** | El equipo. El docente no asigna tareas en este tramo |
+| **Dónde se registra** | el tablero de avance del equipo, con cada elemento asignado a una persona |
+| **Para qué sirve la presencia del docente** | Resolver bloqueos en el momento, no revisar entregables |
+
+> **Se registra la contribución individual.** Lo trabajado en este tramo queda en el repositorio con su autoría. Es la evidencia del atributo **AG-I03 Trabajo Individual y en Equipo** que se mide en las semanas de cierre de unidad.
+
 ## 3. Resultados
+
+> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**: consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
+>
+> | Qué se entrega | Dónde vive | Qué se escribe en el informe |
+> |---|---|---|
+> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `docs/evidencias/S02/` | URL del archivo |
+> | Salida de comandos | `docs/evidencias/S02/salidas/*.txt` | URL del archivo |
+>
+> **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-02` sobre el commit entregado:
+>
+> ```bash
+> git tag -a taller-02 -m "Taller 02 · SI886"
+> git push origin taller-02
+> ```
+>
+> La URL que se consigna en el informe apunta a esa etiqueta:
+> `https://github.com/<organizacion>/<repositorio>/tree/taller-02`
+>
+> **Sin la URL, el resultado no se califica.** El docente evalúa sobre el repositorio, no sobre el PDF.
+
+### 3.1. Tabla de resultados
+
+
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
@@ -298,6 +343,28 @@ git tag -a v0.2 -m "PETI v0.2 — contexto y tendencias"
 | 11 | Sección 1.1 redactada, con todas las fuentes listadas | `1.1_contexto_tendencias.md` |
 | 12 | Etiqueta `v0.2` en Git y hashes registrados | `git tag`, `HASHES.txt` |
 
+
+## Rúbrica procedimental (20 puntos)
+
+Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. **Cada criterio se califica de forma independiente.**
+
+| Criterio | 4 — Logrado | 2 — En proceso | 0 — Insuficiente |
+|---|---|---|---|
+| **Extraer series del BCRP mediante su API** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
+| **Visualizar y construir la matriz de vigilancia** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
+| **Evidencia verificable en el repositorio** | Cada resultado tiene su URL sobre la etiqueta `taller-NN`, y el enlace abre lo que dice | La mayoría tiene URL; alguna evidencia es una captura suelta | Se declaran resultados sin enlace, o el enlace no corresponde |
+| **Fundamento de las decisiones** | Cada criterio, peso o supuesto está justificado y su fuente citada | Justificados en su mayoría, con supuestos sin declarar | Se presentan cifras sin origen ni justificación |
+| **Informe en formato EPIS** | Las seis secciones completas; la sección del PETI queda redactada y versionada | Secciones completas con la redacción del PETI incompleta | Faltan secciones o no se produjo la sección del plan |
+
+| Puntaje | Equivalencia |
+|---|---|
+| 18 – 20 | Destacado |
+| 14 – 17 | Logrado |
+| 6 – 13 | En proceso |
+| 0 – 5 | Insuficiente |
+
+> **Un resultado declarado sin evidencia enlazada no puntúa**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
+
 ## 4. Conclusiones
 
 Mínimo tres. Líneas argumentales esperadas:
@@ -306,17 +373,7 @@ Mínimo tres. Líneas argumentales esperadas:
 2. La comparación regional sitúa la posición de la organización y de su mercado, y evita el error de asumir que una tendencia global se manifiesta con la misma intensidad en el contexto local.
 3. Identificar la postura de TI —soporte, fábrica, giro estratégico o estratégica— antes de formular objetivos evita que el plan proponga capacidades desproporcionadas para el papel que la tecnología cumple en esa organización.
 
-## 5. Cuestionario
-
-1. Diferencia **estrategia** de **dirección estratégica** e indica en qué momento del proceso se ubica la formulación de un PETI.
-2. ¿Por qué una estrategia que no renuncia a nada no es una estrategia? Ilustra con una decisión concreta de tu organización.
-3. Identifica la **postura de TI** de tu organización entre las cuatro presentadas, con dos evidencias que la sustenten, y explica qué implica para el alcance de tu plan.
-4. La serie del BCRP muestra una depreciación del __ % en 24 meses. ¿Qué decisión de planeamiento obliga si el 60 % del presupuesto de TI está denominado en dólares?
-5. Explica por qué debe registrarse la URL, la fecha de descarga y el hash de cada serie utilizada.
-6. Una tendencia relevante no tiene serie estadística disponible. ¿La incluye en el plan? Fundamenta y propón cómo se monitorearía.
-7. Redacta el umbral de alerta de una de sus series. ¿Qué valor obligaría a revisar el PETI antes de su ciclo anual?
-
-## 6. Referencias Bibliográficas
+## 5. Referencias Bibliográficas
 
 - Rodríguez Bermúdez, J. R. (2015). *Planificación y dirección estratégica de sistemas de información*. Editorial UOC. https://elibro.net/es/lc/bibliotecaupt/titulos/57875
 - Rodríguez Bermúdez, J. R. (2015). *Usos estratégicos de las TIC*. Editorial UOC. https://elibro.net/es/lc/bibliotecaupt/titulos/57677
@@ -331,7 +388,7 @@ Mínimo tres. Líneas argumentales esperadas:
 - Decreto Supremo 085-2023-PCM, Política Nacional de Transformación Digital al 2030. https://busquedas.elperuano.pe/dispositivo/NL/2200457-5
 - ISO/IEC 42001:2023. *Artificial intelligence — Management system*. https://www.iso.org/standard/81230.html
 
-## 7. Anexos
+## 6. Anexos
 
 - `anexo_A_matriz_vigilancia.xlsx`
 - `anexo_B_series_descargadas.zip` — con su archivo de hashes

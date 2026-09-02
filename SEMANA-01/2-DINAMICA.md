@@ -2,7 +2,9 @@
 
 # Dinámica de aula · El PETI que no sirve
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Actividad en aula, **dentro de las 2 h de teoría** · calificación **cognitiva**
+**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Actividad en aula, **dentro de los 100 min de la sesión de teoría** · calificación **cognitiva**
+
+> ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
 ---
 

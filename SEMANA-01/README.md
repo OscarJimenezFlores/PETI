@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
-  4 h semanales · 2 h de teoría en aula, con la dinámica incluida · 2 h de taller en laboratorio
+  4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40
 </p>
 
 ---
@@ -27,7 +27,7 @@
 | **Ciclo** | VIII · 04 horas semanales · 03 créditos · Obligatorio |
 | **Unidad** | I — Fundamentos de Planeamiento Estratégico |
 | **Semana** | 01 de 17 |
-| **Duración** | 4 h semanales · 2 h de teoría en aula, con la dinámica incluida · 2 h de taller en laboratorio |
+| **Duración** | 4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40 |
 | **Resultados de aprendizaje** | **RA1** Aplica la dirección estratégica, definiendo la misión y visión · **RA2** Desarrolla el análisis FODA |
 
 ### Lo que indica el sílabo
@@ -38,15 +38,15 @@
 
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
-| 1 | **[Teoría](1-TEORIA.md)** | El encargo del semestre · Qué es un PETI y qué no es · De dónde viene y hacia dónde va el planeamiento | Aula · 2 h |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | El PETI que no sirve, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de las 2 h de teoría |
-| 3 | **[Taller de laboratorio](3-TALLER.md)** | Repositorio del PETI, selección de la organización y tablero de avance | Laboratorio · 2 h |
+| 1 | **[Teoría](1-TEORIA.md)** | El encargo del semestre · Qué es un PETI y qué no es · De dónde viene y hacia dónde va el planeamiento | Aula · 100 min |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | El PETI que no sirve, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 3 | **[Taller de laboratorio](3-TALLER.md)** | Repositorio del PETI, selección de la organización y tablero de avance | Laboratorio · 100 min |
 
 ## Ruta de la semana
 
 ```mermaid
 flowchart LR
-    A["<b>Sesión 1 · Aula</b><br/>Teoría · 2 h"]
+    A["<b>Sesión 1 · Aula</b><br/>Teoría · 100 min"]
     B["<b>Dinámica de aula</b><br/>El PETI que no sirve<br/><i>nota cognitiva</i>"]
     C["<b>Sesión 2 · Laboratorio</b><br/>Repositorio del PETI,<br/>selección de la organización y<br/>tablero de avance<br/><i>nota procedimental</i>"]
     D["<b>Entregables</b><br/>de la semana 01"]
@@ -76,6 +76,21 @@ flowchart LR
 | Cognitivo | Rúbrica de «El PETI que no sirve» + exposición de 10 min en la Semana 02 | 25 % |
 | Procedimental | Lista de cotejo de los 11 resultados del laboratorio | 35 % |
 | Actitudinal | Profesionalismo en el acercamiento a la organización y cumplimiento del acuerdo de confidencialidad | 15 % |
+
+## Atributos del Graduado · presentación del assessment
+
+> En esta primera sesión se presenta el **Atributo del Graduado** que el curso mide para el Plan de Assessment de la Escuela, junto con su rúbrica. Toma diez minutos y evita el malentendido más común: creer que es una nota más.
+
+| | |
+|---|---|
+| **Atributo que mide el curso** | **AG-I01 · El Profesional y el Mundo** |
+| **Qué significa** | Analizar y evaluar el impacto de las soluciones de ingeniería en el desarrollo sostenible de la sociedad, la economía, la salud y la seguridad, los marcos legales y el medio ambiente |
+| **Semanas en que se recoge evidencia** | 02, 07, 13, 14, 16 y 17 |
+| **Sobre qué evidencia** | La que ya entregas: dinámicas, informes de taller y la sustentación final. No hay entregable adicional |
+| **Efecto en tu calificación** | **Ninguno.** Mide el programa, no al estudiante. Se registra aparte de las actas |
+| **Dónde consultarlo** | [`ASSESSMENT/`](../ASSESSMENT/) · [rúbrica](../ASSESSMENT/RUBRICAS-AG.md) · [mapa](../ASSESSMENT/MAPA-AG.md) |
+
+**Por qué en este curso.** Un PETI decide en qué se gasta el presupuesto de TI de una organización durante tres a cinco años. Es la primera vez en la carrera en que las decisiones del estudiante tienen consecuencias sobre personas que no están en el aula. Eso es exactamente lo que el atributo mide.
 
 ## Preparación para la Semana 02
 

@@ -32,7 +32,7 @@ Escribe al correo institucional para consultas del curso. Indica en el asunto la
 |---|---|
 | **Asignatura** | SI-886 · Planeamiento Estratégico de TI |
 | **Ciclo** | VIII |
-| **Horas semanales** | 04 horas · 2 h de teoría en aula, con la dinámica incluida, y 2 h de taller en laboratorio |
+| **Horas semanales** | 04 horas académicas de 50 min · 2 en aula: teoría 60 + dinámica 35 + cierre 5 · 2 en laboratorio: taller 60 + avance asistido 40 |
 | **Créditos** | 03 |
 | **Tipo** | Obligatorio |
 | **Prerrequisito** | Ninguno |
@@ -53,7 +53,9 @@ Escribe al correo institucional para consultas del curso. Indica en el asunto la
 8. [Cómo se entregan los trabajos](#cómo-se-entregan-los-trabajos)
 9. [Plan de evaluación](#plan-de-evaluación)
 10. [Herramientas del curso](#herramientas-del-curso)
-11. [Bibliografía y fuentes del curso](#bibliografía-y-fuentes-del-curso)
+11. [Glosario técnico](#glosario-técnico)
+12. [Atributos del Graduado y assessment](#atributos-del-graduado-y-assessment)
+13. [Bibliografía y fuentes del curso](#bibliografía-y-fuentes-del-curso)
 
 ## Competencia de la asignatura
 
@@ -128,7 +130,7 @@ Cada semana es una carpeta con cuatro documentos — la portada, la teoría de l
 |---|---|---|
 | `README.md` | Portada de la semana con los datos de la asignatura, la ruta de trabajo, los entregables y la forma de evaluación | Antes de la clase |
 | `1-TEORIA.md` | Desarrollo conceptual de la sesión de aula, con el mapa de la sesión y las fuentes citadas | Sesión 1, en aula |
-| `2-DINAMICA.md` | Actividad en equipo con su consigna, su producto y su rúbrica, evaluada como nota cognitiva | Sesión 1, dentro de las 2 h |
+| `2-DINAMICA.md` | Actividad en equipo con su consigna, su producto y su rúbrica, evaluada como nota cognitiva | Sesión 1, dentro de los 100 min |
 | `3-TALLER.md` | Guía de laboratorio en formato EPIS, evaluada como nota procedimental | Sesión 2, en laboratorio |
 
 ## Cómo se entregan los trabajos
@@ -149,7 +151,7 @@ Las reglas completas de entrega están en [`PLANTILLAS/`](PLANTILLAS/).
 | Cognitivo | 25 % | Dinámica de aula, su producto y la exposición del equipo |
 | Procedimental | 35 % | Guía de laboratorio y sus entregables verificables |
 | Actitudinal | 15 % | Participación, puntualidad y trabajo en equipo |
-| Examen de unidad | 25 % | Evaluación escrita al cierre de la unidad |
+| Examen de unidad | 25 % | **Teórico** (40 min en aula, alternativas) y **práctico** (100 min en laboratorio, sobre los productos de los talleres, con IA permitida) |
 
 Peso de cada unidad en la nota del curso. **Unidad I 25 %**, **Unidad II 35 %** y **Unidad III 40 %**.
 
@@ -229,6 +231,30 @@ Todas son libres, gratuitas o de uso académico sin costo. El requisito base del
 | PETI v1.0 completo | Secciones Sección 0 a Sección 9 | 17 |
 | **Metabase** y **PostgreSQL** (Docker) | Tablero de supervisión | 17 |
 | Secciones Sección 2.4 y Sección 8 del PETI | Cultura y riesgos, para el plan de cambio | 17 |
+
+## Atributos del Graduado y assessment
+
+El curso contribuye al **Plan de Assessment de la Escuela**, que mide los once Atributos del Graduado del perfil de egreso bajo el modelo ICACIT.
+
+| | |
+|---|---|
+| **Atributo que mide este curso** | **AG-I01 · El Profesional y el Mundo** |
+| **Producto acreditable** | Plan Estratégico de TI de una organización real, con su cartera de proyectos, sustentado ante panel |
+| **Instrumento** | Rúbrica analítica institucional, escala 1–4 |
+| **Nivel de logro esperado** | ≥ 65 % de los estudiantes en nivel ≥ 3 (Logrado) |
+| **Semanas de captura de evidencia** | **02**, **07**, **13**, **14**, **16** y **17** |
+| **Momentos de reporte** | Semana 08 (corte 1) y Semana 16 (corte 2) |
+| **Docente responsable** | Dr. Oscar Juan Jimenez Flores |
+
+> **No afecta la calificación.** La rúbrica del atributo se aplica sobre los mismos entregables que el curso ya exige, con un registro paralelo al de notas. El estudiante no entrega nada adicional.
+
+La única captura **individual** es la sustentación de la Semana 17, y es la que alimenta el indicador de cohorte. Las demás son grupales y sirven para la mejora del curso.
+
+Todo el instrumental está en [`ASSESSMENT/`](ASSESSMENT/): el [mapa del atributo semana a semana](ASSESSMENT/MAPA-AG.md), la [rúbrica](ASSESSMENT/RUBRICAS-AG.md), la [ficha de evidencia](ASSESSMENT/PLANTILLA-EVIDENCIA-AG.md) que se llena en cada captura, el registro por estudiante y la [plantilla del informe de assessment](ASSESSMENT/PLANTILLA-INFORME-ASSESSMENT.md) del ciclo.
+
+## Glosario técnico
+
+Todo término, sigla y norma que aparece en el curso está definido en el [**glosario técnico**](GLOSARIO.md). Los términos en inglés se conservan cuando así se usan en el trabajo profesional: es como se encuentran en la documentación y en el código.
 
 ## Bibliografía y fuentes del curso
 
