@@ -260,7 +260,7 @@ git tag -a v0.1 -m "PETI v0.1 — presentacion y plan de trabajo"
 
 ### Avance asistido · Avance del PETI asistido
 
-Los últimos 40 minutos del laboratorio son del equipo. El docente no dirige: queda disponible para consultas y observa el reparto real del trabajo.
+Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.** Queda disponible para consultas y observa el reparto real del trabajo.
 
 | | |
 |---|---|
