@@ -37,7 +37,7 @@ flowchart LR
     class P4 f;
 ```
 
-**Paso 1 · El dato que decide — 8 min.** La ficha trae lo que la organización dice, lo que hace y lo que financia. El equipo determina el enfoque real y **subraya un solo dato** como prueba. No una lista de indicios, uno. Si hacen falta tres datos para sostenerlo, el enfoque todavía no está claro.
+**Paso 1 · El dato que decide — 8 min.** La ficha que le tocó al equipo está en el **anexo**, al final de esta página. Trae lo que la organización dice, lo que hace y lo que financia. El equipo determina el enfoque real y **subraya un solo dato** como prueba. No una lista de indicios, uno. Si hacen falta tres datos para sostenerlo, el enfoque todavía no está claro.
 
 **Paso 2 · Clasificar los tres proyectos — 8 min.** Cada proyecto propuesto se asigna a uno de los cuatro enfoques. La pregunta que lo clasifica es qué mejora si el proyecto sale bien. Menos costo por transacción, más retención del cliente, más productos nuevos o más acceso al servicio.
 
@@ -64,38 +64,94 @@ flowchart LR
 
 | | Contenido |
 |---|---|
-| **Enfoque real** | Cuál de los cuatro, y **el único dato** que lo prueba, transcrito de la ficha |
+| **Enfoque real** | Cuál de los cuatro, y **el único dato** que lo prueba, transcrito de la ficha del anexo |
 | **Los tres proyectos clasificados** | Cada uno con el enfoque al que pertenece |
-| **El que no se ejecutará** | Cuál, cómo va a morir —recorte, orfandad o desuso— y qué dato de la ficha lo anticipa |
+| **El que no se ejecutará** | Cuál, cómo va a morir —recorte, orfandad o desuso— y qué dato de la ficha del anexo lo anticipa |
 | **El reemplazo** | Qué proyecto entra, a qué objetivo del instrumento superior se articula y con qué presupuesto |
 
 ## Ejemplo resuelto
 
-*Este caso no es ninguno de los del anexo. Sirve para ver el nivel exigido.*
+*Este caso no es ninguno de los del anexo. Está resuelto paso por paso, en el mismo orden en que su equipo lo va a hacer.*
 
-**La ficha.** Imprenta y editorial regional, 90 trabajadores, TI de 3 personas.
+### La ficha que le tocó a este equipo
 
-> **Dice.** Sección 2 «seremos la imprenta de referencia por la calidad y la personalización de cada proyecto editorial». OE-01 «elevar la satisfacción del cliente al 90 %», sin línea base.
-> **Hace.** Acta 041-2025 del 12/03. Se elimina el ejecutivo de cuenta y se centraliza la atención en una central con guion único. Tarifas de lista, sin negociación. El único indicador del comité semanal es el costo por millar impreso.
-> **Financia.** S/ 240 000. Operación 92 %, Inversión 8 %. Las tres inversiones cerradas del año fueron máquina, licencias y servidores, las tres con beneficio medido «No se midió».
-> **Lo que TI propone.** ① Portal de clientes con seguimiento personalizado del proyecto editorial, S/ 96 000. ② Integración de presupuesto y orden de producción, S/ 54 000. ③ Tablero de costo por millar en tiempo real, S/ 22 000.
+> **Imprenta y editorial regional** · 90 trabajadores · TI 3 personas
+>
+> **Lo que dice.** Plan Estratégico, sección 2. «Seremos la imprenta de referencia por la calidad y la personalización de cada proyecto editorial.» Objetivo OE-01, «elevar la satisfacción del cliente al 90 %», sin línea base.
+>
+> **Lo que hace.** Acta 041-2025, del 12 de marzo. Se elimina el puesto de ejecutivo de cuenta y la atención pasa a una central telefónica con guion único. Las tarifas son de lista, sin negociación por cliente. El único indicador que el comité revisa cada semana es el costo por millar impreso.
+>
+> **Lo que financia.** Presupuesto de TI S/ 240 000. Operación 92 %, Inversión 8 %. Las tres inversiones cerradas del año fueron máquina, licencias y servidores, las tres con beneficio medido «No se midió».
+>
+> **Lo que TI propone para el próximo plan.**
+> ① Portal de clientes con seguimiento personalizado del proyecto editorial · S/ 96 000
+> ② Integración de presupuesto y orden de producción · S/ 54 000
+> ③ Tablero de costo por millar en tiempo real · S/ 22 000
 
-**El producto.**
+### Paso 1 · El dato que decide
+
+El equipo busca el enfoque real. Lo declarado apunta a **cercanía al cliente**, porque la sección 2 habla de personalización. Pero hay que contrastarlo.
+
+| Candidato a dato decisivo | ¿Sirve? |
+|---|---|
+| «Operación 92 %, Inversión 8 %» | Sirve, pero es débil. Casi toda organización pequeña gasta así. No prueba una intención |
+| «El comité revisa el costo por millar» | Sirve. Muestra qué mira la dirección cada semana |
+| **«Acta 041-2025. Se elimina el puesto de ejecutivo de cuenta»** | **Es el más fuerte.** Es una decisión de estructura, firmada y fechada |
+
+> **Se elige el acta.** Un porcentaje de presupuesto se explica de muchas maneras. **Eliminar el puesto que ejecutaba la personalización es una renuncia deliberada**, y ningún gerente puede discutirla. Por eso basta con una.
+
+**Enfoque real, excelencia operativa.**
+
+### Paso 2 · Clasificar los tres proyectos
+
+La pregunta es qué mejora si el proyecto sale bien.
+
+| Proyecto | Qué mejora si sale bien | Enfoque |
+|---|---|---|
+| ① Portal con seguimiento personalizado | El cliente se siente atendido y vuelve | Cercanía al cliente |
+| ② Integración de presupuesto y producción | Se pierde menos tiempo entre cotizar y producir | Excelencia operativa |
+| ③ Tablero de costo por millar | La dirección ve antes dónde se pierde margen | Excelencia operativa |
+
+**El ① es el único que no coincide con el enfoque real.** Ya es el candidato.
+
+### Paso 3 · Matar uno
+
+No basta con decir que el ① no encaja. Hay que decir **cómo va a morir**. Las tres muertes posibles son estas.
+
+| Muerte | Qué ocurre | ¿Le pasará al ①? |
+|---|---|---|
+| **Recorte** | Se aprueba y luego le quitan el presupuesto | Poco probable. S/ 96 000 caben en el plan |
+| **Orfandad** | Se aprueba y nadie se hace responsable de llevarlo | Posible, pero TI podría sostenerlo |
+| **Desuso** | Se entrega, funciona, y nadie lo usa | **Es esta** |
+
+> **Por qué desuso.** El portal ofrece seguimiento personalizado del proyecto editorial. **Ese seguimiento lo hacía el ejecutivo de cuenta, y la empresa eliminó el puesto en marzo.** El portal se va a entregar con una pantalla que nadie del lado de la empresa va a alimentar. El cliente entrará dos veces, la verá desactualizada y no volverá.
+
+**El dato de la ficha que lo anticipa es el mismo acta 041-2025.**
+
+### Paso 4 · El reemplazo
+
+Se liberan S/ 96 000. El proyecto que entra debe caber en ese monto y pertenecer al enfoque real.
+
+**Ampliar el ② hasta la facturación**, no solo hasta la orden de producción. Costo estimado S/ 90 000 adicionales sobre el ② ya previsto.
+
+Se articula al **Plan Estratégico 2024-2028, objetivo OE-02, «reducir el tiempo promedio de atención en 20 %»**. Se elige ese objetivo y no el OE-01 porque **el OE-02 es el único que la organización mide hoy**, y un proyecto articulado a un objetivo que nadie mide no se puede defender en la evaluación anual.
+
+### El producto que se entrega
 
 | | Contenido |
 |---|---|
-| **Enfoque real** | **Excelencia operativa.** El dato que lo prueba es el acta 041-2025. Eliminar al ejecutivo de cuenta es una decisión estructural contra la personalización que el plan declara. Lo demás son indicios; esto es una renuncia firmada |
-| **Los tres clasificados** | ① Cercanía al cliente · ② Excelencia operativa · ③ Excelencia operativa |
-| **El que no se ejecutará** | **El ①.** Muere por **desuso**. Se aprobará, porque suena a lo que el plan declara, y se entregará. Nadie lo usará, porque no queda nadie que dé seguimiento personalizado a un proyecto editorial. La organización ya despidió a esa persona |
-| **El reemplazo** | Ampliar el ② al ciclo completo hasta facturación, con los S/ 96 000 liberados. Se articula al Plan Estratégico 2024-2028, OE-02, «reducir el tiempo promedio de atención en 20 %», que es el único objetivo que la organización mide hoy |
+| **Enfoque real** | **Excelencia operativa.** Dato, acta 041-2025 del 12/03, que elimina el puesto de ejecutivo de cuenta. Es una decisión de estructura, no un gasto |
+| **Los tres proyectos clasificados** | ① Cercanía al cliente · ② Excelencia operativa · ③ Excelencia operativa |
+| **El que no se ejecutará** | **El ①.** Muere por **desuso**. Se entregará un portal de seguimiento personalizado que nadie alimentará, porque el puesto que hacía ese seguimiento ya no existe. Lo anticipa el acta 041-2025 |
+| **El reemplazo** | Ampliar el ② hasta facturación, S/ 90 000 de los S/ 96 000 liberados. Se articula al OE-02, «reducir el tiempo promedio de atención en 20 %», único objetivo que la organización mide hoy |
 
-**La diferencia entre aprobar y no aprobar.**
+### La diferencia entre aprobar y no aprobar
 
 | Así no | Así sí |
 |---|---|
-| «El enfoque es excelencia operativa porque financia más operación.» | «El acta 041-2025 elimina el ejecutivo de cuenta. Es una decisión estructural, no un gasto.» |
-| «El proyecto 1 no se alinea con el enfoque.» | «El proyecto 1 muere por desuso. No queda quién ejecute el seguimiento personalizado que el portal expone.» |
-| «Proponemos un tablero de indicadores.» | «Ampliar el proyecto 2 hasta facturación con los S/ 96 000 liberados, articulado al OE-02, único objetivo que hoy se mide.» |
+| «El enfoque es excelencia operativa porque financia más operación.» | «Acta 041-2025. Se elimina el puesto de ejecutivo de cuenta. Es una decisión de estructura, no un gasto.» |
+| «El proyecto ① no se alinea con el enfoque.» | «El ① muere por desuso. No queda quién alimente el seguimiento personalizado que el portal expone.» |
+| «Proponemos un tablero de indicadores.» | «Ampliar el ② hasta facturación con S/ 90 000 de los S/ 96 000 liberados, articulado al OE-02, único objetivo que hoy se mide.» |
 
 ## Reglas
 
@@ -111,16 +167,16 @@ flowchart LR
 
 | Criterio | 5 | 3 | 1 |
 |---|---|---|---|
-| **El dato que decide** | Un solo dato, transcrito, y es el más fuerte disponible en la ficha | Un dato válido, pero débil frente a otro que estaba en la ficha | Una lista de indicios, o una afirmación sin transcribir |
+| **El dato que decide** | Un solo dato, transcrito, y es el más fuerte disponible en la ficha del anexo | Un dato válido, pero débil frente a otro que estaba en la ficha | Una lista de indicios, o una afirmación sin transcribir |
 | **Clasificación de los tres** | Los tres bien asignados, con el criterio de qué mejora cada uno | Dos bien asignados | Clasificación sin criterio explícito |
-| **La muerte del proyecto** | Nombra el mecanismo y lo anticipa con un dato de la ficha | Nombra el mecanismo sin sostenerlo en la ficha | Dice que «no se alinea», sin explicar qué le ocurrirá |
+| **La muerte del proyecto** | Nombra el mecanismo y lo anticipa con un dato de la ficha del anexo | Nombra el mecanismo sin sostenerlo en la ficha | Dice que «no se alinea», sin explicar qué le ocurrirá |
 | **El reemplazo** | Proyecto viable, articulado a un objetivo del instrumento superior, dentro del presupuesto liberado | Proyecto viable sin articulación o sin cuadrar el presupuesto | Propuesta genérica, aplicable a cualquier organización |
 
 ---
 
-## Anexo · Fichas para repartir
+## Anexo · Fichas de las organizaciones
 
-Una por equipo.
+Una por equipo. Cada ficha trae lo que la organización dice, lo que hace, lo que financia y los tres proyectos que su área de TI propone.
 
 ### Ficha 1 · Agroexportadora de aceituna y orégano · 142 trabajadores · TI 3 personas
 
