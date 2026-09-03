@@ -41,7 +41,7 @@
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | Qué es estrategia y qué es dirección estratégica · Los niveles de la estrategia y dónde entra TI · Desafíos y cambios mundiales que condicionan la estrategia de TI | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La fuerza que nos cambia el negocio, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La fuerza que no espera, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Vigilancia estratégica con fuentes oficiales | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -65,7 +65,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · La fuerza que nos cambia el negocio | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S02-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
+| **Dinámica de aula** · La fuerza que no espera | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S02-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
 | **Informe del taller de laboratorio N.º 02** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S02-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Sección 1.1 del PETI (Plan Estratégico de Tecnologías de Información) · etiqueta `v0.2` | Commit en Git | 48 h después del laboratorio |
 

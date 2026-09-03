@@ -39,7 +39,7 @@
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | El encargo del semestre · Qué es un PETI y qué no es · De dónde viene y hacia dónde va el planeamiento | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | El PETI que no sirve, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La frase que condena al plan, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Repositorio del PETI, selección de la organización y tablero de avance | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -47,7 +47,7 @@
 ```mermaid
 flowchart LR
     A["<b>Sesión 1 · Aula</b><br/>Teoría · 100 min"]
-    B["<b>Dinámica de aula</b><br/>El PETI que no sirve<br/><i>nota cognitiva</i>"]
+    B["<b>Dinámica de aula</b><br/>La frase que condena al plan<br/><i>nota cognitiva</i>"]
     C["<b>Sesión 2 · Laboratorio</b><br/>Repositorio del PETI,<br/>selección de la organización y<br/>tablero de avance<br/><i>nota procedimental</i>"]
     D["<b>Entregables</b><br/>de la semana 01"]
     A --> B --> C --> D
@@ -63,7 +63,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · El PETI que no sirve | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S01-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
+| **Dinámica de aula** · La frase que condena al plan | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S01-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
 | **Informe del taller de laboratorio N.º 01** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S01-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Repositorio del PETI con la etiqueta `v0.1` | URL del repositorio privado | 48 h después del laboratorio |
 
@@ -73,7 +73,7 @@ flowchart LR
 
 | Criterio | Instrumento | Peso |
 |---|---|---|
-| Cognitivo | Rúbrica de «El PETI que no sirve» + exposición de 10 min en la Semana 02 | 25 % |
+| Cognitivo | Rúbrica de «La frase que condena al plan» + exposición de 10 min en la Semana 02 | 25 % |
 | Procedimental | Lista de cotejo de los 11 resultados del laboratorio | 35 % |
 | Actitudinal | Profesionalismo en el acercamiento a la organización y cumplimiento del acuerdo de confidencialidad | 15 % |
 

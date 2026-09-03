@@ -92,7 +92,7 @@ Construcción del entorno de trabajo del plan — repositorio versionado con la 
 | **BCRP** | Series macroeconómicas para el análisis del entorno | https://estadisticas.bcrp.gob.pe |
 | **OSIPTEL** | Cobertura y penetración de servicios de telecomunicaciones | https://www.osiptel.gob.pe |
 | **Plataforma Nacional de Datos Abiertos** | Conjuntos de datos de entidades públicas | https://www.datosabiertos.gob.pe |
-| **Portal de Transparencia Estándar** | PEI, POI y PGD de la entidad elegida | https://www.transparencia.gob.pe |
+| **Portal de Transparencia Estándar** | PEI, POI (Plan Operativo Institucional) y PGD de la entidad elegida | https://www.transparencia.gob.pe |
 
 > **Verificación previa.** Ejecuta `git --version` y `pandoc --version`. Si el equipo trabajará con una entidad pública, descargue **antes** su PEI y su PGD del portal de transparencia.
 

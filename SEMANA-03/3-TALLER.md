@@ -90,13 +90,26 @@ Análisis documental comparado del Plan Estratégico Institucional y del Plan de
 
 ### Paso A — Localizar los documentos
 
-Se selecciona una entidad pública peruana con ambos documentos publicados (ministerio, gobierno regional, municipalidad provincial, universidad pública, organismo público). Se registra en `01_marco/MP01_documentos.csv`:
+Se selecciona una entidad pública peruana con ambos documentos publicados (ministerio, gobierno regional, municipalidad provincial, universidad pública, organismo público).
 
-| Documento | Entidad | Periodo | Resolución que lo aprueba | URL | Fecha de descarga | N.º de páginas |
-|---|---|---|---|---|---|---|
-| PEI | | | | | | |
-| PGD | | | | | | |
-| POI (opcional) | | | | | | |
+**Este paso no es de trámite: produce el primer hallazgo del informe.** Cada columna existe porque su respuesta puede descalificar al documento como plan. Se registra en `01_marco/MP01_documentos.csv`:
+
+| Documento | Entidad y periodo que cubre | Resolución que lo aprueba, con su fecha | ¿Se aprobó antes de iniciar el periodo? | ¿Sigue vigente hoy? | ¿Propone proyectos con presupuesto? |
+|---|---|---|---|---|---|
+| PEI | | | | | |
+| PGD | | | | | |
+| POI (opcional) | | | | | |
+
+**Qué hallazgo produce cada columna**
+
+| Columna | El hallazgo que puede producir |
+|---|---|
+| **Resolución que lo aprueba** | Un plan sin resolución **no es exigible a nadie**: es un borrador. La teoría de esta semana lo dice del PGD — lo aprueba el titular de la entidad. Verifique además que quien firma tenga competencia para hacerlo |
+| **¿Se aprobó antes de iniciar el periodo?** | Un plan 2023-2027 aprobado en noviembre de 2024 **no orientó los dos primeros años**. Es de los hallazgos más frecuentes y de los más difíciles de rebatir |
+| **¿Sigue vigente hoy?** | El PGD se aprueba por un **mínimo de tres años** y se **actualiza y evalúa cada año**. Un plan vencido, o vigente pero sin ninguna evaluación anual publicada, es incumplimiento de la norma, no un descuido |
+| **¿Propone proyectos con presupuesto?** | Es la prueba de que el documento es un **plan** y no una declaración de intenciones. Un documento que no llega a proyectos con costo no permite presupuestar y por eso no se ejecuta |
+
+> **La URL y la fecha en que se consultó cada documento** van en la sección **6. Referencias** del informe, no en esta tabla. Un documento publicado puede cambiar o desaparecer, y la fecha de consulta fija la versión sobre la que usted concluyó.
 
 > Si la entidad elegida no publica su PGD, es en sí un hallazgo relevante: la obligación de contar con el plan y de mantenerlo actualizado deriva del marco de gobierno digital. Se documenta y se elige otra entidad para el análisis comparado.
 
@@ -330,7 +343,7 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
-| 1 | PEI y PGD descargados, con su resolución de aprobación, URL y fecha | `MP01_documentos.csv` |
+| 1 | PEI y PGD localizados, con su resolución de aprobación y el veredicto de vigencia y de suficiencia | `MP01_documentos.csv` |
 | 2 | Estructura de ambos documentos extraída y **verificada manualmente** | `MP02_estructura_*.csv` |
 | 3 | Objetivos del PEI y del PGD identificados con su código y texto | `MP03_objetivos_*.csv` |
 | 4 | Matriz de articulación completa, con la distinción entre articulación **declarada** y **verificable** | `MP04_articulacion.csv` |

@@ -40,7 +40,7 @@
 
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
-| 1 | **[Teoría](1-TEORIA.md)** | Los niveles de la planificación · Qué es planeamiento estratégico · Los instrumentos PEI, POI, PEGE, PGD y PETI | Aula · 100 min |
+| 1 | **[Teoría](1-TEORIA.md)** | Los niveles de la planificación · Qué es planeamiento estratégico · Los instrumentos PEI (Plan Estratégico Institucional), POI (Plan Operativo Institucional), PEGE, PGD y PETI | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | El proyecto huérfano · una ficha por equipo, el ejemplo resuelto en pizarra y la rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real | Laboratorio · 100 min |
 
