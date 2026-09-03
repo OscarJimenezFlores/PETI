@@ -88,7 +88,7 @@ flowchart TD
 | **Funcional** | ¿Cómo apoya cada función a la estrategia de negocio? | Gerencias funcionales | **Aquí vive el PETI** |
 | **Operativa** | ¿Cómo se ejecuta día a día? | Jefaturas | Servicios, operaciones, soporte |
 
-**Las cuatro posturas de TI respecto de la estrategia.** Determinan qué tipo de PETI corresponde:
+**Las cuatro posturas de TI respecto de la estrategia.** Determinan qué tipo de PETI (Plan Estratégico de Tecnologías de Información) corresponde:
 
 | Postura | Descripción | Tipo de PETI apropiado |
 |---|---|---|

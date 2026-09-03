@@ -1,6 +1,6 @@
 [Semana 03](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · El proyecto que no se ejecutará
+# Dinámica de aula · El proyecto huérfano
 
 **SI-886 · Planeamiento Estratégico de TI** · Semana 03 · Actividad en aula, **dentro de los 100 min de la sesión de teoría** · calificación **cognitiva**
 
@@ -8,42 +8,19 @@
 
 ---
 
-## La pregunta
-
-El área de TI de su organización propone **tres proyectos** para el próximo plan. Uno de los tres **no se va a ejecutar**, aunque se apruebe.
-
-Su equipo debe decir **cuál**, demostrar por qué con un solo dato, y proponer con qué se reemplaza.
-
-## Lo que ya sabes de hoy
-
-| De la teoría | Cómo se usa aquí |
-|---|---|
-| [Los cuatro enfoques y su traducción tecnológica](1-TEORIA.md) | Cada proyecto propuesto pertenece a un enfoque. El que no coincide con el enfoque real es el candidato a morir |
-| [Prevalece lo que financia](1-TEORIA.md) | Es la regla que decide cuando lo declarado y lo ejecutado se contradicen |
-| [Los instrumentos PEI, POI, PEGE, PGD y PETI](1-TEORIA.md) | El proyecto que sobrevive debe engancharse a un objetivo del instrumento superior, o tampoco se sostiene |
-
-## Cómo se desarrolla · 35 minutos
+## Cómo funciona la actividad
 
 ```mermaid
 flowchart LR
-    P1["<b>1 · El dato que decide</b><br/>8 min"]
-    P2["<b>2 · Clasificar los tres</b><br/>8 min"]
-    P3["<b>3 · Matar uno</b><br/>10 min"]
-    P4["<b>4 · El reemplazo</b><br/>9 min"]
-    P1 --> P2 --> P3 --> P4
+    C["<b>Consigna</b><br/>El proyecto huérfano"]
+    P["<b>Producto</b><br/>las tablas de la plantilla,<br/>resueltas en aula"]
+    E["<b>Exposición</b><br/>el grupo lee y explica<br/>su resultado, sin diapositivas"]
+    G["<b>Entrega</b><br/>PDF formateado,<br/>después de la clase"]
+    R["<b>Rúbrica</b><br/>nota cognitiva"]
+    C --> P --> E --> G --> R
     classDef d fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    classDef f fill:#E9F6F2,stroke:#0F766E,stroke-width:1px,color:#0F4C46;
-    class P1,P2,P3 d;
-    class P4 f;
+    class C,P,E,G,R d;
 ```
-
-**Paso 1 · El dato que decide — 8 min.** La ficha que le tocó al equipo está en el **anexo**, al final de esta página. Trae lo que la organización dice, lo que hace y lo que financia. El equipo determina el enfoque real y **subraya un solo dato** como prueba. No una lista de indicios, uno. Si hacen falta tres datos para sostenerlo, el enfoque todavía no está claro.
-
-**Paso 2 · Clasificar los tres proyectos — 8 min.** Cada proyecto propuesto se asigna a uno de los cuatro enfoques. La pregunta que lo clasifica es qué mejora si el proyecto sale bien. Menos costo por transacción, más retención del cliente, más productos nuevos o más acceso al servicio.
-
-**Paso 3 · Matar uno — 10 min.** Se elige el proyecto que no se ejecutará y se escribe **qué le va a pasar realmente**. Un proyecto no muere porque alguien lo cancele; muere porque se aprueba y luego se le recorta el presupuesto, se le retira el responsable o se entrega y nadie lo usa. Hay que decir cuál de esas tres muertes le espera y por qué.
-
-**Paso 4 · El reemplazo — 9 min.** Se propone el proyecto que el enfoque real sí sostiene, con su objetivo del instrumento superior. Debe poder financiarse con el dinero del proyecto que se retira.
 
 ## Qué entregas
 
@@ -52,201 +29,183 @@ flowchart LR
 | **Archivo** | `SI886-S03-DINAMICA-Grupo<N>.pdf` |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-DINAMICA.docx](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT y los apellidos, nombres y códigos de todos los integrantes |
+| **Qué va dentro** | Lo que el grupo resolvió en aula. Las tablas de la sección **Producto** van completas, con los textos redactados, y cada decisión va justificada |
 | **Dónde se sube** | Aula virtual, tarea «Dinámica · Semana 03» |
-| **Cuándo vence** | Antes de cerrar la sesión de teoría |
-| **Exposición** | 10 minutos por grupo en la sesión de teoría de la Semana 04, con una o dos diapositivas hechas a partir de este documento |
+| **Cuándo vence** | Hasta 24 h después de la sesión de teoría. La tabla se resuelve en aula; el PDF se formatea y se sube después |
+| **Exposición** | En la ronda de cierre de **esta misma sesión**. El grupo **lee y explica su resultado** ante el aula, con el documento a la vista. No se usan diapositivas |
 
-> No se califica un trabajo entregado en `.docx`, sin carátula, sin los códigos de los integrantes o con la tabla del producto incompleta.
+> No se califica un trabajo entregado en `.docx`, sin carátula, sin los códigos de los integrantes o con las tablas del producto vacías.
+
+---
+
+## Consigna
+
+> **«El proyecto huérfano»**
+> El área de TI de la organización de su ficha propone **tres proyectos** para el PETI. Su equipo debe decir **a qué objetivo del plan institucional engancha cada uno** y señalar el que no engancha a ninguno: el **huérfano**, que no debería entrar al plan.
+
+Es la regla que se acaba de ver en la teoría. *Cada proyecto del PETI (Plan Estratégico de Tecnologías de Información) debe poder rastrearse hasta un objetivo del instrumento superior, y si no se puede, es que TI decidió por su cuenta en qué invertir.* Aquí se aplica esa regla a un caso concreto, y nada más.
+
+**Cuidado con las dos trampas.** Un proyecto que no engancha puede ser un **no negociable** —obligación legal o continuidad del servicio—, y esos no se retiran: se declaran aparte y no compiten en la priorización. Y puede que en su ficha los tres enganchen y **no haya huérfano**; si es así, dígalo y sosténgalo.
+
+## Cómo se desarrolla · 35 minutos
+
+| | Bloque | Quién | Minutos |
+|---|---|---|---|
+| **0** | **El docente resuelve un caso en la pizarra.** El del ejemplo, de cinco líneas. Nadie lee en silencio: se resuelve a la vista de todos | Docente | 7 |
+| **1** | **El enfoque real.** El equipo lee su ficha y subraya **un solo dato** que pruebe cómo crea valor la organización. Un dato, no una lista | Equipo | 5 |
+| **2** | **La cadena.** Para cada uno de los tres proyectos, a qué objetivo del plan engancha, **citándolo por su código**. Si no engancha a ninguno, se escribe «ninguno» | Equipo | 12 |
+| **3** | **La decisión.** Cuál sale del PETI por huérfano, cuál se declara aparte por no negociable, cuánto dinero se libera | Equipo | 5 |
+| **4** | **Ronda en aula.** Tres equipos que elige el docente leen su tabla en voz alta y responden una repregunta. Cierre del docente | Todos | 6 |
+
+## Material de trabajo
+
+Cada equipo recibe **una ficha de organización**. Todas caben en media página y traen lo mismo — lo que la organización **dice**, lo que **hace**, lo que **financia**, los **objetivos de su plan institucional** —que son el instrumento superior— y los **tres proyectos** que su área de TI propone para el PETI.
+
+**Reparto.** Una ficha por equipo, asignada por el docente. No se reparte la misma dos veces.
+
+**Aviso.** En una de las diez fichas los tres proyectos enganchan y **no hay huérfano**. Si es la suya, dígalo: un portafolio bien articulado también es un resultado, y sostenerlo vale lo mismo que encontrar al huérfano.
+
+### Ficha 1 · Agroexportadora de aceituna y orégano · 142 trabajadores · TI 3 personas
+
+> **Dice.** «Calidad y trazabilidad, con acompañamiento personalizado a cada cliente internacional.»
+> **Hace.** Acta 12-2025 del 04/03: se elimina el puesto de ejecutivo de exportación y el contacto pasa a una casilla de correo compartida. El único indicador del comité semanal es el costo por tonelada procesada.
+> **Financia.** S/ 486 000 · 94 % operación. Las tres inversiones del año fueron balanza de línea, licencias y servidor de planta.
+> **Objetivos del Plan Estratégico 2024-2027.** **OE-01** reducir 12 % el costo por tonelada procesada · **OE-02** certificar la trazabilidad del lote que exige el comprador europeo.
+> **Lo que TI propone.** ① Portal del cliente internacional con seguimiento personalizado del pedido · S/ 112 000 ② Digitalización de la trazabilidad de planta, hoy en hojas de cálculo · S/ 68 000 ③ Tablero de costo por tonelada en tiempo real · S/ 24 000
+
+### Ficha 2 · Clínica privada de 60 camas · 310 trabajadores · TI 6 personas
+
+> **Dice.** «Atención centrada en la persona, con acompañamiento del paciente y su familia.»
+> **Hace.** Creó en 2024 el área de Experiencia del Paciente, con 3 personas. Publica cada mes el tiempo de espera, que bajó de 42 a 28 minutos. El paciente lleva sus resultados de laboratorio impresos de un piso a otro.
+> **Financia.** S/ 1 240 000 · 22 % inversión. El portal de citas en línea, S/ 186 000, llevó las citas en línea de 0 % a 31 %.
+> **Objetivos del PEI (Plan Estratégico Institucional).** **OE-01** reducir 30 % el tiempo de espera en consulta externa · **OE-02** que el 60 % de los actos de atención no exijan papel al paciente.
+> **Lo que TI propone.** ① Integración de historia clínica y laboratorio · S/ 210 000 ② Renovación de los servidores del centro de datos, fuera de soporte del fabricante desde 2024 · S/ 150 000 ③ Sistema de gestión de camas y ocupación hospitalaria · S/ 140 000
+
+### Ficha 3 · Municipalidad distrital · 41 800 habitantes · TI 3 personas
+
+> **Dice.** Plan de Desarrollo Local Concertado: «un municipio moderno, transparente y cercano al vecino, con trámites simples y en línea.» Le es exigible la Política Nacional de Transformación Digital al 2030.
+> **Hace.** No existe Comité de Gobierno Digital ni Líder designado, pese a exigirlo la RM 119-2018-PCM. El Plan de Gobierno Digital nunca se formuló. La mesa de partes virtual es un formulario que termina en presentación física del expediente.
+> **Financia.** S/ 520 000 · 96 % operación. La partida de proyectos nuevos ejecutó el 38 % de lo planificado.
+> **Objetivos del PEI.** **OEI-01** reducir de 12 a 5 días el plazo de atención del trámite más demandado · **OEI-02** elevar 15 % la recaudación del impuesto predial.
+> **Lo que TI propone.** ① Aplicación móvil del vecino con notificaciones y reporte de incidencias · S/ 148 000 ② Pago en línea del impuesto predial integrado al sistema de rentas · S/ 96 000 ③ Constitución del Comité de Gobierno Digital y formulación del PGD · S/ 24 000
+
+### Ficha 4 · Cooperativa de ahorro y crédito · 18 400 socios · TI 7 personas
+
+> **Dice.** «Ser la cooperativa que mejor conoce a su socio, con productos ajustados a la realidad del comerciante de frontera.»
+> **Hace.** Creó en 2024 la unidad de Analítica de Socio, con 2 analistas. Segmentó la cartera en cinco perfiles y lanzó dos productos de crédito por perfil. El motor de puntaje interno bajó la mora a 30 días de 4.1 % a 2.9 %.
+> **Financia.** S/ 980 000 · 34 % inversión, casi toda en analítica y en canales de atención al socio.
+> **Objetivos del Plan Estratégico.** **OE-01** incrementar 18 % la colocación por socio activo · **OE-02** que el 50 % de las operaciones del socio se hagan por la aplicación móvil.
+> **Lo que TI propone.** ① Apertura de productos desde la aplicación móvil, con firma digital · S/ 240 000 ② Migración del core, cuya versión sale de soporte del proveedor en diciembre · S/ 380 000 ③ Portal de transparencia con las memorias anuales en PDF · S/ 130 000
+
+### Ficha 5 · Empresa de transporte de carga · 96 trabajadores · TI 2 personas
+
+> **Dice.** Plan de Negocio: «seremos el operador logístico de referencia por la calidad y la personalización de nuestro servicio al cliente.»
+> **Hace.** Eliminó el año pasado el puesto de ejecutivo de cuenta y centralizó la atención en una central telefónica con guion único. Las tarifas son de lista, sin negociación por cliente. El indicador del comité semanal es el costo por tonelada-kilómetro.
+> **Financia.** S/ 320 000 · 88 % operación. El 78 % de la inversión de los últimos dos años fue a renovación de flota y a optimización de rutas.
+> **Objetivos del Plan de Negocio.** **OE-01** reducir 8 % el costo por tonelada-kilómetro · **OE-02** bajar de 6 % a 2 % las entregas con incidencia.
+> **Lo que TI propone.** ① Portal de seguimiento de carga con ejecutivo asignado por cliente · S/ 74 000 ② Integración del sistema de flota con facturación · S/ 58 000 ③ Aplicación de registro de entrega con firma del receptor · S/ 42 000
+
+### Ficha 6 · Distribuidora mayorista de consumo masivo · 157 trabajadores · TI 4 personas
+
+> **Dice.** «Consolidarnos como una organización moderna, eficiente y sostenible al servicio de la comunidad.»
+> **Hace.** Acta 088-2025, observación de la propia Gerencia: «el objetivo de modernización está en el plan desde su aprobación, pero nunca se desagregó en proyectos ni se le asignó presupuesto». El módulo de almacén del ERP se dejó de usar y se opera en hojas de cálculo. El portal de pedidos lo usa el 4 % de las 8 400 bodegas atendidas.
+> **Financia.** S/ 742 000 · 92 % operación. La partida de proyectos nuevos ejecutó el 66 % de lo planificado.
+> **Objetivos del Plan Estratégico.** **OE-01** reducir el quiebre de stock de 5.8 % a 2 % · **OE-02** elevar de 4 % a 30 % el pedido autoatendido por la bodega.
+> **Lo que TI propone.** ① Reactivación del módulo de almacén con rediseño del proceso · S/ 94 000 ② Rediseño del portal de pedidos de la bodega · S/ 186 000 ③ Tablero de sostenibilidad con la huella de carbono de la flota · S/ 38 000
+
+### Ficha 7 · Instituto de educación superior tecnológica · 2 100 estudiantes · TI 3 personas
+
+> **Dice.** «Formación innovadora, con metodologías activas y tecnología de punta al servicio del aprendizaje.»
+> **Hace.** El campus virtual se usa como repositorio de archivos y las evaluaciones siguen siendo en papel. La deserción del primer ciclo, 31 %, es el problema declarado en tres actas del último año. El área de TI depende de Administración y no participa en el comité académico.
+> **Financia.** S/ 410 000 · 90 % operación. La única inversión del año fue la ampliación del laboratorio de cómputo, S/ 285 000, con beneficio medido «no se midió».
+> **Objetivos del PEI.** **OE-01** reducir la deserción del primer ciclo de 31 % a 20 % · **OE-02** que el 100 % de las carreras entregue y califique trabajos por el campus virtual.
+> **Lo que TI propone.** ① Alerta temprana de deserción sobre el dato de asistencia y notas · S/ 86 000 ② Módulo de entrega y calificación de trabajos en el campus virtual · S/ 120 000 ③ Renovación del segundo laboratorio de cómputo · S/ 240 000
+
+### Ficha 8 · Empresa prestadora de servicios de saneamiento · 68 000 conexiones · TI 5 personas
+
+> **Dice.** Plan Maestro Optimizado: «garantizar la continuidad y la calidad del servicio de agua potable, con atención oportuna al usuario.»
+> **Hace.** Implantó en 2024 el registro único de reclamos y publica cada mes el tiempo de atención, que bajó de 15 a 9 días. La lectura de medidores se hace con aplicación móvil desde 2023. La facturación y el catastro comercial son dos bases distintas que se concilian a mano cada mes.
+> **Financia.** S/ 890 000 · 91 % operación. La inversión del año fue íntegra a equipos de lectura móvil, S/ 78 000, con los errores de lectura bajando de 3.4 % a 0.9 %.
+> **Objetivos del PEI.** **OEI-01** reducir el plazo de atención de reclamos de 9 a 5 días hábiles · **OEI-02** bajar del 12 % al 5 % la facturación observada por error de catastro.
+> **Lo que TI propone.** ① Integración del catastro comercial con facturación · S/ 165 000 ② Portal del usuario con consulta de recibo y estado del reclamo · S/ 92 000 ③ Telemetría de presión en las cinco zonas críticas de la red · S/ 310 000
+
+### Ficha 9 · Servicios de ingeniería para minería · 88 trabajadores · TI 4 personas
+
+> **Dice.** «Resolver problemas de ingeniería que nadie más en la región resuelve, con equipos propios de instrumentación y análisis.»
+> **Hace.** Lanzó tres servicios nuevos en dos años, dos de ellos con instrumentación desarrollada internamente. Por directiva escrita, el 30 % del tiempo del equipo técnico está asignado a desarrollar nuevas capacidades.
+> **Financia.** S/ 640 000 · 46 % inversión. La plataforma de telemetría propia, S/ 208 000, trajo dos contratos nuevos atribuibles.
+> **Objetivos del Plan Estratégico.** **OE-01** desarrollar dos servicios nuevos por año · **OE-02** bajar de 12 a 4 días la entrega del informe técnico al cliente.
+> **Lo que TI propone.** ① Laboratorio de ensayo de sensores para dos líneas nuevas · S/ 260 000 ② Automatización del informe técnico a partir de la telemetría · S/ 145 000 ③ Migración del ERP administrativo, cuya versión sale de soporte en marzo · S/ 180 000
+
+### Ficha 10 · Cadena regional de farmacias · 34 locales · TI 5 personas
+
+> **Dice.** «Acompañar la salud de nuestras familias con atención cercana y consejo farmacéutico en cada local.»
+> **Hace.** Acta 22-2025 del 08/04: se aprueba estandarizar el surtido de los 34 locales, eliminando el surtido diferenciado por zona. El indicador que se revisa a diario es el margen por local y la rotura de stock. El programa de cliente frecuente registra la compra y no se explota.
+> **Financia.** S/ 560 000 · 86 % operación. La reposición automática, S/ 142 000, bajó la rotura de stock de 7.2 % a 3.1 %.
+> **Objetivos del Plan Estratégico.** **OE-01** bajar la rotura de stock de 3.1 % a 1.5 % · **OE-02** reducir 10 % el capital inmovilizado en inventario.
+> **Lo que TI propone.** ① Historial de compra del cliente en mostrador, para el consejo farmacéutico · S/ 88 000 ② Reposición predictiva por local sobre el histórico de rotación · S/ 124 000 ③ Tablero de inventario y antigüedad de stock por local · S/ 38 000
 
 ## Producto
 
-**Un solo producto**, que va en la sección 2.1 de la plantilla, con estas cuatro filas.
+**Una sola tabla.** Va en la sección 2.1 de la plantilla.
 
 | | Contenido |
 |---|---|
-| **Enfoque real** | Cuál de los cuatro, y **el único dato** que lo prueba, transcrito de la ficha del anexo |
-| **Los tres proyectos clasificados** | Cada uno con el enfoque al que pertenece |
-| **El que no se ejecutará** | Cuál, cómo va a morir —recorte, orfandad o desuso— y qué dato de la ficha del anexo lo anticipa |
-| **El reemplazo** | Qué proyecto entra, a qué objetivo del instrumento superior se articula y con qué presupuesto |
+| **Enfoque real** | Cuál de los cuatro, y **el único dato** de la ficha que lo prueba, transcrito |
+| **Proyecto ①** | Objetivo al que engancha, **citado por su código**, o «ninguno» |
+| **Proyecto ②** | Objetivo al que engancha, **citado por su código**, o «ninguno» |
+| **Proyecto ③** | Objetivo al que engancha, **citado por su código**, o «ninguno» |
+| **Decisión** | Cuál sale del PETI por huérfano · cuál se declara aparte por no negociable · cuánto se libera |
 
 ## Ejemplo resuelto
 
-*Este caso no es ninguno de los del anexo. Está resuelto paso por paso, en el mismo orden en que su equipo lo va a hacer.*
+*El caso de este ejemplo es distinto del que le toca a tu grupo. Sirve para que veas el nivel de detalle que se espera, no para copiarlo.*
 
-### La ficha que le tocó a este equipo
+**La ficha.** Panificadora regional · 40 trabajadores · TI 1 persona.
 
-> **Imprenta y editorial regional** · 90 trabajadores · TI 3 personas
->
-> **Lo que dice.** Plan Estratégico, sección 2. «Seremos la imprenta de referencia por la calidad y la personalización de cada proyecto editorial.» Objetivo OE-01, «elevar la satisfacción del cliente al 90 %», sin línea base.
->
-> **Lo que hace.** Acta 041-2025, del 12 de marzo. Se elimina el puesto de ejecutivo de cuenta y la atención pasa a una central telefónica con guion único. Las tarifas son de lista, sin negociación por cliente. El único indicador que el comité revisa cada semana es el costo por millar impreso.
->
-> **Lo que financia.** Presupuesto de TI S/ 240 000. Operación 92 %, Inversión 8 %. Las tres inversiones cerradas del año fueron máquina, licencias y servidores, las tres con beneficio medido «No se midió».
->
-> **Lo que TI propone para el próximo plan.**
-> ① Portal de clientes con seguimiento personalizado del proyecto editorial · S/ 96 000
-> ② Integración de presupuesto y orden de producción · S/ 54 000
-> ③ Tablero de costo por millar en tiempo real · S/ 22 000
+> **Dice.** «Pan artesanal, cerca del barrio.»
+> **Hace.** Cerró sus dos tiendas propias en 2024 y hoy vende solo a 300 bodegas. El comité revisa a diario el costo por bolsa.
+> **Financia.** S/ 120 000 · 90 % operación. La única inversión del año fue una amasadora.
+> **Objetivos del Plan de Negocio.** **OE-01** reducir 10 % el costo por bolsa · **OE-02** llegar de 300 a 400 bodegas.
+> **Lo que TI propone.** ① App de fidelidad para el cliente del barrio · S/ 45 000 ② Ruteo del reparto a bodegas · S/ 30 000 ③ Renovar el antivirus, vencido hace ocho meses · S/ 8 000
 
-### Paso 1 · El dato que decide
+**Paso 1 · El enfoque real.** **Excelencia operativa.** El dato: *cerró sus dos tiendas propias y hoy vende solo a bodegas*. Se elige ese y no el «90 % operación», porque cerrar un canal es una decisión de estructura y un porcentaje de gasto se explica de muchas maneras.
 
-El equipo busca el enfoque real. Lo declarado apunta a **cercanía al cliente**, porque la sección 2 habla de personalización. Pero hay que contrastarlo.
+**Paso 2 · La cadena de cada proyecto.**
 
-| Candidato a dato decisivo | ¿Sirve? |
-|---|---|
-| «Operación 92 %, Inversión 8 %» | Sirve, pero es débil. Casi toda organización pequeña gasta así. No prueba una intención |
-| «El comité revisa el costo por millar» | Sirve. Muestra qué mira la dirección cada semana |
-| **«Acta 041-2025. Se elimina el puesto de ejecutivo de cuenta»** | **Es el más fuerte.** Es una decisión de estructura, firmada y fechada |
-
-> **Se elige el acta.** Un porcentaje de presupuesto se explica de muchas maneras. **Eliminar el puesto que ejecutaba la personalización es una renuncia deliberada**, y ningún gerente puede discutirla. Por eso basta con una.
-
-**Enfoque real, excelencia operativa.**
-
-### Paso 2 · Clasificar los tres proyectos
-
-La pregunta es qué mejora si el proyecto sale bien.
-
-| Proyecto | Qué mejora si sale bien | Enfoque |
+| Proyecto | ¿A qué objetivo del plan engancha? | Veredicto |
 |---|---|---|
-| ① Portal con seguimiento personalizado | El cliente se siente atendido y vuelve | Cercanía al cliente |
-| ② Integración de presupuesto y producción | Se pierde menos tiempo entre cotizar y producir | Excelencia operativa |
-| ③ Tablero de costo por millar | La dirección ve antes dónde se pierde margen | Excelencia operativa |
+| ① App de fidelidad del cliente del barrio | A ninguno. Ni el OE-01 ni el OE-02 hablan del cliente final, y ese canal se cerró en 2024 | **Huérfano** |
+| ② Ruteo del reparto a bodegas | Al OE-01, menos kilómetros por bolsa, y al OE-02, más bodegas con la misma flota | Engancha |
+| ③ Renovar el antivirus | A ninguno, pero es continuidad del servicio | **No negociable** |
 
-**El ① es el único que no coincide con el enfoque real.** Ya es el candidato.
+**Paso 3 · La decisión.** El **①** sale del PETI: es huérfano y libera S/ 45 000. El **③** no sale, pero **no compite**: se declara aparte como no negociable, según la regla de la teoría. El plan queda con el ② y el ③.
 
-### Paso 3 · Matar uno
-
-No basta con decir que el ① no encaja. Hay que decir **cómo va a morir**. Las tres muertes posibles son estas.
-
-| Muerte | Qué ocurre | ¿Le pasará al ①? |
-|---|---|---|
-| **Recorte** | Se aprueba y luego le quitan el presupuesto | Poco probable. S/ 96 000 caben en el plan |
-| **Orfandad** | Se aprueba y nadie se hace responsable de llevarlo | Posible, pero TI podría sostenerlo |
-| **Desuso** | Se entrega, funciona, y nadie lo usa | **Es esta** |
-
-> **Por qué desuso.** El portal ofrece seguimiento personalizado del proyecto editorial. **Ese seguimiento lo hacía el ejecutivo de cuenta, y la empresa eliminó el puesto en marzo.** El portal se va a entregar con una pantalla que nadie del lado de la empresa va a alimentar. El cliente entrará dos veces, la verá desactualizada y no volverá.
-
-**El dato de la ficha que lo anticipa es el mismo acta 041-2025.**
-
-### Paso 4 · El reemplazo
-
-Se liberan S/ 96 000. El proyecto que entra debe caber en ese monto y pertenecer al enfoque real.
-
-**Ampliar el ② hasta la facturación**, no solo hasta la orden de producción. Costo estimado S/ 90 000 adicionales sobre el ② ya previsto.
-
-Se articula al **Plan Estratégico 2024-2028, objetivo OE-02, «reducir el tiempo promedio de atención en 20 %»**. Se elige ese objetivo y no el OE-01 porque **el OE-02 es el único que la organización mide hoy**, y un proyecto articulado a un objetivo que nadie mide no se puede defender en la evaluación anual.
-
-### El producto que se entrega
-
-| | Contenido |
-|---|---|
-| **Enfoque real** | **Excelencia operativa.** Dato, acta 041-2025 del 12/03, que elimina el puesto de ejecutivo de cuenta. Es una decisión de estructura, no un gasto |
-| **Los tres proyectos clasificados** | ① Cercanía al cliente · ② Excelencia operativa · ③ Excelencia operativa |
-| **El que no se ejecutará** | **El ①.** Muere por **desuso**. Se entregará un portal de seguimiento personalizado que nadie alimentará, porque el puesto que hacía ese seguimiento ya no existe. Lo anticipa el acta 041-2025 |
-| **El reemplazo** | Ampliar el ② hasta facturación, S/ 90 000 de los S/ 96 000 liberados. Se articula al OE-02, «reducir el tiempo promedio de atención en 20 %», único objetivo que la organización mide hoy |
-
-### La diferencia entre aprobar y no aprobar
+**La diferencia entre aprobar y no aprobar**
 
 | Así no | Así sí |
 |---|---|
-| «El enfoque es excelencia operativa porque financia más operación.» | «Acta 041-2025. Se elimina el puesto de ejecutivo de cuenta. Es una decisión de estructura, no un gasto.» |
-| «El proyecto ① no se alinea con el enfoque.» | «El ① muere por desuso. No queda quién alimente el seguimiento personalizado que el portal expone.» |
-| «Proponemos un tablero de indicadores.» | «Ampliar el ② hasta facturación con S/ 90 000 de los S/ 96 000 liberados, articulado al OE-02, único objetivo que hoy se mide.» |
+| «El enfoque es excelencia operativa porque gasta más en operación.» | «Cerró sus dos tiendas propias y hoy vende solo a bodegas.» |
+| «El ① no se alinea con el enfoque.» | «El ① no engancha ni al OE-01 ni al OE-02. Es huérfano.» |
+| «El ③ también hay que eliminarlo, no engancha.» | «El ③ es continuidad. Se declara aparte y no compite en la priorización.» |
 
 ## Reglas
 
-- 35 min en aula.
+- 35 min en aula, dentro de la sesión de teoría.
 - **Un solo dato** sostiene el enfoque real. Una lista de indicios no puntúa.
-- La muerte del proyecto debe nombrarse. Recorte de presupuesto, pérdida de responsable o entrega sin uso.
-- El reemplazo debe caber en el presupuesto que libera el proyecto retirado.
-- Exposición de 10 min en la Semana 04.
-
-> **Los equipos van a discrepar, y esa es la clase.** En varias fichas hay dos proyectos defendibles como candidatos a morir. Gana la exposición que sostiene su elección con el dato más difícil de rebatir, no la que elige el proyecto más obvio.
+- El objetivo se cita **por su código** —OE-01, OEI-02, el que traiga la ficha—. «Se alinea con la estrategia» no es una cita.
+- Si un proyecto no engancha, hay que decir si es **huérfano** o **no negociable**. No es lo mismo y no se resuelven igual.
+- Si en su ficha no hay huérfano, se declara y se sostiene. Forzar uno resta.
+- La exposición es la ronda del paso 4, en esta misma sesión. El grupo **lee y explica su tabla**. No se usan diapositivas.
 
 ## Rúbrica cognitiva (20 puntos)
 
 | Criterio | 5 | 3 | 1 |
 |---|---|---|---|
-| **El dato que decide** | Un solo dato, transcrito, y es el más fuerte disponible en la ficha del anexo | Un dato válido, pero débil frente a otro que estaba en la ficha | Una lista de indicios, o una afirmación sin transcribir |
-| **Clasificación de los tres** | Los tres bien asignados, con el criterio de qué mejora cada uno | Dos bien asignados | Clasificación sin criterio explícito |
-| **La muerte del proyecto** | Nombra el mecanismo y lo anticipa con un dato de la ficha del anexo | Nombra el mecanismo sin sostenerlo en la ficha | Dice que «no se alinea», sin explicar qué le ocurrirá |
-| **El reemplazo** | Proyecto viable, articulado a un objetivo del instrumento superior, dentro del presupuesto liberado | Proyecto viable sin articulación o sin cuadrar el presupuesto | Propuesta genérica, aplicable a cualquier organización |
-
----
-
-## Anexo · Fichas de las organizaciones
-
-Una por equipo. Cada ficha trae lo que la organización dice, lo que hace, lo que financia y los tres proyectos que su área de TI propone.
-
-### Ficha 1 · Agroexportadora de aceituna y orégano · 142 trabajadores · TI 3 personas
-
-> **Dice.** Sección 2 «ser reconocidos por la calidad y la trazabilidad de nuestro producto, con acompañamiento personalizado a cada cliente internacional». OE-01 «elevar la satisfacción del cliente al 95 %», sin línea base.
-> **Hace.** Acta 12-2025 del 04/03. Se elimina el ejecutivo de exportación y el contacto pasa a una casilla de correo compartida. El único indicador del comité semanal es el costo por tonelada procesada. La trazabilidad se lleva en hojas de cálculo del jefe de planta.
-> **Financia.** S/ 486 000. Operación 94 %, Inversión 6 %. Inversiones cerradas del año, balanza automática de línea S/ 128 000, licencias S/ 74 000, servidor de planta S/ 96 000. Beneficio medido en las tres, «No se midió».
-> **Lo que TI propone.** ① Portal del cliente internacional con trazabilidad del lote en línea, S/ 112 000. ② Digitalización de la trazabilidad de planta, hoy en hojas de cálculo, S/ 68 000. ③ Tablero de costo por tonelada en tiempo real, S/ 24 000.
-
-### Ficha 2 · Clínica privada de 60 camas · 310 trabajadores · TI 6 personas
-
-> **Dice.** Sección 2 «atención centrada en la persona, con acompañamiento del paciente y su familia durante todo el proceso». OE-02 «reducir el tiempo de espera en consulta externa en 30 %».
-> **Hace.** Existe un área de Experiencia del Paciente con 3 personas, creada en 2024. Se mide y se publica cada mes el tiempo de espera. La historia clínica no está integrada con laboratorio, y el paciente lleva sus resultados impresos entre pisos. Acta 07-2025 del 19/05. Se posterga por segundo año la integración de laboratorio.
-> **Financia.** S/ 1 240 000. Operación 78 %, Inversión 22 %. Inversiones cerradas, portal de citas en línea S/ 186 000 con beneficio medido «las citas en línea pasaron de 0 a 31 %», equipamiento de imágenes S/ 240 000.
-> **Lo que TI propone.** ① Integración de historia clínica y laboratorio, S/ 210 000. ② Aplicación móvil de resultados para el paciente, S/ 96 000. ③ Sistema de gestión de camas y ocupación, S/ 140 000.
-
-### Ficha 3 · Municipalidad distrital · 41 800 habitantes · TI 3 personas
-
-> **Dice.** Plan de Desarrollo Local Concertado sección 3 «un municipio moderno, transparente y cercano al vecino, con trámites simples y en línea». Le es exigible la Política Nacional de Transformación Digital al 2030.
-> **Hace.** No existe Comité de Gobierno Digital ni Líder designado, pese a ser exigible. El Plan de Gobierno Digital nunca se formuló. La mesa de partes virtual es un formulario que termina en presentación física del expediente. El sistema de rentas tiene el soporte vencido desde 2023. La jefatura de TI rotó tres veces en cuatro años.
-> **Financia.** S/ 520 000, el 1.67 % del presupuesto institucional. Operación 96 %, Inversión 4 %. La partida de proyectos nuevos ejecutó el 38 % de lo planificado. La partida más ejecutada del año fue renovación de equipos de oficina.
-> **Lo que TI propone.** ① Aplicación móvil del vecino con notificaciones y reportes de incidencias, S/ 148 000. ② Pago en línea del impuesto predial integrado a rentas, S/ 96 000. ③ Constitución del Comité y formulación del Plan de Gobierno Digital, S/ 24 000.
-
-### Ficha 4 · Cooperativa de ahorro y crédito · 18 400 socios · TI 7 personas
-
-> **Dice.** Sección 2 «ser la cooperativa que mejor conoce a su socio, con productos ajustados a la realidad del comerciante de frontera». OE-01 «incrementar la colocación por socio activo en 18 %».
-> **Hace.** Se creó en 2024 la unidad de Analítica de Socio, con 2 analistas. Se segmentó la cartera en cinco perfiles y se lanzaron dos productos de crédito por perfil. El comité de créditos usa el puntaje interno construido con el historial del socio. La aplicación móvil permite consulta y pago, no apertura de productos.
-> **Financia.** S/ 980 000. Operación 66 %, Inversión 34 %. Inversiones cerradas, motor de puntaje interno S/ 214 000 con beneficio medido «la mora a 30 días bajó de 4.1 % a 2.9 %», aplicación móvil S/ 168 000 con beneficio medido «el 41 % de los socios activos la usa al menos una vez al mes».
-> **Lo que TI propone.** ① Apertura de productos desde la aplicación móvil, con firma digital, S/ 240 000. ② Migración del core a una versión más reciente del mismo proveedor, S/ 380 000. ③ Motor de recomendación de producto por perfil de socio, S/ 130 000.
-
-### Ficha 5 · Empresa de transporte de carga · 96 trabajadores · TI 2 personas
-
-> **Dice.** Plan de Negocio sección 4 «seremos el operador logístico de referencia por la calidad y la personalización de nuestro servicio al cliente». Portal web, sección Nosotros, «soluciones a la medida de cada cliente».
-> **Hace.** Se eliminó el año pasado el puesto de ejecutivo de cuenta y se centralizó la atención en una central telefónica con guion único. Las tarifas son de lista, sin negociación por cliente. El indicador del comité semanal es el costo por tonelada-kilómetro. El seguimiento de la carga se informa por teléfono cuando el cliente llama.
-> **Financia.** S/ 320 000. Operación 88 %, Inversión 12 %. De la inversión de los últimos dos años, el 78 % fue a renovación de flota y a optimización de rutas. El 4 % fue a la plataforma de atención al cliente, y correspondió a renovación de licencias.
-> **Lo que TI propone.** ① Portal de seguimiento de carga para el cliente, S/ 74 000. ② Integración del sistema de flota con facturación, S/ 58 000. ③ Aplicación de registro de entrega con firma del receptor, S/ 42 000.
-
-### Ficha 6 · Distribuidora mayorista de consumo masivo · 157 trabajadores · TI 4 personas
-
-> **Dice.** Sección 3 «consolidarnos como una organización moderna, eficiente y sostenible al servicio de la comunidad». OE-04 «modernizar la infraestructura tecnológica», meta de avance 100 %, sin línea base.
-> **Hace.** Acta 088-2025, observación de la propia Gerencia. «El objetivo de modernización está en el plan desde su aprobación, pero nunca se desagregó en proyectos ni se le asignó presupuesto específico.» El módulo de almacén del ERP se dejó de usar y se opera en hojas de cálculo. El portal de pedidos está sin soporte desde 2022 y lo usa el 4 % de las 8 400 bodegas atendidas.
-> **Financia.** S/ 742 000, el 1.08 % de la facturación. Operación 92 %, Inversión 8 %. La partida de proyectos nuevos ejecutó el 66 % de lo planificado. Las tres inversiones cerradas del año fueron respaldo, licencias y servidores, todas con beneficio medido «No se midió».
-> **Lo que TI propone.** ① Portal de autoservicio con recomendación de surtido por bodega, S/ 186 000. ② Reactivación del módulo de almacén con rediseño del proceso, S/ 94 000. ③ Tablero de rotación e inventario para la gerencia, S/ 38 000.
-
-### Ficha 7 · Instituto de educación superior tecnológica · 2 100 estudiantes · TI 3 personas
-
-> **Dice.** Sección 2 «formación innovadora, con metodologías activas y tecnología de punta al servicio del aprendizaje». OE-03 «implementar el campus virtual en el 100 % de las carreras».
-> **Hace.** El campus virtual se usa como repositorio de archivos. Las evaluaciones siguen siendo presenciales en papel. No hay analítica de deserción, pese a que la deserción del primer ciclo es el problema declarado en tres actas del último año. El área de TI depende de Administración y no participa en el comité académico.
-> **Financia.** S/ 410 000. Operación 90 %, Inversión 10 %. La inversión cerrada del año fue la ampliación del laboratorio de cómputo, S/ 285 000, con beneficio declarado «mejorar la formación» y beneficio medido «No se midió». Ninguna inversión en plataforma de aprendizaje ni en analítica.
-> **Lo que TI propone.** ① Plataforma de evaluación en línea con banco de preguntas, S/ 120 000. ② Sistema de alerta temprana de deserción sobre el dato de asistencia y notas, S/ 86 000. ③ Renovación del segundo laboratorio de cómputo, S/ 240 000.
-
-### Ficha 8 · Empresa prestadora de servicios de saneamiento · 68 000 conexiones · TI 5 personas
-
-> **Dice.** Plan Maestro Optimizado sección 2 «garantizar la continuidad y la calidad del servicio de agua potable, con atención oportuna al usuario». OE-01 «reducir el tiempo de atención de reclamos de 15 a 5 días hábiles».
-> **Hace.** Se implantó en 2024 el registro único de reclamos y se publica cada mes el tiempo de atención, que bajó de 15 a 9 días. La lectura de medidores se hace con aplicación móvil desde 2023. La facturación y el catastro comercial son dos bases distintas que se concilian a mano cada mes.
-> **Financia.** S/ 890 000. Operación 91 %, Inversión 9 %. La inversión del año fue íntegra a los equipos de lectura móvil, S/ 78 000, con beneficio medido «los errores de lectura bajaron de 3.4 % a 0.9 %». La integración de catastro y facturación está en el plan desde 2022 y no tiene presupuesto asignado.
-> **Lo que TI propone.** ① Integración de catastro comercial y facturación, S/ 165 000. ② Portal del usuario con consulta de recibo y estado del reclamo, S/ 92 000. ③ Telemetría de presión en las cinco zonas críticas de la red, S/ 310 000.
-
-### Ficha 9 · Servicios de ingeniería para minería · 88 trabajadores · TI 4 personas
-
-> **Dice.** Sección 2 «resolver problemas de ingeniería que nadie más en la región resuelve, con equipos propios de instrumentación y análisis». OE-02 «desarrollar dos servicios nuevos por año».
-> **Hace.** Se lanzaron tres servicios nuevos en dos años, dos de ellos basados en instrumentación desarrollada internamente. El 30 % del tiempo del equipo técnico está asignado a desarrollo de nuevas capacidades por directiva escrita. Los proyectos se ejecutan con equipos mixtos de ingeniería y sistemas.
-> **Financia.** S/ 640 000. Operación 54 %, Inversión 46 %. Inversiones cerradas, plataforma de telemetría propia S/ 208 000 con beneficio medido «dos contratos nuevos atribuibles», laboratorio de análisis de datos S/ 94 000 con beneficio medido «el informe técnico bajó de 12 a 4 días».
-> **Lo que TI propone.** ① Laboratorio de ensayo de sensores para dos líneas nuevas, S/ 260 000. ② Migración del ERP administrativo a la nube del proveedor, S/ 180 000. ③ Portal de cliente con acceso a la telemetría de sus equipos, S/ 145 000.
-
-### Ficha 10 · Cadena regional de farmacias · 34 locales · TI 5 personas
-
-> **Dice.** Sección 2 «acompañar la salud de nuestras familias con atención cercana y consejo farmacéutico en cada local». OE-01 «elevar la recompra del cliente frecuente en 25 %».
-> **Hace.** El programa de cliente frecuente registra la compra y no se explota. No existe historial de compra consultable por el químico farmacéutico en el mostrador. El indicador que se revisa a diario es el margen por local y la rotura de stock. Acta 22-2025 del 08/04. Se aprueba estandarizar el surtido de los 34 locales, eliminando el surtido diferenciado por zona.
-> **Financia.** S/ 560 000. Operación 86 %, Inversión 14 %. Inversiones cerradas, sistema de reposición automática S/ 142 000 con beneficio medido «la rotura de stock bajó de 7.2 % a 3.1 %», programa de fidelización S/ 18 000, que correspondió a renovación de licencia del módulo, con beneficio medido «No se midió».
-> **Lo que TI propone.** ① Historial de compra del cliente en el mostrador, para consejo farmacéutico, S/ 88 000. ② Reposición predictiva por local sobre el histórico de rotación, S/ 124 000. ③ Aplicación de pedido y retiro en local, S/ 156 000.
+| **El dato que decide** | Un solo dato, transcrito de la ficha, y es una decisión de estructura o de dinero, no una opinión | Un dato válido pero débil, habiendo otro más fuerte en la ficha | Una lista de indicios, o una afirmación sin transcribir |
+| **La cadena** | Los tres proyectos con su objetivo citado por código, o con «ninguno» correctamente declarado | Dos de los tres | Enganches afirmados sin citar el objetivo |
+| **Huérfano y no negociable** | Distingue correctamente los dos casos y explica por qué el no negociable no compite | Identifica el huérfano pero trata el no negociable como uno más | Retira un proyecto solo porque «no se alinea» |
+| **Defensa en la ronda** | Lee su tabla y responde la repregunta sosteniendo el dato | Responde con dudas pero sin cambiar de criterio | No sostiene su propia tabla |
 
 ---
 

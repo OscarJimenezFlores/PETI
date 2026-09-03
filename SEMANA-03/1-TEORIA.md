@@ -160,6 +160,8 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 
 > **La trazabilidad es de abajo hacia arriba, y se exige.** Si el proyecto P-02 no se puede rastrear hasta un objetivo del PEI, **no debería estar en el PETI**: significa que TI decidió por su cuenta en qué invertir.
 
+**El proyecto huérfano.** Al proyecto que no se puede rastrear hasta ningún objetivo del **instrumento superior** —el PEI, el plan de negocio o el que corresponda— se le llama **huérfano**. No entra al PETI, por bueno que sea técnicamente. La única excepción son los **no negociables**, obligación legal o continuidad del servicio, que no se retiran pero tampoco compiten en la priorización, y por eso se declaran aparte.
+
 **El error más común:** formular objetivos de TI que no existen en el plan institucional, y luego justificar el plan institucional con ellos. Es circular.
 
 **Preguntas para la sesión**

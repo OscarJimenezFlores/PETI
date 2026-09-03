@@ -41,7 +41,7 @@ flowchart TD
 
 ### 1.1. Título del evento práctico
 
-Construcción del análisis de contexto y tendencias del PETI mediante extracción, procesamiento y visualización de datos de fuentes estadísticas oficiales peruanas e internacionales.
+Construcción del análisis de contexto y tendencias del PETI (Plan Estratégico de Tecnologías de Información) mediante extracción, procesamiento y visualización de datos de fuentes estadísticas oficiales peruanas e internacionales.
 
 ### 1.2. Objetivos
 
@@ -100,7 +100,7 @@ Construcción del análisis de contexto y tendencias del PETI mediante extracci�
 | F-02 | Volatilidad cambiaria | Series estadísticas | BCRP | Tipo de cambio interbancario, promedio mensual | | Diaria | |
 | F-03 | Inflación | Series estadísticas | BCRP / INEI | Índice de precios al consumidor, variación anual | | Mensual | |
 | F-04 | Penetración móvil | Indicadores del mercado | OSIPTEL | Líneas móviles por cada 100 habitantes | | Trimestral | |
-| F-05 | Actividad del sector | Cuentas nacionales | INEI / BCRP | PBI por sector económico, variación anual | | Mensual | |
+| F-05 | Actividad del sector | Cuentas nacionales | INEI / BCRP | PBI (*Product Backlog Item*, elemento del Product Backlog) por sector económico, variación anual | | Mensual | |
 | F-06 | Gasto público en TI | Consulta Amigable | MEF | Ejecución presupuestal en la genérica correspondiente | | Diaria | |
 | F-07 | Empleo en el sector | ENAHO | INEI | Población ocupada por rama de actividad | | Trimestral | |
 

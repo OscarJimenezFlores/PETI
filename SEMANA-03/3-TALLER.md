@@ -49,7 +49,7 @@ Análisis documental comparado del Plan Estratégico Institucional y del Plan de
 - Verificar la **articulación** entre ambos. Rastrear cada objetivo del PGD hasta un objetivo del PEI.
 - Evaluar el PGD contra la **estructura exigida por los Lineamientos** de la RSGD 005-2018-PCM/SEGDI.
 - Construir el **mapa de instrumentos de planeamiento** aplicable a la organización objeto de estudio.
-- Determinar el **objetivo superior de enganche** del PETI que se está construyendo.
+- Determinar el **objetivo superior de enganche** del PETI (Plan Estratégico de Tecnologías de Información) que se está construyendo.
 - Redactar la **Sección 1.2** del PETI. Marco de planeamiento y articulación.
 
 ### 1.3. Tiempo de duración

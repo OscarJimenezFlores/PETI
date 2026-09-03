@@ -67,7 +67,7 @@ flowchart LR
 |---|---|---|
 | **Dinámica de aula** · La fuerza que nos cambia el negocio | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S02-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
 | **Informe del taller de laboratorio N.º 02** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S02-TALLER-Grupo<N>.pdf` | 48 h después del taller |
-| Sección 1.1 del PETI · etiqueta `v0.2` | Commit en Git | 48 h después del laboratorio |
+| Sección 1.1 del PETI (Plan Estratégico de Tecnologías de Información) · etiqueta `v0.2` | Commit en Git | 48 h después del laboratorio |
 
 > Ambos se entregan en **PDF**, con la carátula de la UPT y los códigos de todos los integrantes. Las plantillas obligatorias están en [`PLANTILLAS/`](../PLANTILLAS/).
 
@@ -100,7 +100,7 @@ Mapa completo en [`ASSESSMENT/MAPA-AG.md`](../ASSESSMENT/MAPA-AG.md).
 ## Preparación para la Semana 03
 
 - Descargar el **Plan Estratégico Institucional (PEI)** y, si existe, el **Plan de Gobierno Digital** de una entidad pública peruana de su elección (ambos son documentos públicos).
-- **Leer.** CEPLAN, *Guía para el Planeamiento Institucional* — apartados sobre PEI y POI.
+- **Leer.** CEPLAN, *Guía para el Planeamiento Institucional* — apartados sobre PEI y POI (Plan Operativo Institucional).
 - **Leer.** Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI, Anexo I — estructura del Plan de Gobierno Digital.
 - Solicitar a la organización su **plan estratégico institucional o plan de negocio vigente**.
 

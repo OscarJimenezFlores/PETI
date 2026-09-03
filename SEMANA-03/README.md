@@ -34,14 +34,14 @@
 
 **Contenido conceptual.** La planificación, Planificación estratégica. ¿Qué es Planeamiento Estratégico? Enfoque estratégico.
 
-**Contenido procedimental.** Investiga los conceptos tratados en clase. Revisar el PETI, PEGE y el PGD de una organización. Define el enfoque estratégico de la entidad.
+**Contenido procedimental.** Investiga los conceptos tratados en clase. Revisar el PETI (Plan Estratégico de Tecnologías de Información), PEGE (Plan Estratégico de Gobierno Electrónico) y el PGD de una organización. Define el enfoque estratégico de la entidad.
 
 ## Materiales de esta semana
 
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | Los niveles de la planificación · Qué es planeamiento estratégico · Los instrumentos PEI, POI, PEGE, PGD y PETI | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | Dice, hace, financia, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | El proyecto huérfano · una ficha por equipo, el ejemplo resuelto en pizarra y la rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -49,7 +49,7 @@
 ```mermaid
 flowchart LR
     A["<b>Sesión 1 · Aula</b><br/>Teoría · 100 min"]
-    B["<b>Dinámica de aula</b><br/>Dice, hace, financia<br/><i>nota cognitiva</i>"]
+    B["<b>Dinámica de aula</b><br/>El proyecto huérfano<br/><i>nota cognitiva</i>"]
     C["<b>Sesión 2 · Laboratorio</b><br/>Análisis comparado del PEI y<br/>del Plan de Gobierno Digital<br/>de una entidad real<br/><i>nota procedimental</i>"]
     D["<b>Entregables</b><br/>de la semana 03"]
     A --> B --> C --> D
@@ -65,7 +65,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · Dice, hace, financia | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S03-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
+| **Dinámica de aula** · El proyecto huérfano | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S03-DINAMICA-Grupo<N>.pdf` | Hasta 24 h después de la sesión de teoría |
 | **Informe del taller de laboratorio N.º 03** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S03-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Sección 1.2 del PETI · etiqueta `v0.3` | Commit en Git | 48 h después del laboratorio |
 
@@ -75,7 +75,7 @@ flowchart LR
 
 | Criterio | Instrumento | Peso |
 |---|---|---|
-| Cognitivo | Rúbrica de «Dice, hace, financia» + exposición de 10 min en la Semana 04 | 25 % |
+| Cognitivo | Rúbrica de «El proyecto huérfano» + exposición en la Semana 04, leyendo y explicando el resultado | 25 % |
 | Procedimental | Lista de cotejo de los 12 resultados del laboratorio | 35 % |
 | Actitudinal | Objetividad en el análisis documental, sin juicios sobre personas ni gestión | 15 % |
 

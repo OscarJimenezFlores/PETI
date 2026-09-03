@@ -90,7 +90,7 @@ flowchart LR
 | **Efecto en tu calificación** | **Ninguno.** Mide el programa, no al estudiante. Se registra aparte de las actas |
 | **Dónde consultarlo** | [`ASSESSMENT/`](../ASSESSMENT/) · [rúbrica](../ASSESSMENT/RUBRICAS-AG.md) · [mapa](../ASSESSMENT/MAPA-AG.md) |
 
-**Por qué en este curso.** Un PETI decide en qué se gasta el presupuesto de TI de una organización durante tres a cinco años. Es la primera vez en la carrera en que las decisiones del estudiante tienen consecuencias sobre personas que no están en el aula. Eso es exactamente lo que el atributo mide.
+**Por qué en este curso.** Un PETI (Plan Estratégico de Tecnologías de Información) decide en qué se gasta el presupuesto de TI de una organización durante tres a cinco años. Es la primera vez en la carrera en que las decisiones del estudiante tienen consecuencias sobre personas que no están en el aula. Eso es exactamente lo que el atributo mide.
 
 ## Preparación para la Semana 02
 
