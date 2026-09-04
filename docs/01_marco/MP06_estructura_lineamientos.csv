@@ -1,109 +1,14 @@
-hoy 8:44 p.m.
-cual es el error 
-tiene que ser mismo nombre el archivo pdf ? 
-as iesta bien ? 
-QUE ES LO QUE HACE EN SI ESTE CODIGO 
-Y DONDE VEO 1. Presentación
-2. Diagnóstico
-2.1 Situación actual
-3. Objetivos
-3.1 Objetivo institucional ESTO 
-ESTO ME APARECE EN ESTRUCTURA PGD
-QUE SE TIENE QUE HACER
-asi esta bien ? 
-no hay nada 
-se sigue viendo igual 
-
-Exacto. Ahora ya sabemos que articulaciones.csv tampoco existe en esa carpeta. Probablemente lo creaste en otra ubicación.
-
-Vamos a localizarlo sin adivinar.
-
-1. En la terminal ejecuta este comando
-
-Estás en:
-
-PS C:\Users\Problemas\01_marco>
-
-Escribe:
-
-Get-ChildItem -Path C:\Users\Problemas -Filter "*articul*.csv" -Recurse
-
-Presiona Enter.
-
-2. Pégame aquí el resultado
-
-Puede aparecer algo como:
-
-C:\Users\Problemas\articulaciones.csv
-
-o:
-
-C:\Users\Problemas\01_marco\articulaciones.csv
-
-o quizá no aparezca nada.
-
-No ejecutes MP05_calidad.py todavía. Primero encontremos dónde quedó el CSV y después lo ponemos en la carpeta correcta.
-
-¡Encontramos el problema! 👀
-
-En tu captura el archivo se llama:
-
-MP04_articulacion..csv
-
-Tiene dos puntos antes de csv:
-
-articulacion..csv   ❌
-
-Pero Python busca:
-
-articulacion.csv    ✅
-Haz esto en VS Code
-Clic derecho sobre:
-MP04_articulacion..csv
-Selecciona Rename.
-Pon exactamente:
-MP04_articulacion.csv
-Presiona Enter.
-Luego en la terminal, que ya está en 01_marco, ejecuta:
-python MP05_calidad.py
-⚠️ No cambies nada más
-
-Ahora sí debería encontrar el archivo.
-
-Cuando ejecutes el comando, mándame el resultado que aparece en la terminal y seguimos con MP06.
-
-¡Excelente! ✅ MP05 ya funciona correctamente.
-
-Tu resultado muestra:
-
-Total de objetivos del PGD analizados: 3
-Articulación con el PEI: 3/3 (100%)
-Articulación verificable: 3/3 (100%)
-Indicador: 3/3 (100%)
-Línea base: 3/3 (100%)
-Meta anual: 3/3 (100%)
-
-📸 Guarda esta captura, porque será evidencia para el informe.
-
-Siguiente: MP06
-
-Ahora crea en 01_marco un archivo:
-
-MP06_estructura_lineamientos.csv
-
-Pega exactamente:
-
-componente,presente,observacion
-Introducción y marco normativo,Sí,El PGD incluye introducción y base legal.
-Situación actual: análisis interno y externo,Sí,El PGD presenta la situación actual del gobierno digital.
-Alineamiento estratégico con el PEI y políticas nacionales,Sí,Se relaciona el gobierno digital con el planeamiento institucional.
-Objetivos de gobierno digital,Sí,El PGD establece un objetivo general y tres objetivos específicos.
-Portafolio de proyectos,Sí,Incluye proyectos de gobierno digital.
-Gestión de riesgos,Sí,Considera aspectos de seguridad y gestión de riesgos.
-Cronograma e implementación,Sí,Incluye cronograma de actividades.
-Supervisión y evaluación,Sí,Considera mecanismos de seguimiento.
-Anexos,Sí,El documento contiene anexos.
-Líder de Gobierno Digital,Sí,Se identifica la responsabilidad institucional.
-Comité de Gobierno Digital,Sí,Se considera la organización para gobierno digital.
-Periodo de al menos 3 años,Sí,El PGD tiene horizonte 2024-2026.
-Actualización anual,Sí,Se contempla la actualización del instrumento.
+Componente exigido por los Lineamientos,¿Presente en el PGD analizado?,Sección y página,Calidad (completo / parcial / declarativo),Observación
+Introducción y marco normativo,Sí,1. Introducción / 7; 5. Base legal / 11,completo,El PGD presenta la introducción y el marco normativo aplicable.
+Situación actual: análisis interno y externo,Sí,6.2 / 14,completo,Presenta el análisis de la situación actual del gobierno digital.
+Alineamiento estratégico con el PEI y políticas nacionales,Sí,Sección de alineamiento estratégico,parcial,El PGD relaciona el gobierno digital con el planeamiento institucional.
+Objetivos de gobierno digital,Sí,3. Objetivos / 10,completo,Establece un objetivo general y tres objetivos específicos.
+Portafolio de proyectos,Sí,6. Contenido,parcial,Se identifican proyectos y acciones vinculadas al gobierno digital.
+Gestión de riesgos,Sí,6. Contenido,parcial,Considera aspectos relacionados con seguridad y gestión de riesgos.
+Cronograma e implementación,Sí,7. Cronograma de actividades,completo,Incluye la programación de actividades del PGD.
+Supervisión y evaluación,Sí,Sección de seguimiento y evaluación,parcial,Considera mecanismos para el seguimiento de las acciones.
+Anexos,Sí,8. Anexos,completo,El documento contiene anexos.
+Líder de Gobierno Digital,Sí,Organización para el Gobierno Digital,parcial,Se contempla la responsabilidad institucional relacionada con gobierno digital.
+Comité de Gobierno Digital,Sí,Organización para el Gobierno Digital,parcial,Se considera la organización institucional para gobierno digital.
+Periodo de al menos 3 años,Sí,PGD 2024-2026,completo,El instrumento tiene un horizonte de tres años.
+Actualización anual,Sí,Disposiciones de actualización,parcial,Se contempla la actualización del instrumento.
