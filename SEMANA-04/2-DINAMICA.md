@@ -1,6 +1,6 @@
 [Semana 04](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · La oportunidad que se rechaza
+# Dinámica de aula · La mesa de la oportunidad
 
 **SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Actividad en aula, **dentro de los 100 min de la sesión de teoría** · calificación **cognitiva**
 
@@ -40,20 +40,25 @@ flowchart LR
 
 ## Consigna
 
-> **«La oportunidad que se rechaza»**
-> Su equipo recibe la **misión y la visión vigentes** de una organización y **tres oportunidades** que tiene sobre la mesa. Debe diagnosticar la declaración, **reescribir la misión** con los cinco componentes y usarla para **rechazar una de las tres oportunidades**.
+> **«La mesa de la oportunidad»**
+> El gerente comercial trae tres oportunidades de negocio a la mesa. La gerencia general tiene que rechazar una, y decírselo a la cara con la misión de la organización en la mano.
 
-La prueba está en la teoría y es la única que importa hoy. *Una misión que nunca ha servido para decir que no es decorativa.* Si la misión reescrita no rechaza nada, todavía no sirve.
+| | |
+|---|---|
+| **Su papel** | Una mitad del equipo es **gerencia general**, guardiana de la misión. La otra es **gerencia comercial**, que trae las oportunidades y quiere las tres |
+| **Misión** | Reescribir la misión para que sirva de verdad, y usarla para rechazar **una** oportunidad |
+| **Restricción** | La misión reescrita no puede pasar de **45 palabras** ni inventar capacidades que la organización no tiene |
+
+La prueba está en la teoría y hoy es la única que importa. *Una misión que nunca ha servido para decir que no es decorativa.* Si la misión reescrita no rechaza nada, todavía no sirve.
 
 ## Cómo se desarrolla · 35 minutos
 
 | | Bloque | Quién | Minutos |
 |---|---|---|---|
-| **0** | **El docente diagnostica y reescribe una misión en la pizarra.** La del ejemplo. Se ve el antes y el después, no se lee en silencio | Docente | 7 |
-| **1** | **Diagnóstico.** Hasta tres defectos de la misión vigente, con el nombre que les da la teoría, y el resultado de la **prueba de sustitución** y de la **prueba de la decisión** | Equipo | 6 |
-| **2** | **Reescritura.** La misión nueva, máximo 45 palabras, señalando dónde está cada uno de los cinco componentes | Equipo | 11 |
-| **3** | **La visión y la oportunidad.** Qué atributo le falta a la visión y qué cifra habría que ponerle. Cuál de las tres oportunidades rechaza la misión nueva | Equipo | 5 |
-| **4** | **Ronda en aula.** Tres equipos leen su misión reescrita y dicen qué oportunidad rechazan. El aula juzga si de verdad la rechaza | Todos | 6 |
+| **1** | **Diagnóstico y reescritura.** Los defectos de la misión vigente, con su nombre, y la nueva en 45 palabras con los cinco componentes señalados | Equipo | 10 |
+| **2** | **El comercial elige.** Gerencia comercial toma **la oportunidad más rentable** de las tres y la defiende en una frase | Equipo | 9 |
+| **3** | **El rechazo.** Gerencia general rechaza una citando **la parte exacta** de la misión nueva que la deja fuera. Y le pone cifra a la visión | Equipo | 8 |
+| **4** | **Ronda en aula.** Un equipo lee **solo su misión reescrita**. El aula adivina qué oportunidad se cae | Todos | 8 |
 
 ## Material de trabajo
 
@@ -123,15 +128,17 @@ Cada equipo recibe **una ficha** con la **misión y la visión vigentes** de una
 
 ## Producto
 
-**Una sola tabla.** Va en la sección 2.1 de la plantilla.
+**El acta de la mesa.**
 
 | | Contenido |
 |---|---|
 | **Defectos de la misión vigente** | Hasta tres, con el nombre que les da la teoría y la frase donde está cada uno |
-| **Las dos pruebas** | La **prueba de sustitución** y la **prueba de la decisión**, cada una con su resultado y una línea de sustento |
+| **Las dos pruebas** | La **prueba de sustitución** y la **prueba de la decisión**, con su resultado y una línea de sustento |
 | **Misión reescrita** | Máximo 45 palabras, y dónde está cada uno de los cinco componentes |
-| **La visión vigente** | Qué atributo de los cinco le falta y **qué cifra** habría que ponerle |
-| **La oportunidad que se rechaza** | Cuál de las tres, y **qué parte exacta** de la misión nueva la deja fuera |
+| **La visión** | Qué atributo de los cinco le falta y **qué cifra** habría que ponerle |
+| **La oportunidad rechazada** | Cuál, **qué parte exacta** de la misión nueva la deja fuera, y qué respondió gerencia comercial |
+
+> **Dónde va.** Este producto se presenta en la **sección 2 de la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx)**, «El producto». No se copia la consigna ni la teoría. Solo el resultado y lo que lo sostiene.
 
 ## Ejemplo resuelto
 
@@ -140,62 +147,46 @@ Cada equipo recibe **una ficha** con la **misión y la visión vigentes** de una
 **La ficha.** Academia preuniversitaria de Tacna · 28 trabajadores.
 
 > **Misión vigente.** «Somos una institución líder comprometida con la excelencia educativa y la mejora continua, formando jóvenes de calidad para el desarrollo del país.»
-> **Visión vigente.** «Ser la academia número uno de la región, reconocida por su excelencia.»
-> **Oportunidades.** ① Preparar para el examen de admisión de la universidad pública, con simulacros semanales ② Abrir un programa de inglés para adultos que trabajan ③ Abrir una sede en Moquegua
+> **Visión vigente.** «Ser la academia número uno de la región.»
+> **Oportunidades.** ① Preparar para el examen de admisión con simulacros semanales ② Un programa de inglés para adultos que trabajan ③ Abrir una sede en Moquegua
 
-**Paso 1 · Diagnóstico de la misión vigente.**
+**El acta de la mesa.**
 
-| Defecto | Dónde está |
+| | Contenido |
 |---|---|
-| **Intercambiable** | Cámbiele el nombre por el de un instituto de cocina y sigue siendo válida |
-| **Confunde misión con visión** | «Líder» es aspiración futura, no razón de ser actual |
-| **Omite al destinatario** | «Jóvenes» no dice cuáles ni para qué |
+| **Defectos** | **Intercambiable** — cámbiele el nombre por el de un instituto de cocina y sigue valiendo. **Confunde misión con visión** — «líder» es aspiración. **Omite al destinatario** — «jóvenes» no dice cuáles |
+| **Las dos pruebas** | *Sustitución*, no la pasa. *Decisión*, tampoco — con esta misión las tres oportunidades son igual de defendibles |
+| **Misión reescrita** | «Preparamos a egresados de secundaria de Tacna para el examen de admisión de la universidad pública de la región, con simulacros semanales sobre el temario oficial y seguimiento individual del puntaje, para que ingresen en su primera postulación.» · 38 palabras |
+| **La visión** | Le falta ser **temporalmente acotada** y **verificable**. La cifra — «al 2029, cuatro de cada diez ingresantes a la universidad pública habrán estudiado aquí» |
+| **La oportunidad rechazada** | La **②**. La misión dice *egresados de secundaria* y *examen de admisión*. El adulto que quiere inglés no rinde admisión. Comercial respondió que es el segmento más rentable, y la mesa contestó que rentable no es lo mismo que propio |
 
-**Las dos pruebas.** *Sustitución*, no la pasa. *Decisión*, tampoco: con esta misión las tres oportunidades son igual de defendibles, y una misión que no permite decir que no es decorativa.
-
-**Paso 2 · Misión reescrita** — 38 palabras.
-
-> «Preparamos a egresados de secundaria de Tacna para el examen de admisión de la universidad pública de la región, con simulacros semanales sobre el temario oficial y seguimiento individual del puntaje, para que ingresen en su primera postulación.»
-
-| Componente | Dónde está en la nueva |
-|---|---|
-| Qué hacemos | Preparamos para el examen de admisión |
-| Para quién | Egresados de secundaria de Tacna |
-| Cómo | Simulacros semanales sobre el temario oficial y seguimiento individual del puntaje |
-| Para qué | Que ingresen en su primera postulación |
-| Compromiso | El seguimiento individual, que es verificable |
-
-**Paso 3 · La visión y la oportunidad.**
-
-*La visión vigente falla el atributo de ser **temporalmente acotada** y el de ser **verificable**.* La cifra que habría que ponerle: *«al 2029, cuatro de cada diez ingresantes a la universidad pública de la región habrán estudiado en la academia»*.
-
-*La oportunidad que la nueva misión permite rechazar es la **②**.* El adulto que trabaja y quiere inglés no es egresado de secundaria, no rinde examen de admisión y no se mide por puntaje. La ③, sede en Moquegua, la nueva misión **no** la rechaza: mismo destinatario, otro lugar.
+**La ③ no se rechaza.** Mismo destinatario, otro lugar.
 
 **La diferencia entre aprobar y no aprobar**
 
 | Así no | Así sí |
 |---|---|
-| «Defecto, es muy general.» | «Cámbiele el nombre por el de un instituto de cocina y sigue siendo válida.» |
-| «Formamos jóvenes con excelencia académica.» | «Preparamos a egresados de secundaria de Tacna para el examen de admisión de la universidad pública.» |
-| «Rechazamos la ② porque no es nuestro giro.» | «Rechazamos la ② porque el adulto que quiere inglés no rinde examen de admisión, que es lo que la misión dice que hacemos.» |
+| «Es muy general.» | «Cámbiele el nombre por el de un instituto de cocina y sigue funcionando.» |
+| «Rechazamos la ② porque no es nuestro giro.» | «La ② se cae porque el adulto que quiere inglés no rinde examen de admisión, que es lo que la misión dice que hacemos.» |
 
 ## Reglas
 
 - 35 min en aula, dentro de la sesión de teoría.
-- La misión reescrita **no puede pasar de 45 palabras** y no puede inventar capacidades que la organización no tiene.
-- El defecto se nombra con el término de la teoría —intercambiable, confunde misión con visión, omite al destinatario—. «Es muy general» no es un diagnóstico.
-- Debe rechazarse **una** oportunidad, no dos. Si su misión rechaza dos, es que dejó fuera algo que la organización sí hace.
+- La misión reescrita **no pasa de 45 palabras**.
+- El defecto se nombra con el término de la teoría. «Es muy general» no es un diagnóstico.
+- Se rechaza **una** oportunidad, no dos. Si su misión rechaza dos, dejó fuera algo que la organización sí hace.
 - La visión necesita una **cifra concreta**, no «ser reconocidos».
-- La exposición es la ronda del paso 4, en esta misma sesión. No se usan diapositivas.
+- En la ronda, el equipo **no explica** su misión. Solo la lee. Si el aula no adivina qué se cae, la misión todavía no decide.
+- La exposición es la ronda de cierre de esta misma sesión. El grupo **lee y explica su resultado**. No se usan diapositivas.
 
 ## Rúbrica cognitiva (20 puntos)
 
 | Criterio | 5 | 3 | 1 |
 |---|---|---|---|
 | **Diagnóstico** | Los defectos nombrados con el término de la teoría y localizados en la frase concreta | Defectos correctos sin localizarlos | «Es muy general», sin nombrar el defecto |
-| **Las dos pruebas** | Ambas aplicadas, con el sustento de por qué la declaración las falla | Una aplicada con sustento | Se declara el resultado sin sustentarlo |
 | **Misión reescrita** | Los cinco componentes presentes, dentro de las 45 palabras, verosímil para esa organización | Cuatro componentes, o excede el límite sin perder contenido | Sigue siendo intercambiable |
-| **La oportunidad rechazada** | Cita la parte de la misión que la deja fuera, y la visión lleva su cifra | Rechaza la correcta sin citar la parte, o la visión queda sin cifra | Rechaza por «no es nuestro giro» |
+| **El rechazo sostenido** | Cita la parte de la misión que deja fuera la oportunidad y responde a la objeción del comercial | Rechaza la correcta sin citar la parte | Rechaza por «no es nuestro giro» |
+| **La prueba del aula** | El aula acierta qué oportunidad se cae oyendo solo la misión | El aula duda entre dos | El aula no puede deducirlo |
 
 ---
 

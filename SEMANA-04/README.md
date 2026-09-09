@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
-  4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40
+  4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio
 </p>
 
 ---
@@ -27,7 +27,7 @@
 | **Ciclo** | VIII · 04 horas semanales · 03 créditos · Obligatorio |
 | **Unidad** | I — Fundamentos de Planeamiento Estratégico |
 | **Semana** | 04 de 17 |
-| **Duración** | 4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40 |
+| **Duración** | 4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio |
 | **Resultados de aprendizaje** | **RA1** Aplica la dirección estratégica, definiendo la misión y visión · **RA2** Desarrolla el análisis FODA |
 
 ### Lo que indica el sílabo
@@ -41,7 +41,7 @@
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | La misión y por qué existe la organización · La visión y hacia dónde va la organización · El proceso participativo de formulación | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La oportunidad que se rechaza, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La mesa de la oportunidad, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Formulación y validación de la misión y la visión | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -65,7 +65,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · La oportunidad que se rechaza | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S04-DINAMICA-Grupo<N>.pdf` | Hasta 24 h después de la sesión de teoría |
+| **Dinámica de aula** · La mesa de la oportunidad | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S04-DINAMICA-Grupo<N>.pdf` | Hasta 24 h después de la sesión de teoría |
 | **Informe del taller de laboratorio N.º 04** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S04-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Secciones 2.1 y 2.2 del PETI · etiqueta `v0.4` | Commit en Git | 48 h después del laboratorio |
 

@@ -2,7 +2,7 @@
 
 # Taller de laboratorio 03 · Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 03 · Sesión 2 en laboratorio · 60 min de taller + 40 de avance · calificación **procedimental**
+**SI-886 · Planeamiento Estratégico de TI** · Semana 03 · Sesión 2 en laboratorio · 100 min · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -17,9 +17,11 @@ flowchart TD
     PC["<b>Paso C</b><br/>Verificar la articulación<br/><i>15 min</i>"]
     PD["<b>Paso D</b><br/>Mapa de instrumentos de la<br/>organización propia<br/><i>15 min</i>"]
     PE["<b>Paso E</b><br/>Redactar la Sección 1.2 del<br/>PETI<br/><i>10 min</i>"]
-    PA --> PB --> PC --> PD --> PE
+    PF["<b>Paso F</b><br/>Validar y corregir<br/><i>25 min</i>"]
+    PG["<b>Paso G</b><br/>Registrar y cerrar<br/><i>15 min</i>"]
+    PA --> PB --> PC --> PD --> PE --> PF --> PG
     classDef paso fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    class PA,PB,PC,PD,PE paso;
+    class PA,PB,PC,PD,PE,PF,PG paso;
 ```
 
 ## Qué entregas
@@ -29,7 +31,7 @@ flowchart TD
 | **Archivo** | `SI886-S03-TALLER-Grupo<N>.pdf` |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las siete secciones del formato EPIS. La sección **3. Resultados** se califica contra la tabla de resultados esperados de esta guía, y cada resultado necesita su evidencia |
+| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 03» |
 | **Cuándo vence** | 48 horas después de la sesión de laboratorio |
 
@@ -37,31 +39,26 @@ flowchart TD
 
 ---
 
+## El reto
+
+| | |
+|---|---|
+| **Situación** | Una entidad pública publica su PEI y su Plan de Gobierno Digital. Hay que averiguar si el segundo responde de verdad al primero. |
+| **Misión** | Determinar qué porcentaje de los objetivos del PGD se puede rastrear hasta un objetivo del PEI, y con qué calidad. |
+| **Criterio de éxito** | La matriz distingue la articulación **declarada** de la **verificable**, y el porcentaje de objetivos completos está calculado, no estimado. |
+
 ## 1. Información sobre el evento práctico
 
-### 1.1. Título del evento práctico
-
-Análisis documental comparado del Plan Estratégico Institucional y del Plan de Gobierno Digital de una entidad pública peruana, con verificación de su articulación y construcción del mapa de instrumentos de planeamiento aplicable a la organización objeto de estudio.
-
-### 1.2. Objetivos
+### 1.1. Objetivos
 
 - Localizar y descargar el **PEI** y el **PGD** vigentes de una entidad pública peruana, ambos documentos públicos.
 - Verificar la **articulación** entre ambos. Rastrear cada objetivo del PGD hasta un objetivo del PEI.
 - Evaluar el PGD contra la **estructura exigida por los Lineamientos** de la RSGD 005-2018-PCM/SEGDI.
 - Construir el **mapa de instrumentos de planeamiento** aplicable a la organización objeto de estudio.
-- Determinar el **objetivo superior de enganche** del PETI (Plan Estratégico de Tecnologías de Información) que se está construyendo.
+- Determinar el **objetivo superior de articulación** del PETI (Plan Estratégico de Tecnologías de Información) que se está construyendo.
 - Redactar la **Sección 1.2** del PETI. Marco de planeamiento y articulación.
 
-### 1.3. Tiempo de duración
-
-**100 minutos:** 60 de taller guiado y 40 de avance asistido.
-
-### 1.4. Resultados de Aprendizaje (RA)
-
-- **RA1** Aplica la dirección estratégica, definiendo la misión y visión.
-- **RA2** Desarrolla el análisis FODA.
-
-### 1.5. Recursos
+### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
@@ -73,7 +70,7 @@ Análisis documental comparado del Plan Estratégico Institucional y del Plan de
 | **draw.io** | Mapa de instrumentos |
 | **LibreOffice Calc** | Matriz de articulación |
 
-### 1.6. Seguridad
+### 1.3. Seguridad
 
 1. Los PEI y PGD son **documentos públicos**; se descargan de los portales institucionales de transparencia. Se registra la URL y la fecha de descarga.
 2. El análisis se realiza sobre el documento **vigente**; si existe más de una versión, se trabaja con la aprobada por resolución y se cita esa resolución.
@@ -84,15 +81,13 @@ Análisis documental comparado del Plan Estratégico Institucional y del Plan de
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Extracto del plan institucional y actas**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`: las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
-
-
+> **Documento del caso para esta semana.** La organización entrega **Extracto del plan institucional y actas**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
 
 ### Paso A — Localizar los documentos
 
 Se selecciona una entidad pública peruana con ambos documentos publicados (ministerio, gobierno regional, municipalidad provincial, universidad pública, organismo público).
 
-**Este paso no es de trámite: produce el primer hallazgo del informe.** Cada columna existe porque su respuesta puede descalificar al documento como plan. Se registra en `01_marco/MP01_documentos.csv`:
+**Este paso no es de trámite. Produce el primer hallazgo del informe.** Cada columna existe porque su respuesta puede descalificar al documento como plan. Se registra en `01_marco/MP01_documentos.csv`:
 
 | Documento | Entidad y periodo que cubre | Resolución que lo aprueba, con su fecha | ¿Se aprobó antes de iniciar el periodo? | ¿Sigue vigente hoy? | ¿Propone proyectos con presupuesto? |
 |---|---|---|---|---|---|
@@ -104,14 +99,14 @@ Se selecciona una entidad pública peruana con ambos documentos publicados (mini
 
 | Columna | El hallazgo que puede producir |
 |---|---|
-| **Resolución que lo aprueba** | Un plan sin resolución **no es exigible a nadie**: es un borrador. La teoría de esta semana lo dice del PGD — lo aprueba el titular de la entidad. Verifique además que quien firma tenga competencia para hacerlo |
+| **Resolución que lo aprueba** | Un plan sin resolución **no es exigible a nadie**. Es un borrador. La teoría de esta semana lo dice del PGD — lo aprueba el titular de la entidad. Verifique además que quien firma tenga competencia para hacerlo |
 | **¿Se aprobó antes de iniciar el periodo?** | Un plan 2023-2027 aprobado en noviembre de 2024 **no orientó los dos primeros años**. Es de los hallazgos más frecuentes y de los más difíciles de rebatir |
 | **¿Sigue vigente hoy?** | El PGD se aprueba por un **mínimo de tres años** y se **actualiza y evalúa cada año**. Un plan vencido, o vigente pero sin ninguna evaluación anual publicada, es incumplimiento de la norma, no un descuido |
 | **¿Propone proyectos con presupuesto?** | Es la prueba de que el documento es un **plan** y no una declaración de intenciones. Un documento que no llega a proyectos con costo no permite presupuestar y por eso no se ejecuta |
 
 > **La URL y la fecha en que se consultó cada documento** van en la sección **6. Referencias** del informe, no en esta tabla. Un documento publicado puede cambiar o desaparecer, y la fecha de consulta fija la versión sobre la que usted concluyó.
 
-> Si la entidad elegida no publica su PGD, es en sí un hallazgo relevante: la obligación de contar con el plan y de mantenerlo actualizado deriva del marco de gobierno digital. Se documenta y se elige otra entidad para el análisis comparado.
+> Si la entidad elegida no publica su PGD, es en sí un hallazgo relevante. La obligación de contar con el plan y de mantenerlo actualizado deriva del marco de gobierno digital. Se documenta y se elige otra entidad para el análisis comparado.
 
 ### Paso B — Extraer la estructura de los documentos
 
@@ -168,7 +163,7 @@ print(f"Objetivos identificados — PEI: {len(obj_pei)} | PGD: {len(obj_pgd)}")
 print(obj_pei.to_string(index=False)); print(obj_pgd.to_string(index=False))
 ```
 
-> Los patrones deben ajustarse a la nomenclatura de la entidad. La **verificación manual del resultado es obligatoria**: la extracción automática es un acelerador, no una fuente.
+> Los patrones deben ajustarse a la nomenclatura de la entidad. La **verificación manual del resultado es obligatoria**. La extracción automática es un acelerador, no una fuente.
 
 ### Paso C — Verificar la articulación
 
@@ -178,7 +173,7 @@ print(obj_pei.to_string(index=False)); print(obj_pgd.to_string(index=False))
 |---|---|---|---|---|---|---|---|
 | OGD 1 | Sí / No | OEI 03 | Sí / No / Declarada sin sustento | | | | |
 
-**Análisis de calidad de la articulación:**
+**Análisis de calidad de la articulación.**
 
 ```python
 # 01_marco/MP05_calidad.py
@@ -223,7 +218,7 @@ print("de que el plan pueda evaluarse al final del periodo.")
 
 Se construye en draw.io el mapa aplicable a **la organización objeto de estudio**, distinguiendo si es pública o privada:
 
-**Si es pública:**
+**Si es pública.**
 
 ```
 Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM)
@@ -240,7 +235,7 @@ Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM)
   ╚═════════════════════════════════════════════════╝
 ```
 
-**Si es privada:**
+**Si es privada.**
 
 ```
         Visión y estrategia de negocio ──── documento: ____
@@ -260,7 +255,7 @@ Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM)
 | Instrumento | ¿Existe? | Vigencia | ¿Está aprobado formalmente? | ¿Se evalúa periódicamente? | Objetivo relevante para el PETI | Observación |
 |---|---|---|---|---|---|---|
 
-> **Si la organización no tiene ningún instrumento de planeamiento vigente**, ese es el primer hallazgo del diagnóstico y condiciona el PETI: el plan deberá **derivar los objetivos de negocio de las entrevistas con la gerencia** y documentar explícitamente esa limitación metodológica.
+> **Si la organización no tiene ningún instrumento de planeamiento vigente**, ese es el primer hallazgo del diagnóstico y condiciona el PETI. El plan deberá **derivar los objetivos de negocio de las entrevistas con la gerencia** y documentar explícitamente esa limitación metodológica.
 
 ### Paso E — Redactar la Sección 1.2 del PETI
 
@@ -275,7 +270,7 @@ Tabla de instrumentos existentes, su vigencia y su estado de aprobación.
 ### 1.2.2 Mapa de articulación
 Diagrama del mapa de instrumentos, con la posición de este PETI.
 
-### 1.2.3 Objetivo superior de enganche
+### 1.2.3 Objetivo superior de articulación
 Objetivo institucional o de negocio al que se articula este plan, citado textualmente
 con su fuente, y justificación de la elección.
 
@@ -288,10 +283,24 @@ Para entidades públicas: D. Leg. 1412, D. S. 029-2021-PCM, RSGD 005-2018-PCM/SE
 RM 119-2018-PCM, D. S. 085-2023-PCM y la guía del CEPLAN.
 Para organizaciones privadas: marcos de referencia adoptados voluntariamente.
 
-### 1.2.6 Referencia metodológica: análisis comparado
+### 1.2.6 Referencia metodológica · análisis comparado
 Síntesis de lo aprendido del análisis del PEI y PGD de <entidad analizada>: qué se
 replica en este plan y qué defecto observado se evita deliberadamente.
 ```
+
+### Paso F — Validar y corregir (25 min)
+
+El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
+
+1. Tomar tres objetivos del PGD al azar y rehacer el rastreo a mano, para comprobar que la matriz no inventó enlaces.
+2. Verificar que todo objetivo marcado como completo tiene de verdad indicador, línea base y meta.
+3. Comprobar que la sección 1.2 cita el objetivo superior de articulación con su código y su texto literal.
+
+> Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
+
+### Paso G — Registrar la evidencia y cerrar (15 min)
+
+Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
 
 ```bash
 git add . && git commit -m "S03: marco de planeamiento, articulacion de instrumentos y seccion 1.2 del PETI"
@@ -300,23 +309,9 @@ git tag -a v0.3 -m "PETI v0.3 — marco de planeamiento"
 
 ---
 
-
-### Avance asistido · Avance del PETI asistido
-
-Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.** Queda disponible para consultas y observa el reparto real del trabajo.
-
-| | |
-|---|---|
-| **Qué se trabaja** | las secciones del PETI que la semana requiere, según el plan de trabajo de la Semana 01 |
-| **Quién decide qué hacer** | El equipo. El docente no asigna tareas en este tramo |
-| **Dónde se registra** | el tablero de avance del equipo, con cada elemento asignado a una persona |
-| **Para qué sirve la presencia del docente** | Resolver bloqueos en el momento, no revisar entregables |
-
-> **Se registra la contribución individual.** Lo trabajado en este tramo queda en el repositorio con su autoría. Es la evidencia del atributo **AG-I03 Trabajo Individual y en Equipo** que se mide en las semanas de cierre de unidad.
-
 ## 3. Resultados
 
-> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**: consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
+> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**. Consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
@@ -335,11 +330,21 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-03`
 >
-> **Sin la URL, el resultado no se califica.** El docente evalúa sobre el repositorio, no sobre el PDF.
+> **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
-### 3.1. Tabla de resultados
+### 3.1. Los tres resultados que se califican
 
+Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no se califica fila por fila.
 
+| Resultado | Qué demuestra | Dónde está |
+|---|---|---|
+| **La articulación verificada** | Se distingue lo declarado de lo verificable, con el porcentaje calculado | Matriz de articulación |
+| **El objetivo superior de articulación** | Identificado y citado textualmente, con su código | Sección 1.2.3 |
+| **La declaración de enfoque** | Con la cláusula de lo que el plan no abordará | Sección 1.2.4 |
+
+### 3.2. Lista de comprobación del taller
+
+Todo esto debe existir al cerrar la sesión.
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
@@ -351,11 +356,10 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 | 6 | Evaluación del PGD contra los 9 componentes de los Lineamientos más los 4 adicionales | `MP06_estructura_lineamientos.csv` |
 | 7 | Mapa de instrumentos de la organización propia, en diagrama | `graficos/mapa_instrumentos.png` |
 | 8 | Tabla de instrumentos de la organización, con su estado de aprobación y evaluación | `MP07_instrumentos_organizacion.csv` |
-| 9 | **Objetivo superior de enganche identificado y citado textualmente** | Sección 1.2.3 |
+| 9 | **Objetivo superior de articulación identificado y citado textualmente** | Sección 1.2.3 |
 | 10 | Declaración de enfoque estratégico con la cláusula de exclusión | Sección 1.2.4 |
 | 11 | Sección 1.2 redactada, incluida la lección del análisis comparado | `1.2_marco_planeamiento.md` |
 | 12 | Etiqueta `v0.3` en Git | `git tag` |
-
 
 ## Rúbrica procedimental (20 puntos)
 
@@ -363,11 +367,11 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 
 | Criterio | 4 — Logrado | 2 — En proceso | 0 — Insuficiente |
 |---|---|---|---|
-| **Verificar la articulación** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Mapa de instrumentos de la organización propia** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Evidencia verificable en el repositorio** | Cada resultado tiene su URL sobre la etiqueta `taller-NN`, y el enlace abre lo que dice | La mayoría tiene URL; alguna evidencia es una captura suelta | Se declaran resultados sin enlace, o el enlace no corresponde |
-| **Fundamento de las decisiones** | Cada criterio, peso o supuesto está justificado y su fuente citada | Justificados en su mayoría, con supuestos sin declarar | Se presentan cifras sin origen ni justificación |
-| **Informe en formato EPIS** | Las seis secciones completas; la sección del PETI queda redactada y versionada | Secciones completas con la redacción del PETI incompleta | Faltan secciones o no se produjo la sección del plan |
+| **El criterio de éxito** | Se cumple tal como lo pide el reto de esta sesión | Se cumple con reservas que el equipo declara | No se cumple, o se afirma cumplido sin prueba |
+| **La articulación verificada** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **El objetivo superior de articulación** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La declaración de enfoque** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
 | Puntaje | Equivalencia |
 |---|---|
@@ -376,7 +380,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | 6 – 13 | En proceso |
 | 0 – 5 | Insuficiente |
 
-> **Un resultado declarado sin evidencia enlazada no puntúa**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
+> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
 
 ## 4. Conclusiones
 

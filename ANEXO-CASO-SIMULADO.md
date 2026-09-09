@@ -1,4 +1,4 @@
-# Anexo — Caso simulado de respaldo: **DISTRIBUIDORA ANDINA DEL SUR S.A.C.**
+# Anexo — Caso simulado de respaldo · **DISTRIBUIDORA ANDINA DEL SUR S.A.C.**
 
 > **Cuándo se usa.** Sustituye a la organización real cuando el equipo no consigue acceso, o cuando el acceso se pierde durante el semestre. Permite construir el PETI completo (Sección 0 a Sección 10) sin perder continuidad.
 > **Advertencia.** La organización es **ficticia**. Cualquier coincidencia con una empresa existente es casual. **No debe presentarse como un caso real ante terceros.**
@@ -40,7 +40,7 @@
 | **OE-3** Mejorar el margen bruto | De 18 % a 22 % al cierre del horizonte |
 | **OE-4** Consolidar la relación de largo plazo con el pequeño comerciante | Sin meta cuantificada |
 
-> **Hallazgo para el Sección 1.2:** dos de los cuatro objetivos institucionales no tienen meta cuantificada. El PETI debe articularse a los que sí la tienen y proponer la métrica de los otros dos.
+> **Hallazgo para la sección 1.2.** Dos de los cuatro objetivos institucionales no tienen meta cuantificada. El PETI debe articularse a los que sí la tienen y proponer la métrica de los otros dos.
 
 ## 3. Gobierno y cultura
 
@@ -57,7 +57,7 @@
 | Mercado | 20 | 20 | 0 |
 | Adhocracia | 12 | **26** | **+14** |
 
-- **Supuestos básicos detectados:** «las decisiones las toma una sola persona» · «reportar un error trae consecuencias» · «la información es fuente de poder del área» · «si funciona, no se toca».
+- **Supuestos básicos detectados.** «Las decisiones las toma una sola persona» · «reportar un error trae consecuencias» · «la información es fuente de poder del área» · «si funciona, no se toca».
 - Solo el **28 %** del personal reconoce la misión declarada.
 
 ## 4. Cadena de valor y sistemas
@@ -120,11 +120,11 @@
 | **Analítica de datos** | 30 000 | **0** | Transformar |
 | **Total** | **790 000** | **755 000** | |
 
-> **Contraste para el Sección 3.5 y el Sección 7.1.6:** el plan estratégico declara la digitalización del canal como objetivo (OE-2) y el presupuesto del año en curso lo **reduce en 56 %** y elimina «Transformar». **Lo que se dice y lo que se financia no coinciden.**
+> **Contraste para la sección 3.5 y la sección 7.1.6.** El plan estratégico declara la digitalización del canal como objetivo (OE-2) y el presupuesto del año en curso lo **reduce en 56 %** y elimina «Transformar». **Lo que se dice y lo que se financia no coinciden.**
 >
-> **Presupuesto disponible acordado para el PETI:** S/ 320 000 anuales durante tres años (Entrevista 3 con la gerencia).
+> **Presupuesto disponible acordado para el PETI.** S/ 320 000 anuales durante tres años (Entrevista 3 con la gerencia).
 
-## 8. Inversiones cerradas (para Val IT y el Sección 7.1.5)
+## 8. Inversiones cerradas (para Val IT y la sección 7.1.5)
 
 | Inversión | Año | Monto | Caso de negocio | Beneficio proyectado | Beneficio medido |
 |---|---|---|---|---|---|
@@ -134,9 +134,9 @@
 
 ## 9. Contexto e incidentes
 
-**Datos del entorno** (para el Sección 1.1 y el Sección 3.3): los equipos descargan las series reales de **INEI, BCRP y OSIPTEL** correspondientes a la región de Tacna y al sector de comercio al por mayor. **El contexto no se simula: se toma de las fuentes oficiales.**
+**Datos del entorno** (para la sección 1.1 y la sección 3.3). Los equipos descargan las series reales de **INEI, BCRP y OSIPTEL** correspondientes a la región de Tacna y al sector de comercio al por mayor. **El contexto no se simula. Se toma de las fuentes oficiales.**
 
-**Incidentes de los últimos 24 meses:**
+**Incidentes de los últimos 24 meses.**
 
 1. Caída del ERP durante 9 horas por falla del disco del servidor (<mes/año>). Sin plan de contingencia; se recuperó reinstalando y restaurando el respaldo del día anterior.
 2. Correo de un vendedor comprometido, usado para solicitar cambio de cuenta bancaria a tres clientes (<mes/año>). Dos clientes detectaron el intento; uno transfirió S/ 12 400.

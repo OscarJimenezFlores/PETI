@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
-  4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40
+  4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio
 </p>
 
 ---
@@ -27,7 +27,7 @@
 | **Ciclo** | VIII · 04 horas semanales · 03 créditos · Obligatorio |
 | **Unidad** | I — Fundamentos de Planeamiento Estratégico |
 | **Semana** | 02 de 17 |
-| **Duración** | 4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40 |
+| **Duración** | 4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio |
 | **Resultados de aprendizaje** | **RA1** Aplica la dirección estratégica, definiendo la misión y visión · **RA2** Desarrolla el análisis FODA |
 
 ### Lo que indica el sílabo
@@ -41,7 +41,7 @@
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | Qué es estrategia y qué es dirección estratégica · Los niveles de la estrategia y dónde entra TI · Desafíos y cambios mundiales que condicionan la estrategia de TI | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La fuerza que no espera, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | Sala de crisis, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Vigilancia estratégica con fuentes oficiales | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -65,7 +65,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · La fuerza que no espera | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S02-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
+| **Dinámica de aula** · Sala de crisis | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S02-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
 | **Informe del taller de laboratorio N.º 02** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S02-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Sección 1.1 del PETI (Plan Estratégico de Tecnologías de Información) · etiqueta `v0.2` | Commit en Git | 48 h después del laboratorio |
 
@@ -79,9 +79,9 @@ flowchart LR
 | Procedimental | Lista de cotejo de los 12 resultados del laboratorio | 35 % |
 | Actitudinal | Rigor en la citación de fuentes y respeto de los términos de uso de los portales | 15 % |
 
-## Medición del Atributo del Graduado
+## Preparación de la evidencia del Atributo del Graduado
 
-> Esta semana la Escuela recoge evidencia para el **Plan de Assessment**. La rúbrica del atributo se aplica sobre el mismo entregable que ya produces: **no modifica tu calificación** ni añade trabajo adicional.
+> **Esta semana prepara la evidencia del atributo, y no se registra.** Las dos capturas que la Escuela fija son la de la **Semana 05** y la de la **Semana 16**. Lo que se produce aquí alimenta esas dos y **no modifica tu calificación** ni añade trabajo adicional.
 
 | | |
 |---|---|
@@ -90,8 +90,8 @@ flowchart LR
 | **Alineación con el sílabo** | **RA1** Aplica la dirección estratégica · Contenido conceptual del sílabo: «Introducción a la Dirección Estratégica. Desafíos, cambios mundiales» · procedimental: «Comprender la importancia de la estrategia y la dirección estratégica» |
 | **Evidencia que se lee** | `SI886-S02-DINAMICA-Grupo<N>.pdf` |
 | **Instrumento** | [Rúbrica AG-I01, escala 1–4](../ASSESSMENT/RUBRICAS-AG.md#ag-i01) |
-| **Tipo de medición** | Diagnóstica · grupal |
-| **Se registra en** | [`ASSESSMENT/REGISTRO-AG-SI886.csv`](../ASSESSMENT/REGISTRO-AG-SI886.csv) |
+| **Tipo de medición** | **Preparación de la evidencia** · no se registra |
+| **Adónde va** | Alimenta la captura de la [Semana 16](../SEMANA-16/README.md) |
 
 **Qué mira el evaluador.** Si la tendencia global identificada se conecta con un efecto concreto y local sobre la organización estudiada, o se queda en la enunciación de la tendencia.
 

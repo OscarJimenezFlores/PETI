@@ -242,7 +242,7 @@ El curso contribuye al **Plan de Assessment de la Escuela**, que mide los once A
 | **Producto acreditable** | Plan Estratégico de TI de una organización real, con su cartera de proyectos, sustentado ante panel |
 | **Instrumento** | Rúbrica analítica institucional, escala 1–4 |
 | **Nivel de logro esperado** | ≥ 65 % de los estudiantes en nivel ≥ 3 (Logrado) |
-| **Semanas de captura de evidencia** | **02**, **07**, **13**, **14**, **16** y **17** |
+| **Semanas de captura de evidencia** | **05** · dinámica de aula sobre un caso · y **16** · informe del PETI por grupos |
 | **Momentos de reporte** | Semana 08 (corte 1) y Semana 16 (corte 2) |
 | **Docente responsable** | Dr. Oscar Juan Jimenez Flores |
 
@@ -250,11 +250,11 @@ El curso contribuye al **Plan de Assessment de la Escuela**, que mide los once A
 
 La única captura **individual** es la sustentación de la Semana 17, y es la que alimenta el indicador de cohorte. Las demás son grupales y sirven para la mejora del curso.
 
-Todo el instrumental está en [`ASSESSMENT/`](ASSESSMENT/): el [mapa del atributo semana a semana](ASSESSMENT/MAPA-AG.md), la [rúbrica](ASSESSMENT/RUBRICAS-AG.md), la [ficha de evidencia](ASSESSMENT/PLANTILLA-EVIDENCIA-AG.md) que se llena en cada captura, el registro por estudiante y la [plantilla del informe de assessment](ASSESSMENT/PLANTILLA-INFORME-ASSESSMENT.md) del ciclo.
+Todo el instrumental está en [`ASSESSMENT/`](ASSESSMENT/) — el [mapa del atributo semana a semana](ASSESSMENT/MAPA-AG.md), la [rúbrica](ASSESSMENT/RUBRICAS-AG.md), la [ficha de evidencia](ASSESSMENT/PLANTILLA-EVIDENCIA-AG.md) que se llena en cada captura, el registro por estudiante y la [plantilla del informe de assessment](ASSESSMENT/PLANTILLA-INFORME-ASSESSMENT.md) del ciclo.
 
 ## Glosario técnico
 
-Todo término, sigla y norma que aparece en el curso está definido en el [**glosario técnico**](GLOSARIO.md). Los términos en inglés se conservan cuando así se usan en el trabajo profesional: es como se encuentran en la documentación y en el código.
+Todo término, sigla y norma que aparece en el curso está definido en el [**glosario técnico**](GLOSARIO.md). Los términos en inglés se conservan cuando así se usan en el trabajo profesional. Es como se encuentran en la documentación y en el código.
 
 ## Bibliografía y fuentes del curso
 

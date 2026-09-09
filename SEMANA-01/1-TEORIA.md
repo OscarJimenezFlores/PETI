@@ -8,22 +8,36 @@
 
 ---
 
-## Qué se trabaja en esta sesión
+## La pregunta de esta sesión
 
-- El encargo del semestre.
-- Qué es un PETI y qué no es.
-- De dónde viene y hacia dónde va el planeamiento.
-- La organización objeto de estudio.
+Una distribuidora invirtió S/ 1.4 millones en tecnología en cinco años. Compró un sistema de gestión, un portal para sus clientes, servidores nuevos y licencias. Todo funciona y todo está pagado.
+
+Su portal lo usa el 4 % de las bodegas a las que atiende. Su inventario contable y el físico difieren un 5 %. Y el activo más valioso que tiene —quince años de historial de compras de 8 400 clientes— no lo explota nadie.
+
+> **La pregunta que ordena esta sesión.** *¿Cómo puede una organización invertir millones en tecnología y aun así no generar valor?*
+
+## Antes de empezar
+
+| Lo que necesita traer | De dónde sale |
+|---|---|
+| Qué es un sistema de información y cómo se organiza un área de TI | Cursos previos de la carrera |
+| Nociones de gestión de proyectos y de presupuesto | Cursos previos de la carrera |
+| Manejo de Git y de un documento versionado | Se calibra hoy con la prueba de entrada |
+| Ningún marco de planeamiento en particular | Se introducen a lo largo del curso |
+
+> **Exploración (5 min), antes de cualquier definición.** Antes de definir nada, el aula responde y las respuestas quedan anotadas para volver a ellas al cierre. *¿Qué le faltó a esa empresa? ¿Compró mal o decidió mal? ¿Quién tendría que haber dicho que no a alguna de esas compras?* No se corrige ninguna respuesta todavía.
 
 ## Distribución del tiempo
 
-| Bloque | Minutos |
+| Momento | Minutos |
 |---|---|
-| El encargo del semestre | 10 |
-| Qué es un PETI y qué no es | 15 |
-| De dónde viene y hacia dónde va el planeamiento | 15 |
-| La organización objeto de estudio | 10 |
-| Prueba de entrada y encuadre | 15 |
+| El caso del S/ 1.4 millones y la exploración inicial | 8 |
+| **Bloque 1.** El encargo del semestre | 8 |
+| **Bloque 2.** Qué es un PETI y qué no es · con su microaplicación | 17 |
+| **Bloque 3.** De dónde viene y hacia dónde va el planeamiento | 10 |
+| **Bloque 4.** La organización objeto de estudio | 8 |
+| Prueba de entrada y encuadre del curso | 10 |
+| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 4 |
 | **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
@@ -54,19 +68,23 @@ flowchart TD
 
 ---
 
-## El encargo del semestre
+## Bloque 1 · El encargo del semestre
 
-**El curso no es una asignatura sobre planeamiento: es un encargo de consultoría.** Al terminar el semestre cada equipo entrega a una organización real un **Plan Estratégico de Tecnologías de Información completo**, con su portafolio de proyectos priorizado y su hoja de ruta.
+> **La pregunta del bloque.** *¿Qué se entrega en diecisiete semanas y para quién?*
+
+**El curso no es una asignatura sobre planeamiento. Es un encargo de consultoría.** Al terminar el semestre cada equipo entrega a una organización real un **Plan Estratégico de Tecnologías de Información completo**, con su portafolio de proyectos priorizado y su hoja de ruta.
 
 | Unidad | Semanas | Producto acumulado |
 |---|---|---|
-| I | 1–6 | **Identidad estratégica y diagnóstico base**: misión, visión, valores, cultura, análisis interno y externo |
-| II | 7–12 | **Diagnóstico estratégico completo**: FODA cruzado, marco normativo, marcos de gestión, arquitectura empresarial, objetivos de gobierno digital |
-| III | 13–17 | **Plan ejecutable**: portafolio priorizado, riesgos, hoja de ruta, implementación y supervisión |
+| I | 1–6 | **Identidad estratégica y diagnóstico base** — misión, visión, valores, cultura, análisis interno y externo |
+| II | 7–12 | **Diagnóstico estratégico completo** — FODA cruzado, marco normativo, marcos de gestión, arquitectura empresarial, objetivos de gobierno digital |
+| III | 13–17 | **Plan ejecutable** — portafolio priorizado, riesgos, hoja de ruta, implementación y supervisión |
 
-**Regla estructural del curso:** cada laboratorio produce **una sección del documento final**. No hay trabajo que se descarte. En la Semana 17 el PETI está terminado porque se construyó semana a semana, no porque se escribió al final.
+**Regla estructural del curso.** Cada laboratorio produce **una sección del documento final**. No hay trabajo que se descarte. En la Semana 17 el PETI está terminado porque se construyó semana a semana, no porque se escribió al final.
 
-## Qué es un PETI y qué no es
+## Bloque 2 · Qué es un PETI y qué no es
+
+> **La pregunta del bloque.** *¿En qué se distingue un plan de TI de una lista de compras tecnológicas?*
 
 **Definición operativa.** El Plan Estratégico de Tecnologías de Información es el instrumento que traduce la estrategia de una organización en **decisiones sobre tecnología, información, personas y procesos**, con un horizonte de tres a cinco años, un portafolio de inversiones priorizado y una forma de medir si funcionó.
 
@@ -77,7 +95,7 @@ flowchart TD
 | Un portafolio **priorizado** con criterios explícitos | Una lista de deseos del área de sistemas |
 | Un compromiso con recursos, plazos y responsables | Una declaración de intenciones |
 | Un documento **vivo**, revisado anualmente | Un archivo que se abre cuando lo pide el auditor |
-| Medible: cada objetivo tiene indicador y meta | Una narrativa sin cifras |
+| **Medible.** Cada objetivo tiene indicador y meta | Una narrativa sin cifras |
 | Explícito sobre **lo que no se hará** | Un documento que promete todo |
 
 **La prueba de fuego de un PETI.** Si al leerlo un gerente que no es de TI **no puede responder «¿qué gana la empresa con esto y cuándo?»**, el documento fracasó, con independencia de su extensión y de su calidad técnica.
@@ -92,7 +110,6 @@ flowchart TD
 | **Ausencia de línea base** | Se declaran metas sin saber el valor actual | Es imposible demostrar avance |
 | **Sin dueño ni gobernanza** | Nadie es responsable del plan después de su aprobación | El plan muere el día siguiente a su presentación |
 
-
 **Ejemplo trabajado — lo mismo, escrito como lista de compras y como plan.**
 
 | | Lista de compras de TI | PETI |
@@ -104,16 +121,20 @@ flowchart TD
 | Quién lo aprueba | Administración, si alcanza el presupuesto | El directorio o concejo, porque compromete varios años |
 | Qué pasa si el presupuesto se recorta 30 % | Se compra menos de todo | Se sabe **qué proyecto no se hará** y qué objetivo queda sin cubrir |
 
-> **La última fila es la prueba definitiva.** Un plan que ante un recorte solo puede «comprar menos de todo» no es un plan: es una lista. Un PETI dice qué se deja de hacer y qué consecuencia tiene.
+> **La última fila es la prueba definitiva.** Un plan que ante un recorte solo puede «comprar menos de todo» no es un plan. Es una lista. Un PETI dice qué se deja de hacer y qué consecuencia tiene.
 
-**Preguntas para la sesión**
+> **Microaplicación (5 min) · ¿plan o lista de deseos?.** El docente enuncia cuatro documentos reales y el aula responde, a mano alzada, **cuál es un plan estratégico de TI y cuál no**, antes de la explicación. El que enumera servidores con marca y fecha se deja para el final.
 
-| Pregunta | Qué debe contener una buena respuesta |
+| Caso | Qué debe contener una buena respuesta |
 |---|---|
 | ¿Puede una organización sin plan estratégico institucional tener PETI? | Puede, pero cojo. Sin objetivos institucionales, el PETI no tiene con qué alinearse y termina justificándose a sí mismo. Se declara esa limitación |
 | ¿Cuánto debe durar un PETI? | Típicamente tres años, con revisión anual. Más allá, la tecnología cambia lo suficiente para invalidar los supuestos |
 | ¿Es el PETI un documento de TI? | No. Lo elabora TI y lo aprueba la alta dirección, porque compromete presupuesto plurianual y decide qué capacidades tendrá la organización |
-## De dónde viene y hacia dónde va el planeamiento
+> **El error frecuente del bloque.** Confundir el nivel del plan. Un documento con fechas exactas para cuarenta proyectos a tres años **envejece en un trimestre** y su revisión se vuelve inviable; uno con declaraciones de intenciones no permite presupuestar. El nivel correcto son objetivos medibles, proyectos con orden de magnitud de esfuerzo y secuencia por semestre.
+
+## Bloque 3 · De dónde viene y hacia dónde va el planeamiento
+
+> **La pregunta del bloque.** *¿Por qué un plan de TI necesita anclarse a algo que está por encima de él?*
 
 Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
@@ -148,11 +169,13 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
    EJECUCIÓN · SUPERVISIÓN · AJUSTE
 ```
 
-**Lo que ocurre cuando se saltan pasos.** La mayoría de los planes fallidos empiezan en «portafolio de proyectos»: alguien decide comprar un ERP, y el plan se escribe hacia atrás para justificarlo. **El síntoma es reconocible:** el diagnóstico de esos planes siempre concluye exactamente lo que hace falta para justificar la compra ya decidida.
+**Lo que ocurre cuando se saltan pasos.** La mayoría de los planes fallidos empiezan en «portafolio de proyectos». Alguien decide comprar un ERP, y el plan se escribe hacia atrás para justificarlo. **El síntoma es reconocible.** El diagnóstico de esos planes siempre concluye exactamente lo que hace falta para justificar la compra ya decidida.
 
-**El horizonte y la revisión.** En el sector público peruano, el **Plan de Gobierno Digital** se aprueba por un periodo **mínimo de tres años** y debe **actualizarse y evaluarse anualmente**, conforme a los Lineamientos aprobados por la Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI. En el sector privado la práctica es equivalente: horizonte de tres a cinco años con revisión anual. **Un plan que no se revisa no es estratégico: es histórico.**
+**El horizonte y la revisión.** En el sector público peruano, el **Plan de Gobierno Digital** se aprueba por un periodo **mínimo de tres años** y debe **actualizarse y evaluarse anualmente**, conforme a los Lineamientos aprobados por la Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI. En el sector privado la práctica es equivalente. Horizonte de tres a cinco años con revisión anual. **Un plan que no se revisa no es estratégico. Es histórico.**
 
-## La organización objeto de estudio
+## Bloque 4 · La organización objeto de estudio
+
+> **La pregunta del bloque.** *¿Qué hace falta para que este trabajo valga fuera del aula?*
 
 **Requisitos de la organización.** Cada equipo (4 a 5 integrantes) propone esta misma semana una organización real que cumpla:
 
@@ -160,20 +183,38 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 |---|---|
 | Al menos 15 personas y un responsable de TI o de sistemas identificable | Sin estructura mínima no hay nada que planificar |
 | Un contacto dispuesto a conceder **al menos tres entrevistas** durante el semestre | El diagnóstico requiere acceso a la gerencia, no solo a TI |
-| Documentación básica accesible: organigrama, plan institucional o de negocio, presupuesto aproximado | Sin evidencia, el diagnóstico es especulación |
+| **Documentación básica accesible.** Organigrama, plan institucional o de negocio, presupuesto aproximado | Sin evidencia, el diagnóstico es especulación |
 | Puede ser **empresa privada, entidad pública, ONG, cooperativa o institución educativa** | La metodología es la misma; cambia el marco normativo |
 
-**Ventaja de elegir una entidad pública.** El marco normativo peruano es explícito y auditable —Ley de Gobierno Digital, Lineamientos del PGD, Política Nacional de Transformación Digital—, lo que da al equipo un criterio objetivo. **Ventaja de elegir una empresa privada:** mayor libertad metodológica y acceso más directo a la gerencia.
+**Ventaja de elegir una entidad pública.** El marco normativo peruano es explícito y auditable —Ley de Gobierno Digital, Lineamientos del PGD, Política Nacional de Transformación Digital—, lo que da al equipo un criterio objetivo. **Ventaja de elegir una empresa privada.** Mayor libertad metodológica y acceso más directo a la gerencia.
 
-**Ética del encargo.** Antes de solicitar cualquier documento se entrega la **carta de presentación institucional de la UPT** y se firma el **acuerdo de confidencialidad**. El PETI que se produce **es propiedad intelectual compartida** con la organización: se le entrega al cierre del semestre, y esa es la principal razón por la que las organizaciones aceptan participar.
+**Ética del encargo.** Antes de solicitar cualquier documento se entrega la **carta de presentación institucional de la UPT** y se firma el **acuerdo de confidencialidad**. El PETI que se produce **es propiedad intelectual compartida** con la organización. Se le entrega al cierre del semestre, y esa es la principal razón por la que las organizaciones aceptan participar.
 
 **Caso simulado de respaldo.** Si el acceso no se concreta, el equipo trabaja con la organización ficticia documentada en `ANEXO-CASO-SIMULADO.md`, con todos sus documentos, cifras y personajes. La metodología y la exigencia son idénticas.
 
-## Prueba de entrada y encuadre
+> **El error frecuente del bloque.** Elegir la organización por comodidad. Una empresa que no entrega información, o cuya gerencia no está dispuesta a recibir el plan, convierte el semestre en un ejercicio de ficción. La condición no es que la organización sea grande, es que **entregue datos y tenga a alguien que decida**.
 
-**Prueba de entrada diagnóstica** (15 preguntas, sin nota) sobre: diferencia entre eficacia y eficiencia, lectura de un organigrama, noción de FODA, qué es un indicador, qué es una arquitectura de aplicaciones, lectura de un presupuesto simple y noción de valor presente. El resultado agregado define los refuerzos de las semanas 2 a 5.
+## Prueba de entrada y encuadre del curso
 
-**Regla de trabajo del curso:** todo producto se versiona en Git y se redacta en Markdown. La razón no es tecnológica: es que **un PETI real pasa por decenas de versiones y la trazabilidad de los cambios es parte de su calidad**.
+**Prueba de entrada diagnóstica** (15 preguntas, sin nota) sobre diferencia entre eficacia y eficiencia, lectura de un organigrama, noción de FODA, qué es un indicador, qué es una arquitectura de aplicaciones, lectura de un presupuesto simple y noción de valor presente. El resultado agregado define los refuerzos de las semanas 2 a 5.
+
+**Regla de trabajo del curso.** Todo producto se versiona en Git y se redacta en Markdown. La razón no es tecnológica. Es que **un PETI real pasa por decenas de versiones y la trazabilidad de los cambios es parte de su calidad**.
+
+## Cierre · qué se lleva de aquí
+
+**La respuesta a la pregunta con la que abrimos.** Porque cada compra se decidió por separado y ninguna se decidió contra un objetivo de la organización. El portal con 4 % de adopción no fracasó técnicamente — **fracasó porque nadie definió qué problema del negocio resolvía ni cómo se sabría que funcionó**. Eso es exactamente lo que un plan estratégico de TI evita, y por eso el curso empieza por el plan y no por la tecnología.
+
+**Las tres ideas que deben quedar.**
+
+| Idea | Por qué importa en el ejercicio profesional |
+|---|---|
+| Un PETI baja de la estrategia de la organización, no sube del catálogo de sistemas | Determina qué proyectos entran al plan y, sobre todo, cuáles no |
+| El horizonte es de tres a cinco años y el nivel de detalle debe corresponderle | Un plan con detalle operativo envejece en un trimestre y se abandona |
+| Un objetivo de TI sin ancla superior es un objetivo del área | Y por eso pierde la disputa presupuestal frente a cualquier prioridad del negocio |
+
+**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría señala que la empresa compró mal. La respuesta más exacta es que **decidió mal**, porque nunca tuvo un criterio con el que rechazar una compra, y ese criterio es lo que se construye este semestre.
+
+**Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) pone al equipo ante una decisión de inversión y le pide sostenerla. El material está en la propia guía y el resultado se entrega en la plantilla de dinámica.
 
 ---
 

@@ -35,7 +35,7 @@ Las siglas de normas peruanas se citan como aparecen en el diario oficial. Los t
 | **Ficha técnica del indicador** | Documento que define fórmula, unidad, fuente del dato, responsable y periodicidad |
 | **Cartera de proyectos** | El conjunto de proyectos que el plan propone, priorizado |
 | **Hoja de ruta** (*roadmap*) | La secuencia temporal en que se ejecutan los proyectos de la cartera |
-| **Caso de negocio** | Justificación de un proyecto: problema, alternativas, costo, beneficio y riesgo |
+| **Caso de negocio** | **Justificación de un proyecto.** Problema, alternativas, costo, beneficio y riesgo |
 | **TCO** | *Total Cost of Ownership*. Costo total de una solución durante su vida útil, no solo la compra |
 | **Proyecto no negociable** | El que se ejecuta por obligación legal o continuidad, sin competir por prioridad |
 
@@ -45,11 +45,11 @@ Las siglas de normas peruanas se citan como aparecen en el diario oficial. Los t
 |---|---|
 | **FODA** | Fortalezas, Oportunidades, Debilidades y Amenazas |
 | **FODA cruzado** | Matriz que combina los cuatro cuadrantes para derivar estrategias, no solo listarlos |
-| **PESTEL** | Análisis del entorno: factores Político, Económico, Social, Tecnológico, Ecológico y Legal |
+| **PESTEL** | **Análisis del entorno.** Factores Político, Económico, Social, Tecnológico, Ecológico y Legal |
 | **EFI / EFE** | Matriz de Evaluación de Factores Internos y Externos, con pesos y calificaciones |
 | **Cinco fuerzas** | Modelo de Porter para analizar la competencia de un sector |
 | **Cadena de valor** | Descomposición de la organización en actividades primarias y de apoyo |
-| **VRIO** | Criterio para evaluar un recurso: ¿es **V**alioso, **R**aro, difícil de **I**mitar y la **O**rganización lo aprovecha? |
+| **VRIO** | Criterio para evaluar un recurso — ¿es **V**alioso, **R**aro, difícil de **I**mitar y la **O**rganización lo aprovecha? |
 | **Análisis de interesados** | Identificación de quién afecta o es afectado por el plan, con su poder e interés |
 | **CVF** | *Competing Values Framework*. Modelo para diagnosticar la cultura organizacional |
 
@@ -90,11 +90,11 @@ Las siglas de normas peruanas se citan como aparecen en el diario oficial. Los t
 
 | Término | Significado |
 |---|---|
-| **ISO 31000** | Norma de gestión del riesgo: principios, marco y proceso |
+| **ISO 31000** | Norma de gestión del riesgo. Principios, marco y proceso |
 | **Riesgo inherente** | El riesgo antes de aplicar controles |
 | **Riesgo residual** | El que queda después de aplicar el tratamiento |
 | **Apetito de riesgo** | Cuánto riesgo la organización acepta conscientemente |
-| **RACI** | Matriz de responsabilidades: **R**esponsable, **A**probador, **C**onsultado, **I**nformado |
+| **RACI** | Matriz de responsabilidades. **R**esponsable, **A**probador, **C**onsultado, **I**nformado |
 | **Gestión del cambio** | Trabajo de acompañamiento para que las personas adopten lo que el plan implanta |
 
 ---

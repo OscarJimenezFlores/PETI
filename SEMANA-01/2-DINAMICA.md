@@ -1,6 +1,6 @@
 [Semana 01](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · La frase que condena al plan
+# Dinámica de aula · El plan en el banquillo
 
 **SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Actividad en aula, **dentro de los 100 min de la sesión de teoría** · calificación **cognitiva**
 
@@ -8,45 +8,19 @@
 
 ---
 
-## La pregunta
-
-Su equipo recibe un extracto de un plan de tecnología ya aprobado por su organización.
-
-Debe responder si ese plan **se va a ejecutar o no**, señalar **la única frase que lo decide** y actuar sobre ella.
-
-**No todos los extractos están mal.** Algunos son planes sólidos, y declararlos inejecutables cuesta lo mismo que no ver el defecto de los que sí lo tienen.
-
-## Lo que ya sabes de hoy
-
-| De la teoría | Cómo se usa aquí |
-|---|---|
-| [Qué es un PETI y qué no es](1-TEORIA.md) | Los cinco defectos que hacen inejecutable un plan. Uno de ellos está en su extracto |
-| [La organización objeto de estudio](1-TEORIA.md) | Un plan se juzga contra la organización que lo va a ejecutar, no en abstracto. El tamaño y el presupuesto de la ficha deciden |
-
-## Cómo se desarrolla · 35 minutos
+## Cómo funciona la actividad
 
 ```mermaid
 flowchart LR
-    P1["<b>1 · Leer</b><br/>6 min"]
-    P2["<b>2 · El veredicto</b><br/>8 min"]
-    P3["<b>3 · La frase</b><br/>11 min"]
-    P4["<b>4 · La corrección</b><br/>10 min"]
-    P1 --> P2 --> P3 --> P4
+    C["<b>Consigna</b><br/>El plan en el banquillo"]
+    P["<b>Producto</b><br/>el resultado de la actividad,<br/>en la plantilla de dinámica"]
+    E["<b>Exposición</b><br/>el grupo lee y explica<br/>su resultado, sin diapositivas"]
+    G["<b>Entrega</b><br/>PDF formateado,<br/>después de la clase"]
+    R["<b>Rúbrica</b><br/>nota cognitiva"]
+    C --> P --> E --> G --> R
     classDef d fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    classDef f fill:#E9F6F2,stroke:#0F766E,stroke-width:1px,color:#0F4C46;
-    class P1,P2,P3 d;
-    class P4 f;
+    class C,P,E,G,R d;
 ```
-
-**Paso 1 · Leer — 6 min.** Se lee el extracto entero antes de opinar. Se anotan al margen los números que aparecen y los que faltan.
-
-**Paso 2 · El veredicto — 8 min.** El equipo decide, sin matices, si el plan se ejecutará. No se admite «parcialmente». Un plan que se ejecuta a medias no se ejecutó, porque el beneficio se prometió completo.
-
-**Paso 3 · La frase que decide — 11 min.** Se transcribe **una sola frase** del extracto, entre comillas. La que basta para sostener el veredicto, sea la que condena al plan o la que lo salva. Si el equipo necesita tres frases, todavía no encontró la que decide. Cuando la frase condena, se nombra el defecto al que corresponde.
-
-**Paso 4 · La consecuencia — 10 min.** Si el plan no se ejecutará, se reescribe la frase para que sí lo haga y se dice **qué otra parte del plan hay que cambiar** como consecuencia. Corregir una frase sin tocar nada más suele significar que la corrección es cosmética.
-
-Si el plan sí se ejecutará, se señala **el riesgo que sigue en pie pese a estar bien formulado**, y qué lo activaría.
 
 ## Qué entregas
 
@@ -56,65 +30,36 @@ Si el plan sí se ejecutará, se señala **el riesgo que sigue en pie pese a est
 | **Plantilla obligatoria** | [SI886-PLANTILLA-DINAMICA.docx](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT y los apellidos, nombres y códigos de todos los integrantes |
 | **Dónde se sube** | Aula virtual, tarea «Dinámica · Semana 01» |
-| **Cuándo vence** | Antes de cerrar la sesión de teoría |
-| **Exposición** | 10 minutos por grupo en la sesión de teoría de la Semana 02, con una o dos diapositivas hechas a partir de este documento |
+| **Cuándo vence** | Hasta 24 h después de la sesión de teoría. La tabla se resuelve en aula; el PDF se formatea y se sube después |
+| **Exposición** | En la ronda de cierre de **esta misma sesión**. El grupo **lee y explica su resultado** ante el aula, con el documento a la vista. No se usan diapositivas |
 
 > No se califica un trabajo entregado en `.docx`, sin carátula, sin los códigos de los integrantes o con la tabla del producto incompleta.
 
-## Producto
-
-**Un solo producto**, que va en la sección 2.1 de la plantilla, con estas cuatro filas.
-
-| | Contenido |
-|---|---|
-| **Veredicto** | Se ejecutará o no se ejecutará. Sin matices |
-| **La frase** | Una sola, transcrita entre comillas. Con el defecto que representa, si condena al plan |
-| **Por qué esa frase lo decide** | Qué le ocurrirá al plan por causa de esa frase, en concreto y en el tiempo |
-| **La consecuencia** | Si condena, la frase reescrita y el cambio que arrastra. Si salva, el riesgo que sigue en pie y qué lo activaría |
-
-## Ejemplo resuelto
-
-*Este extracto no es ninguno del anexo.*
-
-> **Extracto.** Plan de Tecnología 2025-2027 de una empresa constructora de 70 trabajadores, TI de 2 personas, presupuesto de TI S/ 180 000 anuales.
-> **Objetivo 3.** «Transformar digitalmente todos los procesos de la empresa, alcanzando la excelencia operativa mediante la adopción de tecnologías emergentes.»
-> **Indicador.** «Porcentaje de avance de la transformación digital. Meta 100 %.»
-> **Proyectos.** Implementar ERP, implementar CRM, implementar BI, implementar firma digital, implementar app móvil de obra, migrar a la nube.
-> **Responsable.** «El área de TI, con apoyo de todas las áreas.»
-> **Presupuesto.** «Se financiará con el presupuesto operativo asignado.»
-
-| | Contenido |
-|---|---|
-| **Veredicto** | **No se ejecutará.** |
-| **La frase** | «Porcentaje de avance de la transformación digital. Meta 100 %.» Defecto, **ausencia de línea base** |
-| **Por qué esa frase lo decide** | Nadie puede calcular ese porcentaje. Sin línea base no hay numerador ni denominador, así que en la primera evaluación anual el avance lo declarará quien lo reporte. El plan no fracasará, se volverá **inverificable**, que es peor, porque nadie podrá demostrar que no se cumplió |
-| **La corrección** | «Proporción de procesos críticos con soporte en sistema, de 2 de 9 hoy a 6 de 9 al cierre del tercer año.» Con ella hay que cambiar además la lista de proyectos, porque **seis implantaciones simultáneas no caben en un área de dos personas** con S/ 180 000. La corrección del indicador obliga a recortar el portafolio a dos proyectos |
-
-> **Fíjese en el último párrafo.** Corregir el indicador destapó el problema real, que era el portafolio. Ese encadenamiento es lo que la rúbrica premia.
-
-## Reglas
-
-- 35 min en aula.
-- El veredicto es binario. «Depende» no puntúa.
-- **Cuatro de los diez extractos corresponden a planes ejecutables.** Buscar un defecto donde no lo hay se penaliza igual que no verlo donde lo hay.
-- **Una sola frase** transcrita. Una lista de defectos no puntúa.
-- La corrección debe arrastrar un cambio en otra parte del plan, y hay que nombrarlo.
-- Exposición de 10 min en la Semana 02.
-
-> **Varios extractos tienen más de un defecto grave, y otros no tienen ninguno.** Dos equipos pueden elegir frases distintas y los dos tener razón. Gana la exposición que demuestra que **su** frase es la que decide, y el equipo que defiende que su plan sí se ejecutará tiene que sostenerlo con la misma firmeza.
-
-## Rúbrica cognitiva (20 puntos)
-
-| Criterio | 5 | 3 | 1 |
-|---|---|---|---|
-| **Veredicto** | Binario y sostenido en el extracto | Binario, con fundamento débil | «Depende», o veredicto sin fundamento |
-| **La frase** | Una sola, transcrita, y es la de mayor alcance del extracto | Una sola, transcrita, pero hay otra más determinante | Varias frases, o parafraseadas |
-| **La consecuencia** | Describe qué le ocurrirá al plan, en concreto y en el tiempo | Nombra el defecto sin describir su consecuencia | Dice que «está mal formulado» |
-| **La consecuencia** | Corrección ejecutable con el cambio que arrastra, o riesgo en pie con su detonante | Corrección o riesgo, sin arrastre ni detonante | Genérico, aplicable a cualquier plan |
-
 ---
 
-## Anexo · Extractos para repartir
+## Consigna
+
+> **«El plan en el banquillo»**
+> Una organización pagó una consultoría y recibió el plan que su equipo tiene delante. Un año después no se ejecutó nada. La gerencia quiere saber si el plan era malo o si falló la ejecución.
+
+| | |
+|---|---|
+| **Su papel** | La mitad del aula es la **fiscalía**, que sostiene que el plan era inejecutable desde el día uno. La otra mitad es la **defensa**, que sostiene que el plan servía. Los papeles se reparten al empezar la actividad |
+| **Misión** | Ganar el veredicto del aula sobre si el plan era ejecutable |
+| **Restricción** | **Una sola frase del extracto como prueba.** La segunda no se escucha. Y noventa segundos por intervención |
+
+Es la prueba de fuego que se acaba de ver en la teoría. *Si un gerente que no es de TI no puede responder qué gana la empresa con este plan, el plan no se ejecutará.*
+
+## Cómo se desarrolla · 35 minutos
+
+| | Bloque | Quién | Minutos |
+|---|---|---|---|
+| **1** | **Instrucción del caso.** Cada equipo lee su extracto buscando **su única prueba**, según el papel que le tocó | Equipo | 9 |
+| **2** | **El juicio.** La fiscalía formula el cargo en 90 segundos. La defensa responde en 90. Sin réplica | Todos | 10 |
+| **3** | **El veredicto.** El aula vota a mano alzada. Se anota el conteo | Todos | 8 |
+| **4** | **La sentencia.** El lado que ganó reescribe la frase para que el plan sí se ejecute, y dice qué otra parte del plan cambia con ella | Equipo | 8 |
+
+## Material de trabajo
 
 Uno por equipo.
 
@@ -205,6 +150,66 @@ Uno por equipo.
 > **Responsable.** «Jefatura de TI.»
 > **Presupuesto.** «S/ 368 000.»
 > **Del diagnóstico del mismo plan.** «El programa de cliente frecuente registra la compra desde 2021 y nunca se ha explotado. No existe medición de recompra.»
+
+## Producto
+
+**La ficha del juicio.**
+
+| | Contenido |
+|---|---|
+| **Nuestro papel** | Fiscalía o defensa |
+| **Nuestra única prueba** | La frase transcrita entre comillas, y **cuál de los cinco defectos** la condena, o por qué supera **la prueba de fuego** |
+| **El cargo o el descargo** | Una frase. La que se dijo en el juicio |
+| **El veredicto del aula** | Ejecutable o inejecutable, con el conteo de votos |
+| **La frase corregida** | Cómo debió escribirse, y **qué otra parte del plan hay que cambiar** como consecuencia |
+
+> **Dónde va.** Este producto se presenta en la **sección 2 de la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx)**, «El producto». No se copia la consigna ni la teoría. Solo el resultado y lo que lo sostiene.
+
+## Ejemplo resuelto
+
+*El caso de este ejemplo es distinto del que le toca a tu grupo. Sirve para que veas el nivel de detalle que se espera, no para copiarlo.*
+
+**El extracto.** Plan de TI de una caja municipal, sección «Objetivos».
+
+> «Modernizar la plataforma tecnológica de la institución mediante la adquisición de soluciones de última generación, a fin de mejorar la calidad del servicio y contribuir al desarrollo regional.»
+
+**Nos tocó la fiscalía.**
+
+| | Contenido |
+|---|---|
+| **Nuestro papel** | Fiscalía |
+| **Nuestra única prueba** | *«mediante la adquisición de soluciones de última generación»*. El defecto es **el objetivo escrito como compra**, no como resultado del negocio |
+| **El cargo** | El objetivo no dice qué gana la caja. Dice qué compra. Cuando llegue el recorte, nadie sabrá qué se pierde si no se compra |
+| **El veredicto del aula** | Inejecutable · 7 votos contra 4 |
+| **La frase corregida** | «Reducir de 9 a 4 días el plazo de desembolso de un crédito de campaña.» Cambia también el **portafolio**, porque ahora el proyecto se evalúa por el plazo que reduce, no por la tecnología que trae |
+
+**Por qué esa frase y no otra.** El extracto también dice «contribuir al desarrollo regional», que es igual de vago. Pero esa se defiende como declaración de intención. La compra no se defiende. Es una decisión de gasto disfrazada de objetivo.
+
+**La diferencia entre aprobar y no aprobar**
+
+| Así no | Así sí |
+|---|---|
+| «El objetivo es muy general.» | «Está escrito como una compra, no como un resultado. Dice qué se adquiere, no qué mejora.» |
+| «Habría que redactarlo mejor.» | «Reducir de 9 a 4 días el plazo de desembolso.» |
+| «Y ya está corregido.» | «Y con eso cambia el portafolio: el proyecto ahora se evalúa por el plazo, no por la tecnología.» |
+
+## Reglas
+
+- 35 min en aula, dentro de la sesión de teoría.
+- **Una sola frase como prueba.** Si el equipo necesita dos, todavía no encontró la que decide.
+- Prohibido decir «es muy general». El defecto tiene que ser **uno de los cinco defectos que matan un PETI** que se vieron hoy, nombrado tal cual.
+- Noventa segundos por intervención. Pasado ese tiempo se cierra la intervención.
+- El veredicto del aula no se discute. Se anota, aunque el equipo no esté de acuerdo.
+- La exposición es la ronda de cierre de esta misma sesión. El grupo **lee y explica su resultado**. No se usan diapositivas.
+
+## Rúbrica cognitiva (20 puntos)
+
+| Criterio | 5 | 3 | 1 |
+|---|---|---|---|
+| **La prueba elegida** | Una sola frase, transcrita, y es la más fuerte del extracto para su papel | Una frase válida, habiendo otra más fuerte disponible | Varias frases, o una afirmación sin transcribir |
+| **El defecto nombrado** | Es uno de **los cinco defectos que matan un PETI**, y se explica por qué esa frase lo encarna | Nombrado sin explicar | «Es muy general» |
+| **La corrección** | La frase reescrita sería ejecutable, y se identifica qué otra parte del plan arrastra | Reescrita sin identificar la consecuencia | Reescrita con otro texto igual de vago |
+| **La defensa en el juicio** | Sostiene su prueba ante la réplica del lado contrario sin cambiar de argumento | Responde con dudas pero mantiene el criterio | No sostiene su propia prueba |
 
 ---
 

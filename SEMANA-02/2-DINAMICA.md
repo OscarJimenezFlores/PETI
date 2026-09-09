@@ -1,6 +1,6 @@
 [Semana 02](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · La fuerza que no espera
+# Dinámica de aula · Sala de crisis
 
 **SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Actividad en aula, **dentro de los 100 min de la sesión de teoría** · calificación **cognitiva**
 
@@ -8,44 +8,19 @@
 
 ---
 
-## La pregunta
-
-Su equipo recibe **cuatro fuerzas del entorno**, ya documentadas con su cifra y su fuente, que alcanzan a una organización concreta.
-
-Solo una obliga a decidir algo **antes de doce meses**. Y una de las cuatro **no debe entrar al plan**.
-
-Hay que decir cuáles son y sostenerlo.
-
-## Lo que ya sabes de hoy
-
-| De la teoría | Cómo se usa aquí |
-|---|---|
-| [Las nueve fuerzas que condicionan la estrategia de TI](1-TEORIA.md) | Las cuatro de su ficha salen de ahí. La tabla dice qué implicancia tiene cada una para el plan |
-| [La regla del análisis de tendencias](1-TEORIA.md) | Las tres preguntas. La tercera —qué decisión obliga a tomar— es la que separa la fuerza que entra al plan de la que sobra |
-| [Los niveles de la estrategia y dónde entra TI](1-TEORIA.md) | Una fuerza puede ser enorme en el nivel corporativo y no obligar a nada en el nivel de TI. Ese desnivel es lo que hace fallar el ejercicio |
-
-## Cómo se desarrolla · 35 minutos
+## Cómo funciona la actividad
 
 ```mermaid
 flowchart LR
-    P1["<b>1 · Bajar cada fuerza</b><br/>12 min"]
-    P2["<b>2 · La que no espera</b><br/>9 min"]
-    P3["<b>3 · La que sobra</b><br/>8 min"]
-    P4["<b>4 · El orden invertido</b><br/>6 min"]
-    P1 --> P2 --> P3 --> P4
+    C["<b>Consigna</b><br/>Sala de crisis"]
+    P["<b>Producto</b><br/>el resultado de la actividad,<br/>en la plantilla de dinámica"]
+    E["<b>Exposición</b><br/>el grupo lee y explica<br/>su resultado, sin diapositivas"]
+    G["<b>Entrega</b><br/>PDF formateado,<br/>después de la clase"]
+    R["<b>Rúbrica</b><br/>nota cognitiva"]
+    C --> P --> E --> G --> R
     classDef d fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    classDef f fill:#E9F6F2,stroke:#0F766E,stroke-width:1px,color:#0F4C46;
-    class P1,P2,P3 d;
-    class P4 f;
+    class C,P,E,G,R d;
 ```
-
-**Paso 1 · Bajar cada fuerza — 12 min.** Para las cuatro se recorre el mismo descenso. Qué está cambiando, cómo afecta **a esta organización** y qué decisión obliga a tomar. Se hace en una línea por fuerza. Si en la tercera línea no aparece un verbo de decisión —migrar, contratar, cifrar, presupuestar, retirar—, la fuerza no obliga a nada.
-
-**Paso 2 · La que no espera — 9 min.** Se elige la única cuya decisión tiene **fecha propia**, impuesta desde fuera. Un fin de soporte, un plazo normativo, un contrato que vence. Se escribe la decisión y la fecha límite. Una urgencia sin fecha externa no es urgencia, es preferencia del equipo.
-
-**Paso 3 · La que sobra — 8 min.** Se identifica la fuerza que **no debe entrar al plan** de esta organización, y se justifica. No porque sea poco importante en el mundo, sino porque aquí no obliga a ninguna decisión.
-
-**Paso 4 · El orden invertido — 6 min.** Se responde qué le pasaría a la organización si atendiera primero otra de las cuatro y dejara la urgente para el año tres. La respuesta debe ser un daño concreto, no un retraso genérico.
 
 ## Qué entregas
 
@@ -55,68 +30,36 @@ flowchart LR
 | **Plantilla obligatoria** | [SI886-PLANTILLA-DINAMICA.docx](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT y los apellidos, nombres y códigos de todos los integrantes |
 | **Dónde se sube** | Aula virtual, tarea «Dinámica · Semana 02» |
-| **Cuándo vence** | Antes de cerrar la sesión de teoría |
-| **Exposición** | 10 minutos por grupo en la sesión de teoría de la Semana 03, con una o dos diapositivas hechas a partir de este documento |
+| **Cuándo vence** | Hasta 24 h después de la sesión de teoría. La tabla se resuelve en aula; el PDF se formatea y se sube después |
+| **Exposición** | En la ronda de cierre de **esta misma sesión**. El grupo **lee y explica su resultado** ante el aula, con el documento a la vista. No se usan diapositivas |
 
 > No se califica un trabajo entregado en `.docx`, sin carátula, sin los códigos de los integrantes o con la tabla del producto incompleta.
 
-## Producto
-
-**Un solo producto**, que va en la sección 2.1 de la plantilla.
-
-**Fila superior — el descenso de las cuatro.**
-
-| Fuerza | Cómo afecta a *esta* organización | Decisión que obliga | ¿Tiene fecha externa? |
-|---|---|---|---|
-
-**Fila inferior — las tres respuestas.**
-
-| | Contenido |
-|---|---|
-| **La que no espera** | Cuál, la decisión concreta y **la fecha límite**, con lo que la impone |
-| **La que sobra** | Cuál se retira del plan y por qué no obliga a nada en esta organización |
-| **Si se invierte el orden** | Qué daño concreto sufre la organización, y cuándo |
-
-## Ejemplo resuelto
-
-*Esta ficha no es ninguna del anexo.*
-
-> **Constructora regional · 70 trabajadores · TI 2 personas · S/ 180 000**
-> **F1 · Transformación digital del Estado.** SUNAT exige el registro del Sistema Integrado de Registros Electrónicos para su categoría desde el ejercicio siguiente. *(SUNAT, resolución de superintendencia vigente.)*
-> **F2 · Inteligencia artificial.** El 71 % de las empresas constructoras de la región declara no usar ninguna herramienta de IA. *(Estudio sectorial, año en curso.)*
-> **F3 · Escasez de talento técnico.** El sueldo promedio del desarrollador en la macrorregión sur subió 18 % en dos años. La empresa tiene un único desarrollador, que mantiene el sistema de valorizaciones. *(MTPE, planilla electrónica.)*
-> **F4 · Volatilidad macroeconómica.** El contrato del ERP está en dólares y vence en 14 meses. El tipo de cambio se movió 9 % en el último año. *(BCRP.)*
-
-| | Contenido |
-|---|---|
-| **La que no espera** | **F1.** Decisión, adecuar la emisión y conservación al nuevo registro. Fecha límite, el inicio del ejercicio siguiente. **La fecha no la pone la empresa, la pone SUNAT** |
-| **La que sobra** | **F2.** No obliga a ninguna decisión aquí. Con dos personas en TI y sin dato estructurado de obra, no hay decisión de IA que tomar este trienio. Mencionarla sería relleno |
-| **Si se invierte el orden** | Si se atiende F3 primero y F1 al año tres, la empresa **no puede emitir comprobantes válidos** desde enero. No es un retraso del plan, es una parada de la facturación |
-
-> **F3 y F4 son reales y quedan en el plan**, con decisión y fecha propia más adelante. La que se retira es F2, y retirarla es una decisión que hay que defender ante quien quería ponerla en la portada.
-
-## Reglas
-
-- 35 min en aula.
-- La fuerza urgente debe tener **fecha impuesta desde fuera de la organización**. Sin eso, no es la urgente.
-- La fuerza que se retira se retira **por escrito y con fundamento**. No basta con no mencionarla.
-- El daño del orden invertido debe ser concreto y fechado.
-- Exposición de 10 min en la Semana 03.
-
-> **En varias fichas hay dos candidatas defendibles a fuerza urgente.** Gana la exposición que demuestra que su fecha es la más dura, no la que grita más fuerte.
-
-## Rúbrica cognitiva (20 puntos)
-
-| Criterio | 5 | 3 | 1 |
-|---|---|---|---|
-| **El descenso** | Las cuatro bajadas hasta una decisión con verbo, específicas de esta organización | Dos o tres bajan hasta la decisión; el resto queda en el sector | Se repite lo que dice la ficha, sin bajar a la organización |
-| **La que no espera** | Identificada, con la decisión y la fecha externa que la impone | Identificada, con decisión, sin fecha externa | Elegida por impresión, sin fundamento |
-| **La que sobra** | Retirada con fundamento, explicando por qué aquí no obliga a nada | Retirada sin fundamento sólido | No se retira ninguna, o se retira la que sí obligaba |
-| **El orden invertido** | Daño concreto y fechado sobre la operación | Daño genérico | «Se retrasaría el plan» |
-
 ---
 
-## Anexo · Fichas para repartir
+## Consigna
+
+> **«Sala de crisis»**
+> Su equipo es el comité de dirección de la organización. Están revisando el plan del año cuando entra una noticia del entorno que no puede esperar al próximo ciclo de planeamiento.
+
+| | |
+|---|---|
+| **Su papel** | Cada integrante toma un cargo del comité — **gerencia general, TI, operaciones y comercial**. Se anuncia en voz alta antes de empezar |
+| **Misión** | Decidir **qué hace la organización en los próximos 90 días** ante esa fuerza |
+| **Restricción** | **Una sola decisión.** El comité no puede acordar «hacer todo». Y a mitad de la sesión entra una segunda noticia |
+
+De la teoría de hoy. *La tendencia que no obliga a una decisión es información; la que obliga a una decisión es estrategia.* Hoy se comprueba cuál de las dos tenían delante.
+
+## Cómo se desarrolla · 35 minutos
+
+| | Bloque | Quién | Minutos |
+|---|---|---|---|
+| **1** | **Reparto de cargos y lectura.** Cada cargo dice **en una frase** qué le preocupa a él de esa fuerza | Equipo | 9 |
+| **2** | **La decisión de los 90 días.** Una sola, con su responsable y el orden de magnitud de lo que cuesta | Equipo | 9 |
+| **3** | **Entra la segunda noticia.** Se reparte por escrito. El comité revisa si su decisión sigue en pie | Equipo | 9 |
+| **4** | **Ronda en aula.** Qué decisión se cayó con la segunda noticia y cuál aguantó | Todos | 8 |
+
+## Material de trabajo
 
 Una por equipo. Las cuatro fuerzas de cada ficha ya vienen documentadas con su cifra y su fuente.
 
@@ -189,6 +132,65 @@ Una por equipo. Las cuatro fuerzas de cada ficha ya vienen documentadas con su c
 > **F2 · Transformación digital del Estado.** La receta electrónica avanza en el marco normativo del sector salud, con adecuación exigible a los establecimientos farmacéuticos. *(Sector salud.)*
 > **F3 · Conectividad y penetración digital.** El 73 % de los clientes del programa tiene teléfono con datos. No existe canal digital de pedido. *(INEI y registro propio.)*
 > **F4 · Volatilidad macroeconómica.** El 46 % del inventario es de proveedores con precio en dólares. *(Compras del periodo.)*
+
+## Producto
+
+**El acta del comité.**
+
+| | Contenido |
+|---|---|
+| **El comité** | Quién tomó cada cargo |
+| **La fuerza que no espera** | Cuál de las de la ficha, y **el dato que prueba que no espera** |
+| **La decisión de los 90 días** | Una sola, con su responsable por cargo y el orden de magnitud del costo |
+| **Lo que cada cargo objetó** | La objeción de TI, de operaciones o de comercial que hubo que resolver |
+| **Después de la segunda noticia** | La decisión se mantiene, se ajusta o se cae. Con la razón |
+
+> **Dónde va.** Este producto se presenta en la **sección 2 de la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx)**, «El producto». No se copia la consigna ni la teoría. Solo el resultado y lo que lo sostiene.
+
+## Ejemplo resuelto
+
+*El caso de este ejemplo es distinto del que le toca a tu grupo. Sirve para que veas el nivel de detalle que se espera, no para copiarlo.*
+
+**La ficha.** Cooperativa de ahorro y crédito de frontera.
+
+> **La fuerza.** La SBS publica que el reglamento de autenticación reforzada entra en vigencia en ocho meses. La cooperativa tiene su aplicación móvil sin segundo factor.
+> **La segunda noticia**, que entra a mitad de sesión. Un competidor acaba de lanzar apertura de cuentas 100 % remota en la misma provincia.
+
+**El comité resolvió así.**
+
+| | Contenido |
+|---|---|
+| **El comité** | Gerencia general · TI · Operaciones · Comercial |
+| **La fuerza que no espera** | El reglamento de la SBS. El dato — **entra en vigencia en ocho meses** y el proyecto de segundo factor no está en el plan |
+| **La decisión de los 90 días** | Implantar el segundo factor en la aplicación móvil. Responsable, TI. Orden de magnitud, S/ 120 000 |
+| **Lo que cada cargo objetó** | Comercial objetó que el segundo factor añade fricción y bajará el uso de la app. Se resolvió aplicándolo solo a operaciones de dinero, no a la consulta de saldo |
+| **Después de la segunda noticia** | **Se mantiene.** La apertura remota del competidor es más atractiva, pero sin segundo factor la cooperativa no puede ofrecerla, y además quedaría fuera de norma. El segundo factor es la condición de las dos cosas |
+
+**La diferencia entre aprobar y no aprobar**
+
+| Así no | Así sí |
+|---|---|
+| «La fuerza más importante es la competencia digital.» | «El reglamento de la SBS. Entra en vigencia en ocho meses y no estamos.» |
+| «Decidimos fortalecer la seguridad y mejorar la app.» | «Implantar el segundo factor. Responsable, TI. S/ 120 000.» |
+| «Con la segunda noticia cambiamos de prioridad.» | «Se mantiene: sin segundo factor no podemos abrir cuentas en remoto ni cumplir la norma.» |
+
+## Reglas
+
+- 35 min en aula, dentro de la sesión de teoría.
+- **Un cargo por integrante.** Quien no tiene cargo no vota.
+- **Una sola decisión.** Un comité que decide cuatro cosas no decidió ninguna.
+- La segunda noticia **no se lee antes** de que el comité haya cerrado su primera decisión.
+- Cambiar de decisión ante la segunda noticia **no baja la nota**. Sostener una decisión insostenible sí la baja.
+- La exposición es la ronda de cierre de esta misma sesión. El grupo **lee y explica su resultado**. No se usan diapositivas.
+
+## Rúbrica cognitiva (20 puntos)
+
+| Criterio | 5 | 3 | 1 |
+|---|---|---|---|
+| **La urgencia probada** | Un dato de la ficha demuestra que la fuerza no espera al próximo ciclo | Se afirma la urgencia sin el dato | Se elige la fuerza más llamativa, no la más urgente |
+| **La decisión** | Una sola, accionable en 90 días, con responsable y costo en orden de magnitud | Accionable pero sin responsable o sin costo | Un enunciado de intención, no una decisión |
+| **El conflicto entre cargos** | Se recoge una objeción real de otro cargo y se explica cómo se resolvió | Se menciona que hubo desacuerdo | El comité coincidió en todo |
+| **La reacción al cambio** | Revisa la decisión con criterio ante la segunda noticia y justifica mantenerla o cambiarla | Revisa sin justificar | Ignora la segunda noticia |
 
 ---
 

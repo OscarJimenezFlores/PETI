@@ -2,7 +2,7 @@
 
 # Taller de laboratorio 01 · Repositorio del PETI, selección de la organización y tablero de avance
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Sesión 2 en laboratorio · 60 min de taller + 40 de avance · calificación **procedimental**
+**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Sesión 2 en laboratorio · 100 min · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -17,9 +17,11 @@ flowchart TD
     PC["<b>Paso C</b><br/>Plan de trabajo del semestre<br/><i>15 min</i>"]
     PD["<b>Paso D</b><br/>Tablero de avance<br/><i>10 min</i>"]
     PE["<b>Paso E</b><br/>Redactar la Sección 0 del<br/>PETI<br/><i>10 min</i>"]
-    PA --> PB --> PC --> PD --> PE
+    PF["<b>Paso F</b><br/>Validar y corregir<br/><i>25 min</i>"]
+    PG["<b>Paso G</b><br/>Registrar y cerrar<br/><i>15 min</i>"]
+    PA --> PB --> PC --> PD --> PE --> PF --> PG
     classDef paso fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    class PA,PB,PC,PD,PE paso;
+    class PA,PB,PC,PD,PE,PF,PG paso;
 ```
 
 ## Qué entregas
@@ -29,7 +31,7 @@ flowchart TD
 | **Archivo** | `SI886-S01-TALLER-Grupo<N>.pdf` |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las siete secciones del formato EPIS. La sección **3. Resultados** se califica contra la tabla de resultados esperados de esta guía, y cada resultado necesita su evidencia |
+| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 01» |
 | **Cuándo vence** | 48 horas después de la sesión de laboratorio |
 
@@ -37,13 +39,17 @@ flowchart TD
 
 ---
 
+## El reto
+
+| | |
+|---|---|
+| **Situación** | La organización con la que trabajarán todo el semestre todavía no está confirmada y el equipo no tiene dónde versionar el plan. |
+| **Misión** | Dejar el repositorio del PETI operativo y la organización objeto de estudio confirmada por escrito. |
+| **Criterio de éxito** | Un integrante que no estuvo hoy puede clonar el repositorio, entender la estructura y saber para qué organización se trabaja. |
+
 ## 1. Información sobre el evento práctico
 
-### 1.1. Título del evento práctico
-
-Construcción del entorno de trabajo del plan — repositorio versionado con la estructura completa del PETI, ficha de la organización objeto de estudio, plan de trabajo del semestre y tablero de avance.
-
-### 1.2. Objetivos
+### 1.1. Objetivos
 
 - Construir el **repositorio del PETI** con la estructura de las diez secciones del documento y su control de versiones.
 - Elaborar la **ficha de la organización** propuesta y la evidencia del acercamiento inicial.
@@ -52,16 +58,7 @@ Construcción del entorno de trabajo del plan — repositorio versionado con la 
 - Desplegar un **tablero de avance** para gestionar el encargo.
 - Producir la **Sección 0** del PETI. Presentación, control de versiones y equipo formulador.
 
-### 1.3. Tiempo de duración
-
-**100 minutos:** 60 de taller guiado y 40 de avance asistido.
-
-### 1.4. Resultados de Aprendizaje (RA)
-
-- **RA1** Aplica la dirección estratégica, definiendo la misión y visión.
-- **RA2** Desarrolla el análisis FODA.
-
-### 1.5. Recursos (equipos, materiales, programas y otros)
+### 1.2. Recursos (equipos, materiales, programas y otros)
 
 **Equipos y sistema operativo**
 
@@ -96,7 +93,7 @@ Construcción del entorno de trabajo del plan — repositorio versionado con la 
 
 > **Verificación previa.** Ejecuta `git --version` y `pandoc --version`. Si el equipo trabajará con una entidad pública, descargue **antes** su PEI y su PGD del portal de transparencia.
 
-### 1.6. Seguridad
+### 1.3. Seguridad
 
 1. El repositorio del equipo es **privado**. La información de la organización se clasifica **Confidencial**.
 2. No se solicita ningún documento a la organización antes de entregar la carta de presentación y firmar el acuerdo de confidencialidad.
@@ -156,16 +153,16 @@ git init
 | Ingresos o presupuesto anual aproximado | | Estados financieros o presupuesto público |
 | Productos o servicios principales | | |
 | Clientes o usuarios (cantidad y tipo) | | |
-| **Estructura de TI**: personas, dependencia jerárquica, presupuesto | | Organigrama y entrevista |
+| **Estructura de TI** — personas, dependencia jerárquica, presupuesto | | Organigrama y entrevista |
 | Sistemas de información en producción | Nombre, función, proveedor, antigüedad | Entrevista |
 | ¿Existe un plan estratégico institucional o de negocio vigente? | | |
 | ¿Existe un PETI o PGD previo? | | |
-| Contacto: cargo, disponibilidad, expectativas | | |
+| **Contacto.** Cargo, disponibilidad, expectativas | | |
 | **Evidencia del acercamiento** | Correo, acta de reunión o carta de aceptación | Adjunto |
 
-**Carta de presentación** (`00_gestion/CARTA_PRESENTACION.md`) — una página con: identificación del curso y la universidad, propósito académico, qué se solicita a la organización (entrevistas y documentación), **qué recibe la organización a cambio** (el PETI completo), compromiso de confidencialidad y datos del docente responsable.
+**Carta de presentación** (`00_gestion/CARTA_PRESENTACION.md`) — una página con identificación del curso y la universidad, propósito académico, qué se solicita a la organización (entrevistas y documentación), **qué recibe la organización a cambio** (el PETI completo), compromiso de confidencialidad y datos del docente responsable.
 
-**Acuerdo de confidencialidad** (`00_gestion/ACUERDO_CONFIDENCIALIDAD.md`) — con: información alcanzada, obligaciones del equipo, prohibición de divulgación y de uso distinto del académico, destino de la información al cierre y plazo de vigencia.
+**Acuerdo de confidencialidad** (`00_gestion/ACUERDO_CONFIDENCIALIDAD.md`) — con información alcanzada, obligaciones del equipo, prohibición de divulgación y de uso distinto del académico, destino de la información al cierre y plazo de vigencia.
 
 ### Paso C — Plan de trabajo del semestre
 
@@ -191,9 +188,9 @@ git init
 | 16 | Sección 9 | Documento integrado | Revisión de la organización | | |
 | 17 | Sección 10 | Implementación y supervisión | — | | |
 
-> **Las tres entrevistas son el cuello de botella del semestre.** Se agendan **esta semana**, no cuando se necesiten: conseguir 45 minutos de un gerente con dos semanas de anticipación es viable; con dos días, no.
+> **Las tres entrevistas son el cuello de botella del semestre.** Se agendan **esta semana**, no cuando se necesiten. Conseguir 45 minutos de un gerente con dos semanas de anticipación es viable; con dos días, no.
 
-**Matriz de responsabilidades del equipo** (`00_gestion/RACI_EQUIPO.csv`): por cada sección del PETI, quién es responsable (R), quién aprueba (A), a quién se consulta (C) y a quién se informa (I). **Un solo A por sección.**
+**Matriz de responsabilidades del equipo** (`00_gestion/RACI_EQUIPO.csv`) — por cada sección del PETI, quién es responsable (R), quién aprueba (A), a quién se consulta (C) y a quién se informa (I). **Un solo A por sección.**
 
 ### Paso D — Tablero de avance
 
@@ -212,7 +209,7 @@ Columnas del tablero. **Pendiente · Insumo solicitado · En elaboración · En 
 
 Se carga una tarjeta por sección del PETI, con responsable, semana comprometida, insumo requerido y criterio de terminado.
 
-> **Alternativa sin Docker:** el mismo tablero en un archivo `TABLERO.md` versionado, o en un proyecto de GitHub/GitLab. Lo que importa es la **visibilidad del avance**, no la herramienta.
+> **Alternativa sin Docker.** El mismo tablero en un archivo `TABLERO.md` versionado, o en un proyecto de GitHub/GitLab. Lo que importa es la **visibilidad del avance**, no la herramienta.
 
 ### Paso E — Redactar la Sección 0 del PETI
 
@@ -220,7 +217,7 @@ Se carga una tarjeta por sección del PETI, con responsable, semana comprometida
 
 ```markdown
 # Plan Estratégico de Tecnologías de Información
-## <Organización> · Horizonte: tres años
+## <Organización> · Horizonte · tres años
 
 **Documento en elaboración** · Versión 0.1 · <fecha>
 **CONFIDENCIAL** — Elaborado en el marco del curso SI-886 Planeamiento Estratégico de TI,
@@ -248,6 +245,20 @@ y estadística oficial.
 Índice de las diez secciones con su descripción en una línea.
 ```
 
+### Paso F — Validar y corregir (25 min)
+
+El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
+
+1. Clonar el repositorio en otra máquina y comprobar que las diez secciones existen y están vacías, no ausentes.
+2. Abrir la ficha de la organización y verificar que trae rubro, tamaño, contacto y la evidencia del acercamiento.
+3. Comprobar que la etiqueta de la semana existe y apunta al último commit.
+
+> Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
+
+### Paso G — Registrar la evidencia y cerrar (15 min)
+
+Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
+
 ```bash
 pandoc 00_gestion/00_presentacion.md -o 00_gestion/00_presentacion.pdf \
   -V geometry:margin=2.5cm -V fontsize=11pt
@@ -257,23 +268,9 @@ git tag -a v0.1 -m "PETI v0.1 — presentacion y plan de trabajo"
 
 ---
 
-
-### Avance asistido · Avance del PETI asistido
-
-Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.** Queda disponible para consultas y observa el reparto real del trabajo.
-
-| | |
-|---|---|
-| **Qué se trabaja** | las secciones del PETI que la semana requiere, según el plan de trabajo de la Semana 01 |
-| **Quién decide qué hacer** | El equipo. El docente no asigna tareas en este tramo |
-| **Dónde se registra** | el tablero de avance del equipo, con cada elemento asignado a una persona |
-| **Para qué sirve la presencia del docente** | Resolver bloqueos en el momento, no revisar entregables |
-
-> **Se registra la contribución individual.** Lo trabajado en este tramo queda en el repositorio con su autoría. Es la evidencia del atributo **AG-I03 Trabajo Individual y en Equipo** que se mide en las semanas de cierre de unidad.
-
 ## 3. Resultados
 
-> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**: consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
+> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**. Consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
@@ -292,11 +289,21 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-01`
 >
-> **Sin la URL, el resultado no se califica.** El docente evalúa sobre el repositorio, no sobre el PDF.
+> **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
-### 3.1. Tabla de resultados
+### 3.1. Los tres resultados que se califican
 
+Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no se califica fila por fila.
 
+| Resultado | Qué demuestra | Dónde está |
+|---|---|---|
+| **El repositorio reproducible** | Otro integrante lo clona y trabaja sin preguntar nada | URL del repositorio |
+| **La organización confirmada** | Ficha completa y evidencia del acercamiento, con fecha | Ficha y correo o acta |
+| **El plan de trabajo del equipo** | Quién hace qué, con fechas, hasta la Semana 17 | Tablero del equipo |
+
+### 3.2. Lista de comprobación del taller
+
+Todo esto debe existir al cerrar la sesión.
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
@@ -312,18 +319,17 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 | 10 | Sección 0 del PETI redactada y generada en PDF | `00_presentacion.pdf` |
 | 11 | Etiqueta `v0.1` en Git | `git tag` |
 
-
 ## Rúbrica procedimental (20 puntos)
 
 Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. **Cada criterio se califica de forma independiente.**
 
 | Criterio | 4 — Logrado | 2 — En proceso | 0 — Insuficiente |
 |---|---|---|---|
-| **Ficha de la organización** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Plan de trabajo del semestre** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Evidencia verificable en el repositorio** | Cada resultado tiene su URL sobre la etiqueta `taller-NN`, y el enlace abre lo que dice | La mayoría tiene URL; alguna evidencia es una captura suelta | Se declaran resultados sin enlace, o el enlace no corresponde |
-| **Fundamento de las decisiones** | Cada criterio, peso o supuesto está justificado y su fuente citada | Justificados en su mayoría, con supuestos sin declarar | Se presentan cifras sin origen ni justificación |
-| **Informe en formato EPIS** | Las seis secciones completas; la sección del PETI queda redactada y versionada | Secciones completas con la redacción del PETI incompleta | Faltan secciones o no se produjo la sección del plan |
+| **El criterio de éxito** | Se cumple tal como lo pide el reto de esta sesión | Se cumple con reservas que el equipo declara | No se cumple, o se afirma cumplido sin prueba |
+| **El repositorio reproducible** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La organización confirmada** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **El plan de trabajo del equipo** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
 | Puntaje | Equivalencia |
 |---|---|
@@ -332,7 +338,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | 6 – 13 | En proceso |
 | 0 – 5 | Insuficiente |
 
-> **Un resultado declarado sin evidencia enlazada no puntúa**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
+> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
 
 ## 4. Conclusiones
 

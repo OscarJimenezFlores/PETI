@@ -8,20 +8,34 @@
 
 ---
 
-## Qué se trabaja en esta sesión
+## La pregunta de esta sesión
 
-- La misión y por qué existe la organización.
-- La visión y hacia dónde va la organización.
-- El proceso participativo de formulación.
+Una organización tiene esta misión. «Brindar productos y servicios de calidad que satisfagan las necesidades de nuestros clientes, con personal comprometido y tecnología adecuada, contribuyendo al desarrollo de la región».
+
+Sustituya el nombre de la organización por el de cualquier otra empresa del país. La frase sigue siendo válida. Sustitúyalo por el de un instituto, una clínica o una municipalidad. Sigue siendo válida.
+
+> **La pregunta que ordena esta sesión.** *¿Para qué sirve una misión que nunca ha servido para rechazar nada?*
+
+## Antes de empezar
+
+| Lo que necesita traer | De dónde sale |
+|---|---|
+| Los niveles de planificación y los instrumentos | Semana 03 |
+| La postura de TI y los niveles de la estrategia | Semana 02 |
+| La organización elegida, con sus documentos de planeamiento | Semanas 01 a 03 |
+| Ningún método de formulación en particular | Se introduce hoy |
+
+> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está mal esa misión? ¿Qué decisión concreta ayudaría a tomar? ¿Qué pasaría si el equipo la reescribe por su cuenta?* No se corrige nada todavía.
 
 ## Distribución del tiempo
 
-| Bloque | Minutos |
+| Momento | Minutos |
 |---|---|
-| La misión y por qué existe la organización | 20 |
-| La visión y hacia dónde va la organización | 20 |
-| El proceso participativo de formulación | 20 |
-| Cierre | 5 |
+| El caso de la misión intercambiable y la exploración inicial | 8 |
+| **Bloque 1.** La misión y por qué existe la organización · con su microaplicación | 22 |
+| **Bloque 2.** La visión y hacia dónde va la organización | 18 |
+| **Bloque 3.** El proceso participativo de formulación | 12 |
+| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
 | **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
@@ -57,11 +71,13 @@ flowchart TD
 
 ---
 
-## La misión y por qué existe la organización
+## Bloque 1 · La misión y por qué existe la organización
 
-**Definición.** La misión declara la **razón de ser actual** de la organización: qué hace, para quién y con qué propósito. Responde a la pregunta *«si mañana desapareciéramos, ¿qué dejaría de existir y quién lo notaría?»*.
+> **La pregunta del bloque.** *¿Qué prueba distingue una misión que dice algo de una que no?*
 
-**Los cinco componentes de una misión completa:**
+**Definición.** La misión declara la **razón de ser actual** de la organización. Qué hace, para quién y con qué propósito. Responde a la pregunta *«si mañana desapareciéramos, ¿qué dejaría de existir y quién lo notaría?»*.
+
+**Los cinco componentes de una misión completa.**
 
 | Componente | Pregunta | Ejemplo de contenido |
 |---|---|---|
@@ -71,7 +87,7 @@ flowchart TD
 | **Para qué** | ¿Qué valor genera? | «para que el pequeño comerciante compita en surtido y precio» |
 | **Con qué compromiso** | ¿Qué principios lo rigen? | «con trato equitativo y transparencia en las condiciones» |
 
-**Los siete defectos de las declaraciones de misión reales:**
+**Los siete defectos de las declaraciones de misión reales.**
 
 | Defecto | Ejemplo | Por qué falla |
 |---|---|---|
@@ -89,7 +105,6 @@ flowchart TD
 2. **Prueba de la decisión.** ¿Ha servido alguna vez para descartar una alternativa? Una misión que nunca ayudó a decir «no» es decorativa.
 3. **Prueba del reconocimiento.** ¿Puede un trabajador de la organización enunciar su sentido con sus propias palabras? Si no, la misión no existe operativamente.
 
-
 **Ejemplo trabajado — tres misiones y por qué dos no sirven.**
 
 | Misión | Diagnóstico |
@@ -98,7 +113,7 @@ flowchart TD
 | «Somos líderes en innovación y excelencia, comprometidos con la calidad total» | **No sirve.** Es una aspiración, no una razón de ser. Además «líderes» pertenece a la visión |
 | «Acopiamos, procesamos y exportamos aceituna y derivados del olivo del valle de Tacna, cumpliendo los estándares sanitarios y de trazabilidad que exigen los mercados de destino, con productores asociados de la zona» | **Sirve.** Dice qué hace, con qué, para quién y bajo qué restricción |
 
-**Las cuatro preguntas que una misión debe responder:**
+**Las cuatro preguntas que una misión debe responder.**
 
 | Pregunta | En la tercera misión |
 |---|---|
@@ -109,18 +124,22 @@ flowchart TD
 
 > **Por qué importa en un PETI.** Si la misión menciona trazabilidad exigida por el comprador, el proyecto de trazabilidad deja de ser «una mejora de TI» y pasa a ser **la condición para seguir existiendo**. La misión da o quita fuerza a la cartera.
 
-**Preguntas para la sesión**
+> **Microaplicación (6 min) · la prueba de sustitución, en vivo.** Cada equipo lee **la misión real de su propia organización** y le aplica la prueba de sustitución en voz alta, cambiando el nombre por el de un competidor. Se recogen dos casos y se comprueba cuántas sobreviven.
 
-| Pregunta | Qué debe contener una buena respuesta |
+| Caso | Qué debe contener una buena respuesta |
 |---|---|
 | ¿Puede el equipo reformular la misión de la organización? | No. Puede evaluarla y señalar sus defectos, y proponer una versión para que la organización decida. Cambiarla es decisión de su alta dirección |
 | ¿Qué se hace si la misión es genérica? | Se declara la limitación y se apoya el alineamiento en los objetivos del plan y en las actas, que sí suelen ser concretos |
 | ¿Sirve una visión sin fecha? | No. Sin horizonte no se puede medir avance ni saber si se alcanzó |
-## La visión y hacia dónde va la organización
+> **El error frecuente del bloque.** Reescribir la misión de la organización y presentarla como la nueva. **Cambiarla es decisión de su alta dirección.** El equipo puede evaluarla, señalar sus defectos con el término técnico y proponer una versión para que la organización decida, pero un plan que sustituye la misión sin mandato pierde credibilidad entera.
+
+## Bloque 2 · La visión y hacia dónde va la organización
+
+> **La pregunta del bloque.** *¿Qué le falta a «ser reconocidos por nuestra excelencia» para poder medirse?*
 
 **Definición.** La visión describe el **estado futuro deseado y alcanzable** en un horizonte definido. Debe ser lo bastante ambiciosa para movilizar y lo bastante concreta para orientar decisiones.
 
-**Los cinco atributos de una visión útil:**
+**Los cinco atributos de una visión útil.**
 
 | Atributo | Qué significa | Contraejemplo |
 |---|---|---|
@@ -130,26 +149,30 @@ flowchart TD
 | **Específica del negocio** | Describe cómo será *esta* organización | «Ser una empresa moderna y competitiva» |
 | **Movilizadora** | Alguien puede reconocerse en ella y actuar en consecuencia | Una declaración que nadie entiende |
 
-**Estructura recomendada:**
+**Estructura recomendada.**
 
 > *«Al año <horizonte>, <organización> será <posición o estado deseado> en <ámbito o mercado>, reconocida por <atributo distintivo verificable>, habiendo logrado <resultado medible>.»*
 
-**Ejemplo contrastado:**
+**Ejemplo contrastado.**
 
 | Versión | Evaluación |
 |---|---|
 | «Ser la empresa líder e innovadora del sector, reconocida por su excelencia y compromiso con el cliente» | Falla los cinco atributos |
-| «Al cierre del horizonte del plan, Distribuidora Andina del Sur será el distribuidor con mayor cobertura de bodegas en la macrorregión sur, atendiendo al menos al 60 % de los puntos de venta de Tacna, Moquegua y Arequipa, con el 80 % de sus pedidos originados en canal digital y entrega en menos de 24 horas» | Cumple los cinco: horizonte, ámbito, atributo distintivo y tres métricas verificables |
+| «Al cierre del horizonte del plan, Distribuidora Andina del Sur será el distribuidor con mayor cobertura de bodegas en la macrorregión sur, atendiendo al menos al 60 % de los puntos de venta de Tacna, Moquegua y Arequipa, con el 80 % de sus pedidos originados en canal digital y entrega en menos de 24 horas» | **Cumple los cinco.** Horizonte, ámbito, atributo distintivo y tres métricas verificables |
 
 **La visión de TI.** Además de la visión organizacional, el PETI (Plan Estratégico de Tecnologías de Información) incorpora una **visión de la función de TI**, derivada de la anterior y de la postura de TI identificada en la Semana 02:
 
 > *«Al cierre del horizonte del plan, la función de TI de <organización> habrá pasado de <estado actual> a <estado objetivo>, sosteniendo <la capacidad de negocio que habilita>, con <nivel de servicio o capacidad medible>.»*
 
-## El proceso participativo de formulación
+> **El error frecuente del bloque.** Formular una visión sin horizonte. Sin fecha no se puede medir avance ni saber si se alcanzó, y una visión que no se puede evaluar no orienta ninguna decisión de inversión. El otro extremo también falla — una empresa de cuarenta personas que aspira a operar en doce países en tres años no está siendo ambiciosa, está siendo inverosímil.
+
+## Bloque 3 · El proceso participativo de formulación
+
+> **La pregunta del bloque.** *¿Por qué importa quién escribió la misión, y no solo qué dice?*
 
 **Por qué no se redacta en un escritorio.** Una misión que el personal no reconoce como propia no orienta decisiones. Ni una redactada por el consultor ni una redactada por el equipo del curso. **El equipo formulador facilita el proceso; la organización decide el contenido.**
 
-**Proceso de cuatro pasos:**
+**Proceso de cuatro pasos.**
 
 | Paso | Actividad | Instrumento | Producto |
 |---|---|---|---|
@@ -170,10 +193,24 @@ flowchart TD
 
 > **La pregunta 4 es la más reveladora.** Lo que una organización rechaza define su estrategia con más precisión que lo que persigue.
 
-## Cierre
+## Cierre · qué se lleva de aquí
+
+**La respuesta a la pregunta con la que abrimos.** No sirve para nada, y ese es exactamente el diagnóstico técnico. Una misión que nunca ayudó a decir «no» es **decorativa**. Su utilidad en un plan de TI es concreta — si la misión menciona una capacidad, el proyecto que la sostiene deja de ser «una mejora de TI» y pasa a ser la condición para seguir existiendo. La misión da o quita fuerza a la cartera.
+
+**Las tres ideas que deben quedar.**
+
+| Idea | Por qué importa en el ejercicio profesional |
+|---|---|
+| La prueba de sustitución descalifica una misión en diez segundos | Si al cambiar el nombre sigue siendo válida, la misión no dice nada |
+| La misión es competencia de la alta dirección, no del equipo consultor | Se evalúa y se propone; cambiarla sin mandato descalifica el plan |
+| Una visión sin horizonte y sin métrica no orienta ninguna inversión | Es lo que convierte la sección 2 del plan en literatura |
+
+**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La pregunta que más se falla es la tercera — casi todos los equipos dan por hecho que pueden reescribir la misión, y esa es una de las formas más rápidas de perder al cliente del encargo.
+
+**Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) trabaja sobre declaraciones reales y exige nombrar el defecto **con el término de la teoría**, no describirlo. «Es muy general» no es un diagnóstico.
+
 
 **Pregunta de cierre.** *¿la misión actual de la organización ha servido alguna vez para rechazar una oportunidad?* Si nadie recuerda un caso, la organización tiene una declaración, no una misión, y el PETI debe partir de reconstruirla.
-
 ---
 
 ---

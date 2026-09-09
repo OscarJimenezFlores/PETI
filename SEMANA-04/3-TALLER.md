@@ -2,7 +2,7 @@
 
 # Taller de laboratorio 04 · Formulación y validación de la misión y la visión
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Sesión 2 en laboratorio · 60 min de taller + 40 de avance · calificación **procedimental**
+**SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Sesión 2 en laboratorio · 100 min · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -17,9 +17,11 @@ flowchart TD
     PC["<b>Paso C</b><br/>Encuesta de percepción al<br/>personal<br/><i>10 min</i>"]
     PD["<b>Paso D</b><br/>Formular y evaluar las<br/>alternativas<br/><i>15 min</i>"]
     PE["<b>Paso E</b><br/>Visión de TI y redacción de<br/>Sección 2.1 y Sección 2.2<br/><i>10 min</i>"]
-    PA --> PB --> PC --> PD --> PE
+    PF["<b>Paso F</b><br/>Validar y corregir<br/><i>25 min</i>"]
+    PG["<b>Paso G</b><br/>Registrar y cerrar<br/><i>15 min</i>"]
+    PA --> PB --> PC --> PD --> PE --> PF --> PG
     classDef paso fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    class PA,PB,PC,PD,PE paso;
+    class PA,PB,PC,PD,PE,PF,PG paso;
 ```
 
 ## Qué entregas
@@ -29,7 +31,7 @@ flowchart TD
 | **Archivo** | `SI886-S04-TALLER-Grupo<N>.pdf` |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las siete secciones del formato EPIS. La sección **3. Resultados** se califica contra la tabla de resultados esperados de esta guía, y cada resultado necesita su evidencia |
+| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 04» |
 | **Cuándo vence** | 48 horas después de la sesión de laboratorio |
 
@@ -37,13 +39,17 @@ flowchart TD
 
 ---
 
+## El reto
+
+| | |
+|---|---|
+| **Situación** | La organización tiene una misión que nadie usa y una visión sin fecha. La gerencia acaba de dar una entrevista con material aprovechable. |
+| **Misión** | Formular dos alternativas de misión y una de visión, construidas con lo que dijo la gerencia y no con lo que al equipo le parece. |
+| **Criterio de éxito** | Cada componente de la misión propuesta se puede rastrear hasta una frase concreta de la entrevista o de un documento de la organización. |
+
 ## 1. Información sobre el evento práctico
 
-### 1.1. Título del evento práctico
-
-Formulación participativa de la misión, la visión organizacional y la visión de la función de TI para la organización objeto de estudio, con evaluación por rúbrica y validación mediante consulta a los interesados.
-
-### 1.2. Objetivos
+### 1.1. Objetivos
 
 - Diagnosticar las **declaraciones vigentes** de la organización con las pruebas de calidad.
 - Procesar los insumos de la **entrevista a la gerencia** y extraer el material de redacción.
@@ -53,16 +59,7 @@ Formulación participativa de la misión, la visión organizacional y la visión
 - Derivar la **visión de la función de TI** a partir de la visión organizacional.
 - Redactar las secciones **Sección 2.1** y **Sección 2.2** del PETI (Plan Estratégico de Tecnologías de Información).
 
-### 1.3. Tiempo de duración
-
-**100 minutos:** 60 de taller guiado y 40 de avance asistido.
-
-### 1.4. Resultados de Aprendizaje (RA)
-
-- **RA1** Aplica la dirección estratégica, definiendo la misión y visión.
-- **RA2** Desarrolla el análisis FODA.
-
-### 1.5. Recursos
+### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
@@ -73,7 +70,7 @@ Formulación participativa de la misión, la visión organizacional y la visión
 | Declaraciones de tres organizaciones comparables | Ejercicio de referencia |
 | **draw.io** | Mapa de componentes |
 
-### 1.6. Seguridad
+### 1.3. Seguridad
 
 1. La entrevista se graba **solo con consentimiento expreso y escrito**. Sin consentimiento, se trabaja con notas.
 2. La grabación se almacena cifrada, se transcribe y **se elimina al cierre del semestre**, dejando registro.
@@ -85,9 +82,7 @@ Formulación participativa de la misión, la visión organizacional y la visión
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Misión, visión y objetivos vigentes**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`: las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
-
-
+> **Documento del caso para esta semana.** La organización entrega **Misión, visión y objetivos vigentes**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
 
 ### Paso A — Diagnosticar las declaraciones vigentes
 
@@ -266,6 +261,20 @@ Tabla de derivación: elemento de la visión → capacidad de negocio → capaci
 arquitectura objetivo (Sección 5) y del portafolio de proyectos (Sección 7).**
 ```
 
+### Paso F — Validar y corregir (25 min)
+
+El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
+
+1. Aplicar la prueba de sustitución a la misión propuesta con el nombre de un competidor real.
+2. Comprobar que la visión trae horizonte y una métrica, y que la métrica es alcanzable con el tamaño de la organización.
+3. Rastrear cada componente hasta su frase de origen en la entrevista.
+
+> Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
+
+### Paso G — Registrar la evidencia y cerrar (15 min)
+
+Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
+
 ```bash
 git add . && git commit -m "S04: mision, vision organizacional y vision de TI — secciones 2.1 y 2.2"
 git tag -a v0.4 -m "PETI v0.4 — identidad estrategica"
@@ -273,23 +282,9 @@ git tag -a v0.4 -m "PETI v0.4 — identidad estrategica"
 
 ---
 
-
-### Avance asistido · Avance del PETI asistido
-
-Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.** Queda disponible para consultas y observa el reparto real del trabajo.
-
-| | |
-|---|---|
-| **Qué se trabaja** | las secciones del PETI que la semana requiere, según el plan de trabajo de la Semana 01 |
-| **Quién decide qué hacer** | El equipo. El docente no asigna tareas en este tramo |
-| **Dónde se registra** | el tablero de avance del equipo, con cada elemento asignado a una persona |
-| **Para qué sirve la presencia del docente** | Resolver bloqueos en el momento, no revisar entregables |
-
-> **Se registra la contribución individual.** Lo trabajado en este tramo queda en el repositorio con su autoría. Es la evidencia del atributo **AG-I03 Trabajo Individual y en Equipo** que se mide en las semanas de cierre de unidad.
-
 ## 3. Resultados
 
-> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**: consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
+> **Evidencia obligatoria en GitHub.** Todo resultado de este taller se versiona en el repositorio del equipo. El informe **no consigna capturas sueltas**. Consigna la **URL** del artefacto en GitHub. Una captura no permite verificar autoría, fecha ni contenido; un enlace sí.
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
@@ -308,11 +303,21 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-04`
 >
-> **Sin la URL, el resultado no se califica.** El docente evalúa sobre el repositorio, no sobre el PDF.
+> **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
-### 3.1. Tabla de resultados
+### 3.1. Los tres resultados que se califican
 
+Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no se califica fila por fila.
 
+| Resultado | Qué demuestra | Dónde está |
+|---|---|---|
+| **El diagnóstico de lo vigente** | Con las dos pruebas aplicadas y su resultado sustentado | Sección 2.1 |
+| **Las alternativas formuladas** | Dos misiones con los cinco componentes, trazables a la entrevista | Sección 2.1 |
+| **La visión con métrica** | Horizonte y cifra, alcanzables para esta organización | Sección 2.2 |
+
+### 3.2. Lista de comprobación del taller
+
+Todo esto debe existir al cerrar la sesión.
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
@@ -321,7 +326,7 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 | 3 | Insumos de la entrevista codificados por componente, con citas textuales | `MV02_insumos_entrevista.csv` |
 | 4 | Encuesta aplicada a **al menos 10 personas o al 30 % del personal**, lo que sea mayor | `encuesta_personal.csv` |
 | 5 | Procesamiento de la encuesta con las tres nubes de términos | Salida de `MV04_procesa_encuesta.py` |
-| 6 | **Prueba del reconocimiento** cuantificada: % del personal que conoce la misión | Salida del script |
+| 6 | **Prueba del reconocimiento** cuantificada. % del personal que conoce la misión | Salida del script |
 | 7 | **Tres alternativas** de misión y **tres** de visión formuladas | `02_identidad/` |
 | 8 | Evaluación por rúbrica ponderada con pesos que suman 1 | `MV05_evaluacion_alternativas.csv` |
 | 9 | Validación por consulta, con el resultado y **la razón declarada de la preferencia** | Papel de trabajo |
@@ -331,18 +336,17 @@ Los últimos 40 minutos del laboratorio son del equipo. **El docente no dirige.*
 | 13 | **Visión de TI derivada** y tabla de capacidades con estado actual y objetivo | Sección 2.2.3 y Sección 2.2.4 |
 | 14 | Etiqueta `v0.4` en Git | `git tag` |
 
-
 ## Rúbrica procedimental (20 puntos)
 
 Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. **Cada criterio se califica de forma independiente.**
 
 | Criterio | 4 — Logrado | 2 — En proceso | 0 — Insuficiente |
 |---|---|---|---|
-| **Diagnosticar las declaraciones vigentes** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Formular y evaluar las alternativas** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto pero sin toda la evidencia | Incompleto, o entregado sin ejecutar |
-| **Evidencia verificable en el repositorio** | Cada resultado tiene su URL sobre la etiqueta `taller-NN`, y el enlace abre lo que dice | La mayoría tiene URL; alguna evidencia es una captura suelta | Se declaran resultados sin enlace, o el enlace no corresponde |
-| **Fundamento de las decisiones** | Cada criterio, peso o supuesto está justificado y su fuente citada | Justificados en su mayoría, con supuestos sin declarar | Se presentan cifras sin origen ni justificación |
-| **Informe en formato EPIS** | Las seis secciones completas; la sección del PETI queda redactada y versionada | Secciones completas con la redacción del PETI incompleta | Faltan secciones o no se produjo la sección del plan |
+| **El criterio de éxito** | Se cumple tal como lo pide el reto de esta sesión | Se cumple con reservas que el equipo declara | No se cumple, o se afirma cumplido sin prueba |
+| **El diagnóstico de lo vigente** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **Las alternativas formuladas** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La visión con métrica** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
 | Puntaje | Equivalencia |
 |---|---|
@@ -351,7 +355,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | 6 – 13 | En proceso |
 | 0 – 5 | Insuficiente |
 
-> **Un resultado declarado sin evidencia enlazada no puntúa**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
+> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
 
 ## 4. Conclusiones
 

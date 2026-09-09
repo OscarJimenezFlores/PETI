@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
-  4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40
+  4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio
 </p>
 
 ---
@@ -27,7 +27,7 @@
 | **Ciclo** | VIII · 04 horas semanales · 03 créditos · Obligatorio |
 | **Unidad** | I — Fundamentos de Planeamiento Estratégico |
 | **Semana** | 01 de 17 |
-| **Duración** | 4 horas académicas de 50 min · aula: teoría 60 + dinámica 35 + cierre 5 · laboratorio: taller 60 + avance asistido 40 |
+| **Duración** | 4 horas académicas de 50 min · 100 min de teoría con la dinámica incluida en aula · 100 min de taller en laboratorio |
 | **Resultados de aprendizaje** | **RA1** Aplica la dirección estratégica, definiendo la misión y visión · **RA2** Desarrolla el análisis FODA |
 
 ### Lo que indica el sílabo
@@ -39,7 +39,7 @@
 | | Documento | Qué encontrarás | Dónde y cuánto dura |
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | El encargo del semestre · Qué es un PETI y qué no es · De dónde viene y hacia dónde va el planeamiento | Aula · 100 min |
-| 2 | **[Dinámica de aula](2-DINAMICA.md)** | La frase que condena al plan, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
+| 2 | **[Dinámica de aula](2-DINAMICA.md)** | El plan en el banquillo, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Repositorio del PETI, selección de la organización y tablero de avance | Laboratorio · 100 min |
 
 ## Ruta de la semana
@@ -47,7 +47,7 @@
 ```mermaid
 flowchart LR
     A["<b>Sesión 1 · Aula</b><br/>Teoría · 100 min"]
-    B["<b>Dinámica de aula</b><br/>La frase que condena al plan<br/><i>nota cognitiva</i>"]
+    B["<b>Dinámica de aula</b><br/>El plan en el banquillo<br/><i>nota cognitiva</i>"]
     C["<b>Sesión 2 · Laboratorio</b><br/>Repositorio del PETI,<br/>selección de la organización y<br/>tablero de avance<br/><i>nota procedimental</i>"]
     D["<b>Entregables</b><br/>de la semana 01"]
     A --> B --> C --> D
@@ -63,7 +63,7 @@ flowchart LR
 
 | Entregable | Formato y nombre del archivo | Vence |
 |---|---|---|
-| **Dinámica de aula** · La frase que condena al plan | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S01-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
+| **Dinámica de aula** · El plan en el banquillo | PDF desde la [plantilla de dinámica](../PLANTILLAS/SI886-PLANTILLA-DINAMICA.docx) · `SI886-S01-DINAMICA-Grupo<N>.pdf` | Antes de cerrar la sesión de teoría |
 | **Informe del taller de laboratorio N.º 01** | PDF en formato EPIS desde la [plantilla de taller](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) · `SI886-S01-TALLER-Grupo<N>.pdf` | 48 h después del taller |
 | Repositorio del PETI con la etiqueta `v0.1` | URL del repositorio privado | 48 h después del laboratorio |
 
@@ -73,20 +73,20 @@ flowchart LR
 
 | Criterio | Instrumento | Peso |
 |---|---|---|
-| Cognitivo | Rúbrica de «La frase que condena al plan» + exposición de 10 min en la Semana 02 | 25 % |
+| Cognitivo | Rúbrica de «El plan en el banquillo» + exposición de 10 min en la Semana 02 | 25 % |
 | Procedimental | Lista de cotejo de los 11 resultados del laboratorio | 35 % |
 | Actitudinal | Profesionalismo en el acercamiento a la organización y cumplimiento del acuerdo de confidencialidad | 15 % |
 
 ## Atributos del Graduado · presentación del assessment
 
-> En esta primera sesión se presenta el **Atributo del Graduado** que el curso mide para el Plan de Assessment de la Escuela, junto con su rúbrica. Toma diez minutos y evita el malentendido más común: creer que es una nota más.
+> En esta primera sesión se presenta el **Atributo del Graduado** que el curso mide para el Plan de Assessment de la Escuela, junto con su rúbrica. Toma diez minutos y evita el malentendido más común. Creer que es una nota más.
 
 | | |
 |---|---|
 | **Atributo que mide el curso** | **AG-I01 · El Profesional y el Mundo** |
 | **Qué significa** | Analizar y evaluar el impacto de las soluciones de ingeniería en el desarrollo sostenible de la sociedad, la economía, la salud y la seguridad, los marcos legales y el medio ambiente |
-| **Semanas en que se recoge evidencia** | 02, 07, 13, 14, 16 y 17 |
-| **Sobre qué evidencia** | La que ya entregas: dinámicas, informes de taller y la sustentación final. No hay entregable adicional |
+| **Semanas en que se recoge evidencia** | **05**, la dinámica de aula sobre un caso · **16**, el informe del PETI por grupos |
+| **Sobre qué evidencia** | **La que ya entregas.** Dinámicas, informes de taller y la sustentación final. No hay entregable adicional |
 | **Efecto en tu calificación** | **Ninguno.** Mide el programa, no al estudiante. Se registra aparte de las actas |
 | **Dónde consultarlo** | [`ASSESSMENT/`](../ASSESSMENT/) · [rúbrica](../ASSESSMENT/RUBRICAS-AG.md) · [mapa](../ASSESSMENT/MAPA-AG.md) |
 
