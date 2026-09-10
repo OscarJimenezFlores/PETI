@@ -12,16 +12,15 @@
 
 ```mermaid
 flowchart TD
-    PA["<b>Paso A</b><br/>Diagnosticar las declaraciones<br/>vigentes<br/><i>15 min</i>"]
-    PB["<b>Paso B</b><br/>Procesar la entrevista a la<br/>gerencia<br/><i>10 min</i>"]
-    PC["<b>Paso C</b><br/>Encuesta de percepción al<br/>personal<br/><i>10 min</i>"]
-    PD["<b>Paso D</b><br/>Formular y evaluar las<br/>alternativas<br/><i>15 min</i>"]
-    PE["<b>Paso E</b><br/>Visión de TI y redacción de<br/>Sección 2.1 y Sección 2.2<br/><i>10 min</i>"]
-    PF["<b>Paso F</b><br/>Validar y corregir<br/><i>25 min</i>"]
-    PG["<b>Paso G</b><br/>Registrar y cerrar<br/><i>15 min</i>"]
-    PA --> PB --> PC --> PD --> PE --> PF --> PG
+    PA["<b>Paso A</b><br/>Elegir la empresa y registrar<br/>sus declaraciones<br/><i>15 min</i>"]
+    PB["<b>Paso B</b><br/>Evaluar la misión<br/><i>20 min</i>"]
+    PC["<b>Paso C</b><br/>Evaluar la visión<br/><i>15 min</i>"]
+    PD["<b>Paso D</b><br/>Derivar la visión de TI y redactar<br/>Sección 2.1 y Sección 2.2<br/><i>10 min</i>"]
+    PE["<b>Paso E</b><br/>Validar y corregir<br/><i>25 min</i>"]
+    PF["<b>Paso F</b><br/>Registrar y cerrar<br/><i>15 min</i>"]
+    PA --> PB --> PC --> PD --> PE --> PF
     classDef paso fill:#E8F1FB,stroke:#16285C,stroke-width:1px,color:#16285C;
-    class PA,PB,PC,PD,PE,PF,PG paso;
+    class PA,PB,PC,PD,PE,PF paso;
 ```
 
 ## Qué entregas
@@ -43,211 +42,141 @@ flowchart TD
 
 | | |
 |---|---|
-| **Situación** | La organización tiene una misión que nadie usa y una visión sin fecha. La gerencia acaba de dar una entrevista con material aprovechable. |
-| **Misión** | Formular dos alternativas de misión y una de visión, construidas con lo que dijo la gerencia y no con lo que al equipo le parece. |
-| **Criterio de éxito** | Cada componente de la misión propuesta se puede rastrear hasta una frase concreta de la entrevista o de un documento de la organización. |
+| **Situación** | Una empresa real del sector tecnológico publica su misión y su visión. Nadie las ha evaluado, y de ellas salen las secciones 2.1 y 2.2 del PETI (Plan Estratégico de Tecnologías de Información). |
+| **Misión** | A partir de una empresa real del sector tecnológico, deberá ubicar y registrar las dos declaraciones, evaluarlas con los instrumentos de la teoría y derivar de ahí la visión de la función de TI. |
+| **Criterio de éxito** | Cada defecto señalado lleva su nombre técnico y la prueba que lo demuestra, y cada capacidad de la visión de TI sale de un elemento concreto de la visión de la empresa. |
 
 ## 1. Información sobre el evento práctico
 
 ### 1.1. Objetivos
 
-- Diagnosticar las **declaraciones vigentes** de la organización con las pruebas de calidad.
-- Procesar los insumos de la **entrevista a la gerencia** y extraer el material de redacción.
-- Diseñar y aplicar una **encuesta de percepción** a una muestra del personal.
-- Formular **tres alternativas** de misión y tres de visión con los cinco componentes.
-- **Evaluar las alternativas con una rúbrica ponderada** y validarlas por consulta.
-- Derivar la **visión de la función de TI** a partir de la visión organizacional.
-- Redactar las secciones **Sección 2.1** y **Sección 2.2** del PETI (Plan Estratégico de Tecnologías de Información).
+- Elegir una **empresa real del sector tecnológico** y registrar su misión y su visión literales, con su fuente.
+- Evaluar la misión con los **cinco componentes**, los **siete defectos** y las **tres pruebas de calidad**.
+- Evaluar la visión con los **cinco atributos** y extraer sus **métricas implícitas**.
+- Derivar la **visión de la función de TI**.
+- Redactar las secciones **Sección 2.1** y **Sección 2.2** del PETI.
 
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
-| **Grabación o notas de la Entrevista 1** con la gerencia | Insumo obligatorio |
-| **LimeSurvey** (Docker) o Google Forms | Encuesta de percepción |
-| **Python 3.11+** con `pandas`, `matplotlib` | Procesamiento de la encuesta y de la rúbrica |
-| **LibreOffice Writer** | Redacción y control de cambios |
-| Declaraciones de tres organizaciones comparables | Ejercicio de referencia |
-| **draw.io** | Mapa de componentes |
+| **Navegador con acceso a internet** | Sitio oficial de la empresa o su memoria anual |
+| [`MV01_diagnostico_declaraciones.py`](../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py) | Aplica los instrumentos de la teoría y emite el veredicto |
+| **Python 3.11+** con `matplotlib` | Ejecución del diagnóstico |
+| **draw.io** | Mapa de derivación de la visión de TI |
+| **LibreOffice Writer** | Redacción de las dos secciones |
 
 ### 1.3. Seguridad
 
-1. La entrevista se graba **solo con consentimiento expreso y escrito**. Sin consentimiento, se trabaja con notas.
-2. La grabación se almacena cifrada, se transcribe y **se elimina al cierre del semestre**, dejando registro.
-3. La encuesta al personal es **anónima**. No se solicitan datos que permitan identificar al respondiente. Se informa el propósito y el uso de los resultados.
-4. Las respuestas individuales no se comparten con la gerencia; solo resultados agregados. **Este compromiso es lo que hace confiables las respuestas.**
-5. Aplica el marco de la Ley 29733 y su Reglamento D. S. 016-2024-JUS si se recogiera cualquier dato personal.
+1. La misión y la visión se copian **literalmente**, con la dirección de la página y la fecha de consulta.
+2. Son textos de la empresa que los publica. Se citan entre comillas y se le atribuyen a ella.
+3. Solo se consultan **páginas públicas** de la empresa.
+4. Si la declaración está en otro idioma, se registra el original y la traducción se marca como tal.
 
 ---
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Misión, visión y objetivos vigentes**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+### Paso A — Elegir la empresa y registrar sus declaraciones
 
-### Paso A — Diagnosticar las declaraciones vigentes
+1. Elijan **una empresa real del sector tecnológico**. Puede ser global, latinoamericana o peruana.
+2. Busquen su misión y su visión en el sitio oficial, en «Quiénes somos», «Nosotros», «About us» o en la memoria anual.
+3. Copien **el texto literal**, sin resumir.
+4. Llenen la ficha.
 
-`02_identidad/MV01_diagnostico_actual.md`:
+`02_identidad/MV01_declaraciones.md`:
 
 | Campo | Contenido |
 |---|---|
-| Misión vigente (texto literal) | |
-| Documento y fecha de aprobación | |
-| ¿Está publicada? ¿Dónde? | |
-| **Prueba de sustitución** | ¿Sigue siendo válida con el nombre de un competidor? Sí / No |
-| **Prueba de la decisión** | ¿La gerencia recuerda un caso en que sirvió para descartar algo? |
-| **Prueba del reconocimiento** | ¿El personal encuestado la reconoce? (se responde tras el Paso C) |
-| Defectos identificados (de los siete) | |
-| Componentes presentes de los cinco | |
-| Visión vigente (texto literal) | |
-| Horizonte declarado | ¿Ya venció? |
-| Atributos presentes de los cinco | |
-| **Veredicto** | Se conserva / Se ajusta / Se reformula |
+| Empresa | |
+| Actividad y país | |
+| Dirección de la página | |
+| Fecha de consulta | |
+| Misión, texto literal | |
+| Visión, texto literal | |
+| ¿Publica visión? | |
 
-### Paso B — Procesar la entrevista a la gerencia
+> **Si la empresa no publica visión, eso ya es un hallazgo.** Se registra así y el taller continúa con la misión.
 
-Se transcribe y se codifica el material por componente. `02_identidad/MV02_insumos_entrevista.csv`:
+### Paso B — Evaluar la misión
 
-| Pregunta | Cita textual del entrevistado | Componente que alimenta | Palabra clave rescatable |
-|---|---|---|---|
-| P1 — ¿Qué perdería el cliente? | «Perderían el crédito a 30 días; ningún mayorista de la zona se los da» | Para qué (valor) · Cómo (distintivo) | crédito, acceso |
-| P2 — ¿Qué no puede replicar un competidor? | «La red de 8 400 bodegas construida en 15 años» | Cómo (distintivo) | cobertura, red |
-| P4 — ¿Qué oportunidad rechazaron? | «Vender a supermercados; el margen no compensa y nos desviaría del servicio a la bodega» | **Delimitación del alcance** | foco en el pequeño comerciante |
-| P6 — ¿Qué cifra definiría el éxito? | «Que el 80 % de los pedidos entre solo» | Visión — métrica | canal digital |
-| P7 — Rol de la tecnología | | Visión de TI | |
+1. Para cada uno de los cinco componentes, copien el **fragmento literal** que lo porta, o márquenlo como ausente.
+2. Revisen los siete defectos y señalen los que la declaración tenga. Cada uno con **su nombre técnico** y la evidencia que lo prueba. «Es muy general» no es un diagnóstico.
+3. Apliquen las tres pruebas de calidad — la de sustitución con el nombre de tres competidores reales, la de la decisión y la del reconocimiento.
+4. Copien el programa, edítenlo con los datos de su empresa y ejecútenlo.
 
-> **Las palabras del entrevistado son el material de redacción.** Una misión construida con el vocabulario de la organización se reconoce; una construida con vocabulario de consultoría, no.
-
-### Paso C — Encuesta de percepción al personal
-
-**Diseño del instrumento** (`02_identidad/MV03_encuesta.md`), máximo 8 preguntas, anónima:
-
-| # | Pregunta | Tipo |
+| Componente | Pregunta que responde | Fragmento literal que lo porta |
 |---|---|---|
-| 1 | ¿En qué área trabaja? | Selección (sin identificar a la persona) |
-| 2 | ¿Cuántos años lleva en la organización? | Rango |
-| 3 | **Con sus propias palabras, ¿a qué se dedica esta organización y para quién?** | Abierta |
-| 4 | ¿Conoce la misión declarada de la organización? | Sí / No / No estoy seguro |
-| 5 | De estas cuatro frases, ¿cuál describe mejor lo que hace especial a la organización? | Selección de 4 opciones + otra |
-| 6 | ¿Dónde le gustaría ver a la organización dentro de cinco años? | Abierta |
-| 7 | ¿Qué debería mejorar la organización para llegar ahí? | Abierta |
-| 8 | ¿Qué papel debería cumplir la tecnología en ese futuro? | Abierta |
+| Qué hacemos | ¿Cuál es la actividad esencial? | |
+| Para quién | ¿Quién es el destinatario? | |
+| Cómo nos distingue | ¿Qué la distingue en el cómo? | |
+| Para qué | ¿Qué valor genera? | |
+| Con qué compromiso | ¿Qué principios lo rigen? | |
 
 ```bash
-# LimeSurvey local (opcional)
-docker run -d --name peti_survey -p 127.0.0.1:8086:8080 \
-  -e LIMESURVEY_ADMIN_USER=admin -e LIMESURVEY_ADMIN_PASSWORD=peti_lab \
-  martialblog/limesurvey:6-apache
+cp ../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py 02_identidad/MV01_diagnostico_declaraciones.py
+python3 02_identidad/MV01_diagnostico_declaraciones.py | tee ../evidencias/S04/diagnostico.txt
 ```
 
-**Procesamiento** (`02_identidad/MV04_procesa_encuesta.py`):
+> **El veredicto sale de las reglas de la teoría, no de una opinión.** Si la misión sobrevive a la sustitución del nombre, se reformula. Si porta tres componentes o menos, se reformula. Con cuatro, o con algún defecto señalable, se ajusta. Solo con los cinco componentes y las tres pruebas superadas se conserva.
 
-```python
-import pandas as pd, re
-from collections import Counter
+### Paso C — Evaluar la visión
 
-r = pd.read_csv("../evidencias/encuesta_personal.csv")
-print(f"Respuestas: {len(r)} | Áreas representadas: {r.area.nunique()}")
-print(r.area.value_counts().to_string())
+1. Evalúen los cinco atributos, cada uno con la evidencia del juicio.
+2. Lleven a la segunda tabla toda cifra que la visión declare o suponga, con su línea base y la fuente del dato.
 
-VACIAS = set("""de la el los las y o a en un una que para con por su sus es son
-del al se lo como más muy nos nuestra nuestro este esta ser""".split())
+| Atributo | ¿Cumple? | Con qué se sustenta |
+|---|---|---|
+| Temporalmente acotada | | El año que declara, o su ausencia |
+| Verificable | | La cifra que contiene, o su ausencia |
+| Ambiciosa pero alcanzable | | Contrastada con el tamaño real de la empresa |
+| Específica del negocio | | Qué la distingue de otra empresa del mismo rubro |
+| Movilizadora | | Qué decisión concreta permite tomar |
 
-def nube(col, n=15):
-    txt = " ".join(r[col].dropna().astype(str)).lower()
-    pal = [w for w in re.findall(r"[a-záéíóúñ]{4,}", txt) if w not in VACIAS]
-    return Counter(pal).most_common(n)
+| Métrica que la visión implica | Valor actual, con su fuente | Valor que la visión exige |
+|---|---|---|
 
-print("\n=== P3 · Cómo describe el personal a la organización ===")
-for p, n in nube("p3_a_que_se_dedica"): print(f"   {p:20s} {n}")
-print("\n=== P6 · Futuro deseado por el personal ===")
-for p, n in nube("p6_futuro"): print(f"   {p:20s} {n}")
-print("\n=== P8 · Papel esperado de la tecnología ===")
-for p, n in nube("p8_tecnologia"): print(f"   {p:20s} {n}")
+### Paso D — Derivar la visión de TI y redactar Sección 2.1 y Sección 2.2
 
-conoce = r.p4_conoce_mision.value_counts(normalize=True)
-print(f"\n=== PRUEBA DEL RECONOCIMIENTO ===")
-print(conoce.round(3).to_string())
-print(f"→ Si menos del 50 % conoce la misión declarada, la misión no existe operativamente.")
-```
+1. Tomen cada elemento de la visión de la empresa y escriban la **capacidad de negocio** que exige.
+2. Para cada capacidad de negocio, escriban la **capacidad de TI** que la habilita, con su estado actual y su estado objetivo.
+3. Redacten la visión de TI con la estructura de la teoría.
+4. Redacten las dos secciones del PETI.
 
-### Paso D — Formular y evaluar las alternativas
+> *«Al cierre del horizonte del plan, la función de TI de <empresa> habrá pasado de <estado actual> a <estado objetivo>, sosteniendo <la capacidad de negocio que habilita>, con <nivel de servicio o capacidad medible>.»*
 
-Se redactan **tres alternativas de misión** y **tres de visión**, cada una construida con el vocabulario de las respuestas.
-
-**Evaluación por rúbrica ponderada** (`02_identidad/MV05_evaluacion.py`):
-
-```python
-import pandas as pd
-
-CRITERIOS = {   # criterio: (peso, descripción)
- "componentes":   (.25, "Contiene los 5 componentes: qué, para quién, cómo, para qué, compromiso"),
- "especificidad": (.25, "No pasa la prueba de sustitución: es propia de ESTA organización"),
- "veracidad":     (.20, "Describe capacidades que la organización realmente tiene"),
- "concision":     (.15, "≤ 50 palabras, memorizable"),
- "vocabulario":   (.15, "Usa las palabras de la organización, no jerga de consultoría"),
-}
-assert abs(sum(p for p, _ in CRITERIOS.values()) - 1) < 1e-9
-
-ALT = {  # alternativa: calificación 1–5 por criterio, en el orden de CRITERIOS
- "Misión A": [5, 4, 5, 3, 4],
- "Misión B": [4, 5, 5, 5, 5],
- "Misión C": [5, 3, 4, 4, 3],
- "Visión A": [4, 5, 4, 4, 4],
- "Visión B": [5, 4, 3, 5, 4],
- "Visión C": [3, 3, 5, 5, 5],
-}
-filas = []
-for alt, cal in ALT.items():
-    total = sum(c * p for c, (p, _) in zip(cal, CRITERIOS.values()))
-    filas.append({"alternativa": alt,
-                  **{k: v for k, v in zip(CRITERIOS, cal)},
-                  "puntaje": round(total, 2)})
-ev = pd.DataFrame(filas).sort_values("puntaje", ascending=False)
-ev.to_csv("MV05_evaluacion_alternativas.csv", index=False)
-print(ev.to_string(index=False))
-print("\nGanadora de misión:", ev[ev.alternativa.str.startswith("Misión")].iloc[0].alternativa)
-print("Ganadora de visión:", ev[ev.alternativa.str.startswith("Visión")].iloc[0].alternativa)
-```
-
-**Validación por consulta.** Las tres alternativas se someten a una **votación de preferencia** entre el personal encuestado y la contraparte de la organización. Se registra el resultado y **la razón declarada de la preferencia**, que suele revelar más que el conteo.
-
-> **Regla de decisión.** Si la alternativa mejor puntuada por la rúbrica no es la preferida por la organización, **prevalece la preferencia de la organización**, y el equipo documenta la discrepancia. Es su misión, no la del equipo formulador.
-
-### Paso E — Visión de TI y redacción de sección 2.1 y Sección 2.2
-
-**Derivación de la visión de TI.** Se construye la tabla que enlaza la visión organizacional con la capacidad tecnológica que la habilita:
-
-| Elemento de la visión organizacional | Capacidad de negocio requerida | Capacidad de TI que la habilita | Estado actual | Estado objetivo |
+| Elemento de la visión de la empresa | Capacidad de negocio requerida | Capacidad de TI que la habilita | Estado actual | Estado objetivo |
 |---|---|---|---|---|
-| «80 % de pedidos en canal digital» | Autoservicio del cliente | Portal B2B estable, integrado al ERP y a inventario en tiempo real | Portal sin integración, disponibilidad no medida | Portal integrado con 99,5 % de disponibilidad |
-| «Cobertura del 60 % de puntos de venta» | Gestión territorial de la fuerza de ventas | Movilidad, geolocalización, datos de cobertura | Sin herramienta móvil | Aplicación de fuerza de ventas con datos en línea |
-| «Entrega en menos de 24 horas» | Planificación de rutas y control de despacho | Integración WMS–transporte, trazabilidad | Integración por archivo nocturno | Integración en línea |
+| «80 % de pedidos en canal digital» | Autoservicio del cliente | Portal de venta integrado al ERP y al inventario | Portal sin integración, disponibilidad no medida | Portal integrado con 99,5 % de disponibilidad |
+| «Cobertura del 60 % de puntos de venta» | Gestión territorial de la fuerza de ventas | Movilidad, geolocalización y datos de cobertura | Sin herramienta móvil | Aplicación de fuerza de ventas con datos en línea |
+| «Entrega en menos de 24 horas» | Planificación de rutas y control de despacho | Integración entre almacén y transporte, con trazabilidad | Integración por archivo nocturno | Integración en línea |
 
 `02_identidad/2.1_mision.md` y `02_identidad/2.2_vision.md`:
 
 ```markdown
 ## 2.1 Misión
 
-### 2.1.1 Misión de la organización
-> «<Declaración final seleccionada>»
+### 2.1.1 Misión vigente de la empresa
+> «<Texto literal, con la dirección de la página y la fecha de consulta>»
 
-### 2.1.2 Componentes de la declaración
-| Componente | Contenido en la declaración |
+### 2.1.2 Diagnóstico de la declaración
+| Componente | Fragmento que lo porta | Defecto señalado y su prueba |
 
-### 2.1.3 Proceso de formulación
-Diagnóstico de la declaración vigente, insumos de la entrevista a la gerencia,
-resultados de la encuesta al personal (N = ___), alternativas evaluadas y criterio
-de selección. Discrepancias entre la rúbrica y la preferencia, si las hubo.
+### 2.1.3 Resultado de las tres pruebas de calidad
+Sustitución con tres competidores reales, prueba de la decisión y prueba del
+reconocimiento, cada una con su evidencia. Veredicto.
 
-### 2.1.4 Verificación de calidad
-Resultado de las pruebas de sustitución, de la decisión y del reconocimiento.
+### 2.1.4 Versión propuesta
+> «<Declaración propuesta>»
+El equipo evalúa y propone. **Adoptarla es decisión de la alta dirección de la empresa.**
 
 ---
 
 ## 2.2 Visión
 
-### 2.2.1 Visión de la organización al cierre del horizonte del plan
-> «<Declaración final seleccionada>»
+### 2.2.1 Visión vigente y su evaluación
+> «<Texto literal>»
+Los cinco atributos con la evidencia de cada juicio.
 
 ### 2.2.2 Métricas implícitas en la visión
 | Métrica | Valor actual (línea base) | Valor implícito en la visión | Fuente del dato |
@@ -261,22 +190,21 @@ Tabla de derivación: elemento de la visión → capacidad de negocio → capaci
 arquitectura objetivo (Sección 5) y del portafolio de proyectos (Sección 7).**
 ```
 
-### Paso F — Validar y corregir (25 min)
+### Paso E — Validar y corregir (25 min)
 
 El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
 
-1. Aplicar la prueba de sustitución a la misión propuesta con el nombre de un competidor real.
-2. Comprobar que la visión trae horizonte y una métrica, y que la métrica es alcanzable con el tamaño de la organización.
-3. Rastrear cada componente hasta su frase de origen en la entrevista.
+1. Apliquen la prueba de sustitución con el nombre de un competidor real de la empresa. Si la declaración sobrevive, no dice nada, y así se declara en el diagnóstico.
+2. Comprueben que cada métrica de la visión tiene su línea base con la fuente que la respalda, y no una cifra supuesta.
+3. Comprueben que cada fila de la tabla de derivación sale de un elemento concreto de la visión de la empresa, y no de una idea del equipo.
 
 > Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
-
-### Paso G — Registrar la evidencia y cerrar (15 min)
+### Paso F — Registrar la evidencia y cerrar (15 min)
 
 Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
 
 ```bash
-git add . && git commit -m "S04: mision, vision organizacional y vision de TI — secciones 2.1 y 2.2"
+git add . && git commit -m "S04: diagnostico de mision y vision, y vision de TI — secciones 2.1 y 2.2"
 git tag -a v0.4 -m "PETI v0.4 — identidad estrategica"
 ```
 
@@ -311,9 +239,9 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 
 | Resultado | Qué demuestra | Dónde está |
 |---|---|---|
-| **El diagnóstico de lo vigente** | Con las dos pruebas aplicadas y su resultado sustentado | Sección 2.1 |
-| **Las alternativas formuladas** | Dos misiones con los cinco componentes, trazables a la entrevista | Sección 2.1 |
-| **La visión con métrica** | Horizonte y cifra, alcanzables para esta organización | Sección 2.2 |
+| **El registro de las declaraciones** | Misión y visión literales, con la dirección de la página y la fecha de consulta | `MV01_declaraciones.md` |
+| **El diagnóstico de la misión** | Los componentes citados, los defectos nombrados con el término técnico y las tres pruebas ejecutadas | Sección 2.1 |
+| **La visión de TI derivada** | Capacidades con estado actual y estado objetivo, salidas de la visión de la empresa | Sección 2.2.3 y Sección 2.2.4 |
 
 ### 3.2. Lista de comprobación del taller
 
@@ -321,20 +249,19 @@ Todo esto debe existir al cerrar la sesión.
 
 | # | Resultado esperado | Verificación |
 |---|---|---|
-| 1 | Diagnóstico de las declaraciones vigentes con las tres pruebas de calidad | `MV01_diagnostico_actual.md` |
-| 2 | Entrevista a la gerencia realizada, con **consentimiento documentado** | `evidencias/` |
-| 3 | Insumos de la entrevista codificados por componente, con citas textuales | `MV02_insumos_entrevista.csv` |
-| 4 | Encuesta aplicada a **al menos 10 personas o al 30 % del personal**, lo que sea mayor | `encuesta_personal.csv` |
-| 5 | Procesamiento de la encuesta con las tres nubes de términos | Salida de `MV04_procesa_encuesta.py` |
-| 6 | **Prueba del reconocimiento** cuantificada. % del personal que conoce la misión | Salida del script |
-| 7 | **Tres alternativas** de misión y **tres** de visión formuladas | `02_identidad/` |
-| 8 | Evaluación por rúbrica ponderada con pesos que suman 1 | `MV05_evaluacion_alternativas.csv` |
-| 9 | Validación por consulta, con el resultado y **la razón declarada de la preferencia** | Papel de trabajo |
-| 10 | Discrepancia rúbrica-preferencia documentada, si la hubo | Sección 2.1.3 |
-| 11 | Misión final de **≤ 50 palabras** con los cinco componentes identificados | Sección 2.1 |
-| 12 | Visión final con horizonte y **al menos dos métricas verificables** | Sección 2.2 |
-| 13 | **Visión de TI derivada** y tabla de capacidades con estado actual y objetivo | Sección 2.2.3 y Sección 2.2.4 |
-| 14 | Etiqueta `v0.4` en Git | `git tag` |
+| 1 | Empresa del sector tecnológico elegida, con su actividad y su país | `MV01_declaraciones.md` |
+| 2 | Misión y visión transcritas **literalmente**, con dirección y fecha de consulta | `MV01_declaraciones.md` |
+| 3 | Los cinco componentes de la misión, cada presente con su **fragmento literal** | Sección 2.1 |
+| 4 | Los siete defectos revisados, y los señalados **con su nombre técnico y su prueba** | Salida del programa |
+| 5 | **Prueba de sustitución** ejecutada con tres competidores reales | Salida del programa |
+| 6 | **Prueba de la decisión** y **prueba del reconocimiento** respondidas, o declaradas como no comprobables | Sección 2.1 |
+| 7 | Veredicto de la misión y de la visión, con la regla que lo produce | Salida del programa |
+| 8 | Los cinco atributos de la visión evaluados con su evidencia | Sección 2.2 |
+| 9 | Métricas implícitas de la visión con su **línea base y su fuente** | Sección 2.2.2 |
+| 10 | Versión propuesta de la misión, con la constancia de que adoptarla decide la empresa | Sección 2.1.4 |
+| 11 | **Visión de TI derivada** con la estructura de la teoría | Sección 2.2.3 |
+| 12 | Tabla de derivación con estado actual y estado objetivo por capacidad | Sección 2.2.4 |
+| 13 | Etiqueta `v0.4` en Git | `git tag` |
 
 ## Rúbrica procedimental (20 puntos)
 
@@ -343,9 +270,9 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | Criterio | 4 — Logrado | 2 — En proceso | 0 — Insuficiente |
 |---|---|---|---|
 | **El criterio de éxito** | Se cumple tal como lo pide el reto de esta sesión | Se cumple con reservas que el equipo declara | No se cumple, o se afirma cumplido sin prueba |
-| **El diagnóstico de lo vigente** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
-| **Las alternativas formuladas** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
-| **La visión con métrica** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
+| **El registro de las declaraciones** | Texto literal de las dos, con dirección y fecha de consulta | Registradas sin fecha, o con el texto resumido | Sin fuente, o parafraseadas |
+| **El diagnóstico de la misión** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto, o con defectos descritos en vez de nombrados |
+| **La visión de TI derivada** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto, o sin relación con la visión de la empresa |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
 | Puntaje | Equivalencia |
@@ -361,9 +288,9 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 
 Mínimo tres. Líneas argumentales esperadas:
 
-1. Una misión formulada con el vocabulario de la organización se reconoce y se usa; una formulada con vocabulario de consultoría se archiva, por correcta que sea su estructura.
-2. La prueba del reconocimiento —cuánta gente puede enunciar la misión con sus propias palabras— es el único indicador que distingue una misión operativa de una declaración publicada.
-3. La visión solo es útil para el PETI si sus elementos pueden derivarse en capacidades de TI con estado actual y objetivo; esa derivación es lo que convierte una aspiración en un portafolio de proyectos.
+1. Una misión que sobrevive a la sustitución del nombre no ha servido nunca para rechazar nada, y el plan de TI que se apoya en ella hereda esa debilidad.
+2. El defecto se nombra con el término técnico y se prueba con evidencia. «Es muy general» describe una impresión y no sostiene una recomendación ante la alta dirección.
+3. La visión solo mueve inversión cuando cada uno de sus elementos se traduce en una capacidad de TI con estado actual y estado objetivo; esa tabla es lo que después ordena la cartera de proyectos.
 
 ## 5. Referencias Bibliográficas
 
@@ -371,18 +298,16 @@ Mínimo tres. Líneas argumentales esperadas:
 - García Sánchez, E. y Valencia Velazco, M. L. *Planeación estratégica: teoría y práctica*. Trillas.
 - Rodríguez Bermúdez, J. R. (2015). *Planificación y dirección estratégica de sistemas de información*. Editorial UOC. https://elibro.net/es/lc/bibliotecaupt/titulos/57875
 - Collins, J. y Porras, J. (1996). Building your company's vision. *Harvard Business Review*, 74(5), 65–77.
+- Bart, C. K. (1997). Sex, lies, and mission statements. *Business Horizons*, 40(6), 9–18.
 - CEPLAN. *Guía para el Planeamiento Institucional* — formulación de la misión institucional. https://www.gob.pe/ceplan
 - Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI — Anexo I. https://cdn.www.gob.pe/uploads/document/file/356863/Anexo_I_Lineamientos_PGD.pdf
-- Ley 29733 y D. S. 016-2024-JUS — tratamiento de datos en encuestas y entrevistas. https://www.gob.pe/institucion/anpd
-- LimeSurvey Project. *LimeSurvey Manual*. https://www.limesurvey.org/manual
 
 ## 6. Anexos
 
-- `anexo_A_transcripcion_entrevista.pdf` — con el consentimiento adjunto
-- `anexo_B_instrumento_encuesta.pdf`
-- `anexo_C_resultados_encuesta.xlsx`
-- `anexo_D_evaluacion_alternativas.xlsx`
-- `anexo_E_secciones_2_1_2_2.pdf`
+- `anexo_A_declaraciones.pdf` — captura de la página con la dirección y la fecha
+- `anexo_B_salida_diagnostico.txt`
+- `anexo_C_grafico_diagnostico.png`
+- `anexo_D_secciones_2_1_2_2.pdf`
 
 ---
 

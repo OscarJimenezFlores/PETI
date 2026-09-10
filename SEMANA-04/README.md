@@ -42,7 +42,7 @@
 |---|---|---|---|
 | 1 | **[Teoría](1-TEORIA.md)** | La misión y por qué existe la organización · La visión y hacia dónde va la organización · El proceso participativo de formulación | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | La mesa de la oportunidad, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
-| 3 | **[Taller de laboratorio](3-TALLER.md)** | Formulación y validación de la misión y la visión | Laboratorio · 100 min |
+| 3 | **[Taller de laboratorio](3-TALLER.md)** | Evaluación de la misión y la visión de una empresa real del sector tecnológico, y derivación de la visión de TI | Laboratorio · 100 min |
 
 ## Ruta de la semana
 
@@ -76,14 +76,14 @@ flowchart LR
 | Criterio | Instrumento | Peso |
 |---|---|---|
 | Cognitivo | Rúbrica de «Cirugía de misión» + exposición de 10 min en la Semana 05 | 25 % |
-| Procedimental | Lista de cotejo de los 14 resultados del laboratorio | 35 % |
-| Actitudinal | Consentimiento informado, anonimato de la encuesta y respeto por la decisión de la organización | 15 % |
+| Procedimental | Lista de cotejo de los 13 resultados del laboratorio | 35 % |
+| Actitudinal | Cita literal de las declaraciones con su fuente y su fecha, y respeto por la decisión de la empresa sobre su propia identidad | 15 % |
 
 ## Preparación para la Semana 05
 
 - **Leer.** López Posada, *Cultura organizacional: entre el individualismo y el colectivismo* — capítulos iniciales.
 - Revisar el **Competing Values Framework** de Cameron y Quinn. Los cuatro tipos de cultura organizacional.
-- Mantener abierta la encuesta al personal. La Semana 05 agrega el módulo de diagnóstico de cultura al mismo instrumento.
+- Revisar quién decide y cómo se decide en la organización, a partir de sus documentos y de su estructura. La Semana 05 parte de ahí para diagnosticar la cultura.
 - Recopilar los valores declarados de la organización, si existen, con su documento de aprobación.
 
 ---

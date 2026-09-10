@@ -20,6 +20,7 @@ python3 <carpeta_del_equipo>/<programa>.py
 | Semana | Programa | Qué calcula |
 |---|---|---|
 | 02 | `VS02_extraccion_bcrp.py` · `VS03_extraccion_bm.py` · `VS04_graficos.py` | Series de vigilancia estratégica y sus gráficos |
+| 04 | `MV01_diagnostico_declaraciones.py` | Diagnóstico de la misión y la visión de una empresa, con su veredicto |
 | 05 | `CU02_perfil_cultura.py` | Perfil de cultura organizacional |
 | 06 | `AI02_analisis_cadena.py` · `AI06_capacidades.py` | Cadena de valor y evaluación de capacidades |
 | 07 | `PE02_matrices.py` | Matrices EFI y EFE |
