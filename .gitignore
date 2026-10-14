@@ -70,3 +70,36 @@ SEMANA-*-EXAMENES/
 # ---------------------------------------------------------------------------
 ASSESSMENT/
 **/ASSESSMENT/
+
+# Solucionarios del docente, de dinamicas, talleres y casos, con cualquier nombre
+*SOLUCIONARIO*
+*solucionario*
+
+# --- Python, Node, registros y cachés (paridad con la raíz) ---------------
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+*.log
+.cache/
+
+# --- Material resuelto del docente, con cualquier nombre ------------------
+# Dinamicas resueltas, pruebas resueltas, claves de respuesta y guias del docente.
+*RESUELTA*
+*RESUELTO*
+*resuelta*
+*resuelto*
+*-CLAVE.*
+*-clave.*
+GUIA-DOCENTE.md
+**/GUIA-DOCENTE.md
