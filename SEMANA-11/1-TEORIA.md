@@ -1,8 +1,10 @@
 [Semana 11](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Situación Actual del Gobierno Digital
+# Semana 11
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 11 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Situación Actual del Gobierno Digital
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una entidad afirma que su trámite de licencias está digitalizado. Tiene el for
 El ciudadano descarga el formulario, lo llena, lo imprime, y lo lleva a la ventanilla con tres documentos adjuntos. Dos de los tres los emite el propio Estado, y uno lo emite la misma entidad que se los pide.
 
 > **¿Qué mide de verdad el nivel de digitalización de un trámite?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| La arquitectura empresarial y sus cuatro capas | Semana 10 |
-| El marco normativo de gobierno digital | Semana 08 |
-| El diagnóstico de capacidades y los marcos adoptados | Semana 09 |
-| Los procesos de la organización y sus sistemas | Semana 06 |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está digitalizado ese trámite? ¿En qué grado? ¿Qué pediría usted para medirlo de forma objetiva?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del trámite «digitalizado» y la exploración inicial | 8 |
-| **Bloque 1.** Qué es gobierno digital y qué no es | 15 |
-| **Bloque 2.** El servicio digital como unidad de análisis · con su microaplicación | 25 |
-| **Bloque 3.** Los ejes e indicadores del diagnóstico | 12 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -72,7 +55,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Qué es gobierno digital y qué no es
+## 1. Qué es gobierno digital y qué no es
 
 > **¿Tener sistemas es tener gobierno digital?**
 
@@ -101,7 +84,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Digitalizar el papel y seguir imprimiéndolo. Es el caso de hoy — el formulario existe en el portal y el proceso sigue siendo el mismo. **Gobierno digital es rediseñar el proceso para que el papel no sea necesario**, no publicar el papel en formato electrónico.
 
-## Bloque 2 · El servicio digital como unidad de análisis
+## 2. El servicio digital como unidad de análisis
 
 > **¿Se cuentan sistemas o se cuentan servicios completos?**
 
@@ -137,7 +120,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Medir sistemas en lugar de servicios. Una entidad puede tener catorce sistemas y **cero servicios digitales completos**, porque todos exigen que el ciudadano se presente en ventanilla al final. El sistema es un medio; la unidad de análisis del diagnóstico es el servicio.
 
-## Bloque 3 · Los ejes e indicadores del diagnóstico de gobierno digital
+## 3. Los ejes e indicadores del diagnóstico de gobierno digital
 
 > **¿Qué se mide para saber en qué estado está el gobierno digital de una organización?**
 
@@ -187,7 +170,7 @@ flowchart TD
 
 > **Cuatro de siete requisitos ya los tiene el Estado, y uno de ellos lo emite la propia entidad que lo solicita.** Ese hallazgo no requiere comprar nada. Requiere rediseñar el requisito e integrarse a la PIDE. Es el proyecto de mayor razón beneficio-costo que suele aparecer en un PGD.
 
-> **Microaplicación (6 min) · el nivel real de un trámite propio.** Cada pareja toma **un servicio real de su organización** y lo sitúa en la escala de 0 a 5, con la prueba de verificación que corresponde a ese nivel. Casi todos bajan un escalón al aplicar la prueba.
+> **Microaplicación (6 min). El nivel real de un trámite propio.** Cada pareja toma **un servicio real de su organización** y lo sitúa en la escala de 0 a 5, con la prueba de verificación que corresponde a ese nivel. Casi todos bajan un escalón al aplicar la prueba.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -195,7 +178,7 @@ flowchart TD
 | El indicador de reclamos no tiene línea base. ¿Se descarta? | No. La línea base es «no se mide», y el primer proyecto es empezar a medirlo. Un indicador sin línea base impide demostrar avance en la evaluación anual |
 | ¿Qué nivel de madurez tiene esta entidad? | **1, inicial.** No existe Comité ni Líder de Gobierno Digital, y el Plan nunca se formuló. Sin gobernanza no se alcanza el nivel 2, por muchos sistemas que haya |
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Lo mide **si el usuario tiene que acudir**. El trámite del caso está en el nivel 2 —descarga— y no en el 4, porque el formulario se presenta físicamente. Y hay un hallazgo peor — de los tres documentos que se le exigen al ciudadano, **uno lo emite la propia entidad que se lo pide**, lo que no requiere interoperar con nadie. Requiere rediseñar el trámite.
 

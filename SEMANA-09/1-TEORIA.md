@@ -1,8 +1,10 @@
 [Semana 09](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Herramientas y Marcos para el Desarrollo de la TI en la Organización
+# Semana 09
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 09 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Herramientas y Marcos para el Desarrollo de la TI en la Organización
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una organización de sesenta personas anuncia que va a implementar COBIT, ITIL y
 Dieciocho meses después no ha implementado ninguno. Tiene tres carpetas de documentación, dos personas certificadas que ya renunciaron y ningún proceso que funcione distinto que antes.
 
 > **¿Cómo se elige un marco de gestión de TI, si todos parecen buenos y ninguno es gratis?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| El diagnóstico interno y externo de la organización | Semanas 06 y 07 |
-| El marco normativo aplicable y sus obligaciones | Semana 08 |
-| La postura de TI de la organización | Semana 02 |
-| Nociones de proceso y de nivel de madurez | Conocimiento general |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Qué hizo mal esa organización? ¿Por cuál habría empezado usted? ¿Se puede adoptar la mitad de un marco?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso de los tres marcos y la exploración inicial | 8 |
-| **Bloque 1.** Qué resuelve cada marco de gestión de TI · con su microaplicación | 22 |
-| **Bloque 2.** COBIT 2019 como columna vertebral del plan | 20 |
-| **Bloque 3.** ITIL 4 y la gestión de servicios | 10 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -69,7 +52,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Qué resuelve cada marco de gestión de TI
+## 1. Qué resuelve cada marco de gestión de TI
 
 > **¿Compiten los marcos entre sí o resuelven problemas distintos?**
 
@@ -98,7 +81,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Adoptar marcos por moda. Una organización que decide implementar tres a la vez no implementará ninguno, y ese es el caso de hoy. **Los marcos no compiten. Resuelven problemas distintos**, y el plan selecciona el que resuelve el problema que la organización realmente tiene.
 
-## Bloque 2 · COBIT 2019 como columna vertebral del PETI
+## 2. COBIT 2019 como columna vertebral del PETI
 
 > **¿Cómo se evita adoptar los cuarenta objetivos de golpe?**
 
@@ -161,7 +144,7 @@ flowchart TD
 
 > **BAI05 es el objetivo que casi ningún equipo prioriza y el que explica el fracaso anterior.** El módulo de almacén no se abandonó por un defecto técnico. Se abandonó porque no hubo gestión del cambio. Adoptar BAI09 sin BAI05 compra otro sistema que también se abandonará. **Los factores de diseño no sirven para justificar lo que ya se quería hacer. Sirven para descubrir lo que no se estaba viendo.**
 
-> **Microaplicación (6 min) · el marco que resuelve su problema.** Cada pareja enuncia **el problema principal de TI de su propia organización** en una frase y elige qué marco lo resuelve, aplicando los tres criterios en orden. Se recogen dos y se contrastan.
+> **Microaplicación (6 min). El marco que resuelve su problema.** Cada pareja enuncia **el problema principal de TI de su propia organización** en una frase y elige qué marco lo resuelve, aplicando los tres criterios en orden. Se recogen dos y se contrastan.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -171,7 +154,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Adoptar un marco completo en una organización que no puede sostenerlo. Produce documentación que nadie usa, que es exactamente lo que quedó en las tres carpetas del caso. La alternativa profesional es la **adopción selectiva justificada**, que es una decisión de diseño y no una renuncia.
 
-## Bloque 3 · ITIL 4 y la gestión de servicios
+## 3. ITIL 4 y la gestión de servicios
 
 > **¿Cuándo el problema de la organización es operativo y no de gobierno?**
 
@@ -202,7 +185,7 @@ flowchart TD
 | Tableros e indicadores | **Metabase**, **Grafana** | |
 | Gestión de riesgos | **SimpleRisk Community** | |
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Con tres criterios, en este orden — **si hay obligación**, porque entonces no es una elección; **si resuelve el problema diagnosticado**, contrastándolo con las capacidades de menor nivel y mayor criticidad; y **si es proporcional** al tamaño, al personal y a la madurez de la organización. La empresa del caso no aplicó ninguno de los tres.
 

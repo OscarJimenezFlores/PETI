@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 05 · Valores Organizacionales · Cultura Organizacional</h1>
+<h1 align="center">Semana 05</h1>
+<h2 align="center">Valores Organizacionales · Cultura Organizacional</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | De los valores declarados a la conducta observable · La cultura organizacional y la conducta real · Cultura y transformación digital | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | El valor que llegó a los titulares, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Diagnóstico de cultura con el Competing Values Framework | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

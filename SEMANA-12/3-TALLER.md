@@ -1,8 +1,10 @@
 [Semana 12](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 12 · Formulación de objetivos, indicadores y metas
+# Semana 12
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 12 · Sesión 2 en laboratorio · calificación **procedimental**
+## Formulación de objetivos, indicadores y metas
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S12-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 12» |
 | **Cuándo vence** | Según lo programado en el aula virtual. El plazo se cuenta desde la sesión de laboratorio de la semana, se desarrolle el taller dentro de ella o fuera de ella |
 
@@ -36,10 +39,20 @@
 - Verificar la **trazabilidad completa** evidencia → factor → estrategia → objetivo → proyecto.
 - Redactar la **Sección 6.2** del PETI (Plan Estratégico de Tecnologías de Información).
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **pandas** | Valida que cada ficha de indicador tenga los 14 campos y verifica la trazabilidad entre CSV de distintas secciones | Salidas de `OB04` y `OB05` |
+| **SQL** sobre la base del tablero | Ejecuta la consulta real que produce cada línea base, en lugar de declararla | Tabla del Paso C con capturas |
+| **CSV** relacionados por código | Mantiene objetivos, estrategias, paquetes de trabajo e indicadores enlazados por identificador | `OB02_objetivos.csv`, `OB03_indicadores.csv` |
+| **Metabase** | Verifica las líneas base contra el tablero de la Semana 11 | Capturas |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | Secciones Sección 3.5, Sección 4.3, Sección 5.4 y Sección 6.1 del PETI | Insumos obligatorios |
 | **CEPLAN** — Guía para el Planeamiento Institucional | https://www.gob.pe/ceplan |
 | **D. S. 085-2023-PCM** | Objetivos prioritarios de la Política Nacional de Transformación Digital |
@@ -58,7 +71,11 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** Las líneas base salen de la **ficha de su organización**, sección F, «hechos verificables para el diagnóstico», en `CASOS/EMPRESA-<NN>-<slug>/FICHA.md`, y de los archivos de `CASOS/EMPRESA-<NN>-<slug>/datos/`, que son la población completa del periodo. **Una línea base sin fuente verificable no entra en la ficha del indicador.**
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` y los siete archivos de `datos/`, que son la población completa del periodo. Las líneas base salen de la sección F de la ficha («hechos verificables») y de los datos: por ejemplo, usuarios habilitados de personal cesado en `usuarios_erp.csv`, procesos sin prueba de continuidad en `bia.csv`, ejecución por partida en `presupuesto_ti.csv`, inversiones con beneficio medido en `inversiones_cerradas.csv`. **Una línea base sin fuente verificable no entra en la ficha del indicador.**
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `06_gobierno_digital/OB02_objetivos.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Derivar los objetivos
 
@@ -86,7 +103,7 @@ for obj, ests in AGRUPACION.items():
         print(f"    · [{s.Tipo}] {s.Estrategia[:100]}...")
 ```
 
-`06_gobierno_digital/OB02_objetivos.csv`:
+**Archivo que se crea en el repositorio:** `06_gobierno_digital/OB02_objetivos.csv`:
 
 | Código | **Enunciado SMART** | Componente de gobierno digital | Objetivo superior al que se articula | Estrategias que lo sustentan | Paquetes de trabajo | Responsable (cargo) |
 |---|---|---|---|---|---|---|
@@ -99,7 +116,7 @@ for obj, ests in AGRUPACION.items():
 
 ### Paso B — Fichas técnicas de indicadores
 
-`06_gobierno_digital/OB03_fichas_indicadores.md` — una por indicador:
+**Archivo que se crea en el repositorio:** `06_gobierno_digital/OB03_fichas_indicadores.md` — una por indicador:
 
 ```markdown
 ### Ficha del indicador OD-01.I1
@@ -129,11 +146,12 @@ for obj, ests in AGRUPACION.items():
 
 **Los indicadores mínimos por objetivo.** Al menos uno de resultado. Los objetivos de mayor peso llevan además un indicador de impacto.
 
-**El programa está en [`HERRAMIENTAS/SEMANA-12/OB04_valida_indicadores.py`](../HERRAMIENTAS/SEMANA-12/OB04_valida_indicadores.py).** Se copia al repositorio del equipo como `06_gobierno_digital/OB04_valida_indicadores.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`OB04_valida_indicadores.py`](RECURSOS-TALLER/OB04_valida_indicadores.py).** Lee `OB03_indicadores.csv`, versión tabular de las fichas, en la misma carpeta. Produce los campos faltantes y las proporciones en pantalla. Se copia a `06_gobierno_digital/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-12/OB04_valida_indicadores.py 06_gobierno_digital/OB04_valida_indicadores.py
-python3 06_gobierno_digital/OB04_valida_indicadores.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-12/RECURSOS-TALLER/OB04_valida_indicadores.py 06_gobierno_digital/
+cd 06_gobierno_digital && python3 OB04_valida_indicadores.py
 ```
 
 ### Paso C — Verificar líneas base contra su fuente
@@ -153,11 +171,12 @@ python3 06_gobierno_digital/OB04_valida_indicadores.py
 
 ### Paso D — Trazabilidad completa y redacción
 
-**El programa está en [`HERRAMIENTAS/SEMANA-12/OB05_trazabilidad.py`](../HERRAMIENTAS/SEMANA-12/OB05_trazabilidad.py).** Se copia al repositorio del equipo como `06_gobierno_digital/OB05_trazabilidad.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`OB05_trazabilidad.py`](RECURSOS-TALLER/OB05_trazabilidad.py).** Lee `OB02_objetivos.csv`, `03_diagnostico/PE05_trazabilidad.csv` y `05_arquitectura/AR03_brechas.csv`. Produce la verificación de trazabilidad en pantalla. Se copia a `06_gobierno_digital/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-12/OB05_trazabilidad.py 06_gobierno_digital/OB05_trazabilidad.py
-python3 06_gobierno_digital/OB05_trazabilidad.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-12/RECURSOS-TALLER/OB05_trazabilidad.py 06_gobierno_digital/
+cd 06_gobierno_digital && python3 OB05_trazabilidad.py
 ```
 
 ```markdown
@@ -216,10 +235,10 @@ git tag -a v0.12 -m "PETI v0.12 — objetivos e indicadores (cierre de Unidad II
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S12/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S12/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `06_gobierno_digital/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S12/` | URL del archivo |
+> | Salida de comandos | `evidencias/S12/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-12` sobre el commit entregado:
 >
@@ -231,6 +250,8 @@ git tag -a v0.12 -m "PETI v0.12 — objetivos e indicadores (cierre de Unidad II
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-12`
 >
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.12`): `taller-12` marca el commit que se entrega a calificar y `v0.12` marca el estado del documento. Pueden apuntar al mismo commit.
+>
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
 ### 3.1. Los tres resultados que se califican
@@ -239,7 +260,7 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 
 | Resultado | Qué demuestra | Dónde está |
 |---|---|---|
-| **Los objetivos SMART** | Entre cinco y ocho, los cinco atributos verificados uno a uno | Sección 6.1 |
+| **Los objetivos SMART** | Entre cinco y ocho, los cinco atributos verificados uno a uno | `OB02_objetivos.csv` y sección 6.2.2 |
 | **La ficha del indicador** | Fórmula, fuente, periodicidad y responsable, por cada objetivo | Fichas de indicador |
 | **La trazabilidad** | Cada objetivo hasta su brecha y hasta el objetivo institucional | Matriz de trazabilidad |
 
@@ -275,18 +296,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La trazabilidad** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. Un enunciado que empieza con «implementar» es un proyecto disfrazado de objetivo; el plan que confunde ambos puede ejecutarse íntegramente sin que ningún resultado cambie.
 2. Un cuadro de indicadores dominado por métricas de producto permite declarar cumplimiento sin demostrar valor, y es la razón más frecuente por la que las gerencias dejan de financiar los planes de TI.

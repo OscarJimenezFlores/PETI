@@ -1,8 +1,10 @@
 [Semana 10](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Arquitectura Empresarial
+# Semana 10
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 10 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Arquitectura Empresarial
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una empresa pide una cifra sencilla — cuántos clientes activos tiene. El áre
 Las tres cifras son correctas. Cada área define «cliente activo» de una manera distinta, ninguna definición está escrita, y las tres llevan años decidiendo con la suya.
 
 > **¿Por qué una organización con todos sus sistemas funcionando no puede responder cuántos clientes activos tiene?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| El diagnóstico de capacidades y el marco de gestión adoptado | Semana 09 |
-| El análisis interno de procesos y sistemas | Semana 06 |
-| La cadena de valor y los sistemas que la soportan | Semana 06 |
-| Nociones de bases de datos e integración de sistemas | Cursos previos de la carrera |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿De quién es la culpa? ¿Qué habría que hacer para que las tres cifras coincidan? ¿Es un problema técnico o de otra cosa?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso de las tres cifras y la exploración inicial | 8 |
-| **Bloque 1.** Qué problema resuelve la arquitectura empresarial · con su microaplicación | 20 |
-| **Bloque 2.** TOGAF y el método ADM | 22 |
-| **Bloque 3.** ArchiMate como lenguaje de modelado | 10 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -71,7 +54,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Qué problema resuelve la arquitectura empresarial
+## 1. Qué problema resuelve la arquitectura empresarial
 
 > **¿Cuál de las cuatro capas explica el problema de las tres cifras?**
 
@@ -101,7 +84,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Reducir la arquitectura empresarial a un diagrama de servidores y redes. Esa es la capa de tecnología, que es la que TI conoce y la que menos aporta al plan. **La capa que más valor aporta es la de datos**, y es la que casi nunca existe documentada.
 
-## Bloque 2 · TOGAF y el método ADM
+## 2. TOGAF y el método ADM
 
 > **¿Cómo se convierte una visión en proyectos concretos?**
 
@@ -173,7 +156,7 @@ flowchart TD
 
 > **Cada brecha se clasifica como *nueva*, *reemplazar*, *consolidar* o *eliminar*, y esa palabra decide el tipo de proyecto.** La primera fila es la más instructiva — **la brecha no es tecnológica**. El sistema objetivo ya está comprado y en producción. Un análisis que la clasificara como «nueva» propondría comprar un WMS y repetiría el fracaso de 2015.
 
-> **Microaplicación (5 min) · el dueño del dato.** El aula responde a mano alzada una sola pregunta antes de la explicación — *en su organización, ¿quién responde por el dato «cliente»?* La respuesta más frecuente es que nadie, y ese es el punto de entrada.
+> **Microaplicación (5 min). El dueño del dato.** El aula responde a mano alzada una sola pregunta antes de la explicación — *en su organización, ¿quién responde por el dato «cliente»?* La respuesta más frecuente es que nadie, y ese es el punto de entrada.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -183,7 +166,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Modelar solo la arquitectura objetivo. Sin la arquitectura actual no hay brecha, y sin brecha no hay paquetes de trabajo — solo una lámina bonita de un futuro que nadie sabe cómo alcanzar. **El análisis de brechas es el mecanismo que convierte la visión en cartera de proyectos.**
 
-## Bloque 3 · ArchiMate como lenguaje de modelado
+## 3. ArchiMate como lenguaje de modelado
 
 > **¿Para qué sirve un lenguaje común de modelado en un plan de TI?**
 
@@ -219,7 +202,7 @@ flowchart TD
 | **Vista de estructura de la información** | Qué dato existe, dónde reside y quién es su dueño | Gobierno del dato |
 | **Vista de infraestructura** | Sobre qué corre cada aplicación y dónde está el riesgo | TI |
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Porque el problema no está en los sistemas sino en **la capa de datos**, que ninguna de las tres áreas gobierna. Las tres cifras son correctas dentro de su propia definición, y ninguna definición está escrita ni tiene dueño. Preguntar «¿quién es el dueño del dato cliente?» suele revelar que cuatro áreas lo mantienen y ninguna responde por él.
 

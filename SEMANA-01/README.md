@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 01 · Inducción y Lineamientos Generales del Curso</h1>
+<h1 align="center">Semana 01</h1>
+<h2 align="center">Inducción y Lineamientos Generales del Curso</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -41,6 +42,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | El encargo del semestre · Qué es un PETI y qué no es · De dónde viene y hacia dónde va el planeamiento | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | El plan en el banquillo, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Repositorio del PETI, selección de la organización y tablero de avance | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

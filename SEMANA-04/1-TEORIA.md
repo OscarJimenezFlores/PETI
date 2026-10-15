@@ -1,8 +1,10 @@
 [Semana 04](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Misión y Visión · Construcción y Evaluación
+# Semana 04
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Misión y Visión · Construcción y Evaluación
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una organización tiene esta misión. «Brindar productos y servicios de calidad
 Sustituya el nombre de la organización por el de cualquier otra empresa del país. La frase sigue siendo válida. Sustitúyalo por el de un instituto, una clínica o una municipalidad. Sigue siendo válida.
 
 > **¿Para qué sirve una misión si nunca ha servido para rechazar un proyecto?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| Los niveles de planificación y los instrumentos | Semana 03 |
-| La postura de TI y los niveles de la estrategia | Semana 02 |
-| La organización elegida, con sus documentos de planeamiento | Semanas 01 a 03 |
-| Ningún método de formulación en particular | Se introduce hoy |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está mal esa misión? ¿Qué decisión concreta ayudaría a tomar? ¿Qué pasaría si el equipo la reescribe por su cuenta?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso de la misión intercambiable y la exploración inicial | 8 |
-| **Bloque 1.** La misión y por qué existe la organización · con su microaplicación | 22 |
-| **Bloque 2.** La visión y hacia dónde va la organización | 18 |
-| **Bloque 3.** El proceso participativo de formulación | 12 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -70,7 +53,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · La misión y por qué existe la organización
+## 1. La misión y por qué existe la organización
 
 > **¿Qué prueba distingue una misión que dice algo de una que no?**
 
@@ -123,7 +106,7 @@ flowchart TD
 
 > **Por qué importa en un PETI.** Si la misión menciona trazabilidad exigida por el comprador, el proyecto de trazabilidad deja de ser «una mejora de TI» y pasa a ser **la condición para seguir existiendo**. La misión da o quita fuerza a la cartera.
 
-> **Microaplicación (6 min) · la prueba de sustitución, en vivo.** Cada equipo lee **la misión real de su propia organización** y le aplica la prueba de sustitución en voz alta, cambiando el nombre por el de un competidor. Se recogen dos casos y se comprueba cuántas sobreviven.
+> **Microaplicación (6 min). La prueba de sustitución, en vivo.** Cada equipo lee **la misión real de su propia organización** y le aplica la prueba de sustitución en voz alta, cambiando el nombre por el de un competidor. Se recogen dos casos y se comprueba cuántas sobreviven.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -132,7 +115,7 @@ flowchart TD
 | ¿Sirve una visión sin fecha? | No. Sin horizonte no se puede medir avance ni saber si se alcanzó |
 > **El error frecuente del bloque.** Reescribir la misión de la organización y presentarla como la nueva. **Cambiarla es decisión de su alta dirección.** El equipo puede evaluarla, señalar sus defectos con el término técnico y proponer una versión para que la organización decida, pero un plan que sustituye la misión sin mandato pierde credibilidad entera.
 
-## Bloque 2 · La visión y hacia dónde va la organización
+## 2. La visión y hacia dónde va la organización
 
 > **¿Qué le falta a «ser reconocidos por nuestra excelencia» para poder medirse?**
 
@@ -165,7 +148,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Formular una visión sin horizonte. Sin fecha no se puede medir avance ni saber si se alcanzó, y una visión que no se puede evaluar no orienta ninguna decisión de inversión. El otro extremo también falla — una empresa de cuarenta personas que aspira a operar en doce países en tres años no está siendo ambiciosa, está siendo inverosímil.
 
-## Bloque 3 · El proceso participativo de formulación
+## 3. El proceso participativo de formulación
 
 > **¿Por qué importa quién escribió la misión, y no solo qué dice?**
 
@@ -192,7 +175,7 @@ flowchart TD
 
 > **La pregunta 4 es la más reveladora.** Lo que una organización rechaza define su estrategia con más precisión que lo que persigue.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** No sirve para nada, y ese es exactamente el diagnóstico técnico. Una misión que nunca ayudó a decir «no» es **decorativa**. Su utilidad en un plan de TI es concreta — si la misión menciona una capacidad, el proyecto que la sostiene deja de ser «una mejora de TI» y pasa a ser la condición para seguir existiendo. La misión da o quita fuerza a la cartera.
 

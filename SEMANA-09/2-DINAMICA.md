@@ -1,8 +1,10 @@
 [Semana 09](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · La feria de marcos
+# Semana 09
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 09 · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
+## La feria de marcos
+
+**SI-886 · Planeamiento Estratégico de TI** · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

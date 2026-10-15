@@ -1,8 +1,10 @@
 [Semana 06](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 06 · Cadena de valor, VRIO y evaluación de capacidades de TI
+# Semana 06
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 06 · Sesión 2 en laboratorio · calificación **procedimental**
+## Cadena de valor, VRIO y evaluación de capacidades de TI
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S06-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 06» |
 | **Cuándo vence** | Según lo programado en el aula virtual. El plazo se cuenta desde la sesión de laboratorio de la semana, se desarrolle el taller dentro de ella o fuera de ella |
 
@@ -35,11 +38,21 @@
 - Elaborar la **matriz de capacidades de TI** con nivel actual y requerido.
 - Redactar las secciones **Sección 3.1** y **Sección 3.2** del PETI (Plan Estratégico de Tecnologías de Información).
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **BPMN 2.0** en Bizagi Modeler o bpmn.io | Modela los procesos de la cadena de valor con notación estándar | Diagramas BPMN |
+| **pandas** y **matplotlib** | Cruza costo operativo con nivel de soporte, evalúa VRIO por reglas y grafica capacidades | Salidas de `AI02`, `AI04`, `AI06`; `AI_cadena_valor.png`, `AI_capacidades_ti.png` |
+| **draw.io** | Dibuja la cadena de valor y la matriz poder × interés | `graficos/` |
+| **CSV** en LibreOffice Calc | Estructura la cadena de valor, la matriz VRIO, las cinco fuerzas, los interesados y las capacidades | `AI01` a `AI05`, `AE01`, `AE02` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
-| Documentación de la organización | Organigrama, mapa de procesos, presupuesto de TI, inventario de sistemas |
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
+| Documentación de la organización | Organigrama, procesos, presupuesto de TI e inventario de sistemas, en `RECURSOS-TALLER/` |
 | **Bizagi Modeler** (gratuito) o **bpmn.io** | Modelado de procesos en BPMN 2.0 |
 | **draw.io** | Cadena de valor y matriz de interesados |
 | **Python 3.11+** con `pandas`, `matplotlib` | Matrices y visualizaciones |
@@ -49,7 +62,7 @@
 ### 1.3. Seguridad
 
 1. Los datos de costo y volumen de la organización son **Confidenciales**. En el documento se presentan agregados o como porcentaje del total cuando el detalle no es necesario.
-2. Las entrevistas por área se realizan con consentimiento y se registran por **cargo**, nunca por nombra.
+2. Las entrevistas por área se realizan con consentimiento y se registran por **cargo**, nunca por nombre.
 3. El análisis de las cinco fuerzas usa información pública del sector; no se solicita ni se difunde información confidencial de competidores.
 4. Cualquier debilidad tecnológica identificada (sistemas fuera de soporte, dependencias críticas) se trata como información sensible. Puede ser útil a un atacante.
 
@@ -57,9 +70,15 @@
 
 ## 2. Procedimiento o Metodología
 
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` (sistemas en la sección C, procesos en la D, hechos verificables en la F), `organigrama-y-accesos.md` (áreas y cargos, para la matriz de interesados del Paso C) y `presupuesto_ti.csv` (partidas planificadas y ejecutadas, para la cobertura tecnológica y el balance operar/crecer/transformar). Los volúmenes, tiempos y costos por eslabón que la ficha no trae se piden en la entrevista simulada con el docente, y se registra qué se preguntó y qué se respondió.
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `03_diagnostico/AI01_cadena_valor.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
+
 ### Paso A — Levantar la cadena de valor con su cobertura tecnológica
 
-`03_diagnostico/AI01_cadena_valor.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/AI01_cadena_valor.csv`:
 
 | id | Tipo | Actividad | Descripción del proceso real | Volumen mensual | Tiempo de ciclo | % del costo operativo | Sistema que lo soporta | Nivel de soporte | Dónde se rompe | ¿Ventaja distintiva? |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -73,16 +92,17 @@
 | CV-08 | Apoyo | RR. HH. | Selección, planilla, capacitación | 64 personas | — | 9 % | Sistema de planilla externo | Parcial | Sin integración | No |
 | CV-09 | Apoyo | Infraestructura | Dirección, finanzas, contabilidad | — | — | 6 % | ERP Contabilidad + hojas de cálculo | Parcial | Consolidación manual | No |
 
-**El programa está en [`HERRAMIENTAS/SEMANA-06/AI02_analisis_cadena.py`](../HERRAMIENTAS/SEMANA-06/AI02_analisis_cadena.py).** Se copia al repositorio del equipo como `03_diagnostico/AI02_analisis_cadena.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`AI02_analisis_cadena.py`](RECURSOS-TALLER/AI02_analisis_cadena.py).** Lee `AI01_cadena_valor.csv`, en la misma carpeta. Produce el análisis en pantalla y `graficos/AI_cadena_valor.png`. Se copia a `03_diagnostico/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-06/AI02_analisis_cadena.py 03_diagnostico/AI02_analisis_cadena.py
-python3 03_diagnostico/AI02_analisis_cadena.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-06/RECURSOS-TALLER/AI02_analisis_cadena.py 03_diagnostico/
+cd 03_diagnostico && python3 AI02_analisis_cadena.py
 ```
 
 ### Paso B — Matriz VRIO con evidencia
 
-`03_diagnostico/AI03_vrio.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/AI03_vrio.csv`:
 
 | id | Recurso o capacidad | Tipo | Evidencia de su existencia | V | Justificación V | R | Justificación R | I | Justificación I | O | Justificación O | Implicancia | Proyecto candidato |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -112,7 +132,7 @@ print(v[v.implicancia_calculada == "Desventaja competitiva"]
 
 ### Paso C — Cinco fuerzas e interesados
 
-`03_diagnostico/AE01_cinco_fuerzas.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/AE01_cinco_fuerzas.csv`:
 
 | Fuerza | Indicadores evaluados | Evidencia y fuente | Intensidad (1–5) | Implicancia estratégica | Implicancia tecnológica |
 |---|---|---|---|---|---|
@@ -124,7 +144,7 @@ print(v[v.implicancia_calculada == "Desventaja competitiva"]
 
 > **Regla de análisis.** Cada intensidad se justifica con **al menos un dato de fuente verificable** (estadística sectorial, memoria anual de una empresa listada en la SMV, informe de gremio, registro público). La percepción del equipo no califica una fuerza.
 
-`03_diagnostico/AE02_interesados.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/AE02_interesados.csv`:
 
 | id | Interesado (cargo o grupo) | Poder (1–5) | Interés (1–5) | Cuadrante | **Qué espera del plan** | **Qué teme** | Qué puede aportar | Qué puede bloquear | Estrategia de gestión |
 |---|---|---|---|---|---|---|---|---|---|
@@ -137,7 +157,7 @@ print(v[v.implicancia_calculada == "Desventaja competitiva"]
 
 ### Paso D — Matriz de capacidades de TI
 
-`03_diagnostico/AI05_capacidades_ti.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/AI05_capacidades_ti.csv`:
 
 | Dominio | Capacidad de TI | Evidencia del nivel actual | Nivel actual (1–5) | Nivel requerido por la visión | Brecha | Criticidad | Proyecto candidato |
 |---|---|---|---|---|---|---|---|
@@ -151,11 +171,12 @@ print(v[v.implicancia_calculada == "Desventaja competitiva"]
 | Servicio y soporte | Atención a usuarios con nivel de servicio | Atención informal, sin registro | 1 | 3 | 2 | Media | Mesa de servicio |
 | Gestión de proveedores | Contratos con nivel de servicio medible | Contrato de ERP vencido | 1 | 3 | 2 | Alta | Gestión contractual de TI |
 
-**El programa está en [`HERRAMIENTAS/SEMANA-06/AI06_capacidades.py`](../HERRAMIENTAS/SEMANA-06/AI06_capacidades.py).** Se copia al repositorio del equipo como `03_diagnostico/AI06_capacidades.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`AI06_capacidades.py`](RECURSOS-TALLER/AI06_capacidades.py).** Lee `AI05_capacidades_ti.csv`, en la misma carpeta. Produce `graficos/AI_capacidades_ti.png`. Se copia a `03_diagnostico/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-06/AI06_capacidades.py 03_diagnostico/AI06_capacidades.py
-python3 03_diagnostico/AI06_capacidades.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-06/RECURSOS-TALLER/AI06_capacidades.py 03_diagnostico/
+cd 03_diagnostico && python3 AI06_capacidades.py
 ```
 
 ### Paso E — Redactar Sección 3.1 y Sección 3.2
@@ -202,10 +223,10 @@ git tag -a v0.6 -m "PETI v0.6 — diagnostico base completo (cierre de Unidad I)
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S06/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S06/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `03_diagnostico/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S06/` | URL del archivo |
+> | Salida de comandos | `evidencias/S06/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-06` sobre el commit entregado:
 >
@@ -216,6 +237,8 @@ git tag -a v0.6 -m "PETI v0.6 — diagnostico base completo (cierre de Unidad I)
 >
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-06`
+>
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.6`): `taller-06` marca el commit que se entrega a calificar y `v0.6` marca el estado del documento. Pueden apuntar al mismo commit.
 >
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
@@ -261,18 +284,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **Las capacidades VRIO** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. La inversión histórica en tecnología rara vez coincide con la concentración del costo operativo. Cruzar ambas dimensiones revela dónde el retorno de un proyecto es mayor y por qué esa actividad nunca fue prioridad.
 2. La dimensión «O» del marco VRIO —si la organización está preparada para explotar el recurso— es donde se concentran las ventajas no capturadas, y esas son las oportunidades más rentables del portafolio porque el activo ya existe.

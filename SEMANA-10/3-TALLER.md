@@ -1,8 +1,10 @@
 [Semana 10](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 10 · Modelado de la arquitectura actual y objetivo en Archi
+# Semana 10
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 10 · Sesión 2 en laboratorio · calificación **procedimental**
+## Modelado de la arquitectura actual y objetivo en Archi
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S10-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 10» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -35,21 +38,32 @@
 - Ejecutar el **análisis de brechas** y derivar los **paquetes de trabajo**.
 - Redactar la **Sección 5** del PETI (Plan Estratégico de Tecnologías de Información).
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **Archi** con **ArchiMate 3.2** | Modela la arquitectura actual y la objetivo en las capas de negocio, aplicación y tecnología, con la vista de cooperación proceso-aplicación | Archivo `.archimate` y vistas exportadas en PNG |
+| **pandas** | Registra las brechas por capa, las agrupa en paquetes de trabajo y deriva la secuencia por dependencias | `AR03_brechas.csv`, salida del programa |
+| **CSV** en LibreOffice Calc | Levanta la estructura de la información: entidades, sistemas, conteos, fuente autoritativa y dueño | `AR02_entidades.csv` |
+| **draw.io** | Diagramas complementarios que ArchiMate no cubre | `graficos/` |
+| **Git** con etiqueta | Versiona el modelo en el repositorio privado y marca `v0.10` | `git tag` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | **Archi** — modelador ArchiMate libre | https://www.archimatetool.com/download/ |
 | **ArchiMate 3.2 Specification** | https://pubs.opengroup.org/architecture/archimate3-doc/ |
 | **TOGAF Standard, 10th Edition** | https://www.opengroup.org/togaf |
-| Inventario de la arquitectura actual de la organización | `CASOS/EMPRESA-<NN>-<slug>/documentos/arquitectura-actual.md` · insumo obligatorio |
+| Inventario de la arquitectura actual de la organización | `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/arquitectura-actual.md` · insumo obligatorio |
 | Cadena de valor de sección 3.1.1 | Procesos de negocio |
 | **draw.io** | Diagramas complementarios |
 | **Python 3.11+** con `pandas` | Análisis de brechas |
 
 ### 1.3. Seguridad
 
-1. El modelo de arquitectura describe **la superficie completa** de sistemas, integraciones y tecnología de la organización. Es información **Restringida** es un mapa útil para un atacante.
+1. El modelo de arquitectura describe **la superficie completa** de sistemas, integraciones y tecnología de la organización. Es información **Restringida**: es un mapa útil para un atacante.
 2. No se incluyen en el modelo direcciones IP, credenciales, versiones exactas de software vulnerable ni rutas internas.
 3. El archivo del modelo se almacena en el repositorio **privado** y no se publica.
 4. Las vistas que se entregan a la organización se generan sin el detalle técnico sensible.
@@ -58,11 +72,15 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega el **Inventario de la arquitectura actual**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/arquitectura-actual.md`. Trae las aplicaciones que operan, incluidas las hojas de cálculo que funcionan como sistema, qué sistema soporta cada proceso, las integraciones, las entidades de datos con sus conteos y sus dueños, y los nodos y redes. Es consistente con la ficha y con los datos de `datos/`. **No señala sus brechas**; encontrarlas es el taller.
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `arquitectura-actual.md`, el inventario de la arquitectura actual: las aplicaciones que operan, incluidas las hojas de cálculo que funcionan como sistema, qué sistema soporta cada proceso, las integraciones, las entidades de datos con sus conteos y sus dueños, y los nodos y redes. Es el insumo obligatorio de los Pasos B y D. **No señala sus brechas**; encontrarlas es el taller. Trae también `FICHA.md`: las secciones C y D sirven para contrastar el inventario.
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `05_arquitectura/AR01_principios.md`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Declarar los principios de arquitectura
 
-`05_arquitectura/AR01_principios.md` — mínimo **seis principios**, cada uno con:
+**Archivo que se crea en el repositorio:** `05_arquitectura/AR01_principios.md` — mínimo **seis principios**, cada uno con:
 
 | Campo | Contenido |
 |---|---|
@@ -156,11 +174,12 @@
 
 ### Paso D — Análisis de brechas y paquetes de trabajo
 
-**El programa está en [`HERRAMIENTAS/SEMANA-10/AR03_brechas.py`](../HERRAMIENTAS/SEMANA-10/AR03_brechas.py).** Se copia al repositorio del equipo como `05_arquitectura/AR03_brechas.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`AR03_brechas.py`](RECURSOS-TALLER/AR03_brechas.py).** No lee ningún archivo: las brechas se escriben dentro del programa. Produce `AR03_brechas.csv` y los paquetes de trabajo en pantalla. Se copia a `05_arquitectura/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-10/AR03_brechas.py 05_arquitectura/AR03_brechas.py
-python3 05_arquitectura/AR03_brechas.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-10/RECURSOS-TALLER/AR03_brechas.py 05_arquitectura/
+cd 05_arquitectura && python3 AR03_brechas.py
 ```
 
 ### Paso E — Vistas y redacción de sección 5
@@ -221,10 +240,10 @@ git tag -a v0.10 -m "PETI v0.10 — arquitectura empresarial"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S10/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S10/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `05_arquitectura/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S10/` | URL del archivo |
+> | Salida de comandos | `evidencias/S10/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-10` sobre el commit entregado:
 >
@@ -236,6 +255,8 @@ git tag -a v0.10 -m "PETI v0.10 — arquitectura empresarial"
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-10`
 >
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.10`): `taller-10` marca el commit que se entrega a calificar y `v0.10` marca el estado del documento. Pueden apuntar al mismo commit.
+>
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
 ### 3.1. Los tres resultados que se califican
@@ -246,7 +267,7 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 |---|---|---|
 | **La arquitectura actual** | Las tres capas modeladas, con elementos que existen de verdad | Modelo en Archi |
 | **La arquitectura objetivo** | Coherente con los objetivos del plan, no con la moda | Modelo en Archi |
-| **El análisis de brechas** | Cada brecha situada en su capa y trazable a los dos modelos | Sección 4.3 |
+| **El análisis de brechas** | Cada brecha situada en su capa y trazable a los dos modelos | `AR03_brechas.csv` y sección 5.4 |
 
 ### 3.2. Lista de comprobación del taller
 
@@ -280,18 +301,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **El análisis de brechas** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. La capa de datos es la que más valor aporta al diagnóstico y la que menos existe documentada. Preguntar quién es el dueño de una entidad crítica suele revelar que varias áreas la mantienen y ninguna responde por ella.
 2. La arquitectura objetivo no se inventa. Se deriva de la visión, de las capacidades requeridas y de las estrategias del FODA cruzado; esa derivación es lo que permite defender cada cambio propuesto.

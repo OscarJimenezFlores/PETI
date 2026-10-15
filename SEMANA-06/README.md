@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 06 · Análisis Interno y Análisis Externo de la Organización</h1>
+<h1 align="center">Semana 06</h1>
+<h2 align="center">Análisis Interno y Análisis Externo de la Organización</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | Análisis interno con la cadena de valor · Análisis interno de recursos y capacidades con el marco VRIO · Análisis externo con las cinco fuerzas y el mapa de interesados | Aula · **60 min** |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Caza del activo desperdiciado, con su material, su ejemplo resuelto y su rúbrica | **Trabajo previo**, se entrega antes de la sesión |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Cadena de valor, VRIO y evaluación de capacidades de TI | Laboratorio · 100 min · **comparte sesión con el examen práctico** |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 > **El laboratorio de esta semana lo reclaman dos documentos y solo caben los 100 minutos de una sesión.** El **examen práctico** y el **[taller](3-TALLER.md)** están escritos completos y son independientes entre sí. El docente publica en el aula virtual el que ocupará la sesión y deja el otro como trabajo fuera de ella, y lo comunica al inicio de la semana. **El plazo no cambia con esa decisión** — ambos vencen contando desde la sesión de laboratorio, que se dicta igual en cualquiera de los dos casos.
 

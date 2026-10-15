@@ -1,8 +1,10 @@
 [Semana 06](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · Caza del activo desperdiciado
+# Semana 06
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 06 · **Trabajo previo a la sesión** · calificación **cognitiva**
+## Caza del activo desperdiciado
+
+**SI-886 · Planeamiento Estratégico de TI** · **Trabajo previo a la sesión** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

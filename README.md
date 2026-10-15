@@ -69,7 +69,7 @@ El curso es la construcción progresiva de un Plan Estratégico de Tecnologías 
 
 Cada semana produce **una sección del plan**. En la Semana 17 el documento está terminado, sustentado y en condiciones de entregarse a la organización.
 
-Cada equipo recibe en la Semana 01 **su organización del [banco de casos](../CASOS/README.md)**, con su ficha, sus datos y sus documentos, y la conserva las 17 semanas. El PETI se construye sobre ella. Si el equipo consigue acceso a una empresa real y el docente aprueba la factibilidad, trabaja con la empresa real y usa su organización del banco como referencia de profundidad. El [`ANEXO-CASO-SIMULADO.md`](ANEXO-CASO-SIMULADO.md) queda como material de respaldo.
+Cada equipo recibe en la Semana 01 **su organización del [banco de casos](../CASOS/README.md)**, con su ficha, sus datos y sus documentos, y la conserva las 17 semanas. El PETI se construye sobre ella. Si el equipo consigue acceso a una empresa real y el docente aprueba la factibilidad, trabaja con la empresa real y usa su organización del banco como referencia de profundidad. El [`ANEXO-CASO-SIMULADO.md`](ANEXO-CASO-SIMULADO.md) queda como material de respaldo. Los documentos y datos del caso que cada taller necesita están copiados en la carpeta `RECURSOS-TALLER/` de esa semana, junto con los programas del taller, de modo que cada semana es autosuficiente.
 
 ## Cómo avanza el curso
 
@@ -132,6 +132,7 @@ Cada semana es una carpeta con cuatro documentos — la portada, la teoría de l
 | `1-TEORIA.md` | Desarrollo conceptual de la sesión de aula, con el mapa de la sesión y las fuentes citadas | Sesión 1, en aula |
 | `2-DINAMICA.md` | Actividad en equipo con su consigna, su producto y su rúbrica, evaluada como nota cognitiva | Sesión 1, dentro de los 100 min |
 | `3-TALLER.md` | Guía de laboratorio en formato EPIS, evaluada como nota procedimental | Sesión 2, en laboratorio |
+| `RECURSOS-TALLER/` | Los documentos del banco de casos que el taller de esa semana usa, copiados por organización, y los programas del taller, con un README que explica cada archivo | Sesión 2, en laboratorio |
 
 ## Cómo se entregan los trabajos
 

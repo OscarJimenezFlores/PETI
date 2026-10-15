@@ -1,8 +1,10 @@
 [Semana 12](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Objetivos del Gobierno Digital · Indicadores y Metas · Examen de Unidad II
+# Semana 12
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 12 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Objetivos del Gobierno Digital · Indicadores y Metas · Examen de Unidad II
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,24 +17,8 @@ Un plan declara el objetivo «implementar un sistema de gestión documental». L
 Dos años después, el tiempo de atención de un expediente sigue siendo el mismo, el ciudadano sigue presentando los mismos documentos y nadie puede decir si el plan sirvió de algo. El objetivo se cumplió y el problema sigue intacto.
 
 > **¿Qué distingue a un objetivo de un proyecto disfrazado de objetivo?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| El diagnóstico de gobierno digital y los niveles de servicio | Semana 11 |
-| La arquitectura empresarial y el análisis de brechas | Semana 10 |
-| Los marcos de gestión adoptados y su justificación | Semana 09 |
-| Los objetivos institucionales de la organización y sus metas | Semana 03 |
 
 > **Autocomprobación, antes de leer el material.** Antes de leer, anote su respuesta a tres preguntas. *¿Qué le falta al objetivo del caso para ser un objetivo? ¿Se puede fijar una meta sin línea base? ¿Cuántos objetivos debería tener el plan?* Al terminar el material, vuelva a sus respuestas.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| Exposición de avance de la Unidad II | 60 |
-| Examen teórico de Unidad II | 40 |
-| **Total de la sesión de aula** | **100** |
 
 ## Mapa de la sesión
 
@@ -114,7 +100,7 @@ Verbos de resultado adecuados — **incrementar, reducir, elevar, ampliar, dismi
 
 > **Los tres primeros comparten el mismo defecto. Describen lo que hará TI, no lo que cambiará en la organización.** Se pueden ejecutar al 100 % y dejar el problema intacto —el sistema comprado y no usado de 2015 es exactamente eso—. **El objetivo se escribe desde el lado del que recibe el resultado**, nunca desde el lado del que hace el trabajo.
 
-> **Autoevaluación (6 min) · el verbo del objetivo.** Antes de mirar la tabla, reescriba el objetivo del caso —«implementar un sistema de gestión documental»— **como un objetivo de resultado**, con su verbo, su magnitud y su plazo. Después compare con la respuesta.
+> **Autoevaluación (6 min). El verbo del objetivo.** Antes de mirar la tabla, reescriba el objetivo del caso —«implementar un sistema de gestión documental»— **como un objetivo de resultado**, con su verbo, su magnitud y su plazo. Después compare con la respuesta.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -212,7 +198,7 @@ Verbos de resultado adecuados — **incrementar, reducir, elevar, ampliar, dismi
 
 > **Cualquier eslabón que falte rompe la cadena entera.** Un proyecto sin objetivo es gasto sin justificación; un objetivo sin indicador es una declaración; un indicador sin fuente de dato es un campo que nadie llenará en la evaluación anual. **La pregunta que la gerencia hace siempre es «¿por qué este proyecto y no otro?», y la única respuesta defendible es recorrer esta tabla de abajo hacia arriba hasta llegar a la evidencia.**
 
-> **Autoevaluación (6 min) · la cadena completa de un objetivo propio.** Tome uno de los objetivos de su propio plan y recorra la cadena entera —objetivo institucional, objetivo del plan, indicador, meta y proyecto que lo mueve. El eslabón que no pueda nombrar es un hallazgo del avance.
+> **Autoevaluación (6 min). La cadena completa de un objetivo propio.** Tome uno de los objetivos de su propio plan y recorra la cadena entera —objetivo institucional, objetivo del plan, indicador, meta y proyecto que lo mueve. El eslabón que no pueda nombrar es un hallazgo del avance.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -245,7 +231,7 @@ El Examen de Unidad se rinde en dos partes, y juntas valen el 25 % de la nota de
 | **Práctico** | Laboratorio | 100 min | Construir el diagnóstico y los objetivos sobre datos reales, con la ficha de indicador completa | Laboratorio de cómputo, **con inteligencia artificial permitida** y declarada |
 
 
-## Cierre · qué se lleva de esta unidad
+## Cierre
 
 **La respuesta a la pregunta del material.** El verbo, y detrás del verbo, la posibilidad de demostrar el cambio. «Implementar un sistema» se cumple el día que el sistema entra en producción y no dice nada sobre el problema que motivó la inversión. **Un objetivo se formula sobre el resultado** —reducir el tiempo de atención de un expediente de doce a cuatro días— y entonces el sistema es el proyecto que lo mueve, no el fin.
 

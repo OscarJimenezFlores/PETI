@@ -1,8 +1,10 @@
 [Semana 12](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · El objetivo que el gerente aprueba
+# Semana 12
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 12 · **Trabajo previo a la sesión** · calificación **cognitiva**
+## El objetivo que el gerente aprueba
+
+**SI-886 · Planeamiento Estratégico de TI** · **Trabajo previo a la sesión** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

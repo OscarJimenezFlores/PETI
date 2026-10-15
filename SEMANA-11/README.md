@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 11 · Situación Actual del Gobierno Digital</h1>
+<h1 align="center">Semana 11</h1>
+<h2 align="center">Situación Actual del Gobierno Digital</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | Qué es gobierno digital y qué no es · El servicio digital como unidad de análisis · Los ejes e indicadores del diagnóstico de gobierno digital | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Cliente incógnito, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Diagnóstico de gobierno digital y tablero de línea base | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

@@ -1,8 +1,10 @@
 [Semana 06](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Análisis Interno y Análisis Externo de la Organización
+# Semana 06
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 06 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Análisis Interno y Análisis Externo de la Organización
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,28 +17,8 @@ Una distribuidora tiene quince años de historial de compras de 8 400 bodegas. S
 Nadie en la empresa lo usa para nada. Está en el sistema, se respalda todas las noches y no alimenta ninguna decisión.
 
 > **¿Por qué una organización puede tener el activo más valioso de su sector y no sacarle ninguna ventaja?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| La misión, la visión y los valores de la organización | Semanas 04 y 05 |
-| El diagnóstico de cultura y la brecha entre lo declarado y lo real | Semana 05 |
-| La postura de TI de la organización | Semana 02 |
-| Los datos de la organización — procesos, sistemas y presupuesto | Trabajo acumulado de la unidad |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Es ese historial una ventaja o no lo es? ¿Qué le falta a la empresa para que lo sea? ¿Cómo se decide en qué invertir cuando todo parece importante?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del activo inexplotado y la exploración inicial | 8 |
-| **Bloque 1.** El análisis interno con la cadena de valor · con su microaplicación | 18 |
-| **Bloque 2.** Recursos y capacidades con el marco VRIO · con su microaplicación | 18 |
-| **Bloque 3.** El análisis externo con las cinco fuerzas y los interesados | 13 |
-| Examen teórico de Unidad I | 40 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 3 |
-| **Total de la sesión de aula** | **100** |
 
 ## Mapa de la sesión
 
@@ -68,7 +50,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · El análisis interno · la cadena de valor
+## 1. El análisis interno con la cadena de valor
 
 > **¿Dónde crea valor la organización y dónde lo pierde?**
 
@@ -110,7 +92,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Analizar el proceso documentado en lugar del real. El manual describe lo que debería ocurrir; el flujo real incluye la hoja de cálculo intermedia, la llamada telefónica y el reproceso que nadie escribió. **La cadena de valor se levanta preguntando qué se hace, no leyendo qué está escrito.**
 
-## Bloque 2 · El análisis interno · recursos y capacidades con VRIO
+## 2. El análisis interno de recursos y capacidades con VRIO
 
 > **¿Por qué tener un recurso valioso no basta?**
 
@@ -139,7 +121,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Confundir recurso con capacidad. Un recurso es algo que la organización posee; una capacidad es lo que sabe hacer con él. **La ventaja competitiva no viene de los recursos sino de las capacidades**, y por eso enumerar sistemas y licencias no produce ningún hallazgo estratégico.
 
-## Bloque 3 · El análisis externo · las cinco fuerzas y los interesados
+## 3. El análisis externo con las cinco fuerzas y los interesados
 
 > **¿Cuánto puede invertir esta organización, y quién lo decide desde fuera?**
 
@@ -177,7 +159,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 
 > **No se dicta en clase.** Los 100 minutos de aula de esta semana se reparten entre la exposición de avance y el examen teórico. Este material —85 minutos de desarrollo— **se estudia por cuenta propia antes de la sesión y entra en el examen teórico de la Unidad I**. Está aquí completo, no resumido. Es el mismo desarrollo que tendría en aula.
 
-### Análisis interno · la cadena de valor
+### Análisis interno con la cadena de valor
 
 **Propósito.** Identificar dónde la organización **crea valor** y dónde lo pierde, para determinar qué capacidades sostienen la ventaja y cuáles la erosionan.
 
@@ -227,7 +209,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 
 > **El eslabón peor soportado es el que concentra la pérdida.** La logística interna, que produce la diferencia de inventario de 4.7 %, es la única actividad primaria cuyo sistema **existe y se dejó de usar**. El proyecto que corresponde no es comprar un WMS. Es entender por qué el módulo pagado se abandonó, porque la misma causa hará fracasar al reemplazo.
 
-> **Microaplicación (5 min) · el eslabón peor soportado.** Cada pareja identifica, en su propia organización, **el eslabón que concentra más costo o más fricción** y dice qué sistema lo soporta. La coincidencia entre ambos es la excepción, no la regla.
+> **Microaplicación (5 min). El eslabón peor soportado.** Cada pareja identifica, en su propia organización, **el eslabón que concentra más costo o más fricción** y dice qué sistema lo soporta. La coincidencia entre ambos es la excepción, no la regla.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -235,7 +217,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 | ¿Qué dato convierte «el almacén funciona mal» en un hallazgo? | Uno medible y trazable a una fuente. 4.7 % de diferencia entre inventario contable y físico, tomado del cierre del periodo |
 | ¿Basta con reemplazar el sistema del eslabón que falla? | No. Un módulo pagado que se abandona indica causa organizativa —capacitación, incentivos, rediseño del proceso—, y esa causa sobrevive al reemplazo |
 
-### Análisis interno · recursos y capacidades — el marco VRIO
+### Análisis interno de recursos y capacidades con el marco VRIO
 
 **La distinción fundamental.** Un **recurso** es algo que la organización posee (una base de datos de clientes, un almacén, un equipo técnico). Una **capacidad** es lo que sabe hacer con él (segmentar y anticipar la demanda). La ventaja competitiva **no viene de los recursos, sino de las capacidades**.
 
@@ -260,7 +242,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 
 > **La columna «O» es la que más se subestima.** Una organización puede poseer el recurso más valioso del sector y no capturar ninguna ventaja porque carece de la estructura, los procesos o las competencias para explotarlo. **Ese es el hallazgo que más proyectos genera en un PETI.**
 
-### Análisis externo · las cinco fuerzas y los interesados
+### Análisis externo con las cinco fuerzas y los interesados
 
 **Las cinco fuerzas de Porter** — determinan la rentabilidad estructural del sector y, con ello, cuánto puede invertir la organización:
 
@@ -304,7 +286,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 
 > **La fuerza más intensa se convierte en restricción del plan, no en un párrafo del diagnóstico.** Aquí, la concentración en un solo proveedor de TI aparece en la Sección 6 como riesgo y en la Sección 7 como proyecto con presupuesto. Un análisis de cinco fuerzas que no cambia ninguna decisión del PETI **no era necesario hacerlo**.
 
-> **Microaplicación (6 min) · las cuatro preguntas sobre un activo propio.** Con el caso del inicio delante, el aula aplica en parejas **las cuatro preguntas del marco VRIO al historial de compras** y dice en qué letra se rompe. La respuesta es siempre la misma y conviene que la descubran ellos.
+> **Microaplicación (6 min). Las cuatro preguntas sobre un activo propio.** Con el caso del inicio delante, el aula aplica en parejas **las cuatro preguntas del marco VRIO al historial de compras** y dice en qué letra se rompe. La respuesta es siempre la misma y conviene que la descubran ellos.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -324,7 +306,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 
 > El examen **práctico** de la unidad es distinto y se rinde en el laboratorio, con inteligencia artificial permitida.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Sí, y es el hallazgo que más proyectos genera en un plan de TI. El historial del caso es valioso, raro e inimitable, y falla en la cuarta pregunta — **la organización no está preparada para explotarlo**. Eso no es una desventaja competitiva, es una ventaja no capturada, y se corrige con un proyecto, no con una compra.
 

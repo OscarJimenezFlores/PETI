@@ -1,8 +1,10 @@
 [Semana 01](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Inducción y Lineamientos Generales del Curso
+# Semana 01
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 01 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Inducción y Lineamientos Generales del Curso
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,29 +17,8 @@ Una distribuidora invirtió S/ 1.4 millones en tecnología en cinco años. Compr
 Su portal lo usa el 4 % de las bodegas a las que atiende. Su inventario contable y el físico difieren un 5 %. Y el activo más valioso que tiene —quince años de historial de compras de 8 400 clientes— no lo explota nadie.
 
 > **¿Cómo puede una organización invertir millones en tecnología y aun así no generar valor?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| Qué es un sistema de información y cómo se organiza un área de TI | Cursos previos de la carrera |
-| Nociones de gestión de proyectos y de presupuesto | Cursos previos de la carrera |
-| Manejo de Git y de un documento versionado | Se calibra hoy con la prueba de entrada |
-| Ningún marco de planeamiento en particular | Se introducen a lo largo del curso |
 
 > **Exploración (5 min), antes de cualquier definición.** Antes de definir nada, el aula responde y las respuestas quedan anotadas para volver a ellas al cierre. *¿Qué le faltó a esa empresa? ¿Compró mal o decidió mal? ¿Quién tendría que haber dicho que no a alguna de esas compras?* No se corrige ninguna respuesta todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del S/ 1.4 millones y la exploración inicial | 8 |
-| **Bloque 1.** El encargo del semestre | 8 |
-| **Bloque 2.** Qué es un PETI y qué no es · con su microaplicación | 17 |
-| **Bloque 3.** De dónde viene y hacia dónde va el planeamiento | 10 |
-| **Bloque 4.** La organización objeto de estudio | 8 |
-| Prueba de entrada y encuadre del curso | 10 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 4 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -67,7 +48,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · El encargo del semestre
+## 1. El encargo del semestre
 
 > **¿Qué se entrega en diecisiete semanas y para quién?**
 
@@ -81,7 +62,7 @@ flowchart TD
 
 **Regla estructural del curso.** Cada laboratorio produce **una sección del documento final**. No hay trabajo que se descarte. En la Semana 17 el PETI está terminado porque se construyó semana a semana, no porque se escribió al final.
 
-## Bloque 2 · Qué es un PETI y qué no es
+## 2. Qué es un PETI y qué no es
 
 > **¿En qué se distingue un plan de TI de una lista de compras tecnológicas?**
 
@@ -122,7 +103,7 @@ flowchart TD
 
 > **La última fila es la prueba definitiva.** Un plan que ante un recorte solo puede «comprar menos de todo» no es un plan. Es una lista. Un PETI dice qué se deja de hacer y qué consecuencia tiene.
 
-> **Microaplicación (5 min) · ¿plan o lista de deseos?.** El docente enuncia cuatro documentos reales y el aula responde, a mano alzada, **cuál es un plan estratégico de TI y cuál no**, antes de la explicación. El que enumera servidores con marca y fecha se deja para el final.
+> **Microaplicación (5 min). ¿Plan o lista de deseos?.** El docente enuncia cuatro documentos reales y el aula responde, a mano alzada, **cuál es un plan estratégico de TI y cuál no**, antes de la explicación. El que enumera servidores con marca y fecha se deja para el final.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -131,7 +112,7 @@ flowchart TD
 | ¿Es el PETI un documento de TI? | No. Lo elabora TI y lo aprueba la alta dirección, porque compromete presupuesto plurianual y decide qué capacidades tendrá la organización |
 > **El error frecuente del bloque.** Confundir el nivel del plan. Un documento con fechas exactas para cuarenta proyectos a tres años **envejece en un trimestre** y su revisión se vuelve inviable; uno con declaraciones de intenciones no permite presupuestar. El nivel correcto son objetivos medibles, proyectos con orden de magnitud de esfuerzo y secuencia por semestre.
 
-## Bloque 3 · De dónde viene y hacia dónde va el planeamiento
+## 3. De dónde viene y hacia dónde va el planeamiento
 
 > **¿Por qué un plan de TI necesita anclarse a algo que está por encima de él?**
 
@@ -172,7 +153,7 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
 **El horizonte y la revisión.** En el sector público peruano, el **Plan de Gobierno Digital** se aprueba por un periodo **mínimo de tres años** y debe **actualizarse y evaluarse anualmente**, conforme a los Lineamientos aprobados por la Resolución de Secretaría de Gobierno Digital 005-2018-PCM/SEGDI. En el sector privado la práctica es equivalente. Horizonte de tres a cinco años con revisión anual. **Un plan que no se revisa no es estratégico. Es histórico.**
 
-## Bloque 4 · La organización objeto de estudio
+## 4. La organización objeto de estudio
 
 > **¿Qué hace falta para que este trabajo valga fuera del aula?**
 
@@ -199,7 +180,7 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 
 **Regla de trabajo del curso.** Todo producto se versiona en Git y se redacta en Markdown. La razón no es tecnológica. Es que **un PETI real pasa por decenas de versiones y la trazabilidad de los cambios es parte de su calidad**.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Porque cada compra se decidió por separado y ninguna se decidió contra un objetivo de la organización. El portal con 4 % de adopción no fracasó técnicamente — **fracasó porque nadie definió qué problema del negocio resolvía ni cómo se sabría que funcionó**. Eso es exactamente lo que un plan estratégico de TI evita, y por eso el curso empieza por el plan y no por la tecnología.
 

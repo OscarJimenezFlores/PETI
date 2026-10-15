@@ -1,8 +1,10 @@
 [Semana 07](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Análisis de la Organización con FODA y PESTEL
+# Semana 07
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 07 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Análisis de la Organización con FODA y PESTEL
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una empresa presenta su matriz de factores externos al comité. Califica con 4 l
 Su portal lo usa el 4 % de los clientes. La calificación 4 medía lo importante que es la oportunidad, no lo bien que la empresa la está aprovechando.
 
 > **¿Qué se mide exactamente cuando se califica un factor del entorno con un número?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| El análisis interno con cadena de valor y marco VRIO | Semana 06 |
-| El análisis externo con las cinco fuerzas | Semana 06 |
-| La postura de TI y las tendencias con evidencia | Semana 02 |
-| Los datos del diagnóstico de la organización | Trabajo acumulado |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está bien esa calificación? ¿Qué debería medir? ¿Puede una oportunidad importantísima recibir un 1?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso de la calificación 4 y la exploración inicial | 8 |
-| **Bloque 1.** El análisis PESTEL del entorno | 15 |
-| **Bloque 2.** El FODA y sus errores frecuentes · con su microaplicación | 22 |
-| **Bloque 3.** El FODA cruzado y las estrategias derivadas | 15 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -65,7 +48,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · El análisis PESTEL del entorno
+## 1. El análisis PESTEL del entorno
 
 > **¿Qué convierte una tendencia en un factor que pertenece al plan?**
 
@@ -86,7 +69,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Incluir un factor sin la decisión que obliga. «La tecnología avanza rápidamente» no aporta nada — falta la cifra, falta la fuente y falta el efecto sobre **esta** organización. Un factor que no responde qué decisión obliga a tomar pertenece a una charla de divulgación, no al plan.
 
-## Bloque 2 · El análisis FODA y sus errores frecuentes
+## 2. El análisis FODA y sus errores frecuentes
 
 > **¿Puede una organización modificar ese factor por decisión propia?**
 
@@ -131,7 +114,7 @@ flowchart TD
 
 > **El 1.90 no dice que el entorno sea hostil. Dice que la organización no le está respondiendo.** Los dos factores calificados con 1 —analítica sin explotar y protección de datos sin inventario— son exactamente los que deben aparecer como proyectos en la Sección 7. **La matriz EFE se lee como una lista priorizada de tareas pendientes**, no como una calificación del sector.
 
-> **Microaplicación (6 min) · interno o externo, en seis casos.** El docente lee seis enunciados y el aula clasifica cada uno aplicando una sola prueba — *¿puede la organización modificarlo por decisión propia?* Los dos sobre obsolescencia y soporte del fabricante son los que más se fallan.
+> **Microaplicación (6 min). Interno o externo, en seis casos.** El docente lee seis enunciados y el aula clasifica cada uno aplicando una sola prueba — *¿puede la organización modificarlo por decisión propia?* Los dos sobre obsolescencia y soporte del fabricante son los que más se fallan.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -141,7 +124,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Calificar la matriz externa por la gravedad del factor en lugar de por la respuesta de la organización. Es el error del caso de hoy y el más común de la semana. **La calificación mide qué tan bien responde la organización**, de modo que un factor gravísimo al que responde bien se califica 4, y una oportunidad enorme que no aprovecha se califica 1.
 
-## Bloque 3 · El FODA cruzado y las estrategias derivadas
+## 3. El FODA cruzado y las estrategias derivadas
 
 > **¿Por qué el listado de cuatro columnas no es el producto?**
 
@@ -182,7 +165,7 @@ Evidencia del diagnóstico → Factor F/D/O/A → Estrategia cruzada
 
 Un proyecto que no se puede rastrear hasta un factor con evidencia es un proyecto sin justificación.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** En la matriz de factores externos se mide **la respuesta de la organización al factor**, no la importancia del factor. El comité del caso leyó un puntaje alto y concluyó lo contrario de lo que los datos decían. Con la calificación corregida a 1, ese mismo factor pasa de sostener una conclusión favorable a ser el argumento del proyecto más importante del plan.
 

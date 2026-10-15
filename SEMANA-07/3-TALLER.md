@@ -1,8 +1,10 @@
 [Semana 07](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 07 · Matrices EFI, EFE, PESTEL y FODA cruzado
+# Semana 07
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 07 · Sesión 2 en laboratorio · calificación **procedimental**
+## Matrices EFI, EFE, PESTEL y FODA cruzado
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S07-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 07» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -35,10 +38,20 @@
 - Establecer la **trazabilidad** factor → estrategia → objetivo → proyecto.
 - Redactar las secciones **Sección 3.3**, **Sección 3.4** y **Sección 3.5** del PETI (Plan Estratégico de Tecnologías de Información).
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **pandas** | Calcula las matrices EFI y EFE con pesos y calificaciones, y prioriza las estrategias cruzadas con un bono por tipo | `PE02_matriz_efi.csv`, `PE02_matriz_efe.csv`, `PE04_estrategias_priorizadas.csv` |
+| **CSV** relacionados por código | Enlaza factores, estrategias y evidencias por identificador para que la trazabilidad sea verificable | `PE01`, `PE03`, `PE05` |
+| **draw.io** | Dibuja la matriz FODA cruzado | `foda_cruzado.png` |
+| **Pandoc** | Genera las secciones 3.3 a 3.5 en PDF | `anexo_F_secciones_3_3_a_3_5.pdf` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | Secciones Sección 1.1, Sección 3.1 y Sección 3.2 del PETI | Insumo obligatorio |
 | **Python 3.11+** con `pandas`, `matplotlib` | Cálculo de matrices y visualización |
 | **LibreOffice Calc** | Matrices EFI y EFE |
@@ -51,24 +64,28 @@
 1. Los factores internos incluyen debilidades tecnológicas explotables. El documento se clasifica **Confidencial** y las debilidades de seguridad se describen sin detalle técnico explotable.
 2. Los datos de la organización se presentan agregados cuando el detalle no es necesario para sustentar el factor.
 3. Toda cifra externa se cita con institución, publicación y año; **no se admiten datos sin fuente verificable**.
-4. Los factores derivados de entrevistas se registran por cargo, nunca por nombra.
+4. Los factores derivados de entrevistas se registran por cargo, nunca por nombre.
 
 ---
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** Los factores internos salen de la **ficha de su organización**, secciones A a F, en `CASOS/EMPRESA-<NN>-<slug>/FICHA.md`, y del **extracto del plan institucional**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Los factores externos se documentan con fuentes oficiales, citadas con institución, publicación y año. **Ningún factor sin fuente.**
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` (secciones A a F) y `plan-institucional-extracto.md`. De ahí salen los factores internos: fortalezas y debilidades, cada una con su evidencia. Los factores externos se documentan con fuentes oficiales, citadas con institución, publicación y año. **Ningún factor sin fuente.**
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `03_diagnostico/PE01_pestel.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Análisis PESTEL con evidencia
 
-`03_diagnostico/PE01_pestel.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/PE01_pestel.csv`:
 
 | id | Dimensión | Factor | Evidencia con cifra | Fuente (institución, publicación, año) | Efecto específico sobre la organización | Tipo (O/A) | Intensidad (1–5) | Horizonte | Decisión que obliga |
 |---|---|---|---|---|---|---|---|---|---|
 | PE-01 | Político | Política Nacional de Transformación Digital al 2030 | Aprobada por D. S. 085-2023-PCM, con objetivos prioritarios y aplicación obligatoria en el sector público | PCM, 2023 | Si la organización presta servicios al Estado, la interoperabilidad se vuelve requisito contractual | O | 3 | 24–36 m | Evaluar la integración con la PIDE |
 | PE-02 | Económico | Volatilidad cambiaria | Variación del tipo de cambio de __ % en 24 meses | BCRP, último dato disponible | El __ % de los contratos de TI está denominado en dólares | A | 4 | Continuo | Cláusulas de cobertura en contratos plurianuales |
 | PE-03 | Social | Adopción de smartphone en el segmento de clientes | __ % de hogares con acceso a internet en la región | INEI, ENAHO — última publicación | Viabiliza el canal digital para el __ % de los clientes | O | 4 | 12–24 m | Priorizar el proyecto de canal digital |
-| PE-04 | Tecnológico | Fin de soporte de la plataforma en uso | El fabricante anunció fin de soporte anunciado por el fabricante | Documentación oficial del fabricante | El servidor del ERP quedará sin actualizaciones de seguridad | A | 5 | 12–18 m | Proyecto de migración con fecha límite |
+| PE-04 | Tecnológico | Fin de soporte de la plataforma en uso | El fabricante anunció el fin de soporte de la plataforma en uso, con fecha | Documentación oficial del fabricante | El servidor del ERP quedará sin actualizaciones de seguridad | A | 5 | 12–18 m | Proyecto de migración con fecha límite |
 | PE-05 | Ecológico/Ético | Gestión de residuos electrónicos | Obligación de manejo de RAEE conforme a la normativa vigente | MINAM | La renovación de equipos requiere disposición certificada | A | 2 | Continuo | Incluir el costo de disposición en el presupuesto |
 | PE-06 | Ecológico/Ético | Uso ético de datos de clientes | Recomendación sobre la ética de la IA; principios de la OCDE | UNESCO, 2021; OCDE | El proyecto de analítica debe declarar finalidad y límites del uso de datos | A | 3 | Al implementar | Política de uso ético del dato antes del proyecto de analítica |
 | PE-07 | Legal | Nuevo Reglamento de Protección de Datos Personales | D. S. 016-2024-JUS, vigente | ANPD | Obligaciones de consentimiento, seguridad y flujo transfronterizo | A | 5 | Inmediato | Programa de cumplimiento antes de cualquier proyecto de datos |
@@ -77,11 +94,12 @@
 
 ### Paso B — Matrices EFI y EFE
 
-**El programa está en [`HERRAMIENTAS/SEMANA-07/PE02_matrices.py`](../HERRAMIENTAS/SEMANA-07/PE02_matrices.py).** Se copia al repositorio del equipo como `03_diagnostico/PE02_matrices.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`PE02_matrices.py`](RECURSOS-TALLER/PE02_matrices.py).** No lee ningún archivo: los factores, sus pesos y sus calificaciones se escriben dentro del programa. Produce `PE02_matriz_efi.csv` y `PE02_matriz_efe.csv`. Se copia a `03_diagnostico/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-07/PE02_matrices.py 03_diagnostico/PE02_matrices.py
-python3 03_diagnostico/PE02_matrices.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-07/RECURSOS-TALLER/PE02_matrices.py 03_diagnostico/
+cd 03_diagnostico && python3 PE02_matrices.py
 ```
 
 | Matriz | Qué mide la calificación | Escala |
@@ -95,7 +113,7 @@ python3 03_diagnostico/PE02_matrices.py
 
 ### Paso C — FODA cruzado
 
-`03_diagnostico/PE03_foda_cruzado.csv`:
+**Archivo que se crea en el repositorio:** `03_diagnostico/PE03_foda_cruzado.csv`:
 
 | id | Tipo | Factores cruzados | Estrategia | Objetivo al que apunta | Proyecto candidato | Prioridad preliminar |
 |---|---|---|---|---|---|---|
@@ -135,12 +153,12 @@ print("  el PETI debe priorizar continuidad y cumplimiento antes que transformac
 
 ### Paso D — Trazabilidad y redacción
 
-**Matriz de trazabilidad** (`03_diagnostico/PE05_trazabilidad.csv`) — el documento que hace defendible todo el plan:
+**Matriz de trazabilidad**, archivo `03_diagnostico/PE05_trazabilidad.csv` del repositorio del equipo — el documento que hace defendible todo el plan:
 
 | Evidencia del diagnóstico | Sección de origen | Factor F/D/O/A | Estrategia | Objetivo (Sección 6.2) | Proyecto (Sección 7.1) |
 |---|---|---|---|---|---|
 | El ruteo se gestiona en hoja de cálculo y concentra el 22 % del costo operativo | Sección 3.1.1 CV-03 | D4 | E-02 | Reducir el costo de despacho | Sistema de ruteo |
-| El fabricante anunció fin de soporte anunciado | Sección 3.3 PE-04 | A2 | E-04, E-09 | Asegurar continuidad | Migración del ERP |
+| El fabricante anunció el fin de soporte de la plataforma en uso | Sección 3.3 PE-04 | A2 | E-04, E-09 | Asegurar continuidad | Migración del ERP |
 | Un solo desarrollador conoce el portal | Sección 3.1.3 VRIO | D2 | E-07 | Reducir riesgo operativo | Gestión del conocimiento |
 
 ```markdown
@@ -190,10 +208,10 @@ git tag -a v0.7 -m "PETI v0.7 — diagnostico estrategico con estrategias deriva
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S07/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S07/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `03_diagnostico/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S07/` | URL del archivo |
+> | Salida de comandos | `evidencias/S07/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-07` sobre el commit entregado:
 >
@@ -204,6 +222,8 @@ git tag -a v0.7 -m "PETI v0.7 — diagnostico estrategico con estrategias deriva
 >
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-07`
+>
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.7`): `taller-07` marca el commit que se entrega a calificar y `v0.7` marca el estado del documento. Pueden apuntar al mismo commit.
 >
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
@@ -248,18 +268,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **Las cuatro estrategias** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. El FODA no es el producto del diagnóstico. El producto son las estrategias cruzadas. Un listado de cuatro columnas sin cruce no permite derivar ninguna decisión y por eso la mayoría de los FODA terminan sin uso.
 2. La calificación de la matriz EFE mide qué tan bien responde la organización a cada factor, no qué tan grave es el factor; confundirlas produce una matriz que describe el entorno en lugar de evaluar a la organización.

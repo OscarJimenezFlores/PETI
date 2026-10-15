@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 08 · Normas Nacionales · Marco Normativo de las TIC en el Perú</h1>
+<h1 align="center">Semana 08</h1>
+<h2 align="center">Normas Nacionales · Marco Normativo de las TIC en el Perú</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | Por qué el marco normativo es una sección del PETI · La arquitectura normativa del gobierno digital peruano · Cómo se resume una norma para que sirva | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Inspección normativa, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Matriz de cumplimiento normativo del PETI | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

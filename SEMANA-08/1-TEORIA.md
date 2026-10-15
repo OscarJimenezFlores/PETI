@@ -1,8 +1,10 @@
 [Semana 08](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Normas Nacionales · Marco Normativo de las TIC en el Perú
+# Semana 08
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 08 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Normas Nacionales · Marco Normativo de las TIC en el Perú
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Un plan de TI dedica su anexo C a listar catorce normas que le aplican a la orga
 Dos de esas normas tienen plazo de cumplimiento vencido. El plan las menciona en el anexo y no las convierte en ningún proyecto. La cartera aprobada, que ordena las inversiones por retorno esperado, no las incluye en ningún año.
 
 > **¿Dónde debe vivir la normativa dentro de un plan, y por qué no en un anexo?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| El FODA, el PESTEL y las estrategias derivadas | Semana 07 |
-| Los instrumentos de planeamiento y el régimen de la organización | Semana 03 |
-| La postura de TI y las tendencias con fuente | Semana 02 |
-| El diagnóstico completo de la organización | Trabajo acumulado |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está bien ese anexo? ¿Qué debería pasar con las dos normas vencidas? ¿Compiten esos proyectos con los demás por presupuesto?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del anexo C y la exploración inicial | 8 |
-| **Bloque 1.** Por qué el marco normativo es una sección del plan · con su microaplicación | 18 |
-| **Bloque 2.** La arquitectura normativa del gobierno digital peruano | 20 |
-| **Bloque 3.** Cómo se resume una norma para que sirva | 14 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -69,7 +52,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Por qué el marco normativo es una sección del PETI
+## 1. Por qué el marco normativo es una sección del PETI
 
 > **¿Es la normativa contexto del plan o materia prima del plan?**
 
@@ -87,7 +70,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Relegar la normativa a un anexo. Es un error de método, no de forma. **La normativa no es contexto, es un conjunto de requisitos obligatorios que determinan proyectos, plazos y presupuesto**, y un proyecto derivado de una obligación con plazo no compite en la matriz de priorización. Entra directamente con su fecha.
 
-## Bloque 2 · La arquitectura normativa del gobierno digital peruano
+## 2. La arquitectura normativa del gobierno digital peruano
 
 > **¿Qué obligaciones concretas generan proyectos, y en qué nivel normativo viven?**
 
@@ -136,7 +119,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Citar el marco de gobierno digital en una organización privada. Ese marco alcanza a las entidades públicas, y aplicarlo a una sociedad anónima descalifica el capítulo entero. La organización privada tiene su propio conjunto de obligaciones —tributarias, de datos personales, de propiedad intelectual y sectoriales—, que es más corto y más fácil de pasar por alto.
 
-## Bloque 3 · Cómo se resume una norma para que sirva
+## 3. Cómo se resume una norma para que sirva
 
 > **¿Qué hay que extraer de una norma de ochenta artículos para que el plan la pueda usar?**
 
@@ -176,7 +159,7 @@ flowchart TD
 
 > **La columna de la izquierda no permite decidir nada.** No dice si obliga, no dice qué falta, no dice qué cuesta incumplir y, sobre todo, **no genera ningún proyecto**. Un marco normativo que no produce filas en el portafolio de la Sección 7 es un anexo, no una sección del plan.
 
-> **Microaplicación (5 min) · qué proyecto genera cada obligación.** El docente enuncia cuatro obligaciones de distinta naturaleza y el aula responde, para cada una, **qué tipo de proyecto genera y con qué prioridad**. La de plazo vencido se deja para el final.
+> **Microaplicación (5 min). Qué proyecto genera cada obligación.** El docente enuncia cuatro obligaciones de distinta naturaleza y el aula responde, para cada una, **qué tipo de proyecto genera y con qué prioridad**. La de plazo vencido se deja para el final.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -184,7 +167,7 @@ flowchart TD
 | Una organización privada dice que «esa norma es para el Estado». ¿Qué se responde? | Que el D. Leg. 1412 y sus resoluciones sí son del Estado, pero la Ley 29733, el D. Leg. 822 y la normativa de SUNAT alcanzan a toda organización que trate datos o use software |
 | ¿Cómo se prioriza un proyecto de origen normativo frente a uno de valor? | No compite: entra al portafolio con la fecha que fija la norma. La priorización por valor se aplica al resto del portafolio |
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** La normativa vive en una **sección del plan**, no en un anexo, porque de ella salen proyectos con fecha impuesta desde fuera. Las dos normas vencidas del caso no son información de contexto — son los dos proyectos más urgentes de la cartera, y no debían competir por retorno con ninguno de los demás. Lo que se prioriza es todo lo otro.
 

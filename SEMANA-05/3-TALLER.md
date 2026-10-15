@@ -1,8 +1,10 @@
 [Semana 05](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 05 · Diagnóstico de cultura con el Competing Values Framework
+# Semana 05
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 05 · Sesión 2 en laboratorio · calificación **procedimental**
+## Diagnóstico de cultura con el Competing Values Framework
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S05-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 05» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -34,13 +37,23 @@
 - Derivar las **implicancias del perfil cultural para la implantación del PETI**.
 - Formular los **valores conductuales** de la organización y redactar Sección 2.3 y Sección 2.4.
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **pandas** y **numpy** | Ejecuta el control de calidad de las respuestas y calcula el perfil actual, el deseado y la brecha por tipo y por área | `CU02_perfil_cultura.csv`, salida del programa |
+| **matplotlib** | Grafica el radar del Competing Values Framework | `CU_perfil_cultura.png` |
+| **CSV** como formato de instrumento | Lee o produce las respuestas con la estructura que el programa consume | `evidencias/encuesta_cultura.csv` |
+| **LimeSurvey** o Google Forms (solo empresa real) | Aplica el instrumento de 100 puntos por dimensión y exporta a CSV | Exportación del formulario |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
-| **LimeSurvey** o Google Forms | Aplicación del instrumento |
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
+| **LimeSurvey** o Google Forms | Aplicación del instrumento, solo si la empresa es real |
 | **Python 3.11+** con `pandas`, `matplotlib`, `numpy` | Cálculo y gráfico de radar |
-| Muestra del personal de la organización | Base de respondientes del instrumento |
+| Respuestas del personal | `encuesta_cultura.csv` de `RECURSOS-TALLER/`, o la encuesta aplicada si la empresa es real |
 | Documentación de la organización | Código de conducta, reglamento interno, comunicaciones |
 | **draw.io** | Mapa de artefactos |
 | Cameron y Quinn, *Diagnosing and Changing Organizational Culture* | Referencia metodológica |
@@ -57,13 +70,17 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Organigrama y estructura**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/organigrama-y-accesos.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `organigrama-y-accesos.md` y `encuesta_cultura.csv`. El organigrama da las áreas y los cargos reales, que se usan para leer el perfil por área (Paso B) y para inferir supuestos básicos a partir de cómo se aprueban y se asignan los accesos (Paso C). La encuesta trae las **respuestas simuladas** del personal al instrumento del Paso A, ya con la estructura que lee el programa: el equipo no la aplica, la copia a `evidencias/encuesta_cultura.csv` de su repositorio. Contiene respuestas inválidas a propósito, que el control de calidad del programa debe detectar. Un equipo con empresa real sí aplica el instrumento y guarda sus respuestas con esa misma estructura.
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `02_identidad/CU03_supuestos.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Aplicar el instrumento del Competing Values Framework
 
 El instrumento presenta **seis dimensiones**; en cada una, el respondiente **reparte 100 puntos** entre cuatro afirmaciones (A = Clan, B = Adhocracia, C = Mercado, D = Jerarquía), **dos veces**. Como es **hoy** y como debería ser **en cinco años**.
 
-`02_identidad/CU01_instrumento.md` — las seis dimensiones:
+**Archivo que se crea en el repositorio:** `02_identidad/CU01_instrumento.md` — las seis dimensiones:
 
 | # | Dimensión | A (Clan) | B (Adhocracia) | C (Mercado) | D (Jerarquía) |
 |---|---|---|---|---|---|
@@ -78,18 +95,19 @@ El instrumento presenta **seis dimensiones**; en cada una, el respondiente **rep
 
 ### Paso B — Calcular el perfil cultural
 
-**El programa está en [`HERRAMIENTAS/SEMANA-05/CU02_perfil_cultura.py`](../HERRAMIENTAS/SEMANA-05/CU02_perfil_cultura.py).** Se copia al repositorio del equipo como `02_identidad/CU02_perfil_cultura.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`CU02_perfil_cultura.py`](RECURSOS-TALLER/CU02_perfil_cultura.py).** Lee `evidencias/encuesta_cultura.csv`. Produce `CU02_perfil_cultura.csv` y `graficos/CU_perfil_cultura.png`. Se copia a `02_identidad/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-05/CU02_perfil_cultura.py 02_identidad/CU02_perfil_cultura.py
-python3 02_identidad/CU02_perfil_cultura.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-05/RECURSOS-TALLER/CU02_perfil_cultura.py 02_identidad/
+cd 02_identidad && python3 CU02_perfil_cultura.py
 ```
 
 ### Paso C — Identificar los supuestos básicos
 
 Los supuestos no se preguntan directamente. Se **infieren** de artefactos y de discurso.
 
-`02_identidad/CU03_supuestos.csv`:
+**Archivo que se crea en el repositorio:** `02_identidad/CU03_supuestos.csv`:
 
 | # | Artefacto o hecho observado | Fuente | Valor adoptado que la organización declara | **Supuesto básico que revela** | ¿Coinciden? |
 |---|---|---|---|---|---|
@@ -103,7 +121,7 @@ Los supuestos no se preguntan directamente. Se **infieren** de artefactos y de d
 
 ### Paso D — Derivar implicancias para el PETI
 
-`02_identidad/CU04_implicancias_peti.md` — la tabla que hace útil el diagnóstico:
+**Archivo que se crea en el repositorio:** `02_identidad/CU04_implicancias_peti.md` — la tabla que hace útil el diagnóstico:
 
 | Hallazgo cultural | Riesgo para la implantación del PETI | Estrategia de implantación que se adopta | Sección del plan donde se materializa |
 |---|---|---|---|
@@ -115,7 +133,7 @@ Los supuestos no se preguntan directamente. Se **infieren** de artefactos y de d
 
 ### Paso E — Formular los valores y redactar Sección 2.3 y Sección 2.4
 
-`02_identidad/2.3_valores.md`:
+**Archivo que se crea en el repositorio:** `02_identidad/2.3_valores.md`:
 
 ```markdown
 ## 2.3 Valores
@@ -131,17 +149,7 @@ Origen de cada valor: valores vigentes conservados, valores reformulados y valor
 con la evidencia del diagnóstico de cultura que sustenta cada incorporación.
 ```
 
-### Paso F — Validar y corregir
-
-El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
-
-1. Comprobar que el instrumento se aplicó a personas de más de un área, no solo a TI.
-2. Verificar que los cuatro perfiles suman lo que deben sumar en cada bloque del instrumento.
-3. Contrastar la dimensión de mayor brecha con una decisión real de la organización que la confirme.
-
-> Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
-
-`02_identidad/2.4_cultura.md`:
+**Archivo que se crea en el repositorio:** `02_identidad/2.4_cultura.md`:
 
 ```markdown
 ## 2.4 Diagnóstico de cultura organizacional
@@ -165,6 +173,16 @@ Tabla de hallazgo cultural → riesgo → estrategia de implantación → secci�
 comunicaciones (Sección 10).**
 ```
 
+### Paso F — Validar y corregir
+
+El resultado no vale por estar hecho, sino por resistir una comprobación. Se ejecutan estas tres y **se corrige lo que falle antes de cerrar la sesión**.
+
+1. Comprobar que el instrumento se aplicó a personas de más de un área, no solo a TI.
+2. Verificar que los cuatro perfiles suman lo que deben sumar en cada bloque del instrumento.
+3. Contrastar la dimensión de mayor brecha con una decisión real de la organización que la confirme.
+
+> Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
+
 ### Paso G — Registrar la evidencia y cerrar
 
 Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
@@ -182,10 +200,10 @@ git tag -a v0.5 -m "PETI v0.5 — identidad estrategica completa"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S05/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S05/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `02_identidad/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S05/` | URL del archivo |
+> | Salida de comandos | `evidencias/S05/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-05` sobre el commit entregado:
 >
@@ -197,6 +215,8 @@ git tag -a v0.5 -m "PETI v0.5 — identidad estrategica completa"
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-05`
 >
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.5`): `taller-05` marca el commit que se entrega a calificar y `v0.5` marca el estado del documento. Pueden apuntar al mismo commit.
+>
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
 ### 3.1. Los tres resultados que se califican
@@ -207,7 +227,7 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 |---|---|---|
 | **El perfil medido** | Actual y deseado, sobre respuestas reales de más de un área | Radar de cultura |
 | **La brecha por dimensión** | Calculada, con la dimensión crítica identificada | Tabla de brechas |
-| **La consecuencia para el plan** | Qué proyecto del plan peligra por esa brecha | Sección 2.3 |
+| **La consecuencia para el plan** | Qué proyecto del plan peligra por esa brecha | `CU04_implicancias_peti.md` y sección 2.4.5 |
 
 ### 3.2. Lista de comprobación del taller
 
@@ -242,18 +262,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La consecuencia para el plan** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. Cuando los valores adoptados y los supuestos básicos se contradicen, gobiernan los supuestos; un PETI que ignora esa brecha diseña una implantación para una organización que no existe.
 2. El perfil cultural determina cómo debe presentarse e implantarse cada proyecto. El mismo proyecto requiere directiva formal en una cultura de jerarquía y participación temprana en una de clan.

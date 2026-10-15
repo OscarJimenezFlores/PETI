@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 10 · Arquitectura Empresarial</h1>
+<h1 align="center">Semana 10</h1>
+<h2 align="center">Arquitectura Empresarial</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | Qué problema resuelve la arquitectura empresarial · TOGAF y el método ADM · ArchiMate como lenguaje de modelado | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Rastreo del dato, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Modelado de la arquitectura actual y objetivo en Archi | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

@@ -1,8 +1,10 @@
 [Semana 04](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 04 · Formulación y validación de la misión y la visión
+# Semana 04
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Sesión 2 en laboratorio · calificación **procedimental**
+## Formulación y validación de la misión y la visión
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S04-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 04» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -33,12 +36,22 @@
 - Derivar la **visión de la función de TI**.
 - Redactar las secciones **Sección 2.1** y **Sección 2.2** del PETI.
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **Python** con reglas codificadas | Edita el programa con las declaraciones y obtiene el veredicto por reglas, no por opinión | `diagnostico.txt` |
+| **matplotlib** | Genera el gráfico del diagnóstico de componentes y defectos | `MV_diagnostico_declaraciones.png` |
+| **Captura con fecha** de páginas web | Documenta la fuente literal de la misión y la visión de la empresa tecnológica | `anexo_A_declaraciones.pdf` |
+| **draw.io** | Dibuja el mapa de derivación: visión de la organización → capacidad de negocio → capacidad de TI | Sección 2.2.4 |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | **Navegador con acceso a internet** | Sitio oficial de la empresa o su memoria anual |
-| [`MV01_diagnostico_declaraciones.py`](../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py) | Aplica los instrumentos de la teoría y emite el veredicto |
+| [`MV01_diagnostico_declaraciones.py`](RECURSOS-TALLER/MV01_diagnostico_declaraciones.py) | Aplica los instrumentos de la teoría y emite el veredicto |
 | **Python 3.11+** con `matplotlib` | Ejecución del diagnóstico |
 | **draw.io** | Mapa de derivación de la visión de TI |
 | **LibreOffice Writer** | Redacción de las dos secciones |
@@ -54,6 +67,12 @@
 
 ## 2. Procedimiento o Metodología
 
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `plan-institucional-extracto.md`, con la misión y la visión declaradas de su organización. El taller tiene dos partes. **Pasos A a C**: se ejercitan los instrumentos sobre una empresa real del sector tecnológico, elegida por el equipo. **Paso D**: se aplican los mismos instrumentos a la misión y la visión de **su organización**, tomadas del extracto, y con ese diagnóstico se redactan las secciones 2.1 y 2.2 del PETI. Las secciones del PETI hablan de su organización, no de la empresa tecnológica.
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `02_identidad/MV01_declaraciones.md`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
+
 ### Paso A — Elegir la empresa y registrar sus declaraciones
 
 1. Elijan **una empresa real del sector tecnológico**. Puede ser global, latinoamericana o peruana.
@@ -61,7 +80,7 @@
 3. Copien **el texto literal**, sin resumir.
 4. Llenen la ficha.
 
-`02_identidad/MV01_declaraciones.md`:
+**Archivo que se crea en el repositorio:** `02_identidad/MV01_declaraciones.md`:
 
 | Campo | Contenido |
 |---|---|
@@ -80,7 +99,7 @@
 1. Para cada uno de los cinco componentes, copien el **fragmento literal** que lo porta, o márquenlo como ausente.
 2. Revisen los siete defectos y señalen los que la declaración tenga. Cada uno con **su nombre técnico** y la evidencia que lo prueba. «Es muy general» no es un diagnóstico.
 3. Apliquen las tres pruebas de calidad — la de sustitución con el nombre de tres competidores reales, la de la decisión y la del reconocimiento.
-4. Copien el programa, edítenlo con los datos de su empresa y ejecútenlo.
+4. Copien el programa, edítenlo con los datos de su empresa y ejecútenlo. No lee ningún archivo: la misión y la visión se escriben dentro del programa. Produce el veredicto en pantalla y `graficos/MV_diagnostico_declaraciones.png`.
 
 | Componente | Pregunta que responde | Fragmento literal que lo porta |
 |---|---|---|
@@ -91,8 +110,10 @@
 | Con qué compromiso | ¿Qué principios lo rigen? | |
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-04/MV01_diagnostico_declaraciones.py 02_identidad/MV01_diagnostico_declaraciones.py
-python3 02_identidad/MV01_diagnostico_declaraciones.py | tee ../evidencias/S04/diagnostico.txt
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-04/RECURSOS-TALLER/MV01_diagnostico_declaraciones.py 02_identidad/
+mkdir -p evidencias/S04
+cd 02_identidad && python3 MV01_diagnostico_declaraciones.py | tee ../evidencias/S04/diagnostico.txt
 ```
 
 > **El veredicto sale de las reglas de la teoría, no de una opinión.** Si la misión sobrevive a la sustitución del nombre, se reformula. Si porta tres componentes o menos, se reformula. Con cuatro, o con algún defecto señalable, se ajusta. Solo con los cinco componentes y las tres pruebas superadas se conserva.
@@ -115,10 +136,12 @@ python3 02_identidad/MV01_diagnostico_declaraciones.py | tee ../evidencias/S04/d
 
 ### Paso D — Derivar la visión de TI y redactar Sección 2.1 y Sección 2.2
 
-1. Tomen cada elemento de la visión de la empresa y escriban la **capacidad de negocio** que exige.
+A partir de aquí el trabajo es sobre **su organización**, no sobre la empresa tecnológica. Apliquen a su misión y su visión, que están en `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/plan-institucional-extracto.md`, los mismos instrumentos de los Pasos B y C, y con ese diagnóstico:
+
+1. Tomen cada elemento de la visión de su organización y escriban la **capacidad de negocio** que exige.
 2. Para cada capacidad de negocio, escriban la **capacidad de TI** que la habilita, con su estado actual y su estado objetivo.
 3. Redacten la visión de TI con la estructura de la teoría.
-4. Redacten las dos secciones del PETI.
+4. Redacten las dos secciones del PETI, sobre su organización.
 
 > *«Al cierre del horizonte del plan, la función de TI de <empresa> habrá pasado de <estado actual> a <estado objetivo>, sosteniendo <la capacidad de negocio que habilita>, con <nivel de servicio o capacidad medible>.»*
 
@@ -128,7 +151,7 @@ python3 02_identidad/MV01_diagnostico_declaraciones.py | tee ../evidencias/S04/d
 | «Cobertura del 60 % de puntos de venta» | Gestión territorial de la fuerza de ventas | Movilidad, geolocalización y datos de cobertura | Sin herramienta móvil | Aplicación de fuerza de ventas con datos en línea |
 | «Entrega en menos de 24 horas» | Planificación de rutas y control de despacho | Integración entre almacén y transporte, con trazabilidad | Integración por archivo nocturno | Integración en línea |
 
-`02_identidad/2.1_mision.md` y `02_identidad/2.2_vision.md`:
+**Archivo que se crea en el repositorio:** `02_identidad/2.1_mision.md` y `02_identidad/2.2_vision.md`:
 
 ```markdown
 ## 2.1 Misión
@@ -176,6 +199,7 @@ El resultado no vale por estar hecho, sino por resistir una comprobación. Se ej
 3. Comprueben que cada fila de la tabla de derivación sale de un elemento concreto de la visión de la empresa, y no de una idea del equipo.
 
 > Lo que no se pueda corregir hoy se anota en la sección **Problemas y mejoras** de la evidencia, con lo que faltó y por qué. Un resultado parcial documentado con honestidad vale más que uno declarado sin prueba.
+
 ### Paso F — Registrar la evidencia y cerrar
 
 Se versiona lo producido, se anota la URL de cada resultado y se responde en dos frases la pregunta de transferencia — **qué riesgo correría una organización real si esto se hiciera mal**.
@@ -193,10 +217,10 @@ git tag -a v0.4 -m "PETI v0.4 — identidad estrategica"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S04/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S04/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `02_identidad/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S04/` | URL del archivo |
+> | Salida de comandos | `evidencias/S04/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-04` sobre el commit entregado:
 >
@@ -208,6 +232,8 @@ git tag -a v0.4 -m "PETI v0.4 — identidad estrategica"
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-04`
 >
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.4`): `taller-04` marca el commit que se entrega a calificar y `v0.4` marca el estado del documento. Pueden apuntar al mismo commit.
+>
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
 ### 3.1. Los tres resultados que se califican
@@ -218,7 +244,7 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 |---|---|---|
 | **El registro de las declaraciones** | Misión y visión literales, con la dirección de la página y la fecha de consulta | `MV01_declaraciones.md` |
 | **El diagnóstico de la misión** | Los componentes citados, los defectos nombrados con el término técnico y las tres pruebas ejecutadas | Sección 2.1 |
-| **La visión de TI derivada** | Capacidades con estado actual y estado objetivo, salidas de la visión de la empresa | Sección 2.2.3 y Sección 2.2.4 |
+| **La visión de TI derivada** | Capacidades con estado actual y estado objetivo, salidas de la visión de su organización | Sección 2.2.3 y Sección 2.2.4 |
 
 ### 3.2. Lista de comprobación del taller
 
@@ -252,18 +278,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La visión de TI derivada** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto, o sin relación con la visión de la empresa |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. Una misión que sobrevive a la sustitución del nombre no ha servido nunca para rechazar nada, y el plan de TI que se apoya en ella hereda esa debilidad.
 2. El defecto se nombra con el término técnico y se prueba con evidencia. «Es muy general» describe una impresión y no sostiene una recomendación ante la alta dirección.

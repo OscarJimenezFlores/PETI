@@ -1,8 +1,10 @@
 [Semana 02](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 02 · Vigilancia estratégica con fuentes oficiales
+# Semana 02
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 2 en laboratorio · calificación **procedimental**
+## Vigilancia estratégica con fuentes oficiales
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S02-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 02» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -34,10 +37,20 @@
 - Redactar la **Sección 1.1** del PETI. Contexto y tendencias, con cada afirmación referenciada.
 - Establecer un **procedimiento de actualización** de la vigilancia para la revisión anual del plan.
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **APIs REST** del BCRP y del Banco Mundial con Python `requests` | Consume series estadísticas oficiales por programa, no por descarga manual | `VS_series_bcrp.csv`, `VS_series_banco_mundial.csv` |
+| **pandas** y **matplotlib** | Procesa las series, calcula variaciones y grafica la comparación regional | `VS_contexto.png` |
+| **Hash SHA-256** | Fija la integridad de cada serie descargada para que el análisis sea reproducible | `HASHES.txt` |
+| **CSV** estructurado | Construye la matriz de fuentes y la matriz de vigilancia con trazabilidad a la fuente | `VS01_fuentes.csv`, `VS05_matriz_vigilancia.csv` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | **INEI** | https://www.inei.gob.pe · Sistema de Información Regional https://systems.inei.gob.pe/SIRTOD/ |
 | **BCRP — Estadísticas** | https://estadisticas.bcrp.gob.pe · **API pública** de series |
 | **OSIPTEL** | https://www.osiptel.gob.pe · Punto de Intercambio de Datos |
@@ -59,11 +72,13 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Relato del incidente del periodo**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/incidente-detallado.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` e `incidente-detallado.md`. La ficha dice el sector, el ámbito y el regulador de la organización, y con eso se eligen en el Paso A las fuerzas y las series que importan: no son las mismas para una clínica que para una municipalidad. El relato del incidente es una amenaza que ya se materializó; la matriz de vigilancia del Paso D debe cubrirla con al menos una fuerza y su serie oficial. Ninguno de los dos documentos señala sus debilidades.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `01_marco/VS01_fuentes.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Mapear las fuentes pertinentes al sector
 
-`01_marco/VS01_fuentes.csv`:
+**Archivo que se crea en el repositorio:** `01_marco/VS01_fuentes.csv`:
 
 | id | Fuerza del contexto | Fuente oficial | Institución | Serie o indicador | URL | Periodicidad | Última actualización |
 |---|---|---|---|---|---|---|---|
@@ -71,7 +86,7 @@
 | F-02 | Volatilidad cambiaria | Series estadísticas | BCRP | Tipo de cambio interbancario, promedio mensual | | Diaria | |
 | F-03 | Inflación | Series estadísticas | BCRP / INEI | Índice de precios al consumidor, variación anual | | Mensual | |
 | F-04 | Penetración móvil | Indicadores del mercado | OSIPTEL | Líneas móviles por cada 100 habitantes | | Trimestral | |
-| F-05 | Actividad del sector | Cuentas nacionales | INEI / BCRP | PBI (*Product Backlog Item*, elemento del Product Backlog) por sector económico, variación anual | | Mensual | |
+| F-05 | Actividad del sector | Cuentas nacionales | INEI / BCRP | PBI (Producto Bruto Interno) por sector económico, variación anual | | Mensual | |
 | F-06 | Gasto público en TI | Consulta Amigable | MEF | Ejecución presupuestal en la genérica correspondiente | | Diaria | |
 | F-07 | Empleo en el sector | ENAHO | INEI | Población ocupada por rama de actividad | | Trimestral | |
 
@@ -79,34 +94,37 @@
 
 ### Paso B — Extraer series del BCRP mediante su API
 
-**El programa está en [`HERRAMIENTAS/SEMANA-02/VS02_extraccion_bcrp.py`](../HERRAMIENTAS/SEMANA-02/VS02_extraccion_bcrp.py).** Se copia al repositorio del equipo como `01_marco/VS02_extraccion_bcrp.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`VS02_extraccion_bcrp.py`](RECURSOS-TALLER/VS02_extraccion_bcrp.py).** Lee La API de series del BCRP (necesita internet). Produce `evidencias/VS_series_bcrp.csv`. Se copia a `01_marco/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-02/VS02_extraccion_bcrp.py 01_marco/VS02_extraccion_bcrp.py
-python3 01_marco/VS02_extraccion_bcrp.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-02/RECURSOS-TALLER/VS02_extraccion_bcrp.py 01_marco/
+cd 01_marco && python3 VS02_extraccion_bcrp.py
 ```
 
 > **Si la API no responde**, se descarga manualmente la serie desde el portal del BCRP y se documenta el procedimiento en el papel de trabajo. **La reproducibilidad exige registrar cómo se obtuvo cada dato**, no solo el dato.
 
 ### Paso C — Extraer indicadores del Banco Mundial
 
-**El programa está en [`HERRAMIENTAS/SEMANA-02/VS03_extraccion_bm.py`](../HERRAMIENTAS/SEMANA-02/VS03_extraccion_bm.py).** Se copia al repositorio del equipo como `01_marco/VS03_extraccion_bm.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`VS03_extraccion_bm.py`](RECURSOS-TALLER/VS03_extraccion_bm.py).** Lee La API del Banco Mundial (necesita internet). Produce `evidencias/VS_series_banco_mundial.csv`. Se copia a `01_marco/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-02/VS03_extraccion_bm.py 01_marco/VS03_extraccion_bm.py
-python3 01_marco/VS03_extraccion_bm.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-02/RECURSOS-TALLER/VS03_extraccion_bm.py 01_marco/
+cd 01_marco && python3 VS03_extraccion_bm.py
 ```
 
 ### Paso D — Visualizar y construir la matriz de vigilancia
 
-**El programa está en [`HERRAMIENTAS/SEMANA-02/VS04_graficos.py`](../HERRAMIENTAS/SEMANA-02/VS04_graficos.py).** Se copia al repositorio del equipo como `01_marco/VS04_graficos.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`VS04_graficos.py`](RECURSOS-TALLER/VS04_graficos.py).** Lee Los dos CSV anteriores, en `evidencias/`. Produce `graficos/VS_contexto.png`. Se copia a `01_marco/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-02/VS04_graficos.py 01_marco/VS04_graficos.py
-python3 01_marco/VS04_graficos.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-02/RECURSOS-TALLER/VS04_graficos.py 01_marco/
+cd 01_marco && python3 VS04_graficos.py
 ```
 
-**Matriz de vigilancia estratégica** (`01_marco/VS05_matriz_vigilancia.csv`) — el producto que se incorpora al PETI:
+**Matriz de vigilancia estratégica**, archivo `01_marco/VS05_matriz_vigilancia.csv` del repositorio del equipo — el producto que se incorpora al PETI:
 
 | id | Fuerza | Evidencia (dato con cifra) | Fuente y año | Efecto sobre la organización | Tipo | Horizonte | **Decisión que obliga** | Sección del PETI donde se retoma |
 |---|---|---|---|---|---|---|---|---|
@@ -118,7 +136,7 @@ python3 01_marco/VS04_graficos.py
 
 ### Paso E — Redactar la Sección 1.1 del PETI
 
-`01_marco/1.1_contexto_tendencias.md`:
+**Archivo que se crea en el repositorio:** `01_marco/1.1_contexto_tendencias.md`:
 
 ```markdown
 ## 1.1 Contexto y tendencias
@@ -173,10 +191,10 @@ git tag -a v0.2 -m "PETI v0.2 — contexto y tendencias"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S02/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S02/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `01_marco/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S02/` | URL del archivo |
+> | Salida de comandos | `evidencias/S02/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-02` sobre el commit entregado:
 >
@@ -187,6 +205,8 @@ git tag -a v0.2 -m "PETI v0.2 — contexto y tendencias"
 >
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-02`
+>
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.2`): `taller-02` marca el commit que se entrega a calificar y `v0.2` marca el estado del documento. Pueden apuntar al mismo commit.
 >
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
@@ -231,18 +251,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La reproducibilidad** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. Una tendencia solo pertenece a un plan estratégico si puede evidenciarse con una serie oficial actualizable y si obliga a una decisión concreta; lo demás es contenido de divulgación.
 2. La comparación regional sitúa la posición de la organización y de su mercado, y evita el error de asumir que una tendencia global se manifiesta con la misma intensidad en el contexto local.

@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 03 · La Planificación · El Planeamiento Estratégico · El Enfoque Estratégico</h1>
+<h1 align="center">Semana 03</h1>
+<h2 align="center">La Planificación · El Planeamiento Estratégico · El Enfoque Estratégico</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | Los niveles de la planificación · Qué es planeamiento estratégico · Los instrumentos PEI (Plan Estratégico Institucional), POI (Plan Operativo Institucional), PEGE, PGD y PETI | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Comité de inversiones · una ficha por equipo, el ejemplo resuelto en pizarra y la rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 

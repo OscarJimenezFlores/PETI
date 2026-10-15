@@ -1,8 +1,10 @@
 [Semana 02](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Introducción a la Dirección Estratégica · Desafíos y Cambios Mundiales
+# Semana 02
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 02 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Introducción a la Dirección Estratégica · Desafíos y Cambios Mundiales
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,27 +17,8 @@ Una empresa declara en su plan que quiere «ser líder en todos sus segmentos, c
 Seis meses después, el área comercial pide invertir en el canal digital, operaciones pide invertir en almacén y finanzas pide reducir el gasto. Las tres peticiones son coherentes con el plan aprobado, y no hay forma de decidir entre ellas.
 
 > **¿Qué le falta a una declaración que todos aprueban para poder llamarse estrategia?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| Qué es un PETI y a qué se ancla | Semana 01 |
-| La organización elegida y su información básica | Trabajo de la Semana 01 |
-| Nociones de mercado, competencia y margen | Cursos previos de la carrera |
-| Ningún marco de análisis del entorno | Se introduce hoy |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está mal esa declaración? ¿Cómo decidiría usted entre las tres peticiones? ¿Qué habría que haber escrito para poder decidir?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso de las tres peticiones y la exploración inicial | 8 |
-| **Bloque 1.** Qué es estrategia y qué es dirección estratégica · con su microaplicación | 20 |
-| **Bloque 2.** Los niveles de la estrategia y dónde entra TI | 15 |
-| **Bloque 3.** Los cambios mundiales que condicionan la estrategia de TI | 17 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -64,7 +47,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Qué es estrategia y qué es dirección estratégica
+## 1. Qué es estrategia y qué es dirección estratégica
 
 > **Si una declaración no renuncia a nada, ¿qué es exactamente?**
 
@@ -96,7 +79,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Confundir formular con dirigir. La mayoría de las organizaciones invierte en formular —talleres, documentos, consultores— y no en implantar ni evaluar. El resultado es reconocible y es el del caso de hoy — **planes excelentes que nadie ejecuta**, porque la estrategia no se tradujo a objetivos, no se asignaron recursos y nadie midió el avance.
 
-## Bloque 2 · Los niveles de la estrategia y dónde entra TI
+## 2. Los niveles de la estrategia y dónde entra TI
 
 > **¿En qué nivel vive el plan de TI, y por qué importa saberlo?**
 
@@ -120,7 +103,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Proponer una arquitectura ambiciosa a una organización en postura de soporte. Recomendar microservicios y un centro de datos redundante a una empresa cuya operación no depende críticamente de TI **es un error de diagnóstico, no una ambición legítima**. El plan debe ser proporcional a la postura real de TI en esa organización.
 
-## Bloque 3 · Desafíos y cambios mundiales que condicionan la estrategia de TI
+## 3. Desafíos y cambios mundiales que condicionan la estrategia de TI
 
 > **¿Qué distingue una tendencia que pertenece al plan de una que pertenece a una charla?**
 
@@ -158,14 +141,14 @@ Una tendencia que no responde la tercera pregunta **no pertenece al PETI**. Pert
 
 > **La regla del análisis de entorno. Una tendencia que no termina en una decisión con fecha no pertenece al plan.** Se retira o se reformula hasta que obligue a algo.
 
-> **Microaplicación (5 min) · la postura de su organización.** En parejas, el aula **sitúa a su propia organización en una de las cuatro posturas de TI** y escribe en una línea la razón. Se recogen dos o tres y se contrastan, porque la postura decide el tipo de plan que se va a escribir.
+> **Microaplicación (5 min). La postura de su organización.** En parejas, el aula **sitúa a su propia organización en una de las cuatro posturas de TI** y escribe en una línea la razón. Se recogen dos o tres y se contrastan, porque la postura decide el tipo de plan que se va a escribir.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
 | «La inteligencia artificial va a transformar los negocios». ¿Sirve en un PETI? | No como está. Sirve si se concreta — qué proceso de **esta** organización cambia, con qué dato, en qué plazo y qué decisión exige |
 | ¿De dónde se sacan datos confiables del entorno peruano? | INEI, BCRP, ministerios sectoriales, el regulador del rubro y los reportes del propio proveedor. Cada dato con su fuente, año y URL |
 | ¿Cuántas tendencias debe recoger un análisis de entorno? | Pocas y decisivas. Diez tendencias sin decisión valen menos que tres con fecha y consecuencia |
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Le falta **la renuncia**. La esencia de la estrategia es la elección, y una declaración que no descarta nada no permite rechazar ninguna de las tres peticiones. Las tres son coherentes con el plan porque el plan es coherente con todo. Una estrategia responde dónde jugamos, cómo ganamos y qué capacidades necesitamos, y las tres respuestas excluyen alternativas.
 

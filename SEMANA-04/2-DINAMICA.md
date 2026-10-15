@@ -1,8 +1,10 @@
 [Semana 04](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · La mesa de la oportunidad
+# Semana 04
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 04 · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
+## La mesa de la oportunidad
+
+**SI-886 · Planeamiento Estratégico de TI** · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

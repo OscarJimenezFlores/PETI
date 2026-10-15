@@ -1,8 +1,10 @@
 [Semana 03](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · La Planificación · El Planeamiento Estratégico · El Enfoque Estratégico
+# Semana 03
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 03 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## La Planificación · El Planeamiento Estratégico · El Enfoque Estratégico
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,28 +17,8 @@ Una municipalidad publica su Plan de Gobierno Digital 2023-2027. Está aprobado 
 La resolución que lo aprueba es de noviembre de 2024. El plan cubre desde 2023, de modo que **no orientó ninguna decisión durante sus dos primeros años**. Y no consta ninguna evaluación anual, que la norma exige.
 
 > **¿Qué hace que un plan aprobado sea exigible a alguien, y cómo se comprueba?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| Qué es un PETI y a qué se ancla | Semana 01 |
-| Los niveles de la estrategia y la postura de TI | Semana 02 |
-| Nociones de administración pública y de acto administrativo | Conocimiento general |
-| Ningún instrumento de planeamiento en particular | Se introducen hoy |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Ese plan sirve para algo? ¿Qué le pediría usted a la entidad para comprobarlo? ¿Sería distinto si fuera una empresa privada?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del plan aprobado tarde y la exploración inicial | 8 |
-| **Bloque 1.** Los niveles de la planificación | 12 |
-| **Bloque 2.** Qué es planeamiento estratégico · con su microaplicación | 18 |
-| **Bloque 3.** Los instrumentos PEI, POI, PEGE, PGD y PETI | 17 |
-| **Bloque 4.** El enfoque estratégico de la entidad | 5 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -70,7 +52,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · Los niveles de la planificación
+## 1. Los niveles de la planificación
 
 > **¿Cuánto detalle debe tener un plan a tres años sin volverse inútil?**
 
@@ -87,7 +69,7 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 
 > **El error frecuente del bloque.** Escribir el plan estratégico con detalle de plan operativo. Fechas exactas para cuarenta proyectos a tres años producen un documento que **envejece en un trimestre**, y su revisión cuesta tanto que se abandona. El error inverso —una declaración de intenciones— impide presupuestar.
 
-## Bloque 2 · Qué es planeamiento estratégico
+## 2. Qué es planeamiento estratégico
 
 > **¿Qué seis atributos separan un planeamiento que funciona de uno que se archiva?**
 
@@ -139,7 +121,7 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 
 > **Regla de articulación.** Cada objetivo del PETI debe poder rastrearse a un **objetivo estratégico institucional** o, en el sector privado, a un objetivo de negocio. Un objetivo de TI sin ancla superior es un objetivo del área, no de la organización, y perderá la disputa presupuestal.
 
-## Bloque 3 · Los instrumentos PEI, POI, PEGE, PGD y PETI
+## 3. Los instrumentos PEI, POI, PEGE, PGD y PETI
 
 > **¿Cuál de estos instrumentos es exigible por norma y cuál proviene de la práctica?**
 
@@ -184,7 +166,7 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 
 **El error más común.** Formular objetivos de TI que no existen en el plan institucional, y luego justificar el plan institucional con ellos. Es circular.
 
-> **Microaplicación (5 min) · el atributo que falta.** Con el caso del inicio delante, el aula identifica en parejas **cuál de los seis atributos incumple ese plan de forma más grave** y qué consecuencia produce. Se recogen dos respuestas antes de continuar.
+> **Microaplicación (5 min). El atributo que falta.** Con el caso del inicio delante, el aula identifica en parejas **cuál de los seis atributos incumple ese plan de forma más grave** y qué consecuencia produce. Se recogen dos respuestas antes de continuar.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -193,7 +175,7 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 | Si el PEI vence el próximo año, ¿se espera al nuevo para hacer el PETI? | No. Se alinea al vigente y se declara la fecha de revisión al aprobarse el siguiente |
 > **El error frecuente del bloque.** Aplicar el marco del sector público a una empresa privada. Citar el plan institucional, el operativo, el organismo rector del planeamiento y la figura del líder de gobierno digital en una sociedad anónima es un error de régimen, y descalifica el capítulo normativo entero. **El régimen de la organización decide qué instrumentos la alcanzan.**
 
-## Bloque 4 · El enfoque estratégico de la entidad
+## 4. El enfoque estratégico de la entidad
 
 > **¿A qué se ancla un objetivo de TI cuando la organización no tiene plan institucional?**
 
@@ -216,7 +198,7 @@ Planificar es decidir **hoy** qué se hará **mañana** y con qué recursos. La 
 
 La última cláusula —**lo que no se abordará**— es la que convierte la declaración en una decisión estratégica.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Un plan es exigible cuando **fue aprobado por quien tiene competencia, antes de iniciar el periodo que cubre, y se evalúa con la periodicidad que la norma manda**. El del caso cumple la forma y falla las tres condiciones de fondo. Comprobarlo no exige leer sus objetivos — exige mirar la fecha de la resolución, quién la firma y si existe la evaluación anual.
 

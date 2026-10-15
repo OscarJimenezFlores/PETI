@@ -1,8 +1,10 @@
 [Semana 03](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 03 · Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real
+# Semana 03
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 03 · Sesión 2 en laboratorio · calificación **procedimental**
+## Análisis comparado del PEI y del Plan de Gobierno Digital de una entidad real
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S03-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 03» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -34,10 +37,20 @@
 - Determinar el **objetivo superior de articulación** del PETI (Plan Estratégico de Tecnologías de Información) que se está construyendo.
 - Redactar la **Sección 1.2** del PETI. Marco de planeamiento y articulación.
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **pdfplumber** y **expresiones regulares** en Python | Extrae la estructura y los objetivos de un PEI y un PGD en PDF, y verifica a mano el resultado | `MP02_estructura_*.csv`, `MP03_objetivos_*.csv` |
+| **pandas** | Calcula el porcentaje de objetivos con articulación verificable, indicador, línea base y meta | Salida de `MP05_calidad.py` |
+| **draw.io** | Dibuja el mapa de instrumentos de planeamiento de la organización | `mapa_instrumentos.png` |
+| **CSV** en LibreOffice Calc | Registra la matriz de articulación y la evaluación contra los Lineamientos | `MP04_articulacion.csv`, `MP06_estructura_lineamientos.csv` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | **Portal del Estado Peruano** | https://www.gob.pe — sección de transparencia de cada entidad |
 | **CEPLAN** | https://www.gob.pe/ceplan — *Guía para el Planeamiento Institucional* |
 | **Lineamientos del PGD** | https://cdn.www.gob.pe/uploads/document/file/356863/Anexo_I_Lineamientos_PGD.pdf |
@@ -57,7 +70,9 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Extracto del plan institucional y actas**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/plan-institucional-extracto.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` y `plan-institucional-extracto.md`. **Los Pasos A a C se hacen sobre una entidad pública real**, elegida por el equipo. **Los Pasos D y E se hacen sobre su organización**: el extracto trae el plan vigente, sus objetivos con indicador, línea base y meta, y las actas pertinentes a tecnología. De ahí salen la tabla de instrumentos `MP07`, el mapa de instrumentos y el objetivo superior de articulación de la sección 1.2.3. La sección E de la ficha confirma qué instrumentos existen y en qué estado.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `01_marco/MP04_articulacion.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Localizar los documentos
 
@@ -143,7 +158,7 @@ print(obj_pei.to_string(index=False)); print(obj_pgd.to_string(index=False))
 
 ### Paso C — Verificar la articulación
 
-`01_marco/MP04_articulacion.csv` — la matriz que responde la pregunta central del laboratorio:
+**Archivo que se crea en el repositorio:** `01_marco/MP04_articulacion.csv` — la matriz que responde la pregunta central del laboratorio:
 
 | Objetivo del PGD | ¿Declara articulación con el PEI? | Objetivo del PEI al que se articula | ¿La articulación es **verificable** en el texto? | ¿Tiene indicador? | ¿Tiene línea base? | ¿Tiene meta anual? | Proyectos asociados |
 |---|---|---|---|---|---|---|---|
@@ -172,7 +187,7 @@ print("\nInterpretación: el porcentaje de objetivos completos es el mejor predi
 print("de que el plan pueda evaluarse al final del periodo.")
 ```
 
-**Evaluación contra la estructura de los Lineamientos** (`01_marco/MP06_estructura_lineamientos.csv`):
+**Evaluación contra la estructura de los Lineamientos**, archivo `01_marco/MP06_estructura_lineamientos.csv` del repositorio del equipo:
 
 | Componente exigido por los Lineamientos | ¿Presente en el PGD analizado? | Sección y página | Calidad (completo / parcial / declarativo) | Observación |
 |---|---|---|---|---|
@@ -226,7 +241,7 @@ Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM)
   ╚═════════════════════════════════════════════════╝
 ```
 
-**Tabla de instrumentos de la organización** (`01_marco/MP07_instrumentos_organizacion.csv`):
+**Tabla de instrumentos de la organización**, archivo `01_marco/MP07_instrumentos_organizacion.csv` del repositorio del equipo:
 
 | Instrumento | ¿Existe? | Vigencia | ¿Está aprobado formalmente? | ¿Se evalúa periódicamente? | Objetivo relevante para el PETI | Observación |
 |---|---|---|---|---|---|---|
@@ -235,7 +250,7 @@ Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM)
 
 ### Paso E — Redactar la Sección 1.2 del PETI
 
-`01_marco/1.2_marco_planeamiento.md`:
+**Archivo que se crea en el repositorio:** `01_marco/1.2_marco_planeamiento.md`:
 
 ```markdown
 ## 1.2 Marco de planeamiento y articulación de instrumentos
@@ -291,10 +306,10 @@ git tag -a v0.3 -m "PETI v0.3 — marco de planeamiento"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S03/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S03/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `01_marco/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S03/` | URL del archivo |
+> | Salida de comandos | `evidencias/S03/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-03` sobre el commit entregado:
 >
@@ -305,6 +320,8 @@ git tag -a v0.3 -m "PETI v0.3 — marco de planeamiento"
 >
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-03`
+>
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.3`): `taller-03` marca el commit que se entrega a calificar y `v0.3` marca el estado del documento. Pueden apuntar al mismo commit.
 >
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
@@ -349,18 +366,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La declaración de enfoque** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. La articulación entre planes se declara con frecuencia y se verifica pocas veces; medir el porcentaje de objetivos con articulación verificable, indicador, línea base y meta expone la calidad real de un plan mucho mejor que su extensión.
 2. Un objetivo de TI sin ancla en un objetivo institucional o de negocio compite por presupuesto sin argumento, y es el primero que se recorta cuando los recursos escasean.

@@ -1,8 +1,10 @@
 [Semana 05](README.md) · **Teoría** · [Dinámica de aula](2-DINAMICA.md) · [Taller de laboratorio](3-TALLER.md)
 
-# Teoría · Valores Organizacionales · Cultura Organizacional
+# Semana 05
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 05 · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
+## Valores Organizacionales · Cultura Organizacional
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 1 en aula · 2 horas académicas, 100 min, con la dinámica incluida
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -15,28 +17,8 @@ Una organización declara la innovación entre sus valores. Lo tiene en su web, 
 En los últimos tres años, dos jefes fueron sancionados por errores en proyectos nuevos y ninguno fue reconocido por intentarlos. Todo el mundo lo sabe y nadie lo dice. El plan de transformación digital que se acaba de aprobar asume que el personal adoptará las herramientas nuevas con entusiasmo.
 
 > **¿Por qué un plan técnicamente correcto puede fracasar por completo en la implantación?**
-## Antes de empezar
-
-| Lo que necesita traer | De dónde sale |
-|---|---|
-| La misión, la visión y sus pruebas de calidad | Semana 04 |
-| La postura de TI y los niveles de la estrategia | Semana 02 |
-| Los instrumentos de planeamiento de la organización | Semana 03 |
-| Ningún modelo de cultura organizacional | Se introduce hoy |
 
 > **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Se adoptarán las herramientas nuevas? ¿Qué gobierna en esa organización, lo que declara o lo que hace? ¿Cómo lo comprobaría usted?* No se corrige nada todavía.
-
-## Distribución del tiempo
-
-| Momento | Minutos |
-|---|---|
-| El caso del valor declarado y la exploración inicial | 8 |
-| **Bloque 1.** De los valores declarados a la conducta observable · con su microaplicación | 20 |
-| **Bloque 2.** La cultura organizacional y la conducta real | 17 |
-| **Bloque 3.** Cultura y transformación digital | 10 |
-| Exposición de avance de la Unidad I | 5 |
-| Cierre, respuesta a la pregunta de la sesión y puente a la dinámica | 5 |
-| **Total de la sesión de aula** | **65** |
 
 ## Mapa de la sesión
 
@@ -69,7 +51,7 @@ flowchart TD
 
 ---
 
-## Bloque 1 · De los valores declarados a la conducta observable
+## 1. De los valores declarados a la conducta observable
 
 > **¿Qué convierte una palabra en un valor que orienta decisiones?**
 
@@ -106,7 +88,7 @@ flowchart TD
 
 > **El error frecuente del bloque.** Aceptar los valores declarados como insumo del plan. Honestidad, respeto, trabajo en equipo, innovación y compromiso los declara casi todo el mundo, y por ser universales **no orientan ninguna decisión**. Un valor que nadie podría rechazar en público no distingue nada y no sirve para resolver una tensión tecnológica.
 
-## Bloque 2 · La cultura organizacional y la conducta real
+## 2. La cultura organizacional y la conducta real
 
 > **Cuando lo declarado y lo real se contradicen, ¿qué gobierna?**
 
@@ -166,7 +148,7 @@ flowchart TD
 
 > **Diagnosticar cultura no es opinar sobre las personas.** Es contrastar el valor declarado con un **hecho observable y verificable**. «Aquí la gente es reacia al cambio» no es diagnóstico; «tres de los últimos cuatro proyectos se abandonaron después del piloto, según las actas» sí lo es.
 
-> **Microaplicación (5 min) · de sustantivo a conducta.** Cada pareja toma **un valor declarado de su propia organización** y lo reformula como conducta observable, en una sola frase que empiece con un verbo. Se leen dos y se comprueba si superan las tres condiciones.
+> **Microaplicación (5 min). De sustantivo a conducta.** Cada pareja toma **un valor declarado de su propia organización** y lo reformula como conducta observable, en una sola frase que empiece con un verbo. Se leen dos y se comprueba si superan las tres condiciones.
 
 | Caso | Qué debe contener una buena respuesta |
 |---|---|
@@ -175,7 +157,7 @@ flowchart TD
 | Si la cultura es adversa al cambio, ¿se recomienda no hacer el proyecto? | No. Se recomienda gestión del cambio como parte del proyecto, con presupuesto propio, y se ajusta el plazo con realismo |
 > **El error frecuente del bloque.** Creer que la cultura se cambia con comunicación. Cuando los valores adoptados y los supuestos básicos se contradicen, **gobiernan los supuestos**, y estos no se modifican con talleres ni con carteles. Detectar esa brecha es el objetivo del diagnóstico de cultura, no cerrarla durante el semestre.
 
-## Bloque 3 · Cultura y transformación digital
+## 3. Cultura y transformación digital
 
 > **¿Cómo cambia el plan según el tipo de cultura que tenga la organización?**
 
@@ -208,7 +190,7 @@ Cada equipo expone el avance de su producto ante el aula y el docente. **6 minut
 
 > **Por qué se expone en la Semana 05 y no en la 06.** El sílabo asigna a la Semana 06 contenido propio, y sus 100 minutos de aula se reparten entre esa teoría y el examen teórico de la unidad. La exposición de avance se adelanta una semana.
 
-## Cierre · qué se lleva de aquí
+## Cierre
 
 **La respuesta a la pregunta con la que abrimos.** Porque el plan supuso una conducta que la organización no tiene. El valor declarado decía innovación y el supuesto básico decía que **el error se castiga**, y ante esa contradicción gobierna el supuesto. Un plan de transformación digital que no diagnostica la cultura está apostando a que las personas se comporten como dice el cartel de la recepción.
 

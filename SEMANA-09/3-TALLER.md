@@ -1,8 +1,10 @@
 [Semana 09](README.md) · [Teoría](1-TEORIA.md) · [Dinámica de aula](2-DINAMICA.md) · **Taller de laboratorio**
 
-# Taller de laboratorio 09 · Evaluación de capacidad de los procesos de TI y selección de marcos
+# Semana 09
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 09 · Sesión 2 en laboratorio · calificación **procedimental**
+## Evaluación de capacidad de los procesos de TI y selección de marcos
+
+**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 
@@ -13,9 +15,10 @@
 | | |
 |---|---|
 | **Archivo** | `SI886-S09-TALLER-Grupo<N>.pdf` |
+| **Modalidad** | **Taller grupal.** Un informe por equipo, con los códigos de todos los integrantes. El repositorio y el PETI son del equipo |
 | **Plantilla obligatoria** | [SI886-PLANTILLA-TALLER.docx](../PLANTILLAS/SI886-PLANTILLA-TALLER.docx) |
 | **Formato** | PDF exportado desde la plantilla en Word, con la carátula de la UPT, el índice actualizado y las capturas numeradas |
-| **Qué va dentro** | Las secciones de la plantilla. La **5. Resultados y evidencias** se califica contra la tabla de resultados esperados de esta guía, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
+| **Qué va dentro** | Las secciones de la plantilla. La sección **5. Resultados y evidencias** de la plantilla se llena con la lista de comprobación 3.2 de esta guía, una fila por resultado, y **cada resultado necesita la evidencia que lo demuestre**. No se copian de aquí los objetivos, la duración ni los resultados de aprendizaje |
 | **Dónde se sube** | Aula virtual, tarea «Taller · Semana 09» |
 | **Cuándo vence** | Según lo programado en el aula virtual |
 
@@ -35,16 +38,25 @@
 - Producir el **mapa de brechas de proceso** y sus proyectos candidatos.
 - Redactar las secciones **Sección 4.2** y **Sección 4.3** del PETI (Plan Estratégico de Tecnologías de Información).
 
+**Tecnología que aplica el estudiante en este taller**
+
+| Tecnología | Qué hace con ella | Dónde queda la evidencia |
+|---|---|---|
+| **pandas** y **matplotlib** | Aplica los factores de diseño de COBIT 2019 para priorizar los 40 objetivos y grafica el radar de capacidad actual contra objetivo | `MG02_objetivos_priorizados.csv`, `MG_capacidad_cobit.png` |
+| **Docker** (GLPI + MariaDB) | Despliega una mesa de servicio, configura un catálogo mínimo y registra un ticket para dimensionar el esfuerzo | Captura de GLPI |
+| **CSV** en LibreOffice Calc | Registra factores de diseño, evaluación de capacidad con evidencia y alcance de adopción de marcos | `MG01`, `MG03`, `MG05` |
+
 ### 1.2. Recursos
 
 | Recurso | Detalle |
 |---|---|
+| **[`RECURSOS-TALLER/`](RECURSOS-TALLER/)** | Documentos del caso de su organización y programas de este taller, listos para copiar. El [README](RECURSOS-TALLER/README.md) de la carpeta explica cada archivo |
 | **COBIT 2019 — Introduction and Methodology**, **Governance and Management Objectives** y **Design Guide** | https://www.isaca.org/resources/cobit |
 | **ITIL 4 Foundation** — prácticas de gestión | https://www.axelos.com/certifications/itil-service-management |
 | **ISO/IEC 20000-1**, **ISO/IEC 27001:2022**, **ISO/IEC 33020** | https://www.iso.org |
 | **NIST CSF 2.0** | https://www.nist.gov/cyberframework |
-| Notas de la **Entrevista 2 con la jefatura de TI** | Insumo obligatorio |
-| Documentación de TI de la organización | Procedimientos, registro de incidentes, contratos, indicadores |
+| Notas de la **Entrevista 2 con la jefatura de TI** | Insumo obligatorio. Con el banco de casos, la entrevista es simulada con el docente |
+| Documentación de TI de la organización | Contratos, usuarios y hechos verificables, en `RECURSOS-TALLER/`; procedimientos e indicadores, si existen, se piden en la entrevista |
 | **Python 3.11+** con `pandas`, `matplotlib` | Cálculo y radar |
 | **GLPI** o **Zammad** (Docker) | Demostración de mesa de servicio |
 
@@ -59,11 +71,15 @@
 
 ## 2. Procedimiento o Metodología
 
-> **Documento del caso para esta semana.** La organización entrega **Contratos con proveedores de TI**, en `CASOS/EMPRESA-<NN>-<slug>/documentos/contratos-proveedores.md`. Es consistente con los datos de `datos/`. Las personas, usuarios y proveedores que menciona existen en los archivos. **No señala sus debilidades**; declara lo que la organización dice hacer.
+> **Recursos de este taller.** Están en [`RECURSOS-TALLER/`](RECURSOS-TALLER/) y su [README](RECURSOS-TALLER/README.md) explica cada archivo. Su equipo usa la subcarpeta de su organización, `RECURSOS-TALLER/EMPRESA-<NN>-<nombre>/`. Trae `FICHA.md` (la sección F lista hechos verificables: respaldos, incidentes, contratos, gestión de cambios), `contratos-proveedores.md` (los contratos de planilla y de nube, evidencia para APO10 y para los niveles de servicio) y `usuarios_erp.csv` (usuarios, perfiles y último acceso, evidencia para DSS05 y APO07). Lo que estos insumos no responden se pregunta en la entrevista simulada con el docente, que hace las veces de la «Entrevista 2 con la jefatura de TI». Una declaración sin evidencia sostiene como máximo el nivel 1.
+>
+> **Las tablas de ejemplo de esta guía**, y los datos que traen los programas, están resueltas sobre Distribuidora Andina del Sur S.A.C., el caso de respaldo del curso descrito en [`ANEXO-CASO-SIMULADO.md`](../ANEXO-CASO-SIMULADO.md). Muestran el formato y el nivel de detalle que se espera. Las cifras de su informe salen de su organización, no de estas tablas.
+
+> **Cómo leer los pasos.** Cada paso nombra el archivo que el equipo crea, con su ruta dentro del repositorio del PETI, por ejemplo `04_normativa/MG03_capacidad.csv`. La carpeta es la de la sección del plan, dentro de la estructura de carpetas del repositorio; el nombre es el que usan los programas y la lista de comprobación. La tabla o la plantilla que sigue a la ruta es **el contenido de ese archivo**. Ese mismo archivo, versionado en GitHub, es la evidencia que se enlaza en el informe.
 
 ### Paso A — Aplicar los factores de diseño de COBIT 2019
 
-`04_normativa/MG01_factores_diseno.csv`:
+**Archivo que se crea en el repositorio:** `04_normativa/MG01_factores_diseno.csv`:
 
 | # | Factor de diseño | Valor determinado para la organización | Evidencia | Sección del PETI que lo sustenta |
 |---|---|---|---|---|
@@ -79,11 +95,12 @@
 | 10 | Estrategia de adopción tecnológica | Seguidor | Historial de inversiones | Sección 3.1 |
 | 11 | Tamaño de la empresa | Pequeña/mediana (64 personas, 5 en TI) | Ficha de la organización | Sección 0 |
 
-**El programa está en [`HERRAMIENTAS/SEMANA-09/MG02_priorizacion_cobit.py`](../HERRAMIENTAS/SEMANA-09/MG02_priorizacion_cobit.py).** Se copia al repositorio del equipo como `04_normativa/MG02_priorizacion_cobit.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`MG02_priorizacion_cobit.py`](RECURSOS-TALLER/MG02_priorizacion_cobit.py).** No lee ningún archivo: los once factores de diseño se escriben dentro del programa. Produce `MG02_objetivos_priorizados.csv`. Se copia a `04_normativa/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-09/MG02_priorizacion_cobit.py 04_normativa/MG02_priorizacion_cobit.py
-python3 04_normativa/MG02_priorizacion_cobit.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-09/RECURSOS-TALLER/MG02_priorizacion_cobit.py 04_normativa/
+cd 04_normativa && python3 MG02_priorizacion_cobit.py
 ```
 
 ### Paso B — Evaluar la capacidad con evidencia
@@ -110,7 +127,7 @@ REGLAS:
   R4. Toda calificación cita el identificador de la evidencia que la sostiene.
 ```
 
-`04_normativa/MG03_capacidad.csv`:
+**Archivo que se crea en el repositorio:** `04_normativa/MG03_capacidad.csv`:
 
 | Objetivo | Nombre | Relevancia | **Evidencia examinada** | Nivel actual | Justificación del nivel | Nivel objetivo | Justificación del objetivo | Brecha |
 |---|---|---|---|---|---|---|---|---|
@@ -127,16 +144,17 @@ REGLAS:
 | DSS05 | Servicios de seguridad | 5 | Sin gestión de vulnerabilidades ni monitoreo | **1** | Controles puntuales sin proceso | 2 | Proporcional | 1 |
 | APO12 | Riesgo gestionado | 5 | Sin registro de riesgos | **0** | No existe proceso | 2 | Habilitante de la sección 8 | 2 |
 
-**El programa está en [`HERRAMIENTAS/SEMANA-09/MG04_analisis_capacidad.py`](../HERRAMIENTAS/SEMANA-09/MG04_analisis_capacidad.py).** Se copia al repositorio del equipo como `04_normativa/MG04_analisis_capacidad.py` y **se edita con los datos de su organización**. El programa hace el cálculo, las cifras y su justificación son del equipo.
+**Programa [`MG04_analisis_capacidad.py`](RECURSOS-TALLER/MG04_analisis_capacidad.py).** Lee `MG03_capacidad.csv`, en la misma carpeta. Produce el análisis de brechas en pantalla y `graficos/MG_capacidad_cobit.png`. Se copia a `04_normativa/` del repositorio del equipo y **se edita con los datos de su organización**: el programa hace el cálculo, las cifras y su justificación son del equipo.
 
 ```bash
-cp ../HERRAMIENTAS/SEMANA-09/MG04_analisis_capacidad.py 04_normativa/MG04_analisis_capacidad.py
-python3 04_normativa/MG04_analisis_capacidad.py
+# desde la raíz del repositorio del equipo; <curso> es la carpeta del material del curso
+cp <curso>/SEMANA-09/RECURSOS-TALLER/MG04_analisis_capacidad.py 04_normativa/
+cd 04_normativa && python3 MG04_analisis_capacidad.py
 ```
 
 ### Paso C — Definir el alcance de adopción de los marcos
 
-`04_normativa/MG05_adopcion_marcos.csv`:
+**Archivo que se crea en el repositorio:** `04_normativa/MG05_adopcion_marcos.csv`:
 
 | Marco | ¿Se adopta? | Fundamento (obligación / problema / proporcionalidad) | **Alcance exacto de la adopción** | Objetivo o práctica | Proyecto que lo implementa | Horizonte |
 |---|---|---|---|---|---|---|
@@ -206,10 +224,10 @@ git tag -a v0.9 -m "PETI v0.9 — marcos y madurez"
 >
 > | Qué se entrega | Dónde vive | Qué se escribe en el informe |
 > |---|---|---|
-> | Código y archivos de configuración | Rama del taller, fusionada a `develop` vía Pull Request | URL del Pull Request |
-> | Documentos y matrices | `docs/`, en formato de texto versionable | URL del archivo en la rama |
-> | Capturas y videos que el taller exija | `docs/evidencias/S09/` | URL del archivo |
-> | Salida de comandos | `docs/evidencias/S09/salidas/*.txt` | URL del archivo |
+> | Programas y archivos CSV del taller | La carpeta de la sección del PETI que el taller indica (esta semana, `04_normativa/`), en la rama del taller fusionada a `develop` vía Pull Request | URL del Pull Request |
+> | Documentos y matrices | La misma carpeta de la sección, en formato de texto versionable | URL del archivo en la rama |
+> | Capturas y videos que el taller exija | `evidencias/S09/` | URL del archivo |
+> | Salida de comandos | `evidencias/S09/salidas/*.txt` | URL del archivo |
 >
 > **Etiqueta del taller.** Al cerrar el taller se crea la etiqueta `taller-09` sobre el commit entregado:
 >
@@ -221,6 +239,8 @@ git tag -a v0.9 -m "PETI v0.9 — marcos y madurez"
 > La URL que se consigna en el informe apunta a esa etiqueta:
 > `https://github.com/<organizacion>/<repositorio>/tree/taller-09`
 >
+> Esta etiqueta convive con la de versión del PETI que crea el último paso del procedimiento (`v0.9`): `taller-09` marca el commit que se entrega a calificar y `v0.9` marca el estado del documento. Pueden apuntar al mismo commit.
+>
 > **El informe es lo que se califica; el repositorio es lo que lo prueba.** Cada resultado de la sección 3 del informe lleva la URL con la que se verifica, y **un resultado sin su URL se califica como no logrado**, por bien redactado que esté. Lo que no se puede abrir no se puede dar por hecho.
 
 ### 3.1. Los tres resultados que se califican
@@ -231,7 +251,7 @@ Son los que la rúbrica evalúa. El resto de la lista tiene que existir, pero no
 |---|---|---|
 | **Los factores de diseño** | Los once con valor asignado y su origen en el diagnóstico | Hoja de cálculo |
 | **La priorización obtenida** | Los cuarenta objetivos ordenados por el modelo, sin retoque | Salida del cálculo |
-| **La selección justificada** | Los pertinentes y los descartados, cada uno con su razón | Sección 3.4 |
+| **La selección justificada** | Los pertinentes y los descartados, cada uno con su razón | `MG05_adopcion_marcos.csv` y secciones 4.2.3 y 4.2.4 |
 
 ### 3.2. Lista de comprobación del taller
 
@@ -265,18 +285,7 @@ Se aplica sobre el informe entregado y la evidencia enlazada en el repositorio. 
 | **La selección justificada** | Completo y correcto, con la evidencia que lo respalda | Completo con errores menores, o correcto sin toda la evidencia | Incompleto o sin evidencia |
 | **La validación** | Las tres comprobaciones ejecutadas, y lo que falló quedó corregido o documentado | Ejecutadas sin corregir lo que falló | No se validó nada |
 
-| Puntaje | Equivalencia |
-|---|---|
-| 18 – 20 | Destacado |
-| 14 – 17 | Logrado |
-| 6 – 13 | En proceso |
-| 0 – 5 | Insuficiente |
-
-> **Un resultado declarado sin evidencia enlazada no se califica**, aunque el trabajo se haya hecho. La tabla de la sección 3.1 es la lista de cotejo; esta rúbrica es lo que determina la nota.
-
 ## 4. Conclusiones
-
-Mínimo tres. Líneas argumentales esperadas:
 
 1. Los factores de diseño de COBIT 2019 convierten un marco de 40 objetivos en un alcance manejable de 12 a 14, y esa reducción justificada es lo que hace viable su adopción en una organización mediana.
 2. La adopción selectiva de un marco —nombrando exactamente qué objetivos, qué prácticas y qué controles— es una decisión de diseño defendible; adoptar el marco completo en una organización que no puede sostenerlo produce documentación que nadie usa.

@@ -1,8 +1,10 @@
 [Semana 05](README.md) · [Teoría](1-TEORIA.md) · **Dinámica de aula** · [Taller de laboratorio](3-TALLER.md)
 
-# Dinámica de aula · El valor que llegó a los titulares
+# Semana 05
 
-**SI-886 · Planeamiento Estratégico de TI** · Semana 05 · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
+## El valor que llegó a los titulares
+
+**SI-886 · Planeamiento Estratégico de TI** · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

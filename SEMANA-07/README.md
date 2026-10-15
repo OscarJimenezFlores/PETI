@@ -9,7 +9,8 @@
   Facultad de Ingeniería · Escuela Profesional de Ingeniería de Sistemas
 </p>
 
-<h1 align="center">Semana 07 · Análisis de la Organización con FODA y PESTEL</h1>
+<h1 align="center">Semana 07</h1>
+<h2 align="center">Análisis de la Organización con FODA y PESTEL</h2>
 
 <p align="center">
   <strong>SI-886 · Planeamiento Estratégico de TI</strong><br>
@@ -43,6 +44,7 @@
 | 1 | **[Teoría](1-TEORIA.md)** | El análisis PESTEL del entorno · El análisis FODA y sus errores frecuentes · El FODA cruzado y las estrategias derivadas | Aula · 100 min |
 | 2 | **[Dinámica de aula](2-DINAMICA.md)** | Los que no son ninguna de las cuatro, con su material, su ejemplo resuelto y su rúbrica | Aula · dentro de los 100 min de la sesión de teoría |
 | 3 | **[Taller de laboratorio](3-TALLER.md)** | Matrices EFI, EFE, PESTEL y FODA cruzado | Laboratorio · 100 min |
+| 4 | **[Recursos del taller](RECURSOS-TALLER/README.md)** | Los documentos del caso de cada organización y los programas que el taller usa, listos para copiar | Laboratorio · durante el taller |
 
 ## Ruta de la semana
 
