@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
 Una organización tiene esta misión. «Brindar productos y servicios de calidad que satisfagan las necesidades de nuestros clientes, con personal comprometido y tecnología adecuada, contribuyendo al desarrollo de la región».
 
-Sustituya el nombre de la organización por el de cualquier otra empresa del país. La frase sigue siendo válida. Sustitúyalo por el de un instituto, una clínica o una municipalidad. Sigue siendo válida.
+Sustituya el nombre de la organización por el de cualquier otra empresa del país y la frase sigue siendo válida; sustitúyalo por el de un instituto, una clínica o una municipalidad, y sigue siendo igual de válida.
 
 > **¿Para qué sirve una misión si nunca ha servido para rechazar un proyecto?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está mal esa misión? ¿Qué decisión concreta ayudaría a tomar? ¿Qué pasaría si el equipo la reescribe por su cuenta?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -187,7 +185,7 @@ flowchart TD
 | La misión es competencia de la alta dirección, no del equipo consultor | Se evalúa y se propone; cambiarla sin mandato descalifica el plan |
 | Una visión sin horizonte y sin métrica no orienta ninguna inversión | Es lo que convierte la sección 2 del plan en literatura |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La pregunta que más se falla es la tercera — casi todos los equipos dan por hecho que pueden reescribir la misión, y esa es una de las formas más rápidas de perder al cliente del encargo.
+**Lo que suele fallar frente a este caso.** La pregunta que más se falla es la tercera — casi todos los equipos dan por hecho que pueden reescribir la misión, y esa es una de las formas más rápidas de perder al cliente del encargo.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) trabaja sobre declaraciones reales y exige nombrar el defecto **con el término de la teoría**, no describirlo. «Es muy general» no es un diagnóstico.
 

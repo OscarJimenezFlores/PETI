@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una organización declara la innovación entre sus valores. Lo tiene en su web, en la recepción y en la inducción del personal.
+Una organización declara la innovación entre sus valores, y lo tiene en su web, en la recepción y en la inducción del personal.
 
-En los últimos tres años, dos jefes fueron sancionados por errores en proyectos nuevos y ninguno fue reconocido por intentarlos. Todo el mundo lo sabe y nadie lo dice. El plan de transformación digital que se acaba de aprobar asume que el personal adoptará las herramientas nuevas con entusiasmo.
+Pero en los últimos tres años dos jefes fueron sancionados por errores en proyectos nuevos y ninguno fue reconocido por intentarlos —todo el mundo lo sabe y nadie lo dice—, y el plan de transformación digital que se acaba de aprobar asume que el personal adoptará las herramientas nuevas con entusiasmo.
 
 > **¿Por qué un plan técnicamente correcto puede fracasar por completo en la implantación?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Se adoptarán las herramientas nuevas? ¿Qué gobierna en esa organización, lo que declara o lo que hace? ¿Cómo lo comprobaría usted?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -202,7 +200,7 @@ Cada equipo expone el avance de su producto ante el aula y el docente. **6 minut
 | Cuando lo declarado y lo real se contradicen, gobiernan los supuestos básicos | Y por eso el diagnóstico de cultura busca la brecha, no la declaración |
 | El tipo de cultura determina cómo se implanta el plan, no si se implanta | Una cultura jerárquica adopta por directiva y una de clan por participación; ignorarlo es planificar el rechazo |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría predice que las herramientas no se adoptarán, y acierta. Lo que casi nadie explicita es **cómo lo comprobaría antes de escribir el plan**, y esa es la parte que el diagnóstico de cultura convierte en método.
+**Lo que suele fallar frente a este caso.** La mayoría predice que las herramientas no se adoptarán, y acierta. Lo que casi nadie explicita es **cómo lo comprobaría antes de escribir el plan**, y esa es la parte que el diagnóstico de cultura convierte en método.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) trabaja sobre la distancia entre lo que la organización declara y lo que hace. Y esta semana se expone el avance de la Unidad I, con el producto real a la vista.
 

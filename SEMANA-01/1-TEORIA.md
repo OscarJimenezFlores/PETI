@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una distribuidora invirtió S/ 1.4 millones en tecnología en cinco años. Compró un sistema de gestión, un portal para sus clientes, servidores nuevos y licencias. Todo funciona y todo está pagado.
+Una distribuidora invirtió S/ 1.4 millones en tecnología en cinco años, comprando un sistema de gestión, un portal para sus clientes, servidores nuevos y licencias — todo funciona y todo está pagado.
 
-Su portal lo usa el 4 % de las bodegas a las que atiende. Su inventario contable y el físico difieren un 5 %. Y el activo más valioso que tiene —quince años de historial de compras de 8 400 clientes— no lo explota nadie.
+Pero su portal lo usa solo el 4 % de las bodegas a las que atiende, su inventario contable y el físico difieren un 5 %, y el activo más valioso que tiene —quince años de historial de compras de 8 400 clientes— no lo explota nadie.
 
 > **¿Cómo puede una organización invertir millones en tecnología y aun así no generar valor?**
-
-> **Exploración (5 min), antes de cualquier definición.** Antes de definir nada, el aula responde y las respuestas quedan anotadas para volver a ellas al cierre. *¿Qué le faltó a esa empresa? ¿Compró mal o decidió mal? ¿Quién tendría que haber dicho que no a alguna de esas compras?* No se corrige ninguna respuesta todavía.
 
 ## Mapa de la sesión
 
@@ -192,7 +190,7 @@ Un PETI no nace de la nada ni termina en sí mismo. Se inserta en una cadena:
 | El horizonte es de tres a cinco años y el nivel de detalle debe corresponderle | Un plan con detalle operativo envejece en un trimestre y se abandona |
 | Un objetivo de TI sin ancla superior es un objetivo del área | Y por eso pierde la disputa presupuestal frente a cualquier prioridad del negocio |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría señala que la empresa compró mal. La respuesta más exacta es que **decidió mal**, porque nunca tuvo un criterio con el que rechazar una compra, y ese criterio es lo que se construye este semestre.
+**Lo que suele fallar frente a este caso.** La mayoría señala que la empresa compró mal. La respuesta más exacta es que **decidió mal**, porque nunca tuvo un criterio con el que rechazar una compra, y ese criterio es lo que se construye este semestre.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) pone al equipo ante una decisión de inversión y le pide sostenerla. El material está en la propia guía y el resultado se entrega en la plantilla de dinámica.
 

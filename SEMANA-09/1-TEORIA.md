@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una organización de sesenta personas anuncia que va a implementar COBIT, ITIL y la ISO 27001. Contrata capacitación para los tres, compra la documentación y arranca los tres proyectos el mismo trimestre.
+Una organización de sesenta personas anuncia que va a implementar COBIT, ITIL y la ISO 27001, contrata capacitación para los tres, compra la documentación y arranca los tres proyectos el mismo trimestre.
 
-Dieciocho meses después no ha implementado ninguno. Tiene tres carpetas de documentación, dos personas certificadas que ya renunciaron y ningún proceso que funcione distinto que antes.
+Dieciocho meses después no ha implementado ninguno — tiene tres carpetas de documentación, dos personas certificadas que ya renunciaron y ningún proceso que funcione distinto que antes.
 
 > **¿Cómo se elige un marco de gestión de TI, si todos parecen buenos y ninguno es gratis?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Qué hizo mal esa organización? ¿Por cuál habría empezado usted? ¿Se puede adoptar la mitad de un marco?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -197,7 +195,7 @@ flowchart TD
 | La adopción selectiva justificada es una decisión de diseño | Adoptar los objetivos pertinentes y descartar el resto por escrito es lo profesional, no una renuncia |
 | Los factores de diseño de COBIT evitan adoptar los cuarenta objetivos | Convierten un marco de cuarenta piezas en una selección defendible ante la gerencia |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La pregunta que más se falla es la tercera — casi todo el mundo cree que un marco se adopta entero o no se adopta, y la práctica profesional es exactamente la contraria.
+**Lo que suele fallar frente a este caso.** La pregunta que más se falla es la tercera — casi todo el mundo cree que un marco se adopta entero o no se adopta, y la práctica profesional es exactamente la contraria.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) pone al equipo a decidir con un presupuesto limitado de unidades. Se adopta lo que se puede sostener y **se descarta el resto con fundamento**, que es la parte que casi nunca se escribe.
 

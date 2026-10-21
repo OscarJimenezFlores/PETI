@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Un plan declara el objetivo «implementar un sistema de gestión documental». Lo cumple. El sistema se implementa en el plazo previsto y con el presupuesto previsto.
+Un plan declara el objetivo «implementar un sistema de gestión documental», y lo cumple — el sistema se implementa en el plazo previsto y con el presupuesto previsto.
 
-Dos años después, el tiempo de atención de un expediente sigue siendo el mismo, el ciudadano sigue presentando los mismos documentos y nadie puede decir si el plan sirvió de algo. El objetivo se cumplió y el problema sigue intacto.
+Dos años después, el tiempo de atención de un expediente sigue siendo el mismo, el ciudadano sigue presentando los mismos documentos y nadie puede decir si el plan sirvió de algo — el objetivo se cumplió y el problema sigue intacto.
 
 > **¿Qué distingue a un objetivo de un proyecto disfrazado de objetivo?**
-
-> **Autocomprobación, antes de leer el material.** Antes de leer, anote su respuesta a tres preguntas. *¿Qué le falta al objetivo del caso para ser un objetivo? ¿Se puede fijar una meta sin línea base? ¿Cuántos objetivos debería tener el plan?* Al terminar el material, vuelva a sus respuestas.
 
 ## Mapa de la sesión
 

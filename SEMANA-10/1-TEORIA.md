@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una empresa pide una cifra sencilla — cuántos clientes activos tiene. El área comercial responde 6 200, finanzas responde 5 400 y el sistema de facturación devuelve 7 100.
+Una empresa pide una cifra sencilla, cuántos clientes activos tiene, y el área comercial responde 6 200, finanzas responde 5 400 y el sistema de facturación devuelve 7 100.
 
-Las tres cifras son correctas. Cada área define «cliente activo» de una manera distinta, ninguna definición está escrita, y las tres llevan años decidiendo con la suya.
+Las tres cifras son correctas, porque cada área define «cliente activo» de una manera distinta — ninguna definición está escrita, y las tres llevan años decidiendo con la suya.
 
 > **¿Por qué una organización con todos sus sistemas funcionando no puede responder cuántos clientes activos tiene?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿De quién es la culpa? ¿Qué habría que hacer para que las tres cifras coincidan? ¿Es un problema técnico o de otra cosa?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -214,7 +212,7 @@ flowchart TD
 | La capa de datos es la que más valor aporta al plan y la que nunca está documentada | Es donde aparece el hallazgo que ninguna herramienta detecta |
 | El análisis de brechas entre lo actual y lo objetivo produce los paquetes de trabajo | Es el mecanismo que convierte una visión en proyectos con esfuerzo estimable |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría propone integrar los sistemas. Integrar tres sistemas que definen el término de tres maneras distintas **produce una cuarta cifra**, no la respuesta correcta.
+**Lo que suele fallar frente a este caso.** La mayoría propone integrar los sistemas. Integrar tres sistemas que definen el término de tres maneras distintas **produce una cuarta cifra**, no la respuesta correcta.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) toma un dato que vive en varios sistemas de su organización y pide encontrar su fuente autoritativa, o **demostrar que no existe**. La restricción es que no vale responder «hay que integrar los sistemas».
 

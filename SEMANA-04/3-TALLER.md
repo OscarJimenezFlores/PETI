@@ -4,7 +4,7 @@
 
 ## Formulación y validación de la misión y la visión
 
-**SI-886 · Planeamiento Estratégico de TI** · Sesión 2 en laboratorio · **Taller grupal** · calificación **procedimental**
+**SI-886 - Planeamiento Estratégico de TI** - Sesión 2 en laboratorio - **Taller grupal** · calificación **procedimental**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

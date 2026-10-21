@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una distribuidora tiene quince años de historial de compras de 8 400 bodegas. Sabe qué compra cada una, cuándo, en qué cantidad y qué dejó de comprar. Ningún competidor tiene ese dato y ninguno podría reconstruirlo, porque tardaría quince años.
+Una distribuidora tiene quince años de historial de compras de 8 400 bodegas —sabe qué compra cada una, cuándo, en qué cantidad y qué dejó de comprar—, y ningún competidor tiene ese dato ni podría reconstruirlo, porque tardaría quince años.
 
-Nadie en la empresa lo usa para nada. Está en el sistema, se respalda todas las noches y no alimenta ninguna decisión.
+Y sin embargo nadie en la empresa lo usa para nada. Está en el sistema, se respalda todas las noches y no alimenta ninguna decisión.
 
 > **¿Por qué una organización puede tener el activo más valioso de su sector y no sacarle ninguna ventaja?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Es ese historial una ventaja o no lo es? ¿Qué le falta a la empresa para que lo sea? ¿Cómo se decide en qué invertir cuando todo parece importante?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -123,7 +121,7 @@ flowchart TD
 
 ## 3. El análisis externo con las cinco fuerzas y los interesados
 
-> **¿Cuánto puede invertir esta organización, y quién lo decide desde fuera?**
+> **¿Cuánto puede invertir esta organización?**
 
 **Las cinco fuerzas de Porter** — determinan la rentabilidad estructural del sector y, con ello, cuánto puede invertir la organización:
 
@@ -318,7 +316,7 @@ Para cada interesado se registra **qué espera del plan**, **qué teme**, **qué
 | La ventaja viene de las capacidades, no de los recursos | Cambia por completo qué se inventaría en el diagnóstico y qué se concluye de él |
 | La letra O del marco VRIO es la que más se subestima | Una organización puede tener el mejor recurso del sector y no capturar nada; ahí nacen los proyectos del plan |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría llama ventaja al historial sin más. Reconocer que **una ventaja no capturada no es una ventaja** es lo que convierte el análisis interno en una lista de proyectos y no en una lista de elogios.
+**Lo que suele fallar frente a este caso.** La mayoría llama ventaja al historial sin más. Reconocer que **una ventaja no capturada no es una ventaja** es lo que convierte el análisis interno en una lista de proyectos y no en una lista de elogios.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) se prepara durante la semana y se entrega antes de la sesión, porque el aula la dedica a la teoría y al examen. Pide encontrar, en la organización propia, **el activo que está desperdiciado**.
 

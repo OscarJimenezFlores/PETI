@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una entidad afirma que su trámite de licencias está digitalizado. Tiene el formulario en su portal, tiene mesa de partes virtual y tiene un sistema que registra la solicitud.
+Una entidad afirma que su trámite de licencias está digitalizado — tiene el formulario en su portal, tiene mesa de partes virtual y tiene un sistema que registra la solicitud.
 
-El ciudadano descarga el formulario, lo llena, lo imprime, y lo lleva a la ventanilla con tres documentos adjuntos. Dos de los tres los emite el propio Estado, y uno lo emite la misma entidad que se los pide.
+Pero el ciudadano descarga el formulario, lo llena, lo imprime y lo lleva a la ventanilla con tres documentos adjuntos, de los cuales dos los emite el propio Estado y uno lo emite la misma entidad que se los pide.
 
 > **¿Qué mide de verdad el nivel de digitalización de un trámite?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está digitalizado ese trámite? ¿En qué grado? ¿Qué pediría usted para medirlo de forma objetiva?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -190,7 +188,7 @@ flowchart TD
 | La unidad de análisis es el servicio, no el sistema | Catorce sistemas pueden convivir con cero servicios digitales completos |
 | El principio de una sola vez se audita contando documentos | Cuántos de los que se piden al ciudadano ya los posee el Estado |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La mayoría sitúa el trámite en un nivel alto porque el formulario está en línea. La prueba del nivel 4 es de una sola línea —*el usuario nunca acude*— y descalifica a casi todos los trámites que se dan por digitalizados.
+**Lo que suele fallar frente a este caso.** La mayoría sitúa el trámite en un nivel alto porque el formulario está en línea. La prueba del nivel 4 es de una sola línea —*el usuario nunca acude*— y descalifica a casi todos los trámites que se dan por digitalizados.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) recorre un servicio de la organización con los ojos de quien lo usa, etapa por etapa, y determina su nivel real. El taller construye después el catálogo completo con sus brechas.
 

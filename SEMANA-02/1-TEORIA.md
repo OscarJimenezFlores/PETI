@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una empresa declara en su plan que quiere «ser líder en todos sus segmentos, con productos de calidad y precio competitivo». Es una frase que su directorio aprobó por unanimidad.
+Una empresa declara en su plan que quiere «ser líder en todos sus segmentos, con productos de calidad y precio competitivo», una frase que su directorio aprobó por unanimidad.
 
-Seis meses después, el área comercial pide invertir en el canal digital, operaciones pide invertir en almacén y finanzas pide reducir el gasto. Las tres peticiones son coherentes con el plan aprobado, y no hay forma de decidir entre ellas.
+Seis meses después, el área comercial pide invertir en el canal digital, operaciones pide invertir en almacén y finanzas pide reducir el gasto, y las tres peticiones son coherentes con el plan aprobado, sin que haya forma de decidir entre ellas.
 
 > **¿Qué le falta a una declaración que todos aprueban para poder llamarse estrategia?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está mal esa declaración? ¿Cómo decidiría usted entre las tres peticiones? ¿Qué habría que haber escrito para poder decidir?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -81,7 +79,7 @@ flowchart TD
 
 ## 2. Los niveles de la estrategia y dónde entra TI
 
-> **¿En qué nivel vive el plan de TI, y por qué importa saberlo?**
+> **¿En qué nivel vive el plan de TI?**
 
 | Nivel | Pregunta | Quién decide | Rol de TI |
 |---|---|---|---|
@@ -160,7 +158,7 @@ Una tendencia que no responde la tercera pregunta **no pertenece al PETI**. Pert
 | El plan de TI vive en el nivel funcional y se ancla al de negocio | Determina a qué debe responder cada objetivo del plan que se construirá |
 | La postura de TI decide el tipo de plan | Soporte, fábrica, giro estratégico y estratégica no admiten el mismo nivel de inversión ni de riesgo |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas iniciales. Casi nadie dice que la declaración está mal, porque suena bien y fue aprobada por unanimidad. Que una frase pueda ser aprobada por todos **precisamente porque no compromete a nada** es la lección de la sesión.
+**Lo que suele fallar frente a este caso.** Casi nadie dice que la declaración está mal, porque suena bien y fue aprobada por unanimidad. Que una frase pueda ser aprobada por todos **precisamente porque no compromete a nada** es la lección de la sesión.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) sitúa al equipo en un comité que debe tomar **una sola decisión**, y a mitad de sesión entra una segunda noticia que la pone a prueba. La restricción es la de hoy — no se puede acordar «hacer todo».
 

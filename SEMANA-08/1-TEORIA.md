@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Un plan de TI dedica su anexo C a listar catorce normas que le aplican a la organización. Está completo y bien citado.
+Un plan de TI dedica su anexo C a listar catorce normas que le aplican a la organización, completo y bien citado.
 
-Dos de esas normas tienen plazo de cumplimiento vencido. El plan las menciona en el anexo y no las convierte en ningún proyecto. La cartera aprobada, que ordena las inversiones por retorno esperado, no las incluye en ningún año.
+Pero dos de esas normas tienen plazo de cumplimiento vencido, y el plan las menciona en el anexo sin convertirlas en ningún proyecto — la cartera aprobada, que ordena las inversiones por retorno esperado, no las incluye en ningún año.
 
-> **¿Dónde debe vivir la normativa dentro de un plan, y por qué no en un anexo?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está bien ese anexo? ¿Qué debería pasar con las dos normas vencidas? ¿Compiten esos proyectos con los demás por presupuesto?* No se corrige nada todavía.
+> **¿Dónde debe vivir la normativa dentro de un plan?**
 
 ## Mapa de la sesión
 
@@ -72,7 +70,7 @@ flowchart TD
 
 ## 2. La arquitectura normativa del gobierno digital peruano
 
-> **¿Qué obligaciones concretas generan proyectos, y en qué nivel normativo viven?**
+> **¿Qué obligaciones concretas generan proyectos?**
 
 **Los cuatro niveles.**
 
@@ -179,7 +177,7 @@ flowchart TD
 | Los proyectos de obligación legal con plazo no entran a la matriz de priorización | Entran al portafolio con su fecha, y esa es la regla que protege el cumplimiento |
 | El régimen de la organización decide qué normativa la alcanza | Citar el marco equivocado descalifica el capítulo normativo entero |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. Casi todo el mundo detecta que las normas vencidas son un problema, y casi nadie dice que **no deben competir por presupuesto**. Esa regla es lo que separa un plan que cumple de uno que aspira a cumplir.
+**Lo que suele fallar frente a este caso.** Casi todo el mundo detecta que las normas vencidas son un problema, y casi nadie dice que **no deben competir por presupuesto**. Esa regla es lo que separa un plan que cumple de uno que aspira a cumplir.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) somete a la organización a una inspección simulada y pide, obligación por obligación, **qué evidencia exhibiría hoy**. Las que no tienen respuesta son los proyectos de la sección normativa.
 

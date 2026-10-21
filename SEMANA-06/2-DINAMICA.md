@@ -4,7 +4,7 @@
 
 ## Caza del activo desperdiciado
 
-**SI-886 · Planeamiento Estratégico de TI** · **Trabajo previo a la sesión** · calificación **cognitiva**
+**SI-886 - Planeamiento Estratégico de TI** - **Trabajo previo a la sesión** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

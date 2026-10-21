@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una empresa presenta su matriz de factores externos al comité. Califica con 4 la oportunidad del canal digital, porque es la más importante que tiene. El puntaje total sale alto y el comité concluye que la organización responde bien a su entorno.
+Una empresa presenta su matriz de factores externos al comité y califica con 4 la oportunidad del canal digital, porque es la más importante que tiene, así que el puntaje total sale alto y el comité concluye que la organización responde bien a su entorno.
 
-Su portal lo usa el 4 % de los clientes. La calificación 4 medía lo importante que es la oportunidad, no lo bien que la empresa la está aprovechando.
+Pero su portal lo usa solo el 4 % de los clientes — la calificación 4 medía lo importante que es la oportunidad, no lo bien que la empresa la está aprovechando.
 
 > **¿Qué se mide exactamente cuando se califica un factor del entorno con un número?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Está bien esa calificación? ¿Qué debería medir? ¿Puede una oportunidad importantísima recibir un 1?* No se corrige nada todavía.
 
 ## Mapa de la sesión
 
@@ -177,7 +175,7 @@ Un proyecto que no se puede rastrear hasta un factor con evidencia es un proyect
 | La prueba interno-externo es si la organización puede modificarlo por decisión propia | Resuelve en un segundo la clasificación que más se discute en los talleres |
 | La calificación externa mide la respuesta, no la gravedad | Confundirlas produce puntajes altos en organizaciones que responden mal a todo |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. La tercera pregunta —si una oportunidad importantísima puede recibir un 1— casi siempre se responde que no, y es justo al revés. Ese es el giro conceptual de la sesión.
+**Lo que suele fallar frente a este caso.** La tercera pregunta —si una oportunidad importantísima puede recibir un 1— casi siempre se responde que no, y es justo al revés. Ese es el giro conceptual de la sesión.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) trabaja con los factores reales de su organización y exige la clasificación correcta con su evidencia. El taller construye después las matrices completas, donde la calificación de hoy decide el resultado.
 

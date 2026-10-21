@@ -4,7 +4,7 @@
 
 ## La feria de marcos
 
-**SI-886 · Planeamiento Estratégico de TI** · Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
+**SI-886 - Planeamiento Estratégico de TI** - Actividad en aula, **dentro de la sesión de teoría** · calificación **cognitiva**
 
 > ¿Un término no le resulta claro? Está definido en el [glosario técnico del curso](../GLOSARIO.md).
 

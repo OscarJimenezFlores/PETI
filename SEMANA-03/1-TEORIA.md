@@ -10,15 +10,13 @@
 
 ---
 
-## La pregunta de esta sesión
+## Supuesto y pregunta
 
-Una municipalidad publica su Plan de Gobierno Digital 2023-2027. Está aprobado por resolución, tiene sus objetivos y su cartera de proyectos.
+Una municipalidad publica su Plan de Gobierno Digital 2023-2027, aprobado por resolución, con sus objetivos y su cartera de proyectos.
 
-La resolución que lo aprueba es de noviembre de 2024. El plan cubre desde 2023, de modo que **no orientó ninguna decisión durante sus dos primeros años**. Y no consta ninguna evaluación anual, que la norma exige.
+Pero la resolución que lo aprueba es de noviembre de 2024 y el plan cubre desde 2023, de modo que **no orientó ninguna decisión durante sus dos primeros años**, y tampoco consta ninguna evaluación anual, que la norma exige.
 
-> **¿Qué hace que un plan aprobado sea exigible a alguien, y cómo se comprueba?**
-
-> **Exploración (5 min), antes de cualquier definición.** El aula responde antes de la teoría y se anota. *¿Ese plan sirve para algo? ¿Qué le pediría usted a la entidad para comprobarlo? ¿Sería distinto si fuera una empresa privada?* No se corrige nada todavía.
+> **¿Qué hace que un plan aprobado sea exigible a alguien?**
 
 ## Mapa de la sesión
 
@@ -210,7 +208,7 @@ La última cláusula —**lo que no se abordará**— es la que convierte la dec
 | Cada instrumento de planeamiento tiene su ámbito y su base normativa | Citar el instrumento equivocado invalida el capítulo normativo del plan |
 | Todo objetivo del plan de TI se rastrea a un objetivo superior | Sin ancla, es un objetivo del área y perderá la disputa presupuestal |
 
-**Volviendo a la exploración del inicio.** Se releen las respuestas del inicio. Casi todo el mundo propone leer los objetivos del plan para juzgarlo. Las tres preguntas que lo descalifican —cuándo se aprobó, quién firmó y si se evaluó— no exigen abrirlo.
+**Lo que suele fallar frente a este caso.** Casi todo el mundo propone leer los objetivos del plan para juzgarlo. Las tres preguntas que lo descalifican —cuándo se aprobó, quién firmó y si se evaluó— no exigen abrirlo.
 
 **Lo que sigue.** La [dinámica de esta sesión](2-DINAMICA.md) entrega documentos de planeamiento reales y pide verificar su articulación. El primer paso no es de trámite — **produce el primer hallazgo del informe**, y es exactamente el del caso de hoy.
 
